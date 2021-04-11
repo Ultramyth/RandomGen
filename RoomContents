@@ -1,0 +1,46 @@
+$name : Contents
+$author : Ben
+$description : Generates dungeon contents
+$amount : 3
+$button : Generate!
+
+$antechamber
+well-appointed resting area for visitors to relax on divans and armchairs.
+
+$armory
+racks of arms line the room, including [rack type,x2-5], as well as [armor stand,x1-3]
+
+$barracks
+[4-16] [beds|pallets|bunks] line the walls with [personal storage][s] at the base of each. In one corner, a [long table|large table|small table|round table] surrounded by plain [chairs|stools|benches] sits, adorned with well worn drinking implements, the remains of several meals, and in the centre, a half-finished low-stakes gambling game.
+
+$cistern
+a large cistern dominates the chamber, providing a source of water to the complex.
+
+$guardroom
+a small table sits in the corner with [2-4] simple chairs.
+
+$kennel
+old straw and dung litter the floor, and a series of cages fill the room.
+
+$kitchen
+a large hearth dominates this room, and several hefty tables and cubboards.
+
+$prison
+this chamber is lined with reinforced wooden cells, each with an iron lock.
+this chamber is lined with stone cells with reinforced wooden doors with small windows in them and heavy deadbolts.
+this chamber is lined with a series of cells segregated by iron bars. The iron gates each have a heavy iron lock to them. Each cell has a simple bench and pale of straw.
+
+$strong room
+despite all the security, the strong room is empty
+a treasure hoard is within
+
+$trap room
+this room harbours an elaborate trap.
+
+$vault
+despite all the security, the strong room is empty
+a treasure hoard is within
+
+$watch room
+this room provides a commanding view over a strategic chokepoint in the dungeon. A simple table and chairs sit in the corner. A weapons rack is used to rest arms and armor against.
+
