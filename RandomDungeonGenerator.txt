@@ -602,4 +602,4 @@ $>TombChamber
 The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [tombroom,#room]. The air is [air] with [odor]. <p>The room [dungeonchambercontents].<br><br>
 
 $>TreasureVaultChamber
-The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [treasurevaultroom,#room]. The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents]. [#room,as Contents]<br><br>[bucket]
+The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [treasurevaultroom,#room]. [#room,as Contents] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents]. <br><br>[bucket]
