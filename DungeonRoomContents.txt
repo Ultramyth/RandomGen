@@ -1,0 +1,443 @@
+$name : Dungeon Room Contents
+$author : Ben
+$description : Generates a dungeon contents
+$amount : 3
+$button : Generate!
+
+$DebrisPlural
+ashes
+badly dented helmets
+blunt javelin heads
+bones
+broken arrows
+broken bottles
+broken sword blades
+burned stub of a torches
+candle stubs
+corroded 5' lengths of chain
+cracked flasks
+food scraps
+hair or fur fibres
+large puddles of water
+leather boots
+leaves and twigs
+lengths of rotting rope
+pieces of rotten wood
+piles of dung
+piles of straw
+rags
+rusted spikes
+rusty and bent iron bars
+scattered [teeth|fangs]
+shards of pottery
+small puddles of water
+small stones
+splintered clubs
+sticks
+wax drippings
+
+$DebrisSingle
+a badly dented helmet
+a blunt javelin head
+a broken arrow
+a broken bottle
+a broken pole
+a broken sword blade
+a candle stub
+a corroded 5' length of chain
+a cracked flask
+a cracked hammer head
+a large puddle of water
+a leather boot
+a pick handle
+a rag
+a rotten rope
+a rusted spike
+a rusty and bent iron bar
+a small puddle of water
+a splintered club
+a stick
+a torn sack
+a wax dripping
+ashes
+dung
+guano
+hair
+piece of rotten wood
+rotting food
+rubble and dirt
+straw
+the burned stub of a torch
+
+$roomfeature
+a large puddle of water
+a small puddle of water
+blood drips from the ceiling or walls
+common fungi grows here
+rubble and dirt cover the floor
+scratchings are etched into the walls
+slime (harmless)
+small stones litter the floor
+sploches of dry blood are on the floor
+the ceiling is damp
+the contents of the room are covered in dust
+the room is covered in cobwebs
+the walls are damp
+there are cracks in the ceiling
+there are cracks in the floor
+there are cracks in the walls
+there is mold everywhere
+trickles of water leak into the room
+
+$condition
+tattered
+fragile
+poor condition
+well-worn
+well-kempt
+well-tended
+mint
+brand new
+worn
+used
+unused
+new
+pristine
+
+$quality
+shoddy
+poor quality
+generic
+simple
+well-made
+fine
+excellent quality
+exquisite
+
+$skullerymaterial
+[ceramic material]
+[metal material]
+
+$wood material
+ash
+yew
+oak
+darkwood
+zirkwood
+bronzewood
+duskwood
+lenaer wood
+
+$textile material
+wool {value:x2}
+cotton {value:x1}
+fur {value:x2}
+velvet {value:x15}
+[leather]
+silk {value:x20}
+linen {value:x10}
+sackcloth {value:x0.5}
+
+$appearance
+stylish
+practical
+gaudy
+fashionable
+antiquated
+unfashionable
+common
+
+$leather material
+leather {value:*2}
+cordovan leather {40%}{value:*2}
+rothé leather {20%}{value:*2}
+alligator leather {20%}{value:*2}
+crocodile leather {20%}{value:*2}
+ostrich leather {10%}{value:*2}
+beholder leather {10%}{value:*5}
+aboleth leather {10%}{value:*4}
+giant bat leather {10%}{value:*2}
+darkmantle leather {10%}{value:*2}
+[gold|silver|red|blue|green|black|copper|bronze] dragon leather {10%}{value:*50}
+stingray leather {10%}{value:*3}
+
+$ceramic material
+ceramic
+earthenware
+glazed ceramic
+
+$metal material
+copper
+pewter
+alum {value:}
+electrum
+silver
+gold
+platinum
+
+$mundanefind
+a copper coin
+a dagger hilt
+a single leather boot
+a trinket
+
+$jewellery
+copper armband {base:15}{currency:cp}{accessory:[insetjewel]}{detail:[engraving]}
+copper bracelet {base:1}{currency:sp}{accessory:[insetjewel]}
+copper brooch {base:45}{currency:cp}{accessory:[insetjewel]}
+copper earrings {base:2}{currency:sp}{accessory:[insetjewels]}
+copper fillet {base:6}{currency:sp}{accessory:[insetjewel]}
+copper headband {base:4}{currency:sp}{accessory:[insetjewel]}
+copper locket {base:25}{currency:cp}{accessory:[insetjewel]}
+copper necklace {base:5}{currency:sp}{accessory:[insetjewel]}
+copper pendant {base:45}{currency:cp}{accessory:[insetjewel]}
+copper ring {base:3}{currency:cp}{accessory:[insetjewel]}
+copper torc {base:5}{currency:sp}{accessory:[insetjewel]}
+silver broad belt {base:6}{currency:sp}{accessory:[insetjewel]}
+silver armband {base:15}{currency:sp}{accessory:[insetjewel]}
+silver bracelet {base:2}{currency:gp}{accessory:[insetjewel]}
+silver brooch {base:45}{currency:sp}{accessory:[insetjewel]}
+silver earrings {base:2}{currency:gp}{accessory:[insetjewel]}
+silver fillet {base:6}{currency:gp}{accessory:[insetjewel]}
+silver headband {base:4}{currency:gp}{accessory:[insetjewel]}
+silver locket {base:25}{currency:sp}{accessory:[insetjewel]}
+silver necklace {base:5}{currency:gp}{accessory:[insetjewel]}
+silver pendant {base:45}{currency:sp}{accessory:[insetjewel]}
+silver ring {base:3}{currency:gp}{accessory:[insetjewel]}
+silver torc {base:5}{currency:gp}{accessory:[insetjewel]}
+electrum broad belt {base:30}{currency:sp}{accessory:[insetjewel]}
+electrum armband {base:75}{currency:sp}{accessory:[insetjewel]}
+electrum bracelet {base:10}{currency:gp}{accessory:[insetjewel]}
+electrum brooch {base:225}{currency:sp}{accessory:[insetjewel]}
+electrum earrings {base:10}{currency:gp}{accessory:[insetjewel]}
+electrum fillet {base:30}{currency:gp}{accessory:[insetjewel]}
+electrum headband {base:20}{currency:gp}{accessory:[insetjewel]}
+electrum locket {base:125}{currency:sp}{accessory:[insetjewel]}
+electrum necklace {base:25}{currency:gp}{accessory:[insetjewel]}
+electrum pendant {base:225}{currency:sp}{accessory:[insetjewel]}
+electrum ring {base:15}{currency:gp}{accessory:[insetjewel]}
+electrum torc {base:25}{currency:gp}{accessory:[insetjewel]}
+gold broad belt {base:6}{currency:gp}{accessory:[insetjewel]}
+gold armband {base:15}{currency:gp}{accessory:[insetjewel]}
+gold bracelet {base:20}{currency:gp}{accessory:[insetjewel]}
+gold brooch {base:45}{currency:gp}{accessory:[insetjewel]}
+gold earrings {base:20}{currency:gp}{accessory:[insetjewel]}
+gold fillet {base:60}{currency:gp}{accessory:[insetjewel]}
+gold headband {base:40}{currency:gp}{accessory:[insetjewel]}
+gold locket {base:25}{currency:gp}{accessory:[insetjewel]}
+gold necklace {base:50}{currency:gp}{accessory:[insetjewel]}
+gold pendant {base:45}{currency:gp}{accessory:[insetjewel]}
+gold ring {base:30}{currency:gp}{accessory:[insetjewel]}
+gold torc {base:50}{currency:gp}{accessory:[insetjewel]}
+platinum broad belt {base:60}{currency:gp}{accessory:[insetjewel]}
+platinum armband {base:150}{currency:gp}{accessory:[insetjewel]}
+platinum bracelet {base:200}{currency:gp}{accessory:[insetjewel]}
+platinum brooch {base:450}{currency:gp}{accessory:[insetjewel]}
+platinum earrings {base:200}{currency:gp}{accessory:[insetjewel]}
+platinum fillet {base:600}{currency:gp}{accessory:[insetjewel]}
+platinum headband {base:400}{currency:gp}{accessory:[insetjewel]}
+platinum locket {base:250}{currency:gp}{accessory:[insetjewel]}
+platinum necklace {base:500}{currency:gp}{accessory:[insetjewel]}
+platinum pendant {base:450}{currency:gp}{accessory:[insetjewel]}
+platinum ring {base:300}{currency:gp}{accessory:[insetjewel]}
+platinum torc {base:500}{currency:gp}{accessory:[insetjewel]}
+
+$insetjewel
+pearl {base:100}
+
+$insetjewels
+small pearls {base:100}
+
+$jewelleryitem
+[jewellery,#item] (worth [#item,as base] [#item,as currency])
+[jewellery,#item] with [an] [#item,as accessory,#accessory] (worth &#91;&#91;[#item,as base]+[#accessory,as base]&#93;&#93; [#item,as currency])
+
+$generalfurnishings
+[furnishings]
+[appointments]
+[stores]
+[tools]
+
+$furnishings
+altar
+armchair
+armoire
+bed
+bench
+brazier and charcoal
+buffet cabinet
+bunks
+cabinet
+chest of drawers
+closet
+couch
+cubboard
+desk
+dias
+high stool
+large box
+large chest
+large table
+long table
+low table
+medium chest
+padded chair
+padded divan
+pegs ([peg contents])
+plain chair
+round table
+screen
+shelf ([shelf contents])
+sideboard
+small table
+sofa
+stand
+statue
+stool
+throne
+trestle
+trunk ([closet contents])
+tub
+wardrobe
+wood billets
+workbench
+
+$appointments
+[fabric] sheet
+arras
+candelabrum
+chandelier
+cresset
+curtains
+cushion
+fireplace and wood
+fireplace with a mantle
+fountain
+fresco of [fresco contents]
+hamper ([closet contents])
+hassock
+large carpet
+large idol
+loom
+mat
+mattress
+medium rug
+painting
+pallet
+pedestal
+pillow
+quilt
+rushes
+sconce
+shrine to [deity]
+small rug
+tapestry
+urn
+wall basin and font
+
+$tools
+grindstone
+staff
+blanket
+
+
+$chest contents
+
+$closet contents
+belt
+baldric
+fine belt (25 gp)
+[leather,#leather] boots
+high boots
+wading boots
+riding boots
+smuggler's boots
+breeches
+pants
+chemise
+coat
+cloakcodpiece
+spiked collar
+corset
+doublet
+vest
+dress
+girdle
+gloves
+mittens
+broad-brimmed hat
+fur-trimmed hat
+fez
+hood
+
+
+
+$crate contents
+
+$peg contents
+several ceremonial robes hang from them
+a single cloak fur-lined cloak hangs from one of the pegs
+several cloaks
+an embroidered mantle
+
+$cupboard contents
+cuttlery
+
+$
+
+$bucket contents
+empty
+quarter-filled with [bucket]
+half-filled with [bucket]
+three-quarters [bucket]
+filled with [bucket]
+dried up remains of [bucket]
+
+$bucket
+urine
+stale water
+spoiled water
+salt water
+blood
+fresh water
+
+$stores
+[sack|pile] of charcoal
+105 gallon pipe (large cask, [cask contents])
+10-gallon firkin (small cask, [cask contents])
+125 gallon butt (huge cask) ([cask contents])
+20-gallon keg ([cask contents])
+250 gallon tun (huge cask, [cask contents])
+40-gallon barrel ([barrel contents])
+40-gallon cask ([cask contents])
+65-gallon hogshead (large cask, [cask contents])
+bucket ([bucket contents])
+crate ([crate contents])
+pail
+sack of coal
+
+
+$liquid
+fresh water {value:, suitable for drinking}
+stale water {value:, unsuitable for drinking}
+spoiled water {value:, unsuitable for drinking}
+vinegar {value:, worthless}
+wine turned to vinegar {value:, worthless}
+fine wine {value:, worth 30 gp per gallon}
+common wine {value:, worth 8 sp per gallon}
+ale {value:, worth 2 sp per gallon}
+beer {value:, worth 2 sp per gallon}
+cider {value:, worth 2 sp per gallon}
+oil {value:, worth 8 sp per gallon}
+
+$barrel contents
+empty
+quarter-filled with [liquid,#liquid][#liquid,as value]
+half-filled with [liquid,#liquid][#liquid,as value]
+three-quarters filled with [liquid,#liquid][#liquid,as value]
+filled with [liquid,#liquid][#liquid,as value]
+dried up remains of [liquid,#liquid]
+
+$jewelleryitem
+[jewellery,#item] (worth [#item,as base] [#item,as currency])
+[jewellery,#item] with [an] [#item,as accessory,#accessory] (worth &#91;&#91;[#item,as base]+[#accessory,as base]&#93;&#93; [#item,as currency])
