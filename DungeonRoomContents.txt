@@ -5,10 +5,10 @@ $amount : 3
 $button : Generate!
 
 $antechamber
-well-appointed resting area for visitors to relax on divans and armchairs.
+it well-appointed resting area for visitors to relax on divans and armchairs.
 
 $armory
-racks of arms line the room, including [rack type,x2-5], as well as [armor stand,x1-3]
+racks of arms line the room, including [rack type,x2-5]as well as [armor stand,x1-3]
 
 $barracks
 [4-16] [beds|pallets|bunks] line the walls with [personal storage][s] at the base of each. In one corner, a [long table|large table|small table|round table] surrounded by plain [chairs|stools|benches] sits, adorned with well worn drinking implements, the remains of several meals, and in the centre, a half-finished low-stakes gambling game.
@@ -45,7 +45,7 @@ $watch room
 this room provides a commanding view over a strategic chokepoint in the dungeon. A simple table and chairs sit in the corner. A weapons rack is used to rest arms and armor against.
 
 $rack type
-[an] [rack full] that holds up to [rack size] [weapon rack] 
+[an] [rack full] rack that holds up to [rack size] [weapon rack], 
 
 $weapon rack
 [ranged weapon][s]
