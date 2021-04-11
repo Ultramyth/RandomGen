@@ -524,7 +524,7 @@ whisper {20%}
 whistle {40%}
 horn or trumpet sounding {20%}
 
-$noisesb
+$NoisesB
 banging {50%}
 slaming {50%}
 bellowing {20%}
