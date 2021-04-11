@@ -189,7 +189,7 @@ guardroom to defend against intruders
 kennel for trained beasts used to guard the treasure vault
 kitchen for feeding guards
 watch room that allows guards to observe those who approach the dungeon
-prison for hold ing captured intruders
+prison for holding captured intruders
 [strong room|vault] for guarding the treasure hidden in the dungeon, accessible only by [locked|secret] door
 torture chamber for extracting information from captured intruders
 trap or other trick designed to kill or capture creatures that enter the dungeon
@@ -468,7 +468,65 @@ sulfurous {18%}
 urine {15%}
 
 $Noises
-bang or slam {100%}
+[an] [noisesa]
+the sound of [noisesb]
+
+$NoisesA
+bang {50%}
+slam {50%}
+bellow{20%}
+buzz {20%}
+chant {60%}
+chime {20%}
+chirp {20%}
+clank {20%}
+clash {20%}
+click {20%}
+cough {20%}
+creak {40%}
+drum {20%}
+faint giggle {40%}
+gong {20%}
+grate {60%}
+groan {40%}
+grunt {20%}
+hiss {40%}
+howl {20%}
+hum {40%}
+jingle{20%}
+knock {80%}
+laugh {40%}
+moan {40%}
+murmur {60%}
+melody {40%}
+rattle {20%}
+ring {20%}
+rustle {80%}
+scratch {80%}
+scream {40%}
+scuttle {60%}
+shuffle {20%}
+slither {40%}
+snap {20%}
+sneeze {20%}
+sob {20%}
+splash {20%}
+splinter {20%}
+squeak {40%}
+squeal {20%}
+tap {40%}
+thud {40%}
+thump {40%}
+tinkle {20%}
+twang {20%}
+whine {20%}
+whisper {20%}
+whistle {40%}
+horn or trumpet sounding {20%}
+
+[noisesb]
+banging {50%}
+slaming {50%}
 bellowing {20%}
 buzzing {20%}
 chanting {60%}
@@ -485,25 +543,25 @@ footsteps approaching {60%}
 footsteps behind {60%}
 footsteps receding {40%}
 footsteps to the side {40%}
-giggling (faint) {40%}
-gong {20%}
+faint giggling {40%}
+gonging {20%}
 grating {60%}
 groaning {40%}
 grunting {20%}
 hissing {40%}
-horn or trumpet sounding {20%}
 howling {20%}
 humming {40%}
 jingling {20%}
 knocking {80%}
-laughter {40%}
+laughing {40%}
 moaning {40%}
 murmuring {60%}
 music {40%}
 rattling {20%}
 ringing {20%}
 rustling {80%}
-scratching or scrabbling {80%}
+scratching {40%}
+scrabbling {40%}
 screaming {40%}
 scuttling {60%}
 shuffling {20%}
@@ -516,15 +574,13 @@ splintering {20%}
 squeaking {40%}
 squealing {20%}
 tapping {40%}
-thud {40%}
+thudding {40%}
 thumping {40%}
 tinkling {20%}
 twanging {20%}
 whining {20%}
 whispering {20%}
 whistling {40%}
-
-
 
 $>StrongholdChamber
 The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [strongholdroom,#room]. The air is [air] with [odor]. <p>The room [dungeonchambercontents].<br><br>
@@ -536,4 +592,4 @@ $>TombChamber
 The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [tombroom,#room]. The air is [air] with [odor]. <p>The room [dungeonchambercontents].<br><br>
 
 $>TreasureVaultChamber
-The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [treasurevaultroom,#room]. The atmosphere is [air] with a [odor] smell in the air; a [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>[bucket]
+The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [treasurevaultroom,#room]. The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>[bucket]
