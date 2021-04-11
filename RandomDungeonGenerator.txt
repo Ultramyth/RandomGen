@@ -469,12 +469,12 @@ urine {15%}
 
 $Noises
 [an] [noisesa]
-the sound of [noisesb]
+the sound of [noisesnoun]
 
 $NoisesA
 bang {50%}
 slam {50%}
-bellow{20%}
+bellow {20%}
 buzz {20%}
 chant {60%}
 chime {20%}
@@ -524,7 +524,7 @@ whisper {20%}
 whistle {40%}
 horn or trumpet sounding {20%}
 
-$NoisesB
+$NoisesNoun
 banging {50%}
 slaming {50%}
 bellowing {20%}
