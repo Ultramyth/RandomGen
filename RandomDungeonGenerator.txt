@@ -1,4 +1,4 @@
-$include https://orteil.dashnet.org/randomgen/?gen=mvTBDn43
+$include https://raw.githubusercontent.com/Ultramyth/RandomGen/main/DungeonRoomContents.txt
 $name : Treasures
 $author : Ben
 $description : Generates a dungeon room, furnishings and traps
@@ -536,4 +536,4 @@ $>TombChamber
 The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [tombroom,#room]. The air is [air] with [odor]. <p>The room [dungeonchambercontents].<br><br>
 
 $>TreasureVaultChamber
-The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [treasurevaultroom,#room]. The air is [air] with the smell of [odor], and a [noises] can be heard. <p>The room [dungeonchambercontents].<br><br>[bucket]
+The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [treasurevaultroom,#room]. The atmosphere is [air] with a [odor] smell in the air; a [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>[bucket]
