@@ -1,4 +1,5 @@
 $include https://raw.githubusercontent.com/Ultramyth/RandomGen/main/DungeonRoomContents.txt
+$include https://raw.githubusercontent.com/Ultramyth/RandomGen/main/RoomContents.txt
 $name : Treasures
 $author : Ben
 $description : Generates a dungeon room, furnishings and traps
@@ -181,79 +182,88 @@ a tomb where the wealthiest and most important folk are interred, protected by s
 a workshop for embalming the dead {40%}
 
 $TreasureVaultRoom
-antechamber for visiting dignitaries
-armory containing mundane and magic gear used by the treasure vault's guards
-barracks for guards
-cistern providing fresh water
-guardroom to defend against intruders
-kennel for trained beasts used to guard the treasure vault
-kitchen for feeding guards
-watch room that allows guards to observe those who approach the dungeon
-prison for holding captured intruders
-[strong room|vault] for guarding the treasure hidden in the dungeon, accessible only by [locked|secret] door
-torture chamber for extracting information from captured intruders
-trap or other trick designed to kill or capture creatures that enter the dungeon
+antechamber for visiting dignitaries {25%}{contents:[antechamber]}
+armory containing mundane and magic gear used by the treasure vault's guards {25%}{contents:[armory]}
+barracks for guards {50%}{contents:[barracks]}
+cistern providing fresh water {25%}{contents:[cistern]}
+guardroom to defend against intruders {100%}{contents:[guardroom]}
+kennel for trained beasts used to guard the treasure vault {25%}{contents:[kennel]}
+kitchen for feeding guards {25%}{contents:[kitchen]}
+watch room that allows guards to observe those who approach the dungeon {25%}{contents:[watch room]}
+prison for holding captured intruders {25%}{contents:[prison]}
+strong room for guarding the treasure hidden in the dungeon, accessible only by locked or secret door {25%}{contents:[strong room]}
+vault, for guarding the treasure hidden in the dungeon, accessible only by locked or secret door {25%}{contents:[vault]}
+torture chamber for extracting information from captured intruders {25%}{contents:[antechamber]}
+trap or other trick designed to kill or capture creatures that enter the dungeon {100%}{contents:[trap room]}
 
 $GeneralDungeonChambers
-antechamber {33%}
-armory {67%}
-audience chamber {33%}
-aviary {33%}
-banquet room {67%}
-barracks {100%}
-bath or latrine {33%}
-bedroom {33%}
-bestiary {33%}
-cell {100%}
-chantry {33%}
-chapel {33%}
-cistern {67%}
-classroom {33%}
-closet {33%}
-conjuring room {67%}
-court {67%}
-crypt {100%}
-dining room {67%}
-divination room {67%}
-dormitory {33%}
-dressing room {33%}
-entry room or vestibule {33%}
-gallery {67%}
-game room {67%}
-guardroom {100%}
-hall {67%}
-hall, great {67%}
-hallway {67%}
-kennel {33%}
-kitchen {67%}
-laboratory {67%}
-library {100%}
-lounge {67%}
-meditation chamber {33%}
-observatory {33%}
-office {33%}
-pantry {67%}
-pen or prison {67%}
-reception room {67%}
-refectory {67%}
-robing room {33%}
-salon {33%}
-shrine {67%}
-sitting room {67%}
-smithy {67%}
-stable {33%}
-storage room {67%}
-strong room or vault {67%}
-study {67%}
-temple {100%}
-throne room {67%}
-torture chamber {33%}
-training or exercise room {67%}
-trophy room or museum {67%}
-waiting room {33%}
-nursery or schoolroom {33%}
-well {33%}
-workshop {67%}
+antechamber {33%}{contents:[Antechamber]}
+armory {67%}{contents:[Armory]}
+audience chamber {33%}{contents:[Audience chamber]}
+aviary {33%}{contents:[Aviary]}
+banquet room {67%}{contents:[Banquet room]}
+barracks {100%}{contents:[Barracks]}
+bath {33%}{contents:[Bath]}
+latrine {33%}{contents:[latrine]}
+bedroom {33%}{contents:[Bedroom]}
+bestiary {33%}{contents:[Bestiary]}
+cell {100%}{contents:[Cell]}
+chantry {33%}{contents:[Chantry]}
+chapel {33%}{contents:[Chapel]}
+cistern {67%}{contents:[Cistern]}
+classroom {33%}{contents:[Classroom]}
+closet {33%}{contents:[Closet]}
+conjuring room {67%}{contents:[Conjuring room]}
+court {67%}{contents:[Court]}
+crypt {100%}{contents:[Crypt]}
+dining room {67%}{contents:[Dining room]}
+divination room {67%}{contents:[Divination room]}
+dormitory {33%}{contents:[Dormitory]}
+dressing room {33%}{contents:[Dressing room]}
+entry room {33%}{contents:[Entry room]}
+vestibule {33%}{contents:[vestibule]}
+gallery {67%}{contents:[Gallery]}
+game room {67%}{contents:[Game room]}
+guardroom {100%}{contents:[Guardroom]}
+hall {67%}{contents:[Hall]}
+hall, great {67%}{contents:[Hall, great]}
+hallway {67%}{contents:[Hallway]}
+kennel {33%}{contents:[Kennel]}
+kitchen {67%}{contents:[Kitchen]}
+laboratory {67%}{contents:[Laboratory]}
+library {100%}{contents:[Library]}
+lounge {67%}{contents:[Lounge]}
+meditation chamber {33%}{contents:[Meditation chamber]}
+observatory {33%}{contents:[Observatory]}
+office {33%}{contents:[Office]}
+pantry {67%}{contents:[Pantry]}
+pen {33%}{contents:[Pen]}
+prison {33%}{contents:[prison]}
+reception room {67%}{contents:[Reception room]}
+refectory {67%}{contents:[Refectory]}
+robing room {33%}{contents:[Robing room]}
+salon {33%}{contents:[Salon]}
+shrine {67%}{contents:[Shrine]}
+sitting room {67%}{contents:[Sitting room]}
+smithy {67%}{contents:[Smithy]}
+stable {33%}{contents:[Stable]}
+storage room {67%}{contents:[Storage room]}
+strong room {33%}{contents:[Strong room]}
+vault {33%}{contents:[vault]}
+study {67%}{contents:[Study]}
+temple {100%}{contents:[Temple]}
+throne room {67%}{contents:[Throne room]}
+torture chamber {33%}{contents:[Torture chamber]}
+training room {33%}{contents:[Training room]}
+exercise room {33%}{contents:[exercise room]}
+trophy room {33%}{contents:[Trophy room]}
+museum {33%}{contents:[museum]}
+waiting room {33%}{contents:[Waiting room]}
+nursery {16%}{contents:[Nursery]}
+schoolroom {16%}{contents:[schoolroom]}
+well {33%}{contents:[Well]}
+workshop {67%}{contents:[Workshop]}
+
 
 $ChamberState
 is filled with rubble and the ceiling is partially collapsed {state:once was}{60%}
@@ -493,7 +503,7 @@ grunt {20%}
 hiss {40%}
 howl {20%}
 hum {40%}
-jingle{20%}
+jingle {20%}
 knock {80%}
 laugh {40%}
 moan {40%}
@@ -592,4 +602,4 @@ $>TombChamber
 The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [tombroom,#room]. The air is [air] with [odor]. <p>The room [dungeonchambercontents].<br><br>
 
 $>TreasureVaultChamber
-The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [treasurevaultroom,#room]. The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>[bucket]
+The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [treasurevaultroom,#room]. The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents]. [#room,as Contents]<br><br>[bucket]
