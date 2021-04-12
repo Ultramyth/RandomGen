@@ -593,13 +593,13 @@ whispering {20%}
 whistling {40%}
 
 $>StrongholdChamber
-The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [strongholdroom,#room]. The air is [air] with [odor]. <p>The room [dungeonchambercontents].<br><br>
+The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [strongholdroom,#room]. [#room,as Contents] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>
 
 $>TempleShrineChamber
-The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [templeshrineroom,#room]. The air is [air] with [odor]. <p>The room [dungeonchambercontents].<br><br>
+The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [templeshrineroom,#room]. [#room,as Contents] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>
 
 $>TombChamber
-The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [tombroom,#room]. The air is [air] with [odor]. <p>The room [dungeonchambercontents].<br><br>
+The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [tombroom,#room]. [#room,as Contents] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>
 
 $>TreasureVaultChamber
 The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [treasurevaultroom,#room]. [#room,as Contents] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>[bucket]
