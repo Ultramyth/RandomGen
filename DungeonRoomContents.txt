@@ -8,8 +8,43 @@ $antechamber
 it well-appointed resting area for visitors to relax on divans and armchairs.
 
 $armory
-racks of arms line the room, including[rack type,x2-5] as well as [armor stand,x1-3]
+racks of arms line the room, including [rack type,x2-5], as well as [armor stand,x1-3].
 
+$audience chamber
+this room is open but for a raised dias where a number of decorative chairs sit.
+
+$banquet room
+large long tables and benches line the room, and vast open hearth
+
+$cells
+the room is segmented into [four|six|eight|ten|a dozen] simple cells with humble appointments.
+
+$temple
+statuary and religious art are found throughout the chamber, which is dominated by an altar.
+
+$chapel
+A small shrine sits beneath a statue, and a few pews separate a short walkway to the shrine.
+
+$cistern
+a large cistern dominates the chamber, providing a source of water to the complex.
+
+$classroom
+rows of simple desks and chairs face a larger table and chair, and on the wall behind is a large board and chalk. Several bookshelves line one wall.
+
+$conjuring room
+Arcane symbols mark the floor, especially around a raised dias.
+
+$crypt
+several alcoves line this chamber, each marking the final resting place of its occupant.
+
+$dining room
+this room has rows of tables and chairs and a counter behind which sits shelves, pots and pans.
+
+$divination room
+a small pool draws the eye in this room.
+
+$dormitory
+the chamber is filled with rows of beds, each with a small chest at the foot.
 $barracks
 [4-16] [beds|pallets|bunks] line the walls with [personal storage][s] at the base of each. In one corner, a [long table|large table|small table|round table] surrounded by plain [chairs|stools|benches] sits, adorned with well worn drinking implements, the remains of several meals, and in the centre, a half-finished low-stakes gambling game.
 
@@ -25,24 +60,56 @@ old straw and dung litter the floor, and a series of cages fill the room.
 $kitchen
 a large hearth dominates this room, and several hefty tables and cubboards.
 
+$library
+heavy wooden bookshelves line the walls of this chamber and create a maze filled with scrolls and tomes.
+
 $prison
 this chamber is lined with reinforced wooden cells, each with an iron lock.
 this chamber is lined with stone cells with reinforced wooden doors with small windows in them and heavy deadbolts.
 this chamber is lined with a series of cells segregated by iron bars. The iron gates each have a heavy iron lock to them. Each cell has a simple bench and pale of straw.
 
+$robing room
+this glorified closet is lined with pegs and shelves and a large wardrobe.
+
+$stable
+several stalls flank a long corridor strewn with old straw.
+
+$storage room
+The room contains a number of stores; [storage,x3-8]
+
 $strong room
 despite all the security, the strong room is empty
 a treasure hoard is within
 
+$torture chamber
+grusome implements of torture fill this room, along with stains that will never wash out.
+
 $trap room
 this room harbours an elaborate trap.
+
+$trophy room
+the busts and bodies of stuffed creatures line the walls of this room
+art is displayed here celebrating the key figures and events of the dungeon's mythology.
 
 $vault
 despite all the security, the strong room is empty
 a treasure hoard is within
 
+$latrine
+this room has been serviced many times to bring relief to the dwellers herein.
+
+$bath
+stone steps descend into a pool of water that deepens to [3-30] feet.
+stone steps descend into a pool of warm water that deepens to [3-30] feet.
+
+$well
+a well, [2-12]0 feet deep is the central feature of the room.
+
 $watch room
 this room provides a commanding view over a strategic chokepoint in the dungeon. A simple table and chairs sit in the corner. A weapons rack is used to rest arms and armor against.
+
+$workshop
+An array of tools, including a workbench, forge, bellows and anvil occupy this room.
 
 $rack type
  [an] [rack full] rack that holds up to [rack size] [weapon rack], 
@@ -566,6 +633,9 @@ spoiled water
 salt water
 blood
 fresh water
+
+$storage
+[an] [stores], 
 
 $stores
 [sack|pile] of charcoal
