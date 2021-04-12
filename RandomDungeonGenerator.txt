@@ -137,35 +137,35 @@ a crypt belonging to the stronghold's master or someone else of importance {11%}
 
 
 $TempleShrineRoom
-an armory filled with weapons and armor, battle banners, and pennants {room:armory}{30%}
+an armory filled with weapons and armor, battle banners, and pennants {room:armory}{contents:[armory]}{30%}
 an audience chamber where priests of the temple receive commoners and low-ranking visitors {room:[audience chamber]}{20%}
-a banquet room used for celebrations and holy days {room:[banquet room]}{20%}
-barracks for the temple's military arm or its hired guards {room:barracks}{30%}
-contains cells where the faithful can sit in quiet contemplation {room:cells}{40%}
-a central temple built to accommodate rituals {room:[central temple]}
-a chapel dedicated to a lesser deity associated with the temple's major deity {room:chapel}{40%}
-a classroom used to train initiates and priests {room:classroom}{30%}
-a conjuring room, specially sanctified and used to summon extraplanar creatures {room:[conjuring room]}{30%}
-a crypt for a high priest or similar figure, hidden and heavily guarded by creatures and traps {room:crypt}{60%}
-a dining room (large) for the temple's servants and lesser priests {room:[dining room]}{20%}
-a dining room (small) for the temple's high priests {room:[dining room]}{10%}
-a divination room, inscribed with runes and stocked with soothsaying implements {room:divination room}{30%}
-a dormitory for lesser priests or students {room:dormitory}{40%}
-a guardroom {room:guardroom}{60%}
-a kennel for animals or monsters associated with the temple's deity {room:kennel}{10%}
-a kitchen (might bear a disturbing resemblance to a torture chamber in an evil temple) {room:kitchen}{30%}
-a library, well stocked with religious treatises {room:library} {treasure:books}{item:books}{50%}
-a prison for captured enemies (in good or neutral temples) or those designated as sacrifices (in evil temples) {room:prison}{30%}
-a robing room containing ceremonial outfits and items {room:[robing room]}{50%}
-a stable for riding horses and mounts belonging to the temple, or for visiting messengers and caravans {room:stable}{10%}
-a storage room holding mundane supplies {room:[storage room]}{50%}
-a [strong room|vault] holding important relics and ceremonial items, heavily trapped {room:vault}{10%}
-a torture chamber, used in inquisitions (in good or neutral temples with a lawful bent) or for the sheer joy of causing pain (evil temples) {room:[torture chamber]}{20%}
-a trophy room where art celebrating key figures and events from mythology is displayed {room:[trophy room]}{70%}{treasure:art}
-a latrine  {room:latrine}{10%}
-a bath {room:bath}{10%}
-a well for drinking water, defendable in the case of attack or siege {room:well}{40%}
-a workshop for repairing or creating weapons, religious items, and tools {room:workshop}{60%}{item:tools}
+a banquet room used for celebrations and holy days {room:[banquet room]}{contents:[banquet room]}{20%}
+barracks for the temple's military arm or its hired guards {room:[barracks]}{contents:[barracks]}{30%}
+contains cells where the faithful can sit in quiet contemplation {room:cells}{contents:[cells]}{40%}
+a central temple built to accommodate rituals {room:[central temple]}{contents:[temple]}
+a chapel dedicated to a lesser deity associated with the temple's major deity {room:chapel}{contents:[chapel]}{40%}
+a classroom used to train initiates and priests {room:classroom}{contents:[classroom]}{30%}
+a conjuring room, specially sanctified and used to summon extraplanar creatures {room:[conjuring room]}{contents:[conjuring room]}{30%}
+a crypt for a high priest or similar figure, hidden and heavily guarded by creatures and traps {room:crypt}{contents:[crypt]]}{60%}
+a dining room (large) for the temple's servants and lesser priests {room:[dining room]}{contents:[dining room]}{20%}
+a dining room (small) for the temple's high priests {room:[dining room]}{contents:[dining room]}{10%}
+a divination room, inscribed with runes and stocked with soothsaying implements {room:divination room}{contents:[divination room]}{30%}
+a dormitory for lesser priests or students {room:dormitory}{contents:[dormitory]}{40%}
+a guardroom {room:guardroom}{contents:[guardroom]}{60%}
+a kennel for animals or monsters associated with the temple's deity {room:kennel}{contents:[kennel]}{10%}
+a kitchen (might bear a disturbing resemblance to a torture chamber in an evil temple) {room:kitchen}{contents:[kitchen]}{30%}
+a library, well stocked with religious treatises {room:library} {treasure:books}{item:books}{contents:[library]}{50%}
+a prison for captured enemies (in good or neutral temples) or those designated as sacrifices (in evil temples) {room:prison}{contents:[prison]}{30%}
+a robing room containing ceremonial outfits and items {room:[robing room]}{contents:[robing room]}{50%}
+a stable for riding horses and mounts belonging to the temple, or for visiting messengers and caravans {room:stable}{contents:[stable]}{10%}
+a storage room holding mundane supplies {room:[storage room]}{contents:[storage room]}{50%}
+a [strong room|vault] holding important relics and ceremonial items, heavily trapped {room:vault}{contents:[vault]}{10%}
+a torture chamber, used in inquisitions (in good or neutral temples with a lawful bent) or for the sheer joy of causing pain (evil temples) {room:[torture chamber]}{contents:[torture chamber]}{20%}
+a trophy room where art celebrating key figures and events from mythology is displayed {room:[trophy room]}{70%}{treasure:art}{contents:[trophy room]}
+a latrine  {room:latrine}{contents:[latrine]}{10%}
+a bath {room:bath}{contents:[bath]}{10%}
+a well for drinking water, defendable in the case of attack or siege {room:well}{contents:[well]}{40%}
+a workshop for repairing or creating weapons, religious items, and tools {room:workshop}{contents:[workshop]}{60%}{item:tools}
 
 $TombRoom
 an antechamber for those that have come to pay respect to the dead or prepare themselves for burial rituals {20%}
@@ -596,7 +596,7 @@ $>StrongholdChamber
 The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [strongholdroom,#room]. [#room,as Contents] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>
 
 $>TempleShrineChamber
-The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [templeshrineroom,#room]. [#room,as room] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>
+The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [templeshrineroom,#room]. [#room,as Contents] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>
 
 $>TombChamber
 The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [tombroom,#room]. [#room,as Contents] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>
