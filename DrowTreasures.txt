@@ -5,84 +5,68 @@ $amount : 10
 $button : Loot!
 
 $drow weapon
-bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]
-bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] 
-bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] 
-bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] 
-bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] 
-bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] 
-death spear
-death spear
-drow mission blade
-everchanging blade
-queen's scourge
-Spider's Bane
-The Victor
-drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] [+1|+2|+3]
-drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] [+1|+2|+3]
-drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] [+1|+2|+3]
-drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] [+1|+2|+3]
-drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] [+1|+2|+3]
-drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] [+1|+2|+3]
-drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] [+1|+2|+3]
-drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] [+1|+2|+3]
-Caiphon's whisper
-hand spinneret
-hand spinneret
-adamantine [metal weapon]
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
+death spear {20%}
+drow mission blade {5%}
+everchanging blade {5%}
+queen's scourge {5%}
+Spider's Bane {5%}
+The Victor {5%}
+drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] [+1|+2|+3] {100%}
+drowcraft [whip-dagger] [+1|+2|+3] {5%}
+Caiphon's whisper {5%}
+hand spinneret {20%}
+adamantine [metal weapon] {10%}
 
-$drow armor
-suit of drowcraft [leather|studded leather|spidersilk] [+1|+2|+3]
-suit of drowcraft [leather|studded leather|spidersilk] [+1|+2|+3]
-suit of drowcraft [leather|studded leather|spidersilk] [+1|+2|+3]
-suit of drowcraft [leather|studded leather|spidersilk] [+1|+2|+3]
-suit of drowcraft [leather|studded leather|spidersilk] [+1|+2|+3]
-suit of drowcraft adamantine [half plate|plate|chainmail|splint] [+1|+2|+3]
-suit of drowcraft adamantine [half plate|plate|chainmail|splint] [+1|+2|+3]
-suit of drowcraft adamantine [half plate|plate|chainmail|splint] [+1|+2|+3]
-suit of drowcraft adamantine [half plate|plate|chainmail|splint] [+1|+2|+3]
-suit of drowcraft adamantine [half plate|plate|chainmail|splint] [+1|+2|+3]
-drowcraft adamantine [chain shirt|breastplate] [+1|+2|+3]
-drowcraft adamantine [chain shirt|breastplate] [+1|+2|+3]
-drowcraft adamantine [chain shirt|breastplate] [+1|+2|+3]
-drowcraft adamantine [chain shirt|breastplate] [+1|+2|+3]
-adamantine [chain shirt|breastplate]
-suit of adamantine [half plate|plate|chainmail|splint] 
-suit of death armor
-suit of gorgon plate
-armor of the viper
+
+$drow weapon
+suit of drowcraft [leather|studded leather|spidersilk] [+1|+2|+3] {100%}
+suit of drowcraft adamantine [half plate|plate|chainmail|splint] [+1|+2|+3] {100%}
+drowcraft adamantine [chain shirt|breastplate] [+1|+2|+3] {80%}
+adamantine [chain shirt|breastplate] {20%}
+suit of adamantine [half plate|plate|chainmail|splint]  {20%}
+suit of death armor {5%}
+suit of gorgon plate {5%}
+armor of the viper {5%}
+
 
 $drow wondrous
-amulet of dark blessing
-arachnosack
-arachnosack, Greater
-drow house insignia ([minor|moderate|major])
-piwafwi ([common|greater])
-feather of Diatryma summoning
-bracers of flying daggers
-fang scarab
-figurine of wondrous power ([jasper spider|sardonyx stone flyer])
-floatchest
-Hand of Kiaransalee's Glory
-gloom mask
-knave's eye patch
-lurker cloak
-Mother's corset
-Phandoorl's bracers
-robe of gentle repose
-spider mask
-web choker
-rod of security
-driftdisc
-bracers of blinding strike
-bracers of murder
-tome of books
-rod of the pact keeper [+1|+2|+3]
-Claw of the Revenancer
-eyes of the spider
-rope of climbing
-spidersilk cloak
-slave collar
+amulet of dark blessing {10%}
+arachnosack {10%}
+arachnosack, Greater {10%}
+drow house insignia ([minor|moderate|major]) {100%}
+piwafwi ([common|greater]) {100%}
+feather of Diatryma summoning {10%}
+bracers of flying daggers {10%}
+fang scarab {10%}
+figurine of wondrous power ([jasper spider|sardonyx stone flyer]) {10%}
+floatchest {10%}
+Hand of Kiaransalee's Glory {5%}
+gloom mask {10%}
+knave's eye patch {10%}
+lurker cloak {10%}
+Mother's corset {5%}
+Phandoorl's bracers {5%}
+robe of gentle repose {10%}
+spider mask {10%}
+web choker {10%}
+rod of security {10%}
+driftdisc {10%}
+bracers of blinding strike {10%}
+bracers of murder {10%}
+tome of books {10%}
+rod of the pact keeper [+1|+2|+3] {20%}
+Claw of the Revenancer {5%}
+eyes of the spider {10%}
+rope of climbing {10%}
+spidersilk cloak {100%}
+slave collar {100%}
+
 
 
 $art
@@ -594,6 +578,7 @@ tome of the stilled tongue
 
 $special feature
 <br></i><small><b>Special Features</b><br>Origin:<br>[origin]<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small><i>
+<br></i><small><b>Special Features</b><br>Origin:<br><b>Drow.</b> The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. It might function poorly, or disintegrate, if exposed to sunlight for 1 minute or more.<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small><i>
 
 $resistance
 acid
@@ -692,6 +677,7 @@ warhammer
 hand crossbow
 light crossbow
 [heavy crossbow|arbalest]
+whip-dagger
 
 $weapon other
 whip
@@ -1572,63 +1558,83 @@ a pair of [condition] [descriptor-metal] [metal] gauntlets ([unusual property])
 [descriptor-clothes] [material] undergarments ([unusual property])
 
 $metal
-iron
-steel
-mithral
-adamantine
-baatorian steel
-bronze
+iron {50%}
+steel {100%}
+mithral {5%}
+adamantine {15%}
+baatorian steel {5%}
+bronze {5%}
+Urdrukar {5%}
 
 $wood
-ash
-yew
-oak
-darkwood
-zirkwood
-bronzewood
-duskwood
-lenaer wood
+ash {40%}
+yew {40%}
+oak {40%}
+darkwood {40%}
+zirkwood {100%}
+bronzewood {10%}
+duskwood {10%}
+lenaer wood {5%}
 
 $metal weapon
-iron
-steel
-silvered
-mithral
-adamantine
-baatorian green steel
-bronze
-obsidian
-nephelium (transparent|emerald|ruby|amythest)
-fyrite
-blueice
+iron {50%}
+steel {100%}
+silvered {10%}
+mithral {5%}
+adamantine {5%}
+baatorian green steel {5%}
+bronze {5%}
+obsidian {5%}
+nephelium (transparent|emerald|ruby|amythest) {5%}
+fyrite {5%}
+blueice {5%}
+
 
 $leather
-leather
-cordovan leather
-rothé leather
-alligator leather
-crocodile leather
-ostrich leather
-beholder leather
-aboleth leather
-giant bat leather
-darkmantle leather
-[gold|silver|red|blue|green|black|copper|bronze] dragon leather
-stingray leather
+leather {50%}
+cordovan leather {20%}
+rothé leather {100%}
+alligator leather {5%}
+crocodile leather {5%}
+ostrich leather {5%}
+beholder leather {5%}
+aboleth leather {5%}
+giant bat leather {40%}
+darkmantle leather {30%}
+[gold|silver|red|blue|green|black|copper|bronze] dragon leather {5%}
+stingray leather {5%}
 
 $descriptor-clothes
-gem-studded (worth an additional [10-750] gp)
-[spider|demon|serpent|scorpion|slime]-motifed
-[gold|silver|mithral|platinum|electrum] brocade (worth an additional [10-75] gp)
-embroidered (worth an additional [1-15] gp)
-laced (worth an additional [1-15] gp)
+gem-studded (worth an additional [10-750] gp) {10%}
+[spider|demon|serpent|scorpion|slime]-motifed {5%}
+[gold|silver|mithral|platinum|electrum] brocade (worth an additional [10-75] gp) {10%}
+embroidered (worth an additional [1-15] gp) {50%}
+laced (worth an additional [1-15] gp) {10%}
+plain {100%}
 
 $descriptor-leather
 gem-studded (worth an additional [10-750] gp)
 [spider|demon|serpent|scorpion|slime]-motifed
-[gold|silver|mithral|platinum|electrum] filigree (worth an additional [10-75] gp)
+[precious metal,#value] filigree (worth an additional [10-75]*[#value,as mult] gp)
 embossed
 etched
+polished
+stained
+smooth
+suede
+burnished
+oiled
+waxed
+lacquered
+
+
+$precious metal
+pewter {mult:0.1}{50%}
+silver {mult:0.1}{100%}
+electrum {mult:0.5}{100%}
+gold {mult:1}{80%}
+platinum {mult:10}{40%}
+mithral {mult:15}{10%}
 
 $descriptor-metal
 gem-studded (worth an additional [10-750] gp)
@@ -1667,11 +1673,15 @@ the item is always comfortable in any temperature
 magic allows the wearer can relieve themselves whilst wearing the item without consequence or discomfort
 
 $material
-[spider|worm]silk
-velvet
-[mithril|adamantine] fine link
-[troglodyte|illithid|rothé|beholder|aboleth|bat|darkmantle]-leather
+spider silk {50%}
+worm silk {10%}
+velvet {30%}
+[mithril|adamantine] fine link {5%}
+[troglodyte|illithid|rothé|beholder|aboleth|bat|darkmantle]-leather {50%}
 [bat|troll|cloaker|dragon|troglodyte|lizard]skin
+linen
+taffety
+
 
 $color
 red
