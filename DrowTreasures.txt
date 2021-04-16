@@ -24,7 +24,7 @@ hand spinneret {20%}
 adamantine [metal weapon] {10%}
 
 
-$drow weapon
+$drow armor
 suit of drowcraft [leather|studded leather|spidersilk] [+1|+2|+3] {100%}
 suit of drowcraft adamantine [half plate|plate|chainmail|splint] [+1|+2|+3] {100%}
 drowcraft adamantine [chain shirt|breastplate] [+1|+2|+3] {80%}
@@ -33,6 +33,7 @@ suit of adamantine [half plate|plate|chainmail|splint]  {20%}
 suit of death armor {5%}
 suit of gorgon plate {5%}
 armor of the viper {5%}
+
 
 
 $drow wondrous
