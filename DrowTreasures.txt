@@ -1661,6 +1661,8 @@ $unusual property
 [minor magical ability]
 drowcraft
 famous artisan's mark - ×[2-10] value
+drowcraft and [minor magical ability]
+[minor magical ability] and [minor magical ability]
 
 $minor magical ability
 if not wearing any armor, grants a +1 bonus to AC
@@ -1672,6 +1674,116 @@ the item magically accentuates the wearer's best features
 the item releases a trail of [smoke|mist|perfume] which follows the wearer
 the item is always comfortable in any temperature
 magic allows the wearer can relieve themselves whilst wearing the item without consequence or discomfort
+[expanded magical abilities]
+[expanded magical abilities]
+[expanded magical abilities]
+[expanded magical abilities]
+[expanded magical abilities]
+[expanded magical abilities]
+[expanded magical abilities]
+
+$expanded magical abilities
+this item emits a harmless shock every 6 seconds, which wakes you up if you were involuntarily put to sleep
+whenever a creature within 30 feet of you dies, this item briefly turns black and emits the sound of tolling bells
+you can touch this item to a pile of gold, silver or copper coins within a 5 foot cube to convert them to their equivalent value in gold, silver or copper coins
+when you speak you produce 2 voices, and your movements produce a brief after image
+as an action you can ask the item for a weather forecast. It then produces an illusory image representing the predicted weather in your area over the next 8 hours
+whenever you fall asleep or spend at least half an hour meditating with this item, you levitate 3 feet off the ground. This effect ends immediately if you wake up or end your meditation
+when you succeed on a death saving throw, a creature of your choice within 30 feet of you that can see you gains 1d4 temporary hit points
+whenever you deal damage to a humanoid, beast, monstrosity, giant or dragon they spill copious amounts of blood no matter the severity of the wound. This additional blood spillage does not harm or otherwise effect them
+this item is covered in and produces magical flakes. You can use these flakes to flavour food, drink or objects to be sweet, salty, or spicy (your choice)
+whenever this item strikes an object or creature, or is squeezed, it produces a squeaking noise that can be heard up to 10 feet away
+peering into this object causes you to see a twisted reflection of yourself. Its expression is the exact opposite of your own when you look into it
+multiple seams run across the item's surface. It can be folded up to be a quarter of its size for compact storage
+this item has a magical compartment containing a 10 foot pole, 50 feet of rope and a single gold piece. This compartment cannot store anything else
+creatures capable of casting 3rd level spells or above are made instantly aware of the item's presence, but not exact location, if it's within 100 feet of them
+this item emits a perpetual soft breeze
+this item is covered in a pattern of stars. This pattern is the same as the formation of stars in the night sky over your current location
+this item has a solid colour surface with images of clouds moving across it. The colour of its surface is the same as the colour of the sky over your current location
+this item appears to be made almost entirely out of liquid. You have advantage on Dexterity (stealth) checks if you are wearing the item and you are completely submerged
+if you place this item in a non-magical liquid it can absorb a volume of the liquid equal to the volume of a 5 foot cube over the course of 1 minute. You can release the stored liquid as an action and can only store 1 liquid at a time
+pressing this item upon a solid surface or object not being worn or carried causes them to stick together
+once per short rest, you can use an action to brandish this item and cause all unrestrained objects with 20 feet of you to be pulled 10 feet closer
+wearing, wielding or using this item causes you to instantly grow thick facial hair, even if your race is normally incapable of doing so
+once per long rest, you can use a bonus action to choose an unoccupied space within 10 feet of you. Until the end of your turn you can attack, cast spells or interact with objects as if you were standing in that space
+this item changes slightly to match the seasons, for example emitting a warm glow in summer or becoming pale and cold in winter
+if this item is destroyed by taking damage, it reforms in the same space in 1d4 hours
+you can use an action to gain the ability to see 5 times as far until the end of your turn
+every so often tumbleweed blows past the bearer of this item then disappears
+beasts find this item extremely pleasurable to chew on
+this item is covered in several writhing tentacles and emits ominous phrases in Deep Speech when used
+this object changes colour depending on its bearer's mood
+this object pulsates at regular intervals like a beating heart. The rate of beating increases when its bearer successfully charms a creature or if they become charmed or frightened
+this item's bearer receives regular thoughts of slaying dragons and protecting innocents
+you can use a bonus action to manifest a sheet of paper that declares the item's bearer as its official owner
+whenever the item's bearer speaks a curse word or insulting phrase, their words are replaced with soft music
+you can use an action and touch a creature with this item to restore 5 hit points, cure a disease or remove the poisoned condition. You can do each of these only once, then this item loses this property
+this item is inexplicably heavy. It weighs twice as much and causes the area in a 30 foot radius to shake harmlessly when dropped onto the ground
+while this item is on your person you can sustain yourself by spending 1 hour in natural sunlight rather than eating or drinking
+this item has a small keypad and illusory screen that can be used to carry out calculations
+an oath is inscribed on this item. The item glows warmly when its bearer abides by it
+the item's bearer can choose for this item to orbit around them, in their space. Any other creature that attempts to remove it must succeed on a DC 14 Strength check to do so
+this item bears the crest of the nearest noble or royal family. If none, or multiple, are present it picks one at random
+whenever this item or its bearer takes damage it violently shifts in shape and size for several seconds before returning to normal
+this item glows in the presence of portals to or artifacts from other planes
+whenever this item's bearer dreams or experiences a vision, the item appears in the dream or vision with them
+each dawn this item generates a blatantly false statement somewhere on its surface
+you can speak a word engraved on the item's surface as an action, causing all fiends, undead, celestials, fey, aberrations and elementals within 300 feet to be made instantly aware of your exact location. The word then disappears
+this item's bearer gains the knowledge of how to cook 3 meals of the DM's choice
+this item can be used as a quill. Words written with it are written with perfect handwriting
+wearing or wielding this item causes you to see colours as more dull and less saturated
+when not being worn or carried this item floats 1 foot off the ground
+this item looks impossibly well made. You have advantage on all ability checks made to convince people of its worth, quality or power
+when left unattended or out of sight for at least an hour this item always ends up about 10 feet from where it was last seen
+this item's bearer can communicate simple ideas and emotions to birds
+when you are subjected to a spell that allows you to make a saving throw to take only half damage, you can use your reaction to take half damage if you fail. This property is then lost
+neither this item nor its bearer gets wet when it rains or snows
+this item is made from heavy metals. Its bearer has advantage on saving throws made against being pushed, pulled or knocked prone
+abilities and spells that detect creature type, alignment or magic detect this item as a Chaotic Evil Fiendish creature emanating Necromantic magic
+abilities and spells that detect creature type, alignment or magic detect this item as a Lawful Good Celestial creature emanating Abjuration magic
+this item is made from wood and covered in vines. Its bearer can understand Druidic
+this item appears as if it were made from writhing purple energy. Each minute it does 5 force damage to non-magical objects it's touching that aren't being worn or carried
+this item is covered in many constantly shifting, unblinking eyes. While holding or wearing it you gain a +1 bonus to perception checks and initiative rolls
+roll for two more properties, rerolling if you get this one again. This item switches between those two properties each day
+once per day, when a creature you can see deals radiant or fire damage to you, you can force them to make a DC 14 Constitution saving throw or be blinded until the start of your next turn
+the item appears to be light and diaphanous, as if made from pure mist. It weighs half as much as it normally would
+whenever you score a critical hit the item emits a ringing noise audible within 300 feet of you
+at dawn the item looks to be brand new and in pristine condition. At dusk it looks weathered, old and broken
+while the item is on your person you no longer need to eat, but you feel constantly hungry
+the item is adorned with moving gears and quietly beeps and whirs at random intervals
+part of the item is transparent and filled with water. A tiny immortal fish is present in the water, and counts as part of the item for the purposes of targeting
+the item is hot to the touch and gives off steam when in use
+as a bonus action you can focus on the item and gain a +2 bonus to your next attack roll or ability check. You cannot use this ability again until the next dawn
+when you drop to 0 hp but aren't killed outright, you can choose to regain 10 hit points and deal 10 fire damage to all creatures in a 10 foot radius of yourself. The item then permanently loses this property
+each time you kill a creature a new mark is added to a tally on this item's surface
+you can spend 1 minute eating this item. It provides enough nourishment to sustain you for 1 week
+you always know the exact time and date of your current location
+you gain fur, sharpened teeth and elongated ears while this item is worn or wielded
+you can subtract 10 feet from your total distance fallen when calculating fall damage
+you gain a +1 bonus to all ability checks made to avoid getting lost
+this item is pitch black. As an action you can surround yourself with 10 feet of non magical darkness until the start of your next turn. You cannot do so again until the next dusk
+you always know your exact distance from the place you first found this item
+touching this item to a non-magical flower causes the flower to blossom
+if you have darkvision, you can discern colour in darkness
+while this item is being worn or wielded your voice becomes deeper and your eyes glow red. Once per short rest you can give yourself advantage on a Charisma (intimidation) check
+the item constantly whispers indecipherable messages to you and is covered in untranslatable runes
+the item constantly whispers words of encouragement to you. Once per short rest you can give yourself advantage on a saving throw made against being frightened or possessed
+this object's presence is repulsive to aberrations, celestials, elementals, fey and fiends. It offends all of their senses
+while the object is on your person, you can speak and understand Infernal and Abyssal and abilities and spells that detect or sense creature type detect you as a fiend
+while the object is on your person, you can speak and understand Celestial and abilities and spells that detect or sense creature type detect you as a celestial
+while the object is on your person, you can speak and understand Sylvan and abilities and spells that detect or sense creature type detect you as a fey
+to creatures other than yourself, those with true sight or those with a Wisdom score of 14 or greater, this item is invisible
+once per turn you can deal an additional 2d6 psychic against a creature charmed by yourself or an ally when you damage them
+each dawn roll a d20. On a 20 your life span increases by 1 year
+if you die this item is completely destroyed
+any injuries you sustain are invisible unless you willingly reveal them (no action required) and you barely bleed, even when severely injured
+an illusory tiny animal of the DM's choice follows you, remaining in your space. You can dismiss it or resummon it as bonus action
+as an action you can touch this item to a flammable object not being worn or carried to set the object alight
+whenever you finish a long rest you gain 1 temporary hit point and your movement speed increases by 5 feet for 1 hour
+dealing damage while in possession of the item causes harmless pain to course through your body
+this item functions as an endless bar of soap
+as a bonus action you can transform this item into a dagger or a shortsword. The item then loses all properties but this one until you use a bonus action to change it back
+
 
 $material
 spider silk {50%}
