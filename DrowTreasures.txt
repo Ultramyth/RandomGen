@@ -1541,7 +1541,7 @@ weird
 
 $garment
 [an] [color] [material] [dress|gown|vestment|shift|uniform|shoal|scarf|cloak|hooded cloak|skirt|kilt]
-a pair of [condition] [descriptor-leather] [material] [boots|slippers|knee-high boots|bracers|grieves]
+a pair of [condition] [descriptor-leather] [boots|slippers|knee-high boots|bracers|grieves]
 [an] [condition] [descriptor-clothes] [material] [cloak|belt|bodice|mantle]
 [an] [condition] [descriptor-metal] [metal] belt
 a drowcraft scaled [leather] [harness|vest|pauldron|curiass|girdle|corset|bodice]
@@ -1607,26 +1607,26 @@ stingray leather {5%}
 
 $descriptor-clothes
 gem-studded (worth an additional [10-750] gp) {10%}
-[spider|demon|serpent|scorpion|slime]-motifed {5%}
-[gold|silver|mithral|platinum|electrum] brocade (worth an additional [10-75] gp) {10%}
+[spider|demon|serpent|scorpion|slime]-motifed {50%}
+[gold|silver|mithral|platinum|electrum] brocade (worth an additional [10-75] gp) {20%}
 embroidered (worth an additional [1-15] gp) {50%}
-laced (worth an additional [1-15] gp) {10%}
+laced (worth an additional [1-15] gp) {50%}
 plain {100%}
 
 $descriptor-leather
-gem-studded (worth an additional [10-750] gp)
+gem-studded (worth an additional [10-750] gp) {10%}
 [spider|demon|serpent|scorpion|slime]-motifed
-[precious metal,#value] filigree (worth an additional [10-75]*[#value,as mult] gp)
-embossed
-etched
-polished
-stained
-smooth
-suede
-burnished
-oiled
-waxed
-lacquered
+[precious metal,#value] filigree (worth an additional [10-75]*[#value,as mult] gp) {25%}
+embossed {20%}
+etched {20%}
+polished {20%}
+stained {20%}
+smooth {20%}
+suede {20%}
+burnished {20%}
+oiled {20%}
+waxed {20%}
+lacquered {20%}
 
 
 $precious metal
@@ -1638,9 +1638,9 @@ platinum {mult:10}{40%}
 mithral {mult:15}{10%}
 
 $descriptor-metal
-gem-studded (worth an additional [10-750] gp)
+gem-studded (worth an additional [10-750] gp) {10%}
 [spider|demon|serpent|scorpion|slime]-motifed
-[gilded|silvered|mithral|platinum|electrum] filigree (worth an additional [10-75] gp)
+[precious metal,#value] filigree (worth an additional [10-75]*[#value,as mult] gp) {25%}
 engraved
 embossed
 
@@ -1649,13 +1649,13 @@ finely carved [sylvan|spider|demon|serpent|gothic]-motif
 
 
 $condition
-worn
+worn {25%}
 used
 unused
 new
-pristine
-immaculate
-fragile
+pristine {25%}
+immaculate {25%}
+fragile {25%}
 
 $unusual property
 [minor magical ability]
@@ -1866,10 +1866,9 @@ $treasure type
 - [an] [drow weapon]<br>
 - [an] [drow wondrous]<br>
 
-
 $garments
 - [garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
 
 $loot
-You found [treasure]<br>Alternatively, the following are random drow treasures to place amongst drow foes:<p><b>Drow Armor:</b> You found [drow armor]<p><b>Drow Weapon:</b> You found [drow weapon]<p><b>Drow Wondrous:</b> You found [drow wondrous]<p><b>Drow Clothing:</b><br>[garments,x2-6] <p>
+You found [treasure]<br>Alternatively, the following are random drow treasures to place amongst drow foes:<p><b>Drow Armor:</b> You found [drow armor]<p><b>Drow Weapon:</b> You found [drow weapon]<p><b>Drow Wondrous:</b> You found [drow wondrous]<p><b>Drow Clothing:</b><p>[garments,x3-6] <p><p>
 
