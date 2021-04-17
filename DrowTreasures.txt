@@ -1987,6 +1987,6 @@ $>Drow Items
 The following are random drow treasures to place amongst drow foes:<p><b>Drow Armor:</b> You found [drow armor]<p><b>Drow Weapon:</b> You found [drow weapon]<p><b>Drow Wondrous:</b> You found [drow wondrous]<p><b>Drow Clothing:</b><p>[garments,x3-6] <p><p>
 
 $>Drow Priestess Treasure
-The drow priestess is armed with [drow priestess weapon] and wears [drow armor priestess]. In addition, she wears one or more of these garments (the others are in storage):<br>[garments,x1-3]<br>She also possesses [an] [drow wondrous priest].<br><br>
+The drow priestess is armed with [drow priestess weapon] and wears [drow armor priestess]. In addition, she wears one or more of these garments (the others are in storage):<br>[garments,x1-3]<br>She also possesses [an] [drow wondrous priest,x1-2].<br><br>
 
 
