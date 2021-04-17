@@ -2267,7 +2267,7 @@ $treasure eleven
 
 $other treasure 1
 [art,x1-4]
-[gems 11-16,x1-4]
+[gems 11 to 16,x1-4]
 
 $other treasure 2
 - (drow) [drow weapon]<br>
@@ -2336,5 +2336,5 @@ The following are random drow treasures to place amongst drow foes:<p><b>Drow Ar
 $>Drow Priestess Treasure
 The drow priestess is armed with [an] [drow priestess weapon] and wears [drow armor priestess]. In addition, she wears one or more of these garments (the others are in storage):<br>[garments,x3-6]<br>She also possesses [an] [drow wondrous priest] and may also possess [an] [drow wondrous priest].<br><br>
 
-$>Treasure 0-4
+$>Treasure 0
 You find a hoard of [coins 0 to 4] and...<br>[treasure 0 to 4]<br><br>
