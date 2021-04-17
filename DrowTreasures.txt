@@ -1980,7 +1980,7 @@ $female garments
 - [female garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
 
 $>Treasure 11-16
-You found [treasure 11-16]
+You found [treasure]
 
 
 $>Drow Items
