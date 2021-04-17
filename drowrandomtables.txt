@@ -1,0 +1,1255 @@
+$include https://github.com/Ultramyth/RandomGen/raw/main/TreasureHoard.txt
+$name : Art Object Generator
+$author : Ben
+$description : Generates Drow Magic Items and Art Objects!
+$amount : 10
+$button : Loot!
+
+
+
+$drow weapon
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
+death spear {20%}
+drow mission blade {5%}
+everchanging blade {5%}
+queen's scourge {5%}
+Spider's Bane {5%}
+The Victor {5%}
+drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] [+1|+2|+3] {100%}
+drowcraft whip-dagger [+1|+2|+3] {5%}
+Caiphon's whisper {5%}
+hand spinneret {20%}
+adamantine [metal weapon] {10%}
+
+$+magic item table b
+drow slave collar {raity:common}
+
+$+magic item table f
+drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] +1
+drow house insignia ([house insignia])
+piwafwi
+spell gem (lapis lazuli)
+spell gem (obsidian)
+
+$+magic item table g
+drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] +2
+bracer of flying daggers {raity:rare}
+fang scarab {rarity:rare}
+feather of diatryma summoning
+figurine of wondrous power (jasper spider)
+figurine of wondrous power (sardonyx stone flyer)
+floatchest
+hamatula
+hand of Kiaransalee's glory
+gloom mask
+knave's eye patch
+lurker cloak
+mother's corset
+Phandoorl's bracers
+piwafwi (greater)
+robe of gentle repose
+spidersilk cloak
+spider mask
+web choker
+spell gem (bloodstone)
+
+$+magic item table h
+drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] +3
+armor of the viper {raity:very rare}
+bracers of blinding strike {raity:very rare}
+bracers of murder {raity:very rare}
+Chaiphon's Whisper {raity:very rare}
+death spear {raity:very rare}
+driftdisc {raity:very rare}
+drow mission blade {raity:very rare}
+everchanging blade {raity:very rare}
+hand spinneret
+queen's scourge
+scourge of fangs
+Spider's Bane
+the Victor
+tome of books
+spell gem (jade)
+spell gem (amber)
+
+$+magic item table i
+Claw of the Revenancer {raity:legendary}
+Death Armor {raity:legendary}
+eyes of the spider {raity:legendary}
+gorgon plate
+dawnbringer
+spell gem (Diamond)
+
+$drow priestess weapon
+drow mission blade {15%}
+everchanging blade {15%}
+queen's scourge {15%}
+drowcraft [whip|mace] [+1|+2|+3] {100%}
+drowcraft whip-dagger [+1|+2|+3] {50%}
+hand spinneret {40%}
+adamantine mace {40%}
+tentacle rod {50%}
+scourge of fangs {50%}
+whip of fangs {50%}
+
+$drow armor
+suit of drowcraft [leather|studded leather|spidersilk] [+1|+2|+3] {100%}
+suit of drowcraft adamantine [half plate|plate|chainmail|splint] [+1|+2|+3] {100%}
+drowcraft adamantine [chain shirt|breastplate] [+1|+2|+3] {80%}
+adamantine [chain shirt|breastplate] {20%}
+suit of adamantine [half plate|plate|chainmail|splint] {20%}
+suit of death armor {5%}
+suit of gorgon plate {5%}
+armor of the viper {5%}
+
+$drow armor priestess
+suit of drowcraft adamantine [half plate|plate|chainmail|splint] [+1|+2|+3] {100%}
+drowcraft adamantine breastplate [+1|+2|+3] {80%}
+adamantine breastplate {20%}
+suit of adamantine [half plate|plate|chainmail|splint] {20%}
+suit of gorgon plate {5%}
+
+$drow wondrous
+amulet of dark blessing {raity:uncommon}{type:wondrous}{consumable:yes}{attune:no}{20%}
+arachnosack {raity:uncommon}{type:wondrous}{consumable:no}{attune:no}{20%}
+greater arachnosack {raity:rare}{type:wondrous}{consumable:no}{attune:no}{10%}
+drow house insignia ([house insignia])
+piwafwi {raity:uncommon}{type:wondrous}{consumable:no}{attune:yes}{100%}
+piwafwi (greater) {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{50%}
+feather of Diatryma summoning {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
+bracers of blinding strike {raity:very rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
+bracers of flying daggers {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
+bracers of murder {raity:very rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
+Claw of the Revenancer {raity:legendary}{type:wondrous}{consumable:no}{attune:yes}{5%}
+driftdisc {raity:very rare}{type:wondrous}{consumable:no}{attune:no}{20%}
+eyes of the spider {raity:legendary}{type:wondrous}{consumable:no}{attune:no}{20%}
+fang scarab {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
+figurine of wondrous power (sardonyx stone flyer) {raity:rare}{type:wondrous}{consumable:no}{attune:no}{10%}
+figurine of wondrous power (jasper spider) {raity:rare}{type:wondrous}{consumable:no}{attune:no}{10%}
+floatchest {raity:rare}{type:wondrous}{consumable:no}{attune:no}{20%}
+gloom mask {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
+Hamatula {raity:rare}{type:wondrous}{consumable:no}{attune:no}{20%}
+Hand of Kiaransalee's Glory {raity:rare}{type:wondrous}{consumable:no}{attune:no}{5%}
+knave's eye patch {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
+lurker cloak {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
+Mother's corset {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{25%}
+Phandoorl's bracers {raity:rare}{type:wondrous}{consumable:no}{attune:no}{15%}
+robe of gentle repose {raity:rare}{type:wondrous}{consumable:no}{attune:no}{20%}
+rod of security {raity:very rare}{type:wondrous}{consumable:no}{attune:no}{20%}
+rod of the pact keeper [+1|+2|+3] {raity:uncommon, rare or very rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
+rope of climbing {raity:uncommon}{type:wondrous}{consumable:no}{attune:no}{20%}
+slave collar {raity:common}{type:wondrous}{consumable:no}{attune:no}{100%}
+spider mask {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
+spidersilk cloak {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{100%}
+tome of books {raity:very rare}{type:wondrous}{consumable:no}{attune:no}{20%}
+web choker {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
+the Victor  {raity:very rare}{type:wondrous}{consumable:no}{attune:no}{10%}
+
+$drow wondrous priest
+amulet of dark blessing {raity:uncommon}{type:wondrous}{consumable:yes}{attune:no}{50%}
+arachnosack {raity:uncommon}{type:wondrous}{consumable:no}{attune:no}{50%}
+greater arachnosack {raity:rare}{type:wondrous}{consumable:no}{attune:no}{50%}
+drow house insignia ([house insignia])
+piwafwi {raity:uncommon}{type:wondrous}{consumable:no}{attune:yes}{100%}
+piwafwi (greater) {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{100%}
+Claw of the Revenancer {raity:legendary}{type:wondrous}{consumable:no}{attune:yes}{5%}
+eyes of the spider {raity:legendary}{type:wondrous}{consumable:no}{attune:no}{40%}
+figurine of wondrous power (sardonyx stone flyer) {raity:rare}{type:wondrous}{consumable:no}{attune:no}{10%}
+figurine of wondrous power (jasper spider) {raity:rare}{type:wondrous}{consumable:no}{attune:no}{10%}
+gloom mask {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{40%}
+Hand of Kiaransalee's Glory {raity:rare}{type:wondrous}{consumable:no}{attune:no}{5%}
+lurker cloak {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
+Mother's corset {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{50%}
+Phandoorl's bracers {raity:rare}{type:wondrous}{consumable:no}{attune:no}{25%}
+slave collar {raity:common}{type:wondrous}{consumable:no}{attune:no}{100%}
+spider mask {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{40%}
+spidersilk cloak {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{100%}
+web choker {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{50%}
+the Victor  {raity:very rare}{type:wondrous}{consumable:no}{attune:no}{10%}
+
+$house insignia
+minor (cast [minor] 1/day) {raity:uncommon}{type:wondrous}{consumable:no}{attune:yes (free)}{100%}
+moderate (cast [moderate] 1/day) {raity:uncommon}{type:wondrous}{consumable:no}{attune:yes (free)}{90%}
+major (cast [major] 1/day) {raity:rare}{type:wondrous}{consumable:no}{attune:yes (free)}{70%}
+major (cast [major] 1/day and [[moderate]|[minor]] 1/day) {raity:rare}{type:wondrous}{consumable:no}{attune:yes (free)}{40%}
+
+$minor
+absorb elements
+comprehend languages
+detect poison and disease
+feather fall
+jump
+shield
+unseen servant
+
+$moderate
+blindness/deafness
+blur
+enhance ability
+knock
+levitate
+silence
+spider climb
+web
+
+$major
+animate dead
+dispel magic
+fear
+fly
+gaseous form
+meld into stone
+nondetection
+tongues
+water breathing
+
+
+$art
+- [garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
+- [ceremonial weapon] (worth [[75-425]|[426-999]] gp)<br>
+
+$gems
+- [an] [[50 gem]|[100 gem]|[500 gem]]<br>
+
+$gems 0-4
+- [an] [50 gem] (worth [25-75] gp)<br>
+- [an] [10 gem] (worth [5-15] gp)<br>
+
+$gems 5-10
+- [an] [50 gem] (worth [25-75] gp)<br>
+- [an] [100 gem] (worth [51-150] gp)<br>
+
+$gems 11-16
+- [an] [500 gem] (worth [251-750] gp)<br>
+- [an] [1000 gem] (worth [501-1500] gp)<br>
+
+$gems 17-20
+- [an] [1000 gem] (worth [501-1500] gp)<br>
+- [an] [5000 gem] (worth [2501-7500] gp)<br>
+
+$10 gem
+azurite
+banded agate
+blue quartz
+eye agate
+hematite
+lapis lazuli
+malachite
+moss agate
+obsidian
+rhodochrosite
+tiger eye
+turquoise
+beryl
+
+$50 gem
+bloodstone
+carnelian
+chalcedony
+chrysoprase
+citrine
+jasper
+moonstone
+onyx
+quartz
+sardonyx
+star rose quartz
+zircon
+
+$100 gem
+amber
+amethyst
+chrysoberyl
+piece of coral
+garnet
+piece of jade
+jet
+pearl
+spinel
+tourmaline
+
+$500 gem
+alexandrite
+aquamarine
+topaz
+peridot
+blue spinel
+black pearl
+diamond
+
+$1000 gem
+black opal
+blue sapphire
+emerald
+fire opal
+opal
+star ruby
+star sapphire
+yellow sapphire
+
+$5000 gem
+black sapphire
+diamond
+jacinth
+ruby
+
+
+$magic item table x
+[metal armor] of Gleaming
+Bead of Nourishment
+Bead of Refreshment
+Boots of False Tracks
+Candle of the Deep
+Cast-Off [armor]
+Charlatan's Die
+Cloak of Billowing
+Cloak of Many Fashions
+Clockwork Amulet
+Clothes of Mending
+Dark Shard Amulet
+Dread Helm
+Ear Horn of Hearing
+Enduring Spellbook
+Ersatz Eye
+Hat of Vermin
+Hat of Wizardry
+Heward's Handy Spice Pouch
+Horn of Silent Alarm
+Instrument of Illusions
+Instrument of Scribing
+Lock of Trickery
+Moon-Touched Sword
+Mystery Key
+Orb of Direction
+Orb of Time
+Perfume of Bewitching
+Pipe of Smoke Monsters
+Pole of Angling
+Pole of Collapsing
+Pot of Awakening
+Potion of Climbing
+Rope of Mending
+Ruby of the War Mage
+Shield of Expression
+Smoldering [armor]
+Staff of Adornment
+Staff of Birdcalls
+Staff of Flowers
+Talking Doll
+Tankard of Sobriety
+Unbreakable Arrow
+Veteran's Cane
+Walloping Ammunition
+Wand of Conducting
+Wand of Pyrotechnics
+Wand of Scowls
+Wand of Smiles
+
+$magic item table a
+potion of healing
+potion of healing
+potion of healing
+potion of healing
+potion of healing
+potion of healing
+potion of healing
+spell scroll of [[bard cantrip]|[cleric cantrip]|[druid cantrip]|[wizard cantrip]]
+potion of climbing
+spell scroll of [[bard 1st]|[cleric 1st]|[druid 1st]|[wizard 1st]]
+spell scroll of [[bard 2nd]|[cleric 2nd]|[druid 2nd]|[wizard 2nd]]
+potion of greater healing
+bag of holding
+driftglobe
+silvered [weapon metal]
+[2-10] silvered [bolts|arrows|bullets]
+
+$magic item table b
+potion of greater healing
+potion of fire breath
+potion of resistance
+[2-12] +1 [bolts|arrows|bullets]
+potion of animal friendship
+potion of hill giant strength
+potion of growth
+potion of water breathing
+spell scroll of [[bard 2nd]|[cleric 2nd]|[druid 2nd]|[wizard 2nd]]
+spell scroll of [[bard 3rd]|[cleric 3rd]|[druid 3rd]|[wizard 3rd]]
+bag of holding
+Keoghtom's ointment ([2-5] uses remaining)
+oil of slipperiness
+dust of disappearance
+dust of dryness
+dust of sneezing and choking
+elemental gem
+philter of love
+alchemy jug
+cap of water breathing
+cloak of the manta ray
+driftglobe
+goggles of night
+helm of comprehending languages
+immovable rod
+lantern of revealing
+mariner's armor
+mithral [metal armor]
+potion of poison
+ring of swimming
+robe of useful items
+rope of climbing
+saddle of the cavalier
+wand of magic detection
+wand of secrets
+
+$magic item table c
+potion of superior healing
+spell scroll of [[bard 4th]|[cleric 4th]|[druid 4th]|[wizard 4th]]
+[2-12] +2 [bolts|arrows|bullets]
+potion of clairvoyance
+potion of diminution
+potion of gaseous form
+potion of frost giant strength
+potion of stone giant strength
+potion of heroism
+potion of invulnerability
+potion of mind reading
+spell scroll of [[bard 5th]|[cleric 5th]|[druid 5th]|[wizard 5th]]
+elixir of health
+oil of etherealness
+potion of fire giant strength
+Quaal's feather token ([anchor|bird|fan|swan boat|tree|whip])
+scroll of protection ([fire|good|evil])
+bag of beans
+bead of force
+chime of opening
+decanter of endless water
+eyes of minute seeing
+folding boat
+arachnosack
+horseshoes of speed
+necklace of fireballs
+periapt of health
+sending stones
+
+$magic item table d
+potion of supreme healing
+potion of invisibility
+potion of speed
+spell scroll of [[bard 6th]|[cleric 6th]|[druid 6th]|[wizard 6th]]
+spell scroll of [[bard 7th]|[cleric 7th]|[druid 7th]|[wizard 7th]] 
+[2-12] +3 [bolts|arrows|bullets]
+oil of sharpness
+potion of flying
+potion of cloud giant strength
+potion of longevity
+potion of vitality
+spell scroll of [[bard 8th]|[cleric 8th]|[druid 8th]|[wizard 8th]]
+horseshoes of a zephyr
+Nolzur's marvelous pigments
+bag of devouring
+portable hole
+
+$magic item table e
+spell scroll of [[bard 8th]|[cleric 8th]|[druid 8th]|[wizard 8th]]
+potion of storm giant strength
+potion of supreme healing
+spell scroll of [[bard 9th]|[cleric 9th]|[druid 9th]|[wizard 9th]] 
+universal solvent
+arrow of slaying ([bane])
+sovereign glue
+
+$magic item table f
++1 [weapon][special feature]
++1 [weapon][special feature]
++1 [weapon] 
++1 [weapon]
++1 [[wood]|[metal]] shield[special feature]
+sentinel shield
+amulet of proof against detection and location
+boots of elvenkind
+boots of striding and springing
+bracers of archery
+brooch of shielding
+broom of flying
+[cloak of elvenkind|piwafwi]
+cloak of protection
+gauntlets of ogre power
+hat of disguise
+javelin of lightning
+pearl of power
++1 rod of the pact keeper
+slippers of spider climbing
+staff of the adder
+staff of the python
+sword of vengeance
+trident of fish command
+wand of magic missiles
++1 wand of the war mage
+wand of web
+[weapon] of warning
+adamantine armor (chain mail)
+adamantine armor (chain shirt)
+adamantine armor (scale mail)
+bag of tricks (gray)
+bag of tricks (rust)
+bag of tricks (tan)
+boots of the winterlands
+circlet of blasting
+deck of illusions
+eversmoking bottle
+eyes of charming
+eyes of the eagle
+figurine of wondrous power (silver raven)
+gem of brightness
+gloves of missile snaring
+gloves of swimming and climbing
+gloves of thievery
+headband of intellect
+helm of telepathy
+instrument of the bards (doss lute)
+instrument of the bards (fochlucan bandore)
+instrument of the bards (mac-fuimidh cittern)
+medallion of thoughts
+necklace of adaptation
+periapt of wound closure
+pipes of haunting
+pipes of the sewers
+ring of jumping
+ring of mind shielding
+ring of warmth
+ring of water walking
+quiver of Ehlonna
+stone of good luck
+wind fan
+winged boots
+
+$magic item table g
++2 [weapon][special feature]
++2 [weapon][special feature]
++2 [weapon]
++2 [weapon]
+figurine of wondrous power ([bronze griffon|ebony fly|golden lions|ivory goats|marble elephant|onyx dog|serpentine owl])
+adamantine armor (breastplate)
+adamantine armor (splint)
+amulet of health
+armor of vulnerability
+arrow-catching shield
+belt of dwarvenkind
+belt of hill giant strength
+berserker axe
+boots of levitation
+boots of speed
+bowl of commanding water elementals
+bracers of defense
+brazier of commanding fire elementals
+cape of the mountebank
+censer of controlling air elementals
++1 [metal] chain mail[special feature]
+armor of resistance (chain mail) ([resistance])
+armor of resistance (chain shirt) ([resistance])
++1 [metal] chain shirt[special feature]
+cloak of displacement
+cloak of the bat
+cube of force
+Daern's instant fortress
+dagger of venom
+dimensional shackles
+dragon slayer
+elven chain
+flame tongue
+gem of seeing
+giant slayer
+glamoured studded leather ([leather])
+helm of teleportation
+horn of blasting
+horn of Valhalla (silver or brass)
+instrument of the bards (canaith mandolin)
+instrument of the bards (cii lyre)
+ioun stone (awareness)
+ioun stone (protection)
+ioun stone (reserve)
+ioun stone (sustenance)
+iron bands of Bilarro
++1 leather ([leather])[special feature]
+armor of resistance (leather) ([resistance])
+mace of disruption
+mace of smiting
+mace of terror
+mantle of spell resistance
+necklace of prayer beads
+periapt of proof against poison
+ring of animal influence
+ring of evasion
+ring of feather falling
+ring of free action
+ring of protection
+ring of resistance ([resistance])
+ring of spell storing
+ring of the ram
+ring of x-ray vision
+robe of eyes
+rod of rulership
++2 rod of the pact keeper
+rope of entanglement
++1 [metal] scale mail
+armor of resistance (scale mail) ([resistance])
++2 [[wood]|[metal]] shield[special feature]
+shield of missile attraction
+staff of charming
+staff of healing
+staff of swarming insects
+staff of the woodlands
+staff of withering
+stone of controlling earth elementals
+sun blade
+sword of life stealing
+sword of wounding
+tentacle rod
+vicious weapon
+wand of binding
+wand of enemy detection
+wand of fear
+wand of fireballs
+wand of lightning bolts
+wand of paralysis
++2 wand of the war mage
+wand of wonder
+wings of flying
+
+$magic item table h
++3 [weapon][special feature]
++3 [weapon][special feature]
++3 [weapon][special feature]
++3 [weapon][special feature]
++3 [weapon]
++3 [weapon]
++3 [weapon]
++3 [weapon]
+amulet of the planes
+carpet of flying
+crystal ball (very rare version)
+ring of regeneration
+ring of shooting stars
+ring of telekinesis
+robe of scintillating colors
+robe of stars
+rod of absorption
+rod of alertness
+rod of security
++3 rod of the pact keeper
+scimitar of speed
++3 [[wood]|[metal]] shield
+staff of fire
+staff of frost
+staff of power
+staff of striking
+staff of thunder and lightning
+sword of sharpnes
+wand of polymorph
++3 wand of the war mage
+adamantine armor (half plate)
+adamantine armor (plate)
+animated shield
+belt of fire giant strength
+belt of frost (or stone) giant strength
++1 [metal] breastplate
+armor of resistance (breastplate) ([resistance])
+candle of invocation
++2 [metal] chain mail
++2 [metal] chain shirt
+cloak of arachnida
+dancing sword
+demon armor
+dragon scale mail
+dwarven plate
+dwarven thrower
+efreeti bottle
+figurine of wondrous power (obsidian steed)
+frost brand
+helm of brilliance
+horn of Valhalla (bronze)
+Instrument of the bards (Anstruthharp)
+Ioun stone (absorption)
+Ioun stone (agility)
+Ioun stone (fortitude)
+Ioun stone (insight)
+Ioun stone (intellect)
+Ioun stone (leadership)
+Ioun stone (strength)
++2 [leather]
+manual of bodily health
+manual of gainful exercise
+manual of golems
+manual of quickness of action
+mirror of life trapping
+nine lives stealer
+oathbow
++2 [metal] scale mail
+spellguard shield
++1 [metal] splint
+armor of resistance (splint) ([resistance])
++1 studded [leather]
+armor of resistance (studded leather) ([resistance])
+tome of clear thought
+tome of leadership and influence
+tome of understanding
+
+$magic item table i
+Defender
+hammer of thunderbolts
+sword of answering
+holy avenger
+ring of djinni summoning
+ring of invisibility
+ring of spell turning
+rod of lordly might
+vorpal [short sword|longsword|greatsword|scimitar]
+belt of cloud giant strength
++2 [metal] breastplate
++3 [metal] chain mail
++3 [metal] chain shirt
+cloak of invisibility
+crystal ball (legendary version)
++1 [metal] half plate
+iron flask
++3 [leather]
++1 [metal] plate
+robe of the archmagi
+rod of resurrection
++1 [metal] scale mail
+scarab of protection
++2 [metal] splint
++2 studded [leather]
+well of many worlds
++2 [metal] half plate
++2 [metal] plate
++3 studded [leather]
++3 [metal] breastplate
++3 [metal] splint
++3 [metal] half plate
++3 [metal] plate
+apparatus of Kwalish
+armor of invulnerability
+belt of storm giant strength
+cubic gate
+deck of many things
+efreeti chain
+armor of [resistance] resistance (half plate)
+horn of Valhalla (iron)
+instrument of the bards (oiiamh harp)
+Ioun stone (greater absorption)
+Ioun stone (mastery)
+Ioun stone (regeneration)
+plate armor of etherealness
+plate armor of resistance ([resistance])
+ring of air elemental command
+ring of earth elemental command
+ring of fire elemental command
+ring of three wishes
+ring of water elemental command
+sphere of annihilation
+talisman of pure good
+talisman of the sphere
+talisman of ultimate evil
+tome of the stilled tongue
+
+$special feature
+<br></i><small><b>Special Features</b><br>Origin:<br>[origin]<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small><i>
+<br></i><small><b>Special Features</b><br>Origin:<br><b>Drow.</b> The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. It might function poorly, or disintegrate, if exposed to sunlight for 1 minute or more.<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small><i>
+
+$resistance
+acid
+necrotic
+cold
+poison
+fire
+psychic
+force
+radiant
+lightning
+thunder
+
+$armor
+[metal armor]
+[metal armor]
+[metal armor]
+[metal armor]
+[leather armor]
+[hide armor]
+[padded armor]
+
+$metal armor
+chain shirt
+chainmail
+splint
+breastplate
+scale mail
+ringmail
+plate
+half-plate
+banded
+
+$hide armor
+hide
+
+$leather armor
+leather
+studded leather
+
+$padded armor
+padded
+
+$ceremonial weapon
+[an] [descriptor-wood] [wood] [weapon wood]
+[an] [descriptor-metal] [metal weapon] [weapon metal]
+
+$weapon
+[wood] [weapon wood]
+[wood] [weapon wood]
+[wood] [weapon wood]
+[metal weapon] [weapon metal]
+[metal weapon] [weapon metal]
+[metal weapon] [weapon metal]
+[metal weapon] [weapon metal]
+[metal weapon] [weapon metal]
+[weapon other]
+
+$weapon wood
+club
+greatclub
+quarterstaff
+blowgun
+shortbow
+longbow
+lance
+
+$weapon metal
+[dagger|stiletto|dirk]
+[handaxe|tomahawk]
+javalin
+light hammer
+[mace|holy water sprinkler]
+sickle
+spear
+war pick
+[bastard sword|broadsword]
+battleaxe
+flail
+glaive
+[greataxe|bearded axe]
+[greatsword|flambard|zweihander]
+halberd
+katana
+longspear
+longsword
+maul
+morningstar
+[rapier|foil|epee]
+[scimitar|sabre]
+[short sword|arming sword|gladius|wakizashi]
+spiked chain
+trident
+war pick
+warhammer
+hand crossbow
+light crossbow
+[heavy crossbow|arbalest]
+whip-dagger
+
+$weapon other
+whip
+net
+
+
+
+$dragon color
+red
+green
+blue
+black
+copper
+silver
+gold
+bronze
+
+$female garment
+[an] [color] [material] [dress|gown|cloak|hooded cloak|skirt]
+a pair of [condition] [descriptor-leather] [leather] [boots|slippers|knee-high boots]
+[an] [condition] [descriptor-clothes] [material] [cloak|bodice|mantle]
+[an] [condition] [descriptor-metal] [metal] belt {20%}
+[an] [condition] [descriptor-leather] [leather] belt {20%}
+a drowcraft scaled [leather] [curiass|girdle|corset|bodice]
+a pair of [condition] [descriptor-metal] [metal] gauntlets {20%}
+a pair of [condition] [descriptor-clothes] [leather] gloves
+a pair of [condition] [descriptor-clothes] [material] [gloves|leggings]
+[an] [dragon color] dragonboned [bodice|corset]
+[descriptor-clothes] [material] undergarments
+[an] [color] [material]  [dress|gown|cloak|hooded cloak|skirt] ([unusual property])
+a pair of [condition] [descriptor-leather] [material] [boots|slippers|knee-high boots] ([unusual property])
+[an] [condition] [descriptor-clothes] [material] [cloak|bodice|mantle] ([unusual property])
+a pair of [condition] [descriptor-clothes] [material] [gloves|leggings] ([unusual property])
+[an] [condition] [descriptor-metal] [metal] belt ([unusual property]) {20%}
+[an] [condition] [descriptor-leather] [leather] belt ([unusual property]) {20%}
+a pair of [condition] [descriptor-metal] [metal] gauntlets ([unusual property]) {20%}
+[an] [dragon color] dragonboned [bodice|corset] ([unusual property])
+[descriptor-clothes] [material] undergarments ([unusual property])
+
+$garment
+[an] [color] [material] [dress|gown|vestment|shift|uniform|shoal|scarf|cloak|hooded cloak|skirt|kilt]
+a pair of [condition] [descriptor-leather] [leather] [boots|slippers|knee-high boots|bracers|grieves]
+[an] [condition] [descriptor-clothes] [material] [cloak|bodice|mantle]
+[an] [condition] [descriptor-metal] [metal] belt
+[an] [condition] [descriptor-leather] [leather] belt
+a drowcraft scaled [leather] [harness|vest|pauldron|curiass|girdle|corset|bodice]
+a pair of [condition] [descriptor-metal] [metal] gauntlets
+a pair of [condition] [descriptor-clothes] [material] [gloves|leggings]
+[an] [dragon color] dragonboned [bodice|corset]
+[descriptor-clothes] [material] undergarments
+[an] [color] [material] [dress|gown|vestment|shift|uniform|shoal|scarf|cloak|hooded cloak|skirt|kilt] ([unusual property])
+a pair of [condition] [descriptor-leather] [leather] [boots|slippers|knee-high boots] ([unusual property])
+[an] [condition] [descriptor-clothes] [material] [cloak|belt|bodice|mantle] ([unusual property])
+a pair of [condition] [descriptor-clothes] [material] [gloves|leggings] ([unusual property])
+[an] [condition] [descriptor-metal] [metal] belt ([unusual property])
+[an] [condition] [descriptor-leather] [leather] belt ([unusual property])
+a pair of [condition] [descriptor-metal] [metal] gauntlets ([unusual property])
+[an] [dragon color] dragonboned [bodice|corset] ([unusual property])
+[descriptor-clothes] [material] undergarments ([unusual property])
+
+$metal
+iron {50%}
+steel {100%}
+mithral {5%}
+adamantine {15%}
+baatorian steel {5%}
+bronze {5%}
+Urdrukar {5%}
+
+$wood
+ash {40%}
+yew {40%}
+oak {40%}
+darkwood {40%}
+zirkwood {100%}
+bronzewood {10%}
+duskwood {10%}
+lenaer wood {5%}
+
+$metal weapon
+iron {50%}
+steel {100%}
+silvered {10%}
+mithral {5%}
+adamantine {5%}
+baatorian green steel {5%}
+bronze {5%}
+obsidian {5%}
+nephelium (transparent|emerald|ruby|amythest) {5%}
+fyrite {5%}
+blueice {5%}
+glassteel {5%}
+
+
+$leather
+leather {50%}
+cordovan leather {20%}
+rothé leather {100%}
+alligator leather {5%}
+crocodile leather {5%}
+ostrich leather {5%}
+beholder leather {5%}
+aboleth leather {5%}
+giant bat leather {40%}
+darkmantle leather {30%}
+[dragon color] dragon leather {5%}
+stingray leather {5%}
+
+$descriptor-clothes
+gem-studded (worth an additional [10-750] gp) {10%}
+[motif]-motifed {50%}
+[gold|silver|mithral|platinum|electrum] brocade (worth an additional [10-75] gp) {20%}
+embroidered (worth an additional [1-15] gp) {50%}
+laced (worth an additional [1-15] gp) {50%}
+plain {100%}
+
+$motif
+spider
+demon {50%}
+serpent {20%}
+scorpion {20%}
+slime {10%}
+
+$descriptor-leather
+gem-studded (worth an additional [10-750] gp) {10%}
+[motif]-motifed
+[precious metal,#value] filigree (worth an additional [10-75]*[#value,as mult] gp) {25%}
+embossed {20%}
+etched {20%}
+polished {20%}
+stained {20%}
+smooth {20%}
+suede {20%}
+burnished {20%}
+oiled {20%}
+waxed {20%}
+lacquered {20%}
+
+
+$precious metal
+pewter {mult:0.1}{50%}
+silver {mult:0.1}{100%}
+electrum {mult:0.5}{100%}
+gold {mult:1}{80%}
+platinum {mult:10}{40%}
+mithral {mult:15}{10%}
+
+$descriptor-metal
+gem-studded (worth an additional [10-750] gp) {10%}
+[spider|demon|serpent|scorpion|slime]-motifed
+[precious metal,#value] filigree (worth an additional [10-75]*[#value,as mult] gp) {25%}
+engraved
+embossed
+
+$descriptor-wood
+finely carved [sylvan|spider|demon|serpent|gothic]-motif
+
+
+$condition
+worn {25%}
+used
+unused
+new
+pristine {25%}
+immaculate {25%}
+fragile {25%}
+
+$unusual property
+[minor magical ability]
+drowcraft
+famous artisan's mark - ×[2-10] value
+drowcraft and [minor magical ability]
+[minor magical ability] and [minor magical ability]
+
+$minor magical ability
+if not wearing any armor, grants a +1 bonus to AC
+once per day, provides advantage on a saving throw against [psionics|spells|charm|poison|death]
+the item resizes to fit the wearer perfectly
+the item is glamoured to change color
+the item is glamoured to give off illusiory [flames|light|smoke]
+the item magically accentuates the wearer's best features
+the item releases a trail of [smoke|mist|perfume] which follows the wearer
+the item is always comfortable in any temperature
+magic allows the wearer can relieve themselves whilst wearing the item without consequence or discomfort
+[expanded magical abilities]
+[expanded magical abilities]
+[expanded magical abilities]
+[expanded magical abilities]
+[expanded magical abilities]
+[expanded magical abilities]
+[expanded magical abilities]
+
+$expanded magical abilities
+this item emits a harmless shock every 6 seconds, which wakes you up if you were involuntarily put to sleep
+whenever a creature within 30 feet of you dies, this item briefly turns black and emits the sound of tolling bells
+you can touch this item to a pile of gold, silver or copper coins within a 5 foot cube to convert them to their equivalent value in gold, silver or copper coins
+when you speak you produce 2 voices, and your movements produce a brief after image
+as an action you can ask the item for a weather forecast. It then produces an illusory image representing the predicted weather in your area over the next 8 hours
+whenever you fall asleep or spend at least half an hour meditating with this item, you levitate 3 feet off the ground. This effect ends immediately if you wake up or end your meditation
+when you succeed on a death saving throw, a creature of your choice within 30 feet of you that can see you gains 1d4 temporary hit points
+whenever you deal damage to a humanoid, beast, monstrosity, giant or dragon they spill copious amounts of blood no matter the severity of the wound. This additional blood spillage does not harm or otherwise effect them
+this item is covered in and produces magical flakes. You can use these flakes to flavour food, drink or objects to be sweet, salty, or spicy (your choice)
+whenever this item strikes an object or creature, or is squeezed, it produces a squeaking noise that can be heard up to 10 feet away
+peering into this object causes you to see a twisted reflection of yourself. Its expression is the exact opposite of your own when you look into it
+multiple seams run across the item's surface. It can be folded up to be a quarter of its size for compact storage
+this item has a magical compartment containing a 10 foot pole, 50 feet of rope and a single gold piece. This compartment cannot store anything else
+creatures capable of casting 3rd level spells or above are made instantly aware of the item's presence, but not exact location, if it's within 100 feet of them
+this item emits a perpetual soft breeze
+this item is covered in a pattern of stars. This pattern is the same as the formation of stars in the night sky over your current location
+this item has a solid colour surface with images of clouds moving across it. The colour of its surface is the same as the colour of the sky over your current location
+this item appears to be made almost entirely out of liquid. You have advantage on Dexterity (stealth) checks if you are wearing the item and you are completely submerged
+if you place this item in a non-magical liquid it can absorb a volume of the liquid equal to the volume of a 5 foot cube over the course of 1 minute. You can release the stored liquid as an action and can only store 1 liquid at a time
+pressing this item upon a solid surface or object not being worn or carried causes them to stick together
+once per short rest, you can use an action to brandish this item and cause all unrestrained objects with 20 feet of you to be pulled 10 feet closer
+wearing, wielding or using this item causes you to instantly grow thick facial hair, even if your race is normally incapable of doing so
+once per long rest, you can use a bonus action to choose an unoccupied space within 10 feet of you. Until the end of your turn you can attack, cast spells or interact with objects as if you were standing in that space
+this item changes slightly to match the seasons, for example emitting a warm glow in summer or becoming pale and cold in winter
+if this item is destroyed by taking damage, it reforms in the same space in 1d4 hours
+you can use an action to gain the ability to see 5 times as far until the end of your turn
+every so often tumbleweed blows past the bearer of this item then disappears
+beasts find this item extremely pleasurable to chew on
+this item is covered in several writhing tentacles and emits ominous phrases in Deep Speech when used
+this object changes colour depending on its bearer's mood
+this object pulsates at regular intervals like a beating heart. The rate of beating increases when its bearer successfully charms a creature or if they become charmed or frightened
+this item's bearer receives regular thoughts of slaying dragons and protecting innocents
+you can use a bonus action to manifest a sheet of paper that declares the item's bearer as its official owner
+whenever the item's bearer speaks a curse word or insulting phrase, their words are replaced with soft music
+you can use an action and touch a creature with this item to restore 5 hit points, cure a disease or remove the poisoned condition. You can do each of these only once, then this item loses this property
+this item is inexplicably heavy. It weighs twice as much and causes the area in a 30 foot radius to shake harmlessly when dropped onto the ground
+while this item is on your person you can sustain yourself by spending 1 hour in natural sunlight rather than eating or drinking
+this item has a small keypad and illusory screen that can be used to carry out calculations
+an oath is inscribed on this item. The item glows warmly when its bearer abides by it
+the item's bearer can choose for this item to orbit around them, in their space. Any other creature that attempts to remove it must succeed on a DC 14 Strength check to do so
+this item bears the crest of the nearest noble or royal family. If none, or multiple, are present it picks one at random
+whenever this item or its bearer takes damage it violently shifts in shape and size for several seconds before returning to normal
+this item glows in the presence of portals to or artifacts from other planes
+whenever this item's bearer dreams or experiences a vision, the item appears in the dream or vision with them
+each dawn this item generates a blatantly false statement somewhere on its surface
+you can speak a word engraved on the item's surface as an action, causing all fiends, undead, celestials, fey, aberrations and elementals within 300 feet to be made instantly aware of your exact location. The word then disappears
+this item's bearer gains the knowledge of how to cook 3 meals of the DM's choice
+this item can be used as a quill. Words written with it are written with perfect handwriting
+wearing or wielding this item causes you to see colours as more dull and less saturated
+when not being worn or carried this item floats 1 foot off the ground
+this item looks impossibly well made. You have advantage on all ability checks made to convince people of its worth, quality or power
+when left unattended or out of sight for at least an hour this item always ends up about 10 feet from where it was last seen
+this item's bearer can communicate simple ideas and emotions to birds
+when you are subjected to a spell that allows you to make a saving throw to take only half damage, you can use your reaction to take half damage if you fail. This property is then lost
+neither this item nor its bearer gets wet when it rains or snows
+this item is made from heavy metals. Its bearer has advantage on saving throws made against being pushed, pulled or knocked prone
+abilities and spells that detect creature type, alignment or magic detect this item as a Chaotic Evil Fiendish creature emanating Necromantic magic
+abilities and spells that detect creature type, alignment or magic detect this item as a Lawful Good Celestial creature emanating Abjuration magic
+this item is made from wood and covered in vines. Its bearer can understand Druidic
+this item appears as if it were made from writhing purple energy. Each minute it does 5 force damage to non-magical objects it's touching that aren't being worn or carried
+this item is covered in many constantly shifting, unblinking eyes. While holding or wearing it you gain a +1 bonus to perception checks and initiative rolls
+roll for two more properties, rerolling if you get this one again. This item switches between those two properties each day
+once per day, when a creature you can see deals radiant or fire damage to you, you can force them to make a DC 14 Constitution saving throw or be blinded until the start of your next turn
+the item appears to be light and diaphanous, as if made from pure mist. It weighs half as much as it normally would
+whenever you score a critical hit the item emits a ringing noise audible within 300 feet of you
+at dawn the item looks to be brand new and in pristine condition. At dusk it looks weathered, old and broken
+while the item is on your person you no longer need to eat, but you feel constantly hungry
+the item is adorned with moving gears and quietly beeps and whirs at random intervals
+part of the item is transparent and filled with water. A tiny immortal fish is present in the water, and counts as part of the item for the purposes of targeting
+the item is hot to the touch and gives off steam when in use
+as a bonus action you can focus on the item and gain a +2 bonus to your next attack roll or ability check. You cannot use this ability again until the next dawn
+when you drop to 0 hp but aren't killed outright, you can choose to regain 10 hit points and deal 10 fire damage to all creatures in a 10 foot radius of yourself. The item then permanently loses this property
+each time you kill a creature a new mark is added to a tally on this item's surface
+you can spend 1 minute eating this item. It provides enough nourishment to sustain you for 1 week
+you always know the exact time and date of your current location
+you gain fur, sharpened teeth and elongated ears while this item is worn or wielded
+you can subtract 10 feet from your total distance fallen when calculating fall damage
+you gain a +1 bonus to all ability checks made to avoid getting lost
+this item is pitch black. As an action you can surround yourself with 10 feet of non magical darkness until the start of your next turn. You cannot do so again until the next dusk
+you always know your exact distance from the place you first found this item
+touching this item to a non-magical flower causes the flower to blossom
+if you have darkvision, you can discern colour in darkness
+while this item is being worn or wielded your voice becomes deeper and your eyes glow red. Once per short rest you can give yourself advantage on a Charisma (intimidation) check
+the item constantly whispers indecipherable messages to you and is covered in untranslatable runes
+the item constantly whispers words of encouragement to you. Once per short rest you can give yourself advantage on a saving throw made against being frightened or possessed
+this object's presence is repulsive to aberrations, celestials, elementals, fey and fiends. It offends all of their senses
+while the object is on your person, you can speak and understand Infernal and Abyssal and abilities and spells that detect or sense creature type detect you as a fiend
+while the object is on your person, you can speak and understand Celestial and abilities and spells that detect or sense creature type detect you as a celestial
+while the object is on your person, you can speak and understand Sylvan and abilities and spells that detect or sense creature type detect you as a fey
+to creatures other than yourself, those with true sight or those with a Wisdom score of 14 or greater, this item is invisible
+once per turn you can deal an additional 2d6 psychic against a creature charmed by yourself or an ally when you damage them
+each dawn roll a d20. On a 20 your life span increases by 1 year
+if you die this item is completely destroyed
+any injuries you sustain are invisible unless you willingly reveal them (no action required) and you barely bleed, even when severely injured
+an illusory tiny animal of the DM's choice follows you, remaining in your space. You can dismiss it or resummon it as bonus action
+as an action you can touch this item to a flammable object not being worn or carried to set the object alight
+whenever you finish a long rest you gain 1 temporary hit point and your movement speed increases by 5 feet for 1 hour
+dealing damage while in possession of the item causes harmless pain to course through your body
+this item functions as an endless bar of soap
+as a bonus action you can transform this item into a dagger or a shortsword. The item then loses all properties but this one until you use a bonus action to change it back
+
+
+$material
+spider silk {50%}
+worm silk {10%}
+velvet {30%}
+[mithril|adamantine] fine link {5%}
+[troglodyte|illithid|rothé|beholder|aboleth|bat|darkmantle]-leather {50%}
+[bat|troll|cloaker|dragon|troglodyte|lizard]skin
+linen
+taffety
+
+
+$color
+red
+vermilion
+purple
+lavender
+dark green
+crimson
+sickly green
+white
+black
+midnight
+
+$treasure eleven
+[an] hoard of [coin age] coins, consisting of [coin hoard], and:<br>[other treasure 1,x2-3]<br>[[other treasure 2,x1-4]|[other treasure 2,x1-3]|[other treasure 2,x1-6]|[other treasure 3]|...nothing else.<br>]
+
+$other treasure 1
+[art,x1-4]
+[gems 11-16,x1-4]
+
+$other treasure 2
+- (drow) [drow weapon]<br>
+- (drow) [drow armor]<br>
+- (drow) [treasure type]
+- [a] spell scroll of <i>[scroll]</i><br>
+- <i>[magic item table a]</i><br>
+- <i>[magic item table b]</i><br>
+- <i>[magic item table c]</i><br>
+- <i>[magic item table d]</i><br>
+- <i>[magic item table f]</i><br>
+- <i>[magic item table g]</i><br>
+- <i>[magic item table h]</i><br>
+
+$other treasure 3
+- <i>[magic item table i]</i><br>
+- <i>[magic item table e]</i><br>
+
+$scroll
+[[bard cantrip]|[cleric cantrip]|[druid cantrip]|[wizard cantrip]]
+[[bard 1st]|[cleric 1st]|[druid 1st]|[wizard 1st]]
+[[bard 2nd]|[cleric 2nd]|[druid 2nd]|[wizard 2nd]] 
+[[bard 3rd]|[cleric 3rd]|[druid 3rd]|[wizard 3rd]]
+[[bard 4th]|[cleric 4th]|[druid 4th]|[wizard 4th]] 
+[[bard 5th]|[cleric 5th]|[druid 5th]|[wizard 5th]] 
+[[bard 6th]|[cleric 6th]|[druid 6th]|[wizard 6th]] 
+[[bard 7th]|[cleric 7th]|[druid 7th]|[wizard 7th]] 
+[[bard 8th]|[cleric 8th]|[druid 8th]|[wizard 8th]] 
+[[bard 9th]|[cleric 9th]|[druid 9th]|[wizard 9th]] 
+
+$coin hoard
+[400-24000] gp and [50-3000] pp
+[4-400] gp
+[50-3000] pp
+[21-40] trade bars (worth 50 gp each)
+
+$coin age
+ancient
+newly minted
+mixed
+far eastern
+unfamiliar
+faded
+worn
+
+$treasure type
+- [art]<br>
+- [gems]<br>
+- [an] [drow armor]<br>
+- [an] [drow weapon]<br>
+- [an] [drow wondrous]<br>
+
+$garments
+- [garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
+
+$female garments
+- [female garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
+
+$>Treasure 11 to 16
+You found [treasure eleven]<br><br>
+You found a hoard of [coins 11 to 16]<br><br>
+
+$>Drow Items
+The following are random drow treasures to place amongst drow foes:<p><b>Drow Armor:</b> You found [drow armor]<p><b>Drow Weapon:</b> You found [drow weapon]<p><b>Drow Wondrous:</b> You found [drow wondrous]<p><b>Drow Clothing:</b><p>[garments,x3-6] <p><p>
+
+$>Drow Priestess Treasure
+The drow priestess is armed with [an] [drow priestess weapon] and wears [drow armor priestess]. In addition, she wears one or more of these garments (the others are in storage):<br>[garments,x3-6]<br>She also possesses [an] [drow wondrous priest] and may also possess [an] [drow wondrous priest].<br><br>
+
+$>Other List
+[wizard 9th]
