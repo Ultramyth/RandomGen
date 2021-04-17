@@ -1,4 +1,4 @@
-$include jA28VKiw
+$include https://pastebin.com/raw/jA28VKiw
 $author : Ben
 $description : Generates Drow Magic Items and Art Objects!
 $amount : 10
