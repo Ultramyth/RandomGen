@@ -24,6 +24,65 @@ Caiphon's whisper {5%}
 hand spinneret {20%}
 adamantine [metal weapon] {10%}
 
+$+magic item table b
+drow slave collar {raity:common}
+
+$+magic item table f
+drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] +1
+drow house insignia ([house insignia])
+piwafwi
+spell gem (lapis lazuli)
+spell gem (obsidian)
+
+$+magic item table g
+drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] +2
+bracer of flying daggers {raity:rare}
+fang scarab {rarity:rare}
+feather of diatryma summoning
+figurine of wondrous power (jasper spider)
+figurine of wondrous power (sardonyx stone flyer)
+floatchest
+hamatula
+hand of Kiaransalee's glory
+gloom mask
+knave's eye patch
+lurker cloak
+mother's corset
+Phandoorl's bracers
+piwafwi (greater)
+robe of gentle repose
+spidersilk cloak
+spider mask
+web choker
+spell gem (bloodstone)
+
+$+magic item table h
+drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] +3
+armor of the viper {raity:very rare}
+bracers of blinding strike {raity:very rare}
+bracers of murder {raity:very rare}
+Chaiphon's Whisper {raity:very rare}
+death spear {raity:very rare}
+driftdisc {raity:very rare}
+drow mission blade {raity:very rare}
+everchanging blade {raity:very rare}
+hand spinneret
+queen's scourge
+scourge of fangs
+Spider's Bane
+the Victor
+tome of books
+spell gem (jade)
+spell gem (amber)
+
+$+magic item table i
+Claw of the Revenancer {raity:legendary}
+Death Armor {raity:legendary}
+eyes of the spider {raity:legendary}
+gorgon plate
+dawnbringer
+spell gem (Diamond)
+
 $drow priestess weapon
 drow mission blade {15%}
 everchanging blade {15%}
@@ -2034,7 +2093,7 @@ $female garments
 - [female garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
 
 $>Treasure 11-16
-You found [treasure eleven]
+You found a hoard of [coins 11-16] and:<br>[treasure 11-16]
 
 
 $>Drow Items
