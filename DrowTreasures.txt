@@ -1962,13 +1962,13 @@ black
 midnight
 
 $treasure eleven
-[an] hoard of [coin age] coins, consisting of [coin hoard], and:<br>[other treasure 1 11,x2-3]<br>[[other treasure 2 11,x1-4]|[other treasure 2 11,x1-3]|[other treasure 2,x1-6]|[other treasure 3 11]|...nothing else.<br>]
+[an] hoard of [coin age] coins, consisting of [coin hoard], and:<br>[other treasure 1,x2-3]<br>[[other treasure 2,x1-4]|[other treasure 2,x1-3]|[other treasure 2,x1-6]|[other treasure 3]|...nothing else.<br>]
 
-$other treasure 1 11
+$other treasure 1
 [art,x1-4]
 [gems 11-16,x1-4]
 
-$other treasure 2 11
+$other treasure 2
 - (drow) [drow weapon]<br>
 - (drow) [drow armor]<br>
 - (drow) [treasure type]
@@ -1981,7 +1981,7 @@ $other treasure 2 11
 - <i>[magic item table g]</i><br>
 - <i>[magic item table h]</i><br>
 
-$other treasure 3 11
+$other treasure 3
 - <i>[magic item table i]</i><br>
 - <i>[magic item table e]</i><br>
 
