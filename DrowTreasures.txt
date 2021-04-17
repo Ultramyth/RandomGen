@@ -1628,9 +1628,10 @@ bronze
 
 $female garment
 [an] [color] [material] [dress|gown|cloak|hooded cloak|skirt]
-a pair of [condition] [descriptor-leather] [boots|slippers|knee-high boots]
-[an] [condition] [descriptor-clothes] [material] [cloak|belt|bodice|mantle]
+a pair of [condition] [descriptor-leather] [leather] [boots|slippers|knee-high boots]
+[an] [condition] [descriptor-clothes] [material] [cloak|bodice|mantle]
 [an] [condition] [descriptor-metal] [metal] belt {20%}
+[an] [condition] [descriptor-leather] [leather] belt {20%}
 a drowcraft scaled [leather] [curiass|girdle|corset|bodice]
 a pair of [condition] [descriptor-metal] [metal] gauntlets {20%}
 a pair of [condition] [descriptor-clothes] [leather] gloves
@@ -1639,30 +1640,33 @@ a pair of [condition] [descriptor-clothes] [material] [gloves|leggings]
 [descriptor-clothes] [material] undergarments
 [an] [color] [material]  [dress|gown|cloak|hooded cloak|skirt] ([unusual property])
 a pair of [condition] [descriptor-leather] [material] [boots|slippers|knee-high boots] ([unusual property])
-[an] [condition] [descriptor-clothes] [material] [cloak|belt|bodice|mantle] ([unusual property])
+[an] [condition] [descriptor-clothes] [material] [cloak|bodice|mantle] ([unusual property])
 a pair of [condition] [descriptor-clothes] [material] [gloves|leggings] ([unusual property])
 [an] [condition] [descriptor-metal] [metal] belt ([unusual property]) {20%}
+[an] [condition] [descriptor-leather] [leather] belt ([unusual property]) {20%}
 a pair of [condition] [descriptor-metal] [metal] gauntlets ([unusual property]) {20%}
 [an] [dragon color] dragonboned [bodice|corset] ([unusual property])
 [descriptor-clothes] [material] undergarments ([unusual property])
 
 $garment
 [an] [color] [material] [dress|gown|vestment|shift|uniform|shoal|scarf|cloak|hooded cloak|skirt|kilt]
-a pair of [condition] [descriptor-leather] [boots|slippers|knee-high boots|bracers|grieves]
-[an] [condition] [descriptor-clothes] [material] [cloak|belt|bodice|mantle]
+a pair of [condition] [descriptor-leather] [leather] [boots|slippers|knee-high boots|bracers|grieves]
+[an] [condition] [descriptor-clothes] [material] [cloak|bodice|mantle]
 [an] [condition] [descriptor-metal] [metal] belt
+[an] [condition] [descriptor-leather] [leather] belt
 a drowcraft scaled [leather] [harness|vest|pauldron|curiass|girdle|corset|bodice]
 a pair of [condition] [descriptor-metal] [metal] gauntlets
 a pair of [condition] [descriptor-clothes] [material] [gloves|leggings]
-[an] [color] dragonboned [bodice|corset]
+[an] [dragon color] dragonboned [bodice|corset]
 [descriptor-clothes] [material] undergarments
 [an] [color] [material] [dress|gown|vestment|shift|uniform|shoal|scarf|cloak|hooded cloak|skirt|kilt] ([unusual property])
-a pair of [condition] [descriptor-leather] [material] [boots|slippers|knee-high boots] ([unusual property])
+a pair of [condition] [descriptor-leather] [leather] [boots|slippers|knee-high boots] ([unusual property])
 [an] [condition] [descriptor-clothes] [material] [cloak|belt|bodice|mantle] ([unusual property])
 a pair of [condition] [descriptor-clothes] [material] [gloves|leggings] ([unusual property])
 [an] [condition] [descriptor-metal] [metal] belt ([unusual property])
+[an] [condition] [descriptor-leather] [leather] belt ([unusual property])
 a pair of [condition] [descriptor-metal] [metal] gauntlets ([unusual property])
-[an] [color] dragonboned [bodice|corset] ([unusual property])
+[an] [dragon color] dragonboned [bodice|corset] ([unusual property])
 [descriptor-clothes] [material] undergarments ([unusual property])
 
 $metal
@@ -1987,6 +1991,6 @@ $>Drow Items
 The following are random drow treasures to place amongst drow foes:<p><b>Drow Armor:</b> You found [drow armor]<p><b>Drow Weapon:</b> You found [drow weapon]<p><b>Drow Wondrous:</b> You found [drow wondrous]<p><b>Drow Clothing:</b><p>[garments,x3-6] <p><p>
 
 $>Drow Priestess Treasure
-The drow priestess is armed with [drow priestess weapon] and wears [drow armor priestess]. In addition, she wears one or more of these garments (the others are in storage):<br>[garments,x1-3]<br>She also possesses [an] [drow wondrous priest,x1-2].<br><br>
+The drow priestess is armed with [drow priestess weapon] and wears [drow armor priestess]. In addition, she wears one or more of these garments (the others are in storage):<br>[garments,x1-3]<br>She also possesses [an] [drow wondrous priest] and may also possess a [drow wondrous priest].<br><br>
 
 
