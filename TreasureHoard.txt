@@ -6,19 +6,19 @@ $button : Generate!
 
 $all roots
 
-$coins 0 to 4
+$>coins 0 to 4
 [6-36][0-9][0-9] cp, [3-18][0-9][0-9] sp and [2-12][0-9] gp in coins
 
-$coins 5 to 11
+$>coins 5 to 11
 [6-36][0-99] cp, [2-12][0-9][0-9][0-9] sp, [6-36][0-9][0-9] gp, and [3-18][0-9] pp in coins
 
-$coins 11 to 16
+$>coins 11 to 16
 [4-24][0-9][0-9][0-9] gp and [5-30][0-9][0-9] pp in coins
 
-$coins 17 to 20
+$>coins 17 to 20
 [12-72][0-9][0-9][0-9] gp and [8-48][0-9][0-9][0-9] pp in coins
 
-$treasure 0 to 4
+$>treasure 0 to 4
 nothing else {60%}
 [gem 10,x2-12] {100%}
 [art 25,x2-8] {100%}
