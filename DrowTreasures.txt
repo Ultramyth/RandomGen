@@ -1,4 +1,4 @@
-$include https://github.com/Ultramyth/RandomGen/raw/main/TreasureHoard.txt
+
 $name : Art Object Generator
 $author : Ben
 $description : Generates Drow Magic Items and Art Objects!
