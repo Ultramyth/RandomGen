@@ -1,0 +1,795 @@
+$name : Contents
+$author : Ben
+$description : Treasure Hoard
+$amount : 3
+$button : Generate!
+
+$coins 0-4
+[6-36][0-9][0-9] cp, [3-18][0-9][0-9] sp and [2-12][0-9] gp in coins
+
+$coins 5-11
+[6-36][0-99] cp, [2-12][0-9][0-9][0-9] sp, [6-36][0-9][0-9] gp, and [3-18][0-9] pp in coins
+
+$coins 11-16
+[4-24][0-9][0-9][0-9] gp and [5-30][0-9][0-9] pp in coins
+
+$coins 17-20
+[12-72][0-9][0-9][0-9] gp and [8-48][0-9][0-9][0-9] pp in coins
+
+$treasure 0-4
+nothing else {60%}
+[gem 10,x2-12] {100%}
+[art 25,x2-8] {100%}
+[gem 50,x2-12] {100%}
+[gem 10,x2-12] [magicitemtablea,x1-6] {80%}
+[art 25,x2-8] [magicitemtablea,x1-6] {80%}
+[gem 50,x2-12] [magicitemtablea,x1-6] {80%}
+[gem 10,x2-12] [magicitemtableb,x1-4] {50%}
+[art 25,x2-8] [magicitemtableb,x1-4] {50%}
+[gem 50,x2-12] [magicitemtableb,x1-4] {50%}
+[gem 10,x2-12] [magicitemtablec,x1-4] {30%}
+[art 25,x2-8] [magicitemtablec,x1-4] {20%}
+[gem 50,x2-12] [magicitemtablec,x1-4] {50%}
+[art 25,x2-8] [magicitemtablef,x1-4] {70%}
+[gem 50,x2-12] [magicitemtablef,x1-4] {50%}
+[art 25,x2-8] [magicitemtableg] {20%}
+[gem 50,x2-12] [magicitemtableg] {10%}
+
+$treasure 5-10
+nothing more {67%}
+[art 25,x2-8] {100%}
+[gem 50,x6-18] {100%}
+[gem 100,x6-18] {100%}
+[art 250,x2-8] {100%}
+[art 25,x2-8] [magicitemtablea,x1-6] {67%}
+[gem 50,x6-18] [magicitemtablea,x1-6] {67%}
+[gem 100,x6-18] [magicitemtablea,x1-6] {67%}
+[art 250,x2-8] [magicitemtablea,x1-6] {67%}
+[art 25,x2-8] [magicitemtableb,x1-4] {83%}
+[gem 50,x6-18] [magicitemtableb,x1-4] {83%}
+[gem 100,x6-18] [magicitemtableb,x1-4] {83%}
+[art 250,x2-8] [magicitemtableb,x1-4] {67%}
+[art 25,x2-8] [magicitemtablec,x1-4] {50%}
+[gem 50,x6-18] [magicitemtablec,x1-4] {50%}
+[gem 100,x6-18] [magicitemtablec,x1-4] {50%}
+[art 250,x2-8] [magicitemtablec,x1-4] {33%}
+[art 25,x2-8] [magicitemtabled] {33%}
+[gem 50,x6-18] [magicitemtabled] {33%}
+[gem 100,x6-18] [magicitemtabled] {17%}
+[art 250,x2-8] [magicitemtabled] {17%}
+[art 25,x2-8] [magicitemtablef,x1-4] {67%}
+[gem 50,x6-18] [magicitemtablef,x1-4] {67%}
+[gem 100,x6-18] [magicitemtablef,x1-4] {50%}
+[art 250,x2-8] [magicitemtablef,x1-4] {50%}
+[gem 100,x6-18] [magicitemtableg,x1-4] {33%}
+[art 250,x2-8] [magicitemtableg,x1-4] {33%}
+[gem 100,x6-18] [magicitemtableh] {17%}
+[art 250,x2-8] [magicitemtableh] {17%}
+
+
+$treasure 11-16
+nothing more {50%}
+[art 250,x2-8] {50%}
+[art 750,x2-8] {50%}
+[gem 500,x6-18] {50%}
+[gem 1000,x6-18] {50%}
+[art 250,x2-8] [magicitemtableaand1d6timesonmagicitemtableb,x1-4] {67%}
+[art 750,x2-8] [magicitemtableaand1d6timesonmagicitemtableb,x1-4] {67%}
+[gem 500,x6-18] [magicitemtableaand1d6timesonmagicitemtableb,x1-4] {50%}
+[gem 1000,x6-18] [magicitemtableaand1d6timesonmagicitemtableb,x1-4] {50%}
+[art 250,x2-8] [magicitemtablec,x1-6] {100%}
+[art 750,x2-8] [magicitemtablec,x1-6] {83%}
+[gem 500,x6-18] [magicitemtablec,x1-6] {83%}
+[gem 1000,x6-18] [magicitemtablec,x1-6] {83%}
+[art 250,x2-8] [magicitemtabled,x1-4] {67%}
+[art 750,x2-8] [magicitemtabled,x1-4] {67%}
+[gem 500,x6-18] [magicitemtabled,x1-4] {67%}
+[gem 1000,x6-18] [magicitemtabled,x1-4] {67%}
+[art 250,x2-8] [magicitemtablee] {33%}
+[art 750,x2-8] [magicitemtablee] {33%}
+[gem 500,x6-18] [magicitemtablee] {33%}
+[gem 1000,x6-18] [magicitemtablee] {33%}
+[art 250,x2-8] [magicitemtablefand1d4timesonmagicitemtableg] {33%}
+[art 750,x2-8] [magicitemtablefand1d4timesonmagicitemtableg] {33%}
+[gem 500,x6-18] [magicitemtablefand1d4timesonmagicitemtableg] {33%}
+[gem 1000,x6-18] [magicitemtablefand1d4timesonmagicitemtableg] {33%}
+[art 250,x2-8] [magicitemtableh,x1-4] {50%}
+[art 750,x2-8] [magicitemtableh,x1-4] {50%}
+[gem 500,x6-18] [magicitemtableh,x1-4] {33%}
+[gem 1000,x6-18] [magicitemtableh,x1-4] {33%}
+[art 250,x2-8] [magicitemtablei] {33%}
+[art 750,x2-8] [magicitemtablei] {33%}
+[gem 500,x6-18] [magicitemtablei] {33%}
+[gem 1000,x6-18] [magicitemtablei] {33%}
+
+
+$treasure 17-20
+nothing more {25%}
+[gem 1000,x6-18] [magicitemtablec,x1-8] {38%}
+[art 2500,x1-10] [magicitemtablec,x1-8] {38%}
+[art 7500,x1-4] [magicitemtablec,x1-8] {38%}
+[gem 5000,x1-8] [magicitemtablec,x1-8] {38%}
+[gem 1000,x6-18] [magicitemtabled,x1-6] {100%}
+[art 2500,x1-10] [magicitemtabled,x1-6] {100%}
+[art 7500,x1-4] [magicitemtabled,x1-6] {100%}
+[gem 5000,x1-8] [magicitemtabled,x1-6] {100%}
+[gem 1000,x6-18] [magicitemtablee,x1-6] {75%}
+[art 2500,x1-10] [magicitemtablee,x1-6] {75%}
+[art 7500,x1-4] [magicitemtablee,x1-6] {63%}
+[gem 5000,x1-8] [magicitemtablee,x1-6] {63%}
+[gem 1000,x6-18] [magicitemtableg,x1-4] {13%}
+[art 2500,x1-10] [magicitemtableg,x1-4] {13%}
+[art 7500,x1-4] [magicitemtableg,x1-4] {13%}
+[gem 5000,x1-8] [magicitemtableg,x1-4] {13%}
+[gem 1000,x6-18] [magicitemtableh,x1-4] {25%}
+[art 2500,x1-10] [magicitemtableh,x1-4] {25%}
+[art 7500,x1-4] [magicitemtableh,x1-4] {25%}
+[gem 5000,x1-8] [magicitemtableh,x1-4] {25%}
+[gem 1000,x6-18] [magicitemtablei,x1-4] {63%}
+[art 2500,x1-10] [magicitemtablei,x1-4] {63%}
+[art 7500,x1-4] [magicitemtablei,x1-4] {63%}
+[gem 5000,x1-8] [magicitemtablei,x1-4] {63%}
+
+
+$gem 10
+- [an] [10 gem] (worth [5-15] gp)<br>
+
+$gem 50
+- [an] [50 gem] (worth [25-75] gp)<br>
+
+$gem 100
+- [an] [100 gem] (worth [51-150] gp)<br>
+
+$gem 500
+- [an] [500 gem] (worth [251-750] gp)<br>
+
+$gem 1000
+- [an] [1000 gem] (worth [501-1500] gp)<br>
+
+$gem 5000
+- [an] [5000 gem] (worth [2501-7500] gp)<br>
+
+$gems 0-4
+- [an] [50 gem] (worth [25-75] gp)<br>
+- [an] [10 gem] (worth [5-15] gp)<br>
+
+$gems 5-10
+- [an] [50 gem] (worth [25-75] gp)<br>
+- [an] [100 gem] (worth [51-150] gp)<br>
+
+$gems 11-16
+- [an] [500 gem] (worth [251-750] gp)<br>
+- [an] [1000 gem] (worth [501-1500] gp)<br>
+
+$gems 17-20
+- [an] [1000 gem] (worth [501-1500] gp)<br>
+- [an] [5000 gem] (worth [2501-7500] gp)<br>
+
+$10 gem
+azurite
+banded agate
+blue quartz
+eye agate
+hematite
+lapis lazuli
+malachite
+moss agate
+obsidian
+rhodochrosite
+tiger eye
+turquoise
+beryl
+
+$50 gem
+bloodstone
+carnelian
+chalcedony
+chrysoprase
+citrine
+jasper
+moonstone
+onyx
+quartz
+sardonyx
+star rose quartz
+zircon
+
+$100 gem
+amber
+amethyst
+chrysoberyl
+piece of coral
+garnet
+piece of jade
+jet
+pearl
+spinel
+tourmaline
+
+$500 gem
+alexandrite
+aquamarine
+topaz
+peridot
+blue spinel
+black pearl
+diamond
+
+$1000 gem
+black opal
+blue sapphire
+emerald
+fire opal
+opal
+star ruby
+star sapphire
+yellow sapphire
+
+$5000 gem
+black sapphire
+diamond
+jacinth
+ruby
+
+$art 25
+- [an] [10 art] (worth [5-15] gp)<br>
+
+$art 250
+- [an] [50 art] (worth [25-75] gp)<br>
+
+$art 750
+- [an] [750 art] (worth [501-1500] gp)<br>
+
+$art 2500
+- [an] [2500 art] (worth [2501-7500] gp)<br>
+
+$art 7500
+- [an] [7500 art] (worth [5001-15000] gp)<br>
+
+
+$25 art
+silver ewer {100%}
+carved bone statuette {100%}
+small gold bracelet {100%}
+cloth-of-gold vestments {100%}
+black velvet mask stitched with silver thread {100%}
+copper chalice with silver filigree {100%}
+pair of engraved bone dice {100%}
+small mirror set in a painted wooden frame {100%}
+embroidered silk handkerchief {100%}
+gold locket with a painted portrait inside {100%}
+
+$250 art
+gold ring set with bloodstones {100%}
+carved ivory statuette {100%}
+large gold bracelet {100%}
+silver necklace with a gemstone pendant {100%}
+bronze crown {100%}
+silk robe with gold embroidery {100%}
+large well-made tapestry {100%}
+brass mug with jade inlay {100%}
+box of turquoise animal figurines {100%}
+gold bird cage with electrum filigree {100%}
+
+$750 art
+silver chalice set with moonstones {100%}
+silver-plated steel longsword with jet set in hilt {100%}
+carved harp of exotic wood with ivory inlay and zircon gems {100%}
+small gold idol {100%}
+gold dragon comb set with red garnets as eyes {100%}
+bottle stopper cork embossed with gold leaf and set with amethysts {100%}
+ceremonial electrum dagger with a black pearl in the pommel {100%}
+silver and gold brooch {100%}
+obsidian statuette with gold fittings and inlay {100%}
+painted gold war mask {100%}
+
+$2500 art
+fine gold chain set with a fire opal {100%}
+old masterpiece painting {100%}
+embroidered silk and velvet mantle set with numerous moonstones {100%}
+platinum bracelet set with a sapphire {100%}
+embroidered glove set with jewel chips {100%}
+jeweled anklet {100%}
+gold music box {100%}
+gold circlet set with four aquamarines {100%}
+eye patch with a mock eye set in blue sapphire and moonstone {100%}
+a necklace string of small pink pearls {100%}
+
+$7500 art
+jeweled gold crown {100%}
+jeweled platinum ring {100%}
+small gold statuette set with rubies {100%}
+gold cup set with emeralds {100%}
+gold jewelry box with platinum filigree {100%}
+painted gold child's sarcophagus {100%}
+jade game board with solid gold playing pieces {100%}
+bejeweled ivory drinking horn with gold filigree {100%}
+
+
+$magicitemtablex
+- [magic item table x]<br>
+
+$magic item table x
+[metal armor] of Gleaming
+Bead of Nourishment
+Bead of Refreshment
+Boots of False Tracks
+Candle of the Deep
+Cast-Off [armor]
+Charlatan's Die
+Cloak of Billowing
+Cloak of Many Fashions
+Clockwork Amulet
+Clothes of Mending
+Dark Shard Amulet
+Dread Helm
+Ear Horn of Hearing
+Enduring Spellbook
+Ersatz Eye
+Hat of Vermin
+Hat of Wizardry
+Heward's Handy Spice Pouch
+Horn of Silent Alarm
+Instrument of Illusions
+Instrument of Scribing
+Lock of Trickery
+Moon-Touched Sword
+Mystery Key
+Orb of Direction
+Orb of Time
+Perfume of Bewitching
+Pipe of Smoke Monsters
+Pole of Angling
+Pole of Collapsing
+Pot of Awakening
+Potion of Climbing
+Rope of Mending
+Ruby of the War Mage
+Shield of Expression
+Smoldering [armor]
+Staff of Adornment
+Staff of Birdcalls
+Staff of Flowers
+Talking Doll
+Tankard of Sobriety
+Unbreakable Arrow
+Veteran's Cane
+Walloping Ammunition
+Wand of Conducting
+Wand of Pyrotechnics
+Wand of Scowls
+Wand of Smiles
+
+$magicitemtablea
+- [magic item table a]<br>
+
+$magic item table a
+potion of healing
+potion of healing
+potion of healing
+potion of healing
+potion of healing
+potion of healing
+potion of healing
+spell scroll of [[bard cantrip]|[cleric cantrip]|[druid cantrip]|[wizard cantrip]]
+potion of climbing
+spell scroll of [[bard 1st]|[cleric 1st]|[druid 1st]|[wizard 1st]]
+spell scroll of [[bard 2nd]|[cleric 2nd]|[druid 2nd]|[wizard 2nd]]
+potion of greater healing
+bag of holding
+driftglobe
+silvered [weapon metal]
+[2-10] silvered [bolts|arrows|bullets]
+
+$magicitemtableb
+- [magic item table b]<br>
+
+$magic item table b
+potion of greater healing
+potion of fire breath
+potion of resistance
+[2-12] +1 [bolts|arrows|bullets]
+potion of animal friendship
+potion of hill giant strength
+potion of growth
+potion of water breathing
+spell scroll of [[bard 2nd]|[cleric 2nd]|[druid 2nd]|[wizard 2nd]]
+spell scroll of [[bard 3rd]|[cleric 3rd]|[druid 3rd]|[wizard 3rd]]
+bag of holding
+Keoghtom's ointment ([2-5] uses remaining)
+oil of slipperiness
+dust of disappearance
+dust of dryness
+dust of sneezing and choking
+elemental gem
+philter of love
+alchemy jug
+cap of water breathing
+cloak of the manta ray
+driftglobe
+goggles of night
+helm of comprehending languages
+immovable rod
+lantern of revealing
+mariner's armor
+mithral [metal armor]
+potion of poison
+ring of swimming
+robe of useful items
+rope of climbing
+saddle of the cavalier
+wand of magic detection
+wand of secrets
+
+$magicitemtablec
+- [magic item table c]<br>
+
+$magic item table c
+potion of superior healing
+spell scroll of [[bard 4th]|[cleric 4th]|[druid 4th]|[wizard 4th]]
+[2-12] +2 [bolts|arrows|bullets]
+potion of clairvoyance
+potion of diminution
+potion of gaseous form
+potion of frost giant strength
+potion of stone giant strength
+potion of heroism
+potion of invulnerability
+potion of mind reading
+spell scroll of [[bard 5th]|[cleric 5th]|[druid 5th]|[wizard 5th]]
+elixir of health
+oil of etherealness
+potion of fire giant strength
+Quaal's feather token ([anchor|bird|fan|swan boat|tree|whip])
+scroll of protection ([fire|good|evil])
+bag of beans
+bead of force
+chime of opening
+decanter of endless water
+eyes of minute seeing
+folding boat
+arachnosack
+horseshoes of speed
+necklace of fireballs
+periapt of health
+sending stones
+
+$magicitemtabled
+- [magic item table d]<br>
+
+$magic item table d
+potion of supreme healing
+potion of invisibility
+potion of speed
+spell scroll of [[bard 6th]|[cleric 6th]|[druid 6th]|[wizard 6th]]
+spell scroll of [[bard 7th]|[cleric 7th]|[druid 7th]|[wizard 7th]] 
+[2-12] +3 [bolts|arrows|bullets]
+oil of sharpness
+potion of flying
+potion of cloud giant strength
+potion of longevity
+potion of vitality
+spell scroll of [[bard 8th]|[cleric 8th]|[druid 8th]|[wizard 8th]]
+horseshoes of a zephyr
+Nolzur's marvelous pigments
+bag of devouring
+portable hole
+
+$magicitemtablee
+- [magic item table e]<br>
+
+$magic item table e
+spell scroll of [[bard 8th]|[cleric 8th]|[druid 8th]|[wizard 8th]]
+potion of storm giant strength
+potion of supreme healing
+spell scroll of [[bard 9th]|[cleric 9th]|[druid 9th]|[wizard 9th]] 
+universal solvent
+arrow of slaying ([bane])
+sovereign glue
+
+$magicitemtablef
+- [magic item table f]<br>
+
+$magic item table f
++1 [weapon][special feature]
++1 [weapon][special feature]
++1 [weapon] 
++1 [weapon]
++1 [[wood]|[metal]] shield[special feature]
+sentinel shield
+amulet of proof against detection and location
+boots of elvenkind
+boots of striding and springing
+bracers of archery
+brooch of shielding
+broom of flying
+[cloak of elvenkind|piwafwi]
+cloak of protection
+gauntlets of ogre power
+hat of disguise
+javelin of lightning
+pearl of power
++1 rod of the pact keeper
+slippers of spider climbing
+staff of the adder
+staff of the python
+sword of vengeance
+trident of fish command
+wand of magic missiles
++1 wand of the war mage
+wand of web
+[weapon] of warning
+adamantine armor (chain mail)
+adamantine armor (chain shirt)
+adamantine armor (scale mail)
+bag of tricks (gray)
+bag of tricks (rust)
+bag of tricks (tan)
+boots of the winterlands
+circlet of blasting
+deck of illusions
+eversmoking bottle
+eyes of charming
+eyes of the eagle
+figurine of wondrous power (silver raven)
+gem of brightness
+gloves of missile snaring
+gloves of swimming and climbing
+gloves of thievery
+headband of intellect
+helm of telepathy
+instrument of the bards (doss lute)
+instrument of the bards (fochlucan bandore)
+instrument of the bards (mac-fuimidh cittern)
+medallion of thoughts
+necklace of adaptation
+periapt of wound closure
+pipes of haunting
+pipes of the sewers
+ring of jumping
+ring of mind shielding
+ring of warmth
+ring of water walking
+quiver of Ehlonna
+stone of good luck
+wind fan
+winged boots
+
+$magicitemtableg
+- [magic item table g]<br>
+
+$magic item table g
++2 [weapon][special feature]
++2 [weapon][special feature]
++2 [weapon]
++2 [weapon]
+figurine of wondrous power ([bronze griffon|ebony fly|golden lions|ivory goats|marble elephant|onyx dog|serpentine owl])
+adamantine armor (breastplate)
+adamantine armor (splint)
+amulet of health
+armor of vulnerability
+arrow-catching shield
+belt of dwarvenkind
+belt of hill giant strength
+berserker axe
+boots of levitation
+boots of speed
+bowl of commanding water elementals
+bracers of defense
+brazier of commanding fire elementals
+cape of the mountebank
+censer of controlling air elementals
++1 [metal] chain mail[special feature]
+armor of resistance (chain mail) ([resistance])
+armor of resistance (chain shirt) ([resistance])
++1 [metal] chain shirt[special feature]
+cloak of displacement
+cloak of the bat
+cube of force
+Daern's instant fortress
+dagger of venom
+dimensional shackles
+dragon slayer
+elven chain
+flame tongue
+gem of seeing
+giant slayer
+glamoured studded leather ([leather])
+helm of teleportation
+horn of blasting
+horn of Valhalla (silver or brass)
+instrument of the bards (canaith mandolin)
+instrument of the bards (cii lyre)
+ioun stone (awareness)
+ioun stone (protection)
+ioun stone (reserve)
+ioun stone (sustenance)
+iron bands of Bilarro
++1 leather ([leather])[special feature]
+armor of resistance (leather) ([resistance])
+mace of disruption
+mace of smiting
+mace of terror
+mantle of spell resistance
+necklace of prayer beads
+periapt of proof against poison
+ring of animal influence
+ring of evasion
+ring of feather falling
+ring of free action
+ring of protection
+ring of resistance ([resistance])
+ring of spell storing
+ring of the ram
+ring of x-ray vision
+robe of eyes
+rod of rulership
++2 rod of the pact keeper
+rope of entanglement
++1 [metal] scale mail
+armor of resistance (scale mail) ([resistance])
++2 [[wood]|[metal]] shield[special feature]
+shield of missile attraction
+staff of charming
+staff of healing
+staff of swarming insects
+staff of the woodlands
+staff of withering
+stone of controlling earth elementals
+sun blade
+sword of life stealing
+sword of wounding
+tentacle rod
+vicious weapon
+wand of binding
+wand of enemy detection
+wand of fear
+wand of fireballs
+wand of lightning bolts
+wand of paralysis
++2 wand of the war mage
+wand of wonder
+wings of flying
+
+$magicitemtableh
+- [magic item table h]<br>
+
+$magic item table h
++3 [weapon][special feature]
++3 [weapon][special feature]
++3 [weapon][special feature]
++3 [weapon][special feature]
++3 [weapon]
++3 [weapon]
++3 [weapon]
++3 [weapon]
+amulet of the planes
+carpet of flying
+crystal ball (very rare version)
+ring of regeneration
+ring of shooting stars
+ring of telekinesis
+robe of scintillating colors
+robe of stars
+rod of absorption
+rod of alertness
+rod of security
++3 rod of the pact keeper
+scimitar of speed
++3 [[wood]|[metal]] shield
+staff of fire
+staff of frost
+staff of power
+staff of striking
+staff of thunder and lightning
+sword of sharpnes
+wand of polymorph
++3 wand of the war mage
+adamantine armor (half plate)
+adamantine armor (plate)
+animated shield
+belt of fire giant strength
+belt of frost (or stone) giant strength
++1 [metal] breastplate
+armor of resistance (breastplate) ([resistance])
+candle of invocation
++2 [metal] chain mail
++2 [metal] chain shirt
+cloak of arachnida
+dancing sword
+demon armor
+dragon scale mail
+dwarven plate
+dwarven thrower
+efreeti bottle
+figurine of wondrous power (obsidian steed)
+frost brand
+helm of brilliance
+horn of Valhalla (bronze)
+Instrument of the bards (Anstruthharp)
+Ioun stone (absorption)
+Ioun stone (agility)
+Ioun stone (fortitude)
+Ioun stone (insight)
+Ioun stone (intellect)
+Ioun stone (leadership)
+Ioun stone (strength)
++2 [leather]
+manual of bodily health
+manual of gainful exercise
+manual of golems
+manual of quickness of action
+mirror of life trapping
+nine lives stealer
+oathbow
++2 [metal] scale mail
+spellguard shield
++1 [metal] splint
+armor of resistance (splint) ([resistance])
++1 studded [leather]
+armor of resistance (studded leather) ([resistance])
+tome of clear thought
+tome of leadership and influence
+tome of understanding
+
+$magicitemtablei
+- [magic item table i]<br>
+
+$magic item table i
+Defender
+hammer of thunderbolts
+sword of answering
+holy avenger
+ring of djinni summoning
+ring of invisibility
+ring of spell turning
+rod of lordly might
+vorpal [short sword|longsword|greatsword|scimitar]
+belt of cloud giant strength
++2 [metal] breastplate
++3 [metal] chain mail
++3 [metal] chain shirt
+cloak of invisibility
+crystal ball (legendary version)
++1 [metal] half plate
+iron flask
++3 [leather]
++1 [metal] plate
+robe of the archmagi
+rod of resurrection
++1 [metal] scale mail
+scarab of protection
++2 [metal] splint
++2 studded [leather]
+well of many worlds
++2 [metal] half plate
++2 [metal] plate
++3 studded [leather]
++3 [metal] breastplate
++3 [metal] splint
++3 [metal] half plate
++3 [metal] plate
+apparatus of Kwalish
+armor of invulnerability
+belt of storm giant strength
+cubic gate
+deck of many things
+efreeti chain
+armor of [resistance] resistance (half plate)
+horn of Valhalla (iron)
+instrument of the bards (oiiamh harp)
+Ioun stone (greater absorption)
+Ioun stone (mastery)
+Ioun stone (regeneration)
+plate armor of etherealness
+plate armor of resistance ([resistance])
+ring of air elemental command
+ring of earth elemental command
+ring of fire elemental command
+ring of three wishes
+ring of water elemental command
+sphere of annihilation
+talisman of pure good
+talisman of the sphere
+talisman of ultimate evil
+tome of the stilled tongue
