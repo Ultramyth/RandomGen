@@ -1,3 +1,4 @@
+$include https://github.com/Ultramyth/RandomGen/raw/main/TreasureHoard.txt
 $name : Art Object Generator
 $author : Ben
 $description : Generates Drow Magic Items and Art Objects!
@@ -18,7 +19,7 @@ queen's scourge {5%}
 Spider's Bane {5%}
 The Victor {5%}
 drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] [+1|+2|+3] {100%}
-drowcraft [whip-dagger] [+1|+2|+3] {5%}
+drowcraft whip-dagger [+1|+2|+3] {5%}
 Caiphon's whisper {5%}
 hand spinneret {20%}
 adamantine [metal weapon] {10%}
@@ -28,7 +29,7 @@ drow mission blade {15%}
 everchanging blade {15%}
 queen's scourge {15%}
 drowcraft [whip|mace] [+1|+2|+3] {100%}
-drowcraft [whip-dagger] [+1|+2|+3] {50%}
+drowcraft whip-dagger [+1|+2|+3] {50%}
 hand spinneret {40%}
 adamantine mace {40%}
 tentacle rod {50%}
@@ -151,50 +152,7 @@ $art
 - [garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
 - [ceremonial weapon] (worth [[75-425]|[426-999]] gp)<br>
 
-$gems
-- [an] [[50 gem]|[100 gem]|[250 gem]|[500 gem]]<br>
 
-$50 gem
-azurite (worth [25-75] gp)
-banded agate (worth [25-75] gp)
-blue quartz (worth [25-75] gp)
-hematite (worth [25-75] gp)
-lapis lazuli (worth [25-75] gp)
-malachite (worth [25-75] gp)
-moss agate (worth [25-75] gp)
-obsidian piece (worth [25-75] gp)
-tiger eye (worth [25-75] gp)
-beryl (worth [25-75] gp)
-
-$100 gem
-bloodstone (worth [51-150] gp)
-carnelian (worth [51-150] gp)
-chalcedony (worth [51-150] gp)
-citrine (worth [51-150] gp)
-jasper (worth [51-150] gp)
-moonstone (worth [51-150] gp)
-onyx (worth [51-150] gp)
-zircon (worth [51-150] gp)
-chrysophase (worth [51-150] gp)
-
-$250 gem
-amber (worth [151-350] gp)
-amethyst (worth [151-350] gp)
-piece of coral (worth [151-350] gp)
-garnet (worth [151-350] gp)
-piece of jade (worth [151-350] gp)
-pearl (worth [151-350] gp)
-spinel (worth [151-350] gp)
-tourmaline (worth [151-350] gp)
-
-$500 gem
-alexandrite (worth [451-550] gp)
-aquamarine (worth [451-550] gp)
-topaz (worth [451-550] gp)
-peridot (worth [451-550] gp)
-blue spinel (worth [451-550] gp)
-black pearl (worth [451-550] gp)
-diamond (worth [451-550] gp)
 
 $magic item table x
 [metal armor] of Gleaming
@@ -1920,13 +1878,13 @@ black
 midnight
 
 $treasure eleven
-[an] hoard of [coin age] coins, consisting of [coin hoard], and:<br>[other treasure 1,x2-3]<br>[[other treasure 2,x1-4]|[other treasure 2,x1-3]|[other treasure 2,x1-6]|[other treasure 3]|...nothing else.<br>]
+[an] hoard of [coin age] coins, consisting of [coin hoard], and:<br>[other treasure 1 11,x2-3]<br>[[other treasure 2 11,x1-4]|[other treasure 2 11,x1-3]|[other treasure 2,x1-6]|[other treasure 3 11]|...nothing else.<br>]
 
-$other treasure 1
+$other treasure 1 11
 [art,x1-4]
-[gems,x1-4]
+[gems 11-16,x1-4]
 
-$other treasure 2
+$other treasure 2 11
 - (drow) [drow weapon]<br>
 - (drow) [drow armor]<br>
 - (drow) [treasure type]
@@ -1939,7 +1897,7 @@ $other treasure 2
 - <i>[magic item table g]</i><br>
 - <i>[magic item table h]</i><br>
 
-$other treasure 3
+$other treasure 3 11
 - <i>[magic item table i]</i><br>
 - <i>[magic item table e]</i><br>
 
@@ -1984,7 +1942,7 @@ $female garments
 - [female garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
 
 $>Treasure 11-16
-You found [treasure eleven]
+You found [coins 0-4], and:<br>[treasure 0-4]
 
 
 $>Drow Items
