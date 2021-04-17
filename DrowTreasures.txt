@@ -1,5 +1,4 @@
-$include https://github.com/Ultramyth/RandomGen/raw/main/DrowTreasures.txt
-$name : Art Object Generator
+$include jA28VKiw
 $author : Ben
 $description : Generates Drow Magic Items and Art Objects!
 $amount : 10
