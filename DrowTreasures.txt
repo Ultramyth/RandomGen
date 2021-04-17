@@ -88,12 +88,12 @@ tome of books {raity:very rare}{type:wondrous}{consumable:no}{attune:no}{20%}
 web choker {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
 the Victor  {raity:very rare}{type:wondrous}{consumable:no}{attune:no}{10%}
 
-$drow priestess wondrous
+$drow wondrous priest
 amulet of dark blessing {raity:uncommon}{type:wondrous}{consumable:yes}{attune:no}{50%}
 arachnosack {raity:uncommon}{type:wondrous}{consumable:no}{attune:no}{50%}
 greater arachnosack {raity:rare}{type:wondrous}{consumable:no}{attune:no}{50%}
 drow house insignia ([house insignia])
-piwafwi  {raity:uncommon}{type:wondrous}{consumable:no}{attune:yes}{100%}
+piwafwi {raity:uncommon}{type:wondrous}{consumable:no}{attune:yes}{100%}
 piwafwi (greater) {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{100%}
 Claw of the Revenancer {raity:legendary}{type:wondrous}{consumable:no}{attune:yes}{5%}
 eyes of the spider {raity:legendary}{type:wondrous}{consumable:no}{attune:no}{40%}
@@ -1987,6 +1987,6 @@ $>Drow Items
 The following are random drow treasures to place amongst drow foes:<p><b>Drow Armor:</b> You found [drow armor]<p><b>Drow Weapon:</b> You found [drow weapon]<p><b>Drow Wondrous:</b> You found [drow wondrous]<p><b>Drow Clothing:</b><p>[garments,x3-6] <p><p>
 
 $>Drow Priestess Treasure
-The drow priestess is armed with [drow priestess weapon] and wears [drow armor priestess]. In addition, she wears one or more of these garments (the others are in storage):<br>[garments,x1-3]<br>She also possesses [an] [drow priestess wondrous].<br><br>
+The drow priestess is armed with [drow priestess weapon] and wears [drow armor priestess]. In addition, she wears one or more of these garments (the others are in storage):<br>[garments,x1-3]<br>She also possesses [an] [drow wondrous priest] [drow wondrous].<br><br>
 
 
