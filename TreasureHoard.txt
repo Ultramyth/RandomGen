@@ -4,19 +4,19 @@ $description : Treasure Hoard
 $amount : 3
 $button : Generate!
 
-$coins 0-4
+$coins 0 to 4
 [6-36][0-9][0-9] cp, [3-18][0-9][0-9] sp and [2-12][0-9] gp in coins
 
-$coins 5-11
+$coins 5 to 11
 [6-36][0-99] cp, [2-12][0-9][0-9][0-9] sp, [6-36][0-9][0-9] gp, and [3-18][0-9] pp in coins
 
-$coins 11-16
+$coins 11 to 16
 [4-24][0-9][0-9][0-9] gp and [5-30][0-9][0-9] pp in coins
 
-$coins 17-20
+$coins 17 to 20
 [12-72][0-9][0-9][0-9] gp and [8-48][0-9][0-9][0-9] pp in coins
 
-$treasure 0-4
+$treasure 0 to 4
 nothing else {60%}
 [gem 10,x2-12] {100%}
 [art 25,x2-8] {100%}
@@ -35,7 +35,7 @@ nothing else {60%}
 [art 25,x2-8] [magicitemtableg] {20%}
 [gem 50,x2-12] [magicitemtableg] {10%}
 
-$treasure 5-10
+$treasure 5 to 10
 nothing more {67%}
 [art 25,x2-8] {100%}
 [gem 50,x6-18] {100%}
@@ -67,7 +67,7 @@ nothing more {67%}
 [art 250,x2-8] [magicitemtableh] {17%}
 
 
-$treasure 11-16
+$treasure 11 to 16
 nothing more {50%}
 [art 250,x2-8] {50%}
 [art 750,x2-8] {50%}
@@ -103,7 +103,7 @@ nothing more {50%}
 [gem 1000,x6-18] [magicitemtablei] {33%}
 
 
-$treasure 17-20
+$treasure 17 to 20
 nothing more {25%}
 [gem 1000,x6-18] [magicitemtablec,x1-8] {38%}
 [art 2500,x1-10] [magicitemtablec,x1-8] {38%}
@@ -149,19 +149,19 @@ $gem 1000
 $gem 5000
 - [an] [5000 gem] (worth [2501-7500] gp)<br>
 
-$gems 0-4
+$gems 0 to 4
 - [an] [50 gem] (worth [25-75] gp)<br>
 - [an] [10 gem] (worth [5-15] gp)<br>
 
-$gems 5-10
+$gems 5 to 10
 - [an] [50 gem] (worth [25-75] gp)<br>
 - [an] [100 gem] (worth [51-150] gp)<br>
 
-$gems 11-16
+$gems 11 to 16
 - [an] [500 gem] (worth [251-750] gp)<br>
 - [an] [1000 gem] (worth [501-1500] gp)<br>
 
-$gems 17-20
+$gems 17 to 20
 - [an] [1000 gem] (worth [501-1500] gp)<br>
 - [an] [5000 gem] (worth [2501-7500] gp)<br>
 
