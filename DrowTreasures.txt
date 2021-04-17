@@ -23,6 +23,17 @@ Caiphon's whisper {5%}
 hand spinneret {20%}
 adamantine [metal weapon] {10%}
 
+$drow priestess weapon
+drow mission blade {15%}
+everchanging blade {15%}
+queen's scourge {15%}
+drowcraft [whip|mace] [+1|+2|+3] {100%}
+drowcraft [whip-dagger] [+1|+2|+3] {50%}
+hand spinneret {40%}
+adamantine mace {40%}
+tentacle rod {50%}
+scourge of fangs {50%}
+whip of fangs {50%}
 
 $drow armor
 suit of drowcraft [leather|studded leather|spidersilk] [+1|+2|+3] {100%}
@@ -34,40 +45,106 @@ suit of death armor {5%}
 suit of gorgon plate {5%}
 armor of the viper {5%}
 
-
+$drow armor priestess
+suit of drowcraft adamantine [half plate|plate|chainmail|splint] [+1|+2|+3] {100%}
+drowcraft adamantine breastplate [+1|+2|+3] {80%}
+adamantine breastplate {20%}
+suit of adamantine [half plate|plate|chainmail|splint]  {20%}
+suit of gorgon plate {5%}
 
 $drow wondrous
-amulet of dark blessing {10%}
-arachnosack {10%}
-arachnosack, Greater {10%}
-drow house insignia ([minor|moderate|major]) {100%}
-piwafwi ([common|greater]) {100%}
-feather of Diatryma summoning {10%}
-bracers of flying daggers {10%}
-fang scarab {10%}
-figurine of wondrous power ([jasper spider|sardonyx stone flyer]) {10%}
-floatchest {10%}
-Hand of Kiaransalee's Glory {5%}
-gloom mask {10%}
-knave's eye patch {10%}
-lurker cloak {10%}
-Mother's corset {5%}
-Phandoorl's bracers {5%}
-robe of gentle repose {10%}
-spider mask {10%}
-web choker {10%}
-rod of security {10%}
-driftdisc {10%}
-bracers of blinding strike {10%}
-bracers of murder {10%}
-tome of books {10%}
-rod of the pact keeper [+1|+2|+3] {20%}
-Claw of the Revenancer {5%}
-eyes of the spider {10%}
-rope of climbing {10%}
-spidersilk cloak {100%}
-slave collar {100%}
+amulet of dark blessing {raity:uncommon}{type:wondrous}{consumable:yes}{attune:no} {20%}
+arachnosack {raity:uncommon}{type:wondrous}{consumable:no}{attune:no} {20%}
+greater arachnosack {raity:rare}{type:wondrous}{consumable:no}{attune:no} {10%}
+drow house insignia ([house insignia]) {100%}
+piwafwi  {raity:uncommon}{type:wondrous}{consumable:no}{attune:yes} {100%}
+piwafwi (greater) {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {50%}
+feather of Diatryma summoning {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {20%}
+bracers of blinding strike {raity:very rare}{type:wondrous}{consumable:no}{attune:yes} {20%}
+bracers of flying daggers {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {20%}
+bracers of murder {raity:very rare}{type:wondrous}{consumable:no}{attune:yes} {20%}
+Claw of the Revenancer {raity:legendary}{type:wondrous}{consumable:no}{attune:yes} {5%}
+driftdisc {raity:very rare}{type:wondrous}{consumable:no}{attune:no} {20%}
+eyes of the spider {raity:legendary}{type:wondrous}{consumable:no}{attune:no} {20%}
+fang scarab {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {20%}
+figurine of wondrous power (sardonyx stone flyer) {raity:rare}{type:wondrous}{consumable:no}{attune:no} {10%}
+figurine of wondrous power (jasper spider) {raity:rare}{type:wondrous}{consumable:no}{attune:no} {10%}
+floatchest {raity:rare}{type:wondrous}{consumable:no}{attune:no} {20%}
+gloom mask {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {20%}
+Hamatula {raity:rare}{type:wondrous}{consumable:no}{attune:no} {20%}
+Hand of Kiaransalee's Glory {raity:rare}{type:wondrous}{consumable:no}{attune:no} {5%}
+knave's eye patch {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {20%}
+lurker cloak {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {20%}
+Mother's corset {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {25%}
+Phandoorl's bracers {raity:rare}{type:wondrous}{consumable:no}{attune:no} {15%}
+robe of gentle repose {raity:rare}{type:wondrous}{consumable:no}{attune:no} {20%}
+rod of security {raity:very rare}{type:wondrous}{consumable:no}{attune:no} {20%}
+rod of the pact keeper [+1|+2|+3] {raity:uncommon, rare or very rare}{type:wondrous}{consumable:no}{attune:yes} {20%}
+rope of climbing {raity:uncommon}{type:wondrous}{consumable:no}{attune:no} {20%}
+slave collar {raity:common}{type:wondrous}{consumable:no}{attune:no} {100%}
+spider mask {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {20%}
+spidersilk cloak {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {100%}
+tome of books {raity:very rare}{type:wondrous}{consumable:no}{attune:no} {20%}
+web choker {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {20%}
+the Victor  {raity:very rare}{type:wondrous}{consumable:no}{attune:no} {10%}
 
+$drow wondrous priestess
+amulet of dark blessing {raity:uncommon}{type:wondrous}{consumable:yes}{attune:no} {50%}
+arachnosack {raity:uncommon}{type:wondrous}{consumable:no}{attune:no} {50%}
+greater arachnosack {raity:rare}{type:wondrous}{consumable:no}{attune:no} {50%}
+drow house insignia ([house insignia]) {100%}
+piwafwi  {raity:uncommon}{type:wondrous}{consumable:no}{attune:yes} {100%}
+piwafwi (greater) {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {100%}
+Claw of the Revenancer {raity:legendary}{type:wondrous}{consumable:no}{attune:yes} {5%}
+eyes of the spider {raity:legendary}{type:wondrous}{consumable:no}{attune:no} {40%}
+figurine of wondrous power (sardonyx stone flyer) {raity:rare}{type:wondrous}{consumable:no}{attune:no} {10%}
+figurine of wondrous power (jasper spider) {raity:rare}{type:wondrous}{consumable:no}{attune:no} {10%}
+gloom mask {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {40%}
+Hand of Kiaransalee's Glory {raity:rare}{type:wondrous}{consumable:no}{attune:no} {5%}
+lurker cloak {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {20%}
+Mother's corset {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {50%}
+Phandoorl's bracers {raity:rare}{type:wondrous}{consumable:no}{attune:no} {25%}
+slave collar {raity:common}{type:wondrous}{consumable:no}{attune:no} {100%}
+spider mask {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {40%}
+spidersilk cloak {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {100%}
+web choker {raity:rare}{type:wondrous}{consumable:no}{attune:yes} {50%}
+the Victor  {raity:very rare}{type:wondrous}{consumable:no}{attune:no} {10%}
+
+$house insignia
+minor (cast [minor] 1/day) {raity:uncommon}{type:wondrous}{consumable:no}{attune:yes (free)} {100%}
+moderate (cast [moderate] 1/day) {raity:uncommon}{type:wondrous}{consumable:no}{attune:yes (free)} {90%}
+major (cast [major] 1/day) {raity:rare}{type:wondrous}{consumable:no}{attune:yes (free)} {70%}
+major (cast [major] 1/day and [[moderate]|[minor]] 1/day) {raity:rare}{type:wondrous}{consumable:no}{attune:yes (free)} {40%}
+
+$minor
+absorb elements
+comprehend languages
+detect poison and disease
+feather fall
+jump
+shield
+unseen servant
+
+$moderate
+blindness/deafness
+blur
+enhance ability
+knock
+levitate
+silence
+spider climb
+web
+
+$major
+animate dead
+dispel magic
+fear
+fly
+gaseous form
+meld into stone
+nondetection
+tongues
+water breathing
 
 
 $art
@@ -1539,6 +1616,36 @@ time stop
 true polymorph
 weird
 
+$dragon color
+red
+green
+blue
+black
+copper
+silver
+gold
+bronze
+
+$female garment
+[an] [color] [material] [dress|gown|cloak|hooded cloak|skirt]
+a pair of [condition] [descriptor-leather] [boots|slippers|knee-high boots]
+[an] [condition] [descriptor-clothes] [material] [cloak|belt|bodice|mantle]
+[an] [condition] [descriptor-metal] [metal] belt {20%}
+a drowcraft scaled [leather] [curiass|girdle|corset|bodice]
+a pair of [condition] [descriptor-metal] [metal] gauntlets {20%}
+a pair of [condition] [descriptor-clothes] [leather] gloves
+a pair of [condition] [descriptor-clothes] [material] [gloves|leggings]
+[an] [dragon color] dragonboned [bodice|corset]
+[descriptor-clothes] [material] undergarments
+[an] [color] [material]  [dress|gown|cloak|hooded cloak|skirt] ([unusual property])
+a pair of [condition] [descriptor-leather] [material] [boots|slippers|knee-high boots] ([unusual property])
+[an] [condition] [descriptor-clothes] [material] [cloak|belt|bodice|mantle] ([unusual property])
+a pair of [condition] [descriptor-clothes] [material] [gloves|leggings] ([unusual property])
+[an] [condition] [descriptor-metal] [metal] belt ([unusual property]) {20%}
+a pair of [condition] [descriptor-metal] [metal] gauntlets ([unusual property]) {20%}
+[an] [dragon color] dragonboned [bodice|corset] ([unusual property])
+[descriptor-clothes] [material] undergarments ([unusual property])
+
 $garment
 [an] [color] [material] [dress|gown|vestment|shift|uniform|shoal|scarf|cloak|hooded cloak|skirt|kilt]
 a pair of [condition] [descriptor-leather] [boots|slippers|knee-high boots|bracers|grieves]
@@ -1808,7 +1915,7 @@ white
 black
 midnight
 
-$treasure
+$treasure 11-16
 [an] hoard of [coin age] coins, consisting of [coin hoard], and:<br>[other treasure 1,x2-3]<br>[[other treasure 2,x1-4]|[other treasure 2,x1-3]|[other treasure 2,x1-6]|[other treasure 3]|...nothing else.<br>]
 
 $other treasure 1
@@ -1869,6 +1976,17 @@ $treasure type
 $garments
 - [garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
 
-$loot
-You found [treasure]<br>Alternatively, the following are random drow treasures to place amongst drow foes:<p><b>Drow Armor:</b> You found [drow armor]<p><b>Drow Weapon:</b> You found [drow weapon]<p><b>Drow Wondrous:</b> You found [drow wondrous]<p><b>Drow Clothing:</b><p>[garments,x3-6] <p><p>
+$female garments
+- [female garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
+
+$>Treasure 11-16
+You found [treasure 11-16]
+
+
+$>Drow Items
+The following are random drow treasures to place amongst drow foes:<p><b>Drow Armor:</b> You found [drow armor]<p><b>Drow Weapon:</b> You found [drow weapon]<p><b>Drow Wondrous:</b> You found [drow wondrous]<p><b>Drow Clothing:</b><p>[garments,x3-6] <p><p>
+
+$>Drow Priestess Treasure
+The drow priestess is armed with [drow priestess weapon] and wears [drow armor priestess]. In addition, she wears one or more of these garments (the others are in storage):<br>[garments,x1-3]<br>She also possesses [an] [drow priestess wondrous].<br><br>
+
 
