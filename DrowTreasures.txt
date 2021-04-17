@@ -2093,7 +2093,7 @@ $female garments
 - [female garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
 
 $>Treasure 11-16
-You found a hoard of [coins 11-16]
+You found a hoard of [treasure 11-16]
 
 
 $>Drow Items
