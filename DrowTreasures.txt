@@ -72,10 +72,10 @@ nothing more {50%}
 [art 750,x2-8] {50%}
 [gem 500,x6-18] {50%}
 [gem 1000,x6-18] {50%}
-[art 250,x2-8] [magicitemtableaand1d6timesonmagicitemtableb,x1-4] {67%}
-[art 750,x2-8] [magicitemtableaand1d6timesonmagicitemtableb,x1-4] {67%}
-[gem 500,x6-18] [magicitemtableaand1d6timesonmagicitemtableb,x1-4] {50%}
-[gem 1000,x6-18] [magicitemtableaand1d6timesonmagicitemtableb,x1-4] {50%}
+[art 250,x2-8] [magicitemtablea,x1-4] [magicitemtableb,x1-6] {67%}
+[art 750,x2-8] [magicitemtablea,x1-4] [magicitemtableb,x1-6] {67%}
+[gem 500,x6-18] [magicitemtablea,x1-4] [magicitemtableb,x1-6] {50%}
+[gem 1000,x6-18] [magicitemtablea,x1-4] [magicitemtableb,x1-6] {50%}
 [art 250,x2-8] [magicitemtablec,x1-6] {100%}
 [art 750,x2-8] [magicitemtablec,x1-6] {83%}
 [gem 500,x6-18] [magicitemtablec,x1-6] {83%}
@@ -88,10 +88,10 @@ nothing more {50%}
 [art 750,x2-8] [magicitemtablee] {33%}
 [gem 500,x6-18] [magicitemtablee] {33%}
 [gem 1000,x6-18] [magicitemtablee] {33%}
-[art 250,x2-8] [magicitemtablefand1d4timesonmagicitemtableg] {33%}
-[art 750,x2-8] [magicitemtablefand1d4timesonmagicitemtableg] {33%}
-[gem 500,x6-18] [magicitemtablefand1d4timesonmagicitemtableg] {33%}
-[gem 1000,x6-18] [magicitemtablefand1d4timesonmagicitemtableg] {33%}
+[art 250,x2-8] [magicitemtablef] [magicitemtableg,x1-4] {33%}
+[art 750,x2-8] [magicitemtablef] [magicitemtableg,x1-4] {33%}
+[gem 500,x6-18] [magicitemtablef] [magicitemtableg,x1-4] {33%}
+[gem 1000,x6-18] [magicitemtablef] [magicitemtableg,x1-4] {33%}
 [art 250,x2-8] [magicitemtableh,x1-4] {50%}
 [art 750,x2-8] [magicitemtableh,x1-4] {50%}
 [gem 500,x6-18] [magicitemtableh,x1-4] {33%}
@@ -1698,11 +1698,11 @@ weird
 
 $drow weapon
 bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] {5%}
-bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
-bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
-bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
-bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
-bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing]  {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] {5%}
+bolt of power, [dart of blinding|dart of screaming|dart of stunning|dart of vapors |spider dart|dart of silencing] {5%}
 death spear {20%}
 drow mission blade {5%}
 everchanging blade {5%}
@@ -2238,7 +2238,6 @@ dealing damage while in possession of the item causes harmless pain to course th
 this item functions as an endless bar of soap
 as a bonus action you can transform this item into a dagger or a shortsword. The item then loses all properties but this one until you use a bonus action to change it back
 
-
 $material
 spider silk {50%}
 worm silk {10%}
@@ -2248,7 +2247,6 @@ velvet {30%}
 [bat|troll|cloaker|dragon|troglodyte|lizard]skin
 linen
 taffety
-
 
 $color
 red
