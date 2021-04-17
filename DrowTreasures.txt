@@ -1,3 +1,4 @@
+$include https://github.com/Ultramyth/RandomGen/raw/main/TreasureHoard.txt
 $name : Art Object Generator
 $author : Ben
 $description : Generates Drow Magic Items and Art Objects!
@@ -861,8 +862,6 @@ $weapon other
 whip
 net
 
-
-
 $dragon color
 red
 green
@@ -1248,5 +1247,5 @@ The following are random drow treasures to place amongst drow foes:<p><b>Drow Ar
 $>Drow Priestess Treasure
 The drow priestess is armed with [an] [drow priestess weapon] and wears [drow armor priestess]. In addition, she wears one or more of these garments (the others are in storage):<br>[garments,x3-6]<br>She also possesses [an] [drow wondrous priest] and may also possess [an] [drow wondrous priest].<br><br>
 
-$>Other Spell
-[wizard 9th]
+$>Spell Get
+[Wizard 9th]
