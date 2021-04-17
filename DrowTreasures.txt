@@ -1915,7 +1915,7 @@ white
 black
 midnight
 
-$treasure 11-16
+$treasure 11 to 16
 [an] hoard of [coin age] coins, consisting of [coin hoard], and:<br>[other treasure 1,x2-3]<br>[[other treasure 2,x1-4]|[other treasure 2,x1-3]|[other treasure 2,x1-6]|[other treasure 3]|...nothing else.<br>]
 
 $other treasure 1
@@ -1979,8 +1979,8 @@ $garments
 $female garments
 - [female garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
 
-$>Treasure 11-16
-You found [treasure]
+$>Treasure
+You found [treasure 11 to 16]
 
 
 $>Drow Items
