@@ -1,4 +1,3 @@
-$include https://github.com/Ultramyth/RandomGen/raw/main/TreasureHoard.txt
 $name : Art Object Generator
 $author : Ben
 $description : Generates Drow Magic Items and Art Objects!
@@ -41,7 +40,7 @@ suit of drowcraft [leather|studded leather|spidersilk] [+1|+2|+3] {100%}
 suit of drowcraft adamantine [half plate|plate|chainmail|splint] [+1|+2|+3] {100%}
 drowcraft adamantine [chain shirt|breastplate] [+1|+2|+3] {80%}
 adamantine [chain shirt|breastplate] {20%}
-suit of adamantine [half plate|plate|chainmail|splint]  {20%}
+suit of adamantine [half plate|plate|chainmail|splint] {20%}
 suit of death armor {5%}
 suit of gorgon plate {5%}
 armor of the viper {5%}
@@ -58,7 +57,7 @@ amulet of dark blessing {raity:uncommon}{type:wondrous}{consumable:yes}{attune:n
 arachnosack {raity:uncommon}{type:wondrous}{consumable:no}{attune:no}{20%}
 greater arachnosack {raity:rare}{type:wondrous}{consumable:no}{attune:no}{10%}
 drow house insignia ([house insignia])
-piwafwi  {raity:uncommon}{type:wondrous}{consumable:no}{attune:yes}{100%}
+piwafwi {raity:uncommon}{type:wondrous}{consumable:no}{attune:yes}{100%}
 piwafwi (greater) {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{50%}
 feather of Diatryma summoning {raity:rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
 bracers of blinding strike {raity:very rare}{type:wondrous}{consumable:no}{attune:yes}{20%}
@@ -153,7 +152,7 @@ $art
 - [ceremonial weapon] (worth [[75-425]|[426-999]] gp)<br>
 
 $gems
-- [an] [[50 gem]|[100 gem]|[250 gem]|[500 gem]]<br>
+- [an] [[50 gem]|[100 gem]|[500 gem]]<br>
 
 $gems 0-4
 - [an] [50 gem] (worth [25-75] gp)<br>
@@ -1742,6 +1741,7 @@ obsidian {5%}
 nephelium (transparent|emerald|ruby|amythest) {5%}
 fyrite {5%}
 blueice {5%}
+glassteel {5%}
 
 
 $leather
@@ -1755,20 +1755,27 @@ beholder leather {5%}
 aboleth leather {5%}
 giant bat leather {40%}
 darkmantle leather {30%}
-[gold|silver|red|blue|green|black|copper|bronze] dragon leather {5%}
+[dragon color] dragon leather {5%}
 stingray leather {5%}
 
 $descriptor-clothes
 gem-studded (worth an additional [10-750] gp) {10%}
-[spider|demon|serpent|scorpion|slime]-motifed {50%}
+[motif]-motifed {50%}
 [gold|silver|mithral|platinum|electrum] brocade (worth an additional [10-75] gp) {20%}
 embroidered (worth an additional [1-15] gp) {50%}
 laced (worth an additional [1-15] gp) {50%}
 plain {100%}
 
+$motif
+spider
+demon {50%}
+serpent {20%}
+scorpion {20%}
+slime {10%}
+
 $descriptor-leather
 gem-studded (worth an additional [10-750] gp) {10%}
-[spider|demon|serpent|scorpion|slime]-motifed
+[motif]-motifed
 [precious metal,#value] filigree (worth an additional [10-75]*[#value,as mult] gp) {25%}
 embossed {20%}
 etched {20%}
