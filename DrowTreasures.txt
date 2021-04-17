@@ -1249,3 +1249,5 @@ The following are random drow treasures to place amongst drow foes:<p><b>Drow Ar
 $>Drow Priestess Treasure
 The drow priestess is armed with [an] [drow priestess weapon] and wears [drow armor priestess]. In addition, she wears one or more of these garments (the others are in storage):<br>[garments,x3-6]<br>She also possesses [an] [drow wondrous priest] and may also possess [an] [drow wondrous priest].<br><br>
 
+$>test treasure
+You should see something [treasure 0 to 4] here<br><br>
