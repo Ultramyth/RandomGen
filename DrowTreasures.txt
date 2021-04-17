@@ -1,4 +1,4 @@
-
+$include https://github.com/Ultramyth/RandomGen/raw/main/TreasureHoard.txt
 $name : Art Object Generator
 $author : Ben
 $description : Generates Drow Magic Items and Art Objects!
@@ -152,6 +152,90 @@ $art
 - [garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
 - [ceremonial weapon] (worth [[75-425]|[426-999]] gp)<br>
 
+$gems
+- [an] [[50 gem]|[100 gem]|[250 gem]|[500 gem]]<br>
+
+$gems 0-4
+- [an] [50 gem] (worth [25-75] gp)<br>
+- [an] [10 gem] (worth [5-15] gp)<br>
+
+$gems 5-10
+- [an] [50 gem] (worth [25-75] gp)<br>
+- [an] [100 gem] (worth [51-150] gp)<br>
+
+$gems 11-16
+- [an] [500 gem] (worth [251-750] gp)<br>
+- [an] [1000 gem] (worth [501-1500] gp)<br>
+
+$gems 17-20
+- [an] [1000 gem] (worth [501-1500] gp)<br>
+- [an] [5000 gem] (worth [2501-7500] gp)<br>
+
+$10 gem
+azurite
+banded agate
+blue quartz
+eye agate
+hematite
+lapis lazuli
+malachite
+moss agate
+obsidian
+rhodochrosite
+tiger eye
+turquoise
+beryl
+
+$50 gem
+bloodstone
+carnelian
+chalcedony
+chrysoprase
+citrine
+jasper
+moonstone
+onyx
+quartz
+sardonyx
+star rose quartz
+zircon
+
+$100 gem
+amber
+amethyst
+chrysoberyl
+piece of coral
+garnet
+piece of jade
+jet
+pearl
+spinel
+tourmaline
+
+$500 gem
+alexandrite
+aquamarine
+topaz
+peridot
+blue spinel
+black pearl
+diamond
+
+$1000 gem
+black opal
+blue sapphire
+emerald
+fire opal
+opal
+star ruby
+star sapphire
+yellow sapphire
+
+$5000 gem
+black sapphire
+diamond
+jacinth
+ruby
 
 
 $magic item table x
@@ -1942,7 +2026,7 @@ $female garments
 - [female garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
 
 $>Treasure 11-16
-You found [coins 0-4], and:<br>[treasure 0-4]
+You found [treasure eleven]
 
 
 $>Drow Items
