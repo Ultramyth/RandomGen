@@ -168,6 +168,15 @@ used
 well-kept
 torn
 mended
+[quality]
+tattered, [quality]
+servicable, [quality]
+brand new, [quality]
+worn, [quality]
+pristine, [quality]
+used, [quality]
+well-kept, [quality]
+torn, [quality]
 
 $condition base metal
 servicable {mult:1}
@@ -179,6 +188,15 @@ worn {mult:0.7}
 pristine {mult:1.2}
 used {mult:0.9}
 well-maintained {mult:1}
+servicable, [quality] {mult:1}
+battered, [quality] {mult:0.6}
+brand new, [quality] {mult:1.5}
+rusted, [quality] {mult:0.5}
+corroded, [quality] {mult:0.25}
+worn, [quality] {mult:0.7}
+pristine, [quality] {mult:1.2}
+used, [quality] {mult:0.9}
+well-maintained, [quality] {mult:1}
 
 $condition instrument
 well-played
@@ -186,6 +204,11 @@ brand new
 well-worn
 broken
 off-tune
+well-played [quality]
+brand new, [quality]
+well-worn, [quality]
+off-tune [quality]
+[quality], well-played
 
 $condition noble metal
 tarnished
@@ -193,6 +216,12 @@ polished
 dulled
 battered
 worn
+[quality]
+tarnished, [quality]
+polished, [quality]
+dulled, [quality]
+battered, [quality]
+worn, [quality]
 
 $condition other
 servicable
@@ -200,12 +229,14 @@ brand new
 worn
 pristine
 used
+[quality]
 
 $condition tool
 servicable
 well-maintained
 incomplete
 barely usable
+[quality]
 
 $condition wood
 splintered {mult:0.25}
@@ -213,6 +244,7 @@ well-oiled {mult:1}
 lacquered {mult:1.1}
 well-maintained {mult:1}
 splintering {mult:0.5}
+[quality]
 
 $condition glass
 cracked
@@ -229,12 +261,13 @@ poorly made
 generic
 mass-produced
 one-of-a-kind
-fine
 well-made
 finely made
 quality
 exquisitely made
-
+high quality
+low quality
+common quality
 
 $mundane 1 mult
 [mundane 1],[ ]
@@ -252,52 +285,52 @@ $mundane 50 mult
 [mundane 50],[ ]
 
 $mundane 1
-[an] [quality] [condition instrument] horn {tag:instrument}{base:1.5}{value:1 gp, 5 sp}
-[an] [quality] [condition tool] abacus {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [quality] [condition fabric] backpack {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [quality] [condition base metal] crowbar {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [quality] [condition instrument] flute {tag:instrument}{base:1}{value:1 gp}
-[an] [quality] [condition glass] glass bottle {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [quality] [condition base metal] grappling hook {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [quality] [condition base metal] iron pot {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [quality] [condition base metal] manacles {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [quality] [condition base metal] miner's pick {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [quality] [condition instrument] shawm {tag:instrument}{base:1}{value:1 gp}
-[an] [quality] [condition base metal] shovel {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [quality] [condition base metal] sledgehammer {tag:adventuring gear}{base:1}{value:1 gp}
-a set of [quality] [condition fabric] traveler's clothes {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [quality] [condition fabric] two-person tent {tag:adventuring gear}{base:1}{value:1 gp}
+[an] [condition instrument] horn {tag:instrument}{base:1.5}{value:1 gp, 5 sp}
+[an] [condition tool] abacus {tag:adventuring gear}{base:1}{value:1 gp}
+[an] [condition fabric] backpack {tag:adventuring gear}{base:1}{value:1 gp}
+[an] [condition base metal] crowbar {tag:adventuring gear}{base:1}{value:1 gp}
+[an] [condition instrument] flute {tag:instrument}{base:1}{value:1 gp}
+[an] [condition glass] glass bottle {tag:adventuring gear}{base:1}{value:1 gp}
+[an] [condition base metal] grappling hook {tag:adventuring gear}{base:1}{value:1 gp}
+[an] [condition base metal] iron pot {tag:adventuring gear}{base:1}{value:1 gp}
+[an] [condition base metal] manacles {tag:adventuring gear}{base:1}{value:1 gp}
+[an] [condition base metal] miner's pick {tag:adventuring gear}{base:1}{value:1 gp}
+[an] [condition instrument] shawm {tag:instrument}{base:1}{value:1 gp}
+[an] [condition base metal] shovel {tag:adventuring gear}{base:1}{value:1 gp}
+[an] [condition base metal] sledgehammer {tag:adventuring gear}{base:1}{value:1 gp}
+a [condition fabric] set of traveler's clothes {tag:adventuring gear}{base:1}{value:1 gp}
+[an] [condition fabric] two-person tent {tag:adventuring gear}{base:1}{value:1 gp}
 a quiver with [15-20] arrows {tag:ammunition}{base:1}{value:10 sp}
 a bag of 1,000 [condition base metal] ball bearings {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [quality] [condition fabric] bedroll {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [quality] [condition noble metal] bell {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [quality] [condition tool] block and tackle {tag:adventuring gear}{base:0.5}{value:5 sp}
+[an] [condition fabric] bedroll {tag:adventuring gear}{base:0.5}{value:5 sp}
+[an] [condition noble metal] bell {tag:adventuring gear}{base:0.5}{value:5 sp}
+[an] [condition tool] block and tackle {tag:adventuring gear}{base:0.5}{value:5 sp}
 a leather case of 50 blowgun needles {tag:ammunition}{base:0.5}{value:5 sp}
 a bag of [15-20] [condition base metal] caltrops {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [quality] [condition tool] cook's utensils {tag:artisan's tools}{base:0.5}{value:5 sp}
-[an] [quality] [condition wood] crossbow bolt case {tag:adventuring gear}{base:0.5}{value:5 sp}
-[12-20] crossbow bolts in [an] [quality] [condition wood] crossbow bolt case {tag:ammunition}{base:1}{value:10 sp}
-[an] [quality] [condition tool] fishing tackle {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [quality] [condition base metal] hammer {tag:adventuring gear}{base:0.5}{value:5 sp}
-fifty feet of [quality] hempen rope {tag:adventuring gear}{base:0.5}{value:5 sp}
+[an] [condition tool] cook's utensils {tag:artisan's tools}{base:0.5}{value:5 sp}
+[an] [condition wood] crossbow bolt case {tag:adventuring gear}{base:0.5}{value:5 sp}
+[12-20] crossbow bolts in [an] [condition wood] crossbow bolt case {tag:ammunition}{base:1}{value:10 sp}
+[an] [condition tool] fishing tackle {tag:adventuring gear}{base:0.5}{value:5 sp}
+[an] [condition base metal] hammer {tag:adventuring gear}{base:0.5}{value:5 sp}
+fifty feet of hempen rope {tag:adventuring gear}{base:0.5}{value:5 sp}
 10 [condition base metal] iron spikes {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [quality] [condition wood] map or scroll case {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [quality] [condition fabric] quiver {tag:adventuring gear}{base:0.5}{value:5 sp}
-[quality] [condition fabric] robes {tag:adventuring gear}{base:0.5}{value:5 sp}
+[an] [condition wood] map or scroll case {tag:adventuring gear}{base:0.5}{value:5 sp}
+[an] [condition fabric] quiver {tag:adventuring gear}{base:0.5}{value:5 sp}
+[condition fabric] robes {tag:adventuring gear}{base:0.5}{value:5 sp}
 [condition glass] vial {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [quality] [condition tool] weaver's tools {tag:artisan's tools}{base:0.5}{value:5 sp}
-[an] [quality] [condition tool] woodcarver's tools {tag:artisan's tools}{base:0.5}{value:5 sp}
-[an] [quality] [condition fabric] blanket {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-[an] set of [quality] [condition fabric] common clothes {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-[an] [quality] [condition noble metal] lamp {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
+[an] [condition tool] set of weaver's tools {tag:artisan's tools}{base:0.5}{value:5 sp}
+[an] [condition tool] set of woodcarver's tools {tag:artisan's tools}{base:0.5}{value:5 sp}
+[an] [condition fabric] blanket {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
+[an] [condition fabric] set of common clothes {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
+[an] [condition noble metal] lamp {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [an] [condition fabric] pouch {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [condition ration] rations (1 day) {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 sealing wax {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-[an] [quality] tinderbox {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
+[an] tinderbox {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 basket {tag:adventuring gear}{base:0.2}{value:2 sp}
-[an] [quality] [condition tool] mess kit {tag:adventuring gear}{base:0.1}{value:1 sp}
+[an] [condition tool] mess kit {tag:adventuring gear}{base:0.1}{value:1 sp}
 paper (one sheet) {tag:adventuring gear}{base:0.1}{value:1 sp}
-[an] [quality] [condition container] waterskin {tag:adventuring gear}{base:0.1}{value:1 sp}
+[an] [condition container] waterskin {tag:adventuring gear}{base:0.1}{value:1 sp}
 [an] [condition base metal] iron spike {tag:adventuring gear}{base:0.05}{value:5 cp}
 [an] [condition glass] oil (flask) {tag:adventuring gear}{base:0.05}{value:5 cp}
 parchment (one sheet) {tag:adventuring gear}{base:0.05}{value:5 cp}
@@ -307,98 +340,95 @@ parchment (one sheet) {tag:adventuring gear}{base:0.05}{value:5 cp}
 a crossbow bolt {tag:ammunition}{base:0.03}{value:3 cp}
 [an] [condition base metal] piton {tag:adventuring gear}{base:0.03}{value:3 cp}
 [an] [condition wood] pole (10-foot) {tag:adventuring gear}{base:0.03}{value:3 cp}
-[an] [quality] [condition noble metal] signal whistle {tag:adventuring gear}{base:0.03}{value:3 cp}
+[an] [condition noble metal] signal whistle {tag:adventuring gear}{base:0.03}{value:3 cp}
 a bag with [12-20] sling bullets {tag:ammunition}{base:0.02}{value:2 cp}
 a blowgun needle {tag:ammunition}{base:0.01}{value:1 cp}
-[an] [quality] [condition container] flask {tag:adventuring gear}{base:0.01}{value:1 cp}
-[an] [quality] ink pen {tag:adventuring gear}{base:0.01}{value:1 cp}
-[an] [quality] jug {tag:adventuring gear}{base:0.01}{value:1 cp}
-[an] [quality] pitcher {tag:adventuring gear}{base:0.01}{value:1 cp}
+[an] [condition container] flask {tag:adventuring gear}{base:0.01}{value:1 cp}
+[an] ink pen {tag:adventuring gear}{base:0.01}{value:1 cp}
+[an] jug {tag:adventuring gear}{base:0.01}{value:1 cp}
+[an] pitcher {tag:adventuring gear}{base:0.01}{value:1 cp}
 soap {tag:adventuring gear}{base:0.01}{value:1 cp}
-[an] [quality] tankard {tag:adventuring gear}{base:0.01}{value:1 cp}
+[an] tankard {tag:adventuring gear}{base:0.01}{value:1 cp}
 a candle {tag:adventuring gear}{base:0.01}{value:1 cp}
 a piece of chalk {tag:adventuring gear}{base:0.01}{value:1 cp}
 [an] [condition fabric] sack {tag:adventuring gear}{base:0.01}{value:1 cp}
 a torch {tag:adventuring gear}{base:0.01}{value:1 cp}
 a whetstone {tag:adventuring gear}{base:0.01}{value:1 cp}
 
-
 $mundane 5
-cartographer's tools (worth 7.5 gp)
-fine clothes (worth 7 gp, 5 sp)
-forgery kit (worth 7 gp, 5 sp)
-dungeoneer's pack (worth 6 gp)
-pan flute (worth 6 gp)
-bullseye lantern (worth 5 gp)
-calligrapher's supplies (worth 5 gp)
-explorer's pack (worth 5 gp)
-ink (1-ounce bottle) (worth 5 gp)
-lock (worth 5 gp)
-mason's tools (worth 5 gp)
-painter's supplies (worth 5 gp)
-potter's tools (worth 5 gp)
-silk rope (50 feet) (worth 5 gp)
-carpenter's tools (worth 4 gp)
-drum (worth 3 gp)
-chain (10 feet) (worth 2 gp, 5 sp)
-chest (worth 2 gp, 5 sp)
-cobbler's tools (worth 2 gp, 5 sp)
-costume clothes (worth 2 gp, 5 sp)
-healer's kit (worth 2 gp, 5 sp)
-herbalism kit (worth 2 gp, 5 sp)
-hooded lantern (worth 2 gp, 5 sp)
-hunting trap (worth 2 gp, 5 sp)
-leatherworker's tools (worth 2 gp, 5 sp)
-merchant's scale (worth 2 gp, 5 sp)
-perfume (vial) (worth 5 gp)
-half empty vial of perfume (worth 2 gp, 5 sp)
-signet ring (worth 5 gp)
-steel mirror (worth 2 gp, 5 sp)
+[an] [condition tool] set of cartographer's tools {tag:artisan's tools}{base:7.5}{value:7 gp, 5 sp}
+[an] [condition fabric] set of fine clothes {tag:adventuring gear}{base:7.5}{value:7 gp, 5 sp}
+[an] [condition tool] forgery kit {tag:tools}{base:7.5}{value:7 gp, 5 sp}
+a dungeoneer's pack {tag:adventuring gear}{base:6}{value:6 gp}
+[an] [condition instrument] pan flute {tag:instrument}{base:6}{value:6 gp}
+[an] [condition noble metal] bullseye lantern {tag:adventuring gear}{base:5}{value:5 gp}
+[an] [condition tool] set of calligrapher's supplies {tag:artisan's tools}{base:5}{value:5 gp}
+[an] explorer's pack {tag:adventuring gear}{base:5}{value:5 gp}
+[an] 1-ounce bottle of ink {tag:adventuring gear}{base:5}{value:5 gp}
+[an] lock {tag:adventuring gear}{base:5}{value:5 gp}
+[an] [condition tool] set of mason's tools {tag:artisan's tools}{base:5}{value:5 gp}
+[an] [condition tool] set of painter's supplies {tag:artisan's tools}{base:5}{value:5 gp}
+[an] [condition tool] set of potter's tools {tag:artisan's tools}{base:5}{value:5 gp}
+50 feet of silk rope {tag:adventuring gear}{base:5}{value:5 gp}
+[an] [condition tool] set of carpenter's tools {tag:artisan's tools}{base:4}{value:4 gp}
+[an] [condition instrument] drum {tag:instrument}{base:3}{value:3 gp}
+[an] 10-foot length of [condition base metal] chain {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
+[an] [condition tool] set of cobbler's tools {tag:artisan's tools}{base:2.5}{value:2 gp, 5 sp}
+[an] [condition fabric] set of costume clothes {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
+[an] [condition tool] healer's kit {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
+[an] [condition tool] herbalism kit {tag:tools}{base:2.5}{value:2 gp, 5 sp}
+[an] [condition noble metal] hooded lantern {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
+[an] [condition base metal] hunting trap {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
+[an] [condition tool] set of leatherworker's tools {tag:artisan's tools}{base:2.5}{value:2 gp, 5 sp}
+[an] [condition noble metal] merchant's scale {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
+[an] [condition glass] vial of perfume {tag:adventuring gear}{base:5}{value:5 gp}
+[an] [condition noble metal] signet ring {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
+[an] [condition base metal] steel mirror {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
 
 $mundane 10
-bagpipes (worth 15 gp)
-glassblower's tools (worth 15 gp)
-lyre (worth 15 gp)
-viol (worth 15 gp)
-acid (vial) (worth 12 gp, 5 sp)
-book of [book] (worth 12 gp, 5 sp)
-bestiary (worth 12 gp, 5 sp)
-climber's kit (worth 12 gp, 5 sp)
-component pouch (worth 12 gp, 5 sp)
-disguise kit (worth 12 gp, 5 sp)
-dulcimer (worth 12 gp, 5 sp)
-holy water (flask) (worth 12 gp, 5 sp)
-hourglass (worth 12 gp, 5 sp)
-jeweler's tools (worth 12 gp, 5 sp)
-navigator's tools (worth 12 gp, 5 sp)
-thieves' tools (worth 12 gp, 5 sp)
-brewer's supplies (worth 10 gp)
-smith's tools (worth 10 gp)
-priest's pack (worth 9 gp, 5 sp)
+[an] [condition instrument] set of bagpipes {tag:instrument}{base:15}{value:15 gp}
+[an] [condition tool] set of glassblower's tools {tag:artisan's tools}{base:15}{value:15 gp}
+[an] [condition instrument] lyre {tag:instrument}{base:15}{value:15 gp}
+[an] [condition instrument] viol {tag:instrument}{base:15}{value:15 gp}
+[an] vial of acid {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
+[an] book of [book] {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
+[an] [condition tool] climber's kit {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
+[an] [condition tool] component pouch {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
+[an] [condition tool] disguise kit {tag:tools}{base:12.5}{value:12 gp, 5 sp}
+[an] [condition instrument] dulcimer {tag:instrument}{base:12.5}{value:12 gp, 5 sp}
+[an] flask of holy water) {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
+[an] [condition glass] hourglass {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
+[an] [condition tool] set of jeweler's tools {tag:artisan's tools}{base:12.5}{value:12 gp, 5 sp}
+[an] [condition tool] set of navigator's tools {tag:tools}{base:12.5}{value:12 gp, 5 sp}
+[an] [condition tool] set of thieves' tools {tag:tools}{base:12.5}{value:12 gp, 5 sp}
+[an] [condition tool] set of brewer's supplies {tag:artisan's tools}{base:10}{value:10 gp}
+[an] [condition tool] set of smith's tools {tag:artisan's tools}{base:10}{value:10 gp}
+[an] priest's pack {tag:adventuring gear}{base:9.5}{value:9 gp, 5 sp}
+[an] burglar's pack {tag:adventuring gear}{base:8}{value:8 gp}
 
 $mundane 25
-alchemist's fire (flask) (worth 25 gp)
-alchemist's supplies (worth 25 gp)
-antitoxin (vial) (worth 25 gp)
-poisoner's kit (worth 25 gp)
-spellbook (worth 25 gp)
-tinker's tools (worth 25 gp)
-entertainer's pack (worth 20 gp)
-scholar's pack (worth 20 gp)
-diplomat's pack (worth 19 gp, 5 sp)
-lute (worth 17 gp, 5 sp)
+[an] flask of alchemist's fire {tag:adventuring gear}{base:25}{value:25 gp}
+[an] [condition tool] set of alchemist's supplies {tag:artisan's tools}{base:25}{value:25 gp}
+[an] vial of antitoxin {tag:adventuring gear}{base:25}{value:25 gp}
+[an] [condition tool] poisoner's kit {tag:tools}{base:25}{value:25 gp}
+[an] empty spellbook {tag:adventuring gear}{base:25}{value:25 gp}
+[an] [condition tool] set of tinker's tools {tag:artisan's tools}{base:25}{value:25 gp}
+[an] entertainer's pack {tag:adventuring gear}{base:20}{value:20 gp}
+[an] scholar's pack {tag:adventuring gear}{base:20}{value:20 gp}
+[an] diplomat's pack {tag:adventuring gear}{base:19.5}{value:19 gp, 5 sp}
+[an] [condition instrument] lute {tag:instrument}{base:17.5}{value:17 gp, 5 sp}
 
 $mundane 50
-basic poison (vial) (worth 50 gp)
-magnifying glass (worth 50 gp)
+[an] vial of poison (basic) {tag:adventuring gear, poison}{base:50}{value:50 gp}
+[an] [condition glass] magnifying glass {tag:adventuring gear}{base:50}{value:50 gp}
 
 $>CR 0 Incidental
 [1-12] sp
 [1-3] gp
 [1-12] sp and [mundane 1]
 [1-3] gp and [mundane 1]
-[1-12] sp and [mundane 1 mult,x2-3]
-[1-3] gp and [mundane 1 mult,x2-3]
+[1-12] sp and [mundane 1 mult,x1-2] and [mundane 1]
+[1-3] gp and [mundane 1 mult,x1-2] and [mundane 1]
 [1-12] sp and [mundane 5]
 [1-3] gp and [mundane 5]
 [incidental coins 0]
@@ -410,15 +440,15 @@ $>CR ⅛ Incidental
 3 gp, 2 sp, 5 cp and [mundane 1]
 5 gp, 3 sp, 7 cp and [mundane 1]
 8 gp, 6 sp, 2 cp and [mundane 1]
-3 gp, 2 sp, 5 cp and [mundane 1 mult,x2-3]
-5 gp, 3 sp, 7 cp and [mundane 1 mult,x2-3]
-8 gp, 6 sp, 2 cp and [mundane 1 mult,x2-3]
+3 gp, 2 sp, 5 cp and [mundane 1 mult,x1-2] and [mundane 1]
+5 gp, 3 sp, 7 cp and [mundane 1 mult,x1-2] and [mundane 1]
+8 gp, 6 sp, 2 cp and [mundane 1 mult,x1-2] and [mundane 1]
 3 gp, 2 sp, 5 cp and [mundane 5]
 5 gp, 3 sp, 7 cp and [mundane 5]
 8 gp, 6 sp, 2 cp and [mundane 5]
-3 gp, 2 sp, 5 cp and [mundane 5 mult,x2-3]
-5 gp, 3 sp, 7 cp and [mundane 5 mult,x2-3]
-8 gp, 6 sp, 2 cp and [mundane 5 mult,x2-3]
+3 gp, 2 sp, 5 cp and [mundane 5 mult,x1-2] and [mundane 5]
+5 gp, 3 sp, 7 cp and [mundane 5 mult,x1-2] and [mundane 5]
+8 gp, 6 sp, 2 cp and [mundane 5 mult,x1-2] and [mundane 5]
 [incidental coins 0]
 
 $>CR ¼ Incidental
