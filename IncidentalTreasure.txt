@@ -1724,3 +1724,34 @@ The creature carries:<br>[CR 4 Incidental] and [trinket]<br><br>
 $>CR 5 Incidental Treasure
 The creature carries:<br>[CR 5 Incidental]<br><br>
 The creature carries:<br>[CR 5 Incidental] and [trinket]<br><br>
+
+$drow bonus
+[drow armor]
+[drow ranged]
+[drow melee]
+the drow possesses a piwafwi
+the drow possesses a piwafwi (greater) {20%}
+the drow possesses a house insignia ([house insignia])
+[an] drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] +1
+a spider-motifed necklace (worth 2[0-9] gp)
+
+$drow armor
+the drow's [#armor] is drowcraft and provides an additional +1 AC in areas of Faerzress
+the drow's [#armor] is drowcraft and provides an additional +2 AC in areas of Faerzress {66%}
+the drow's [#armor] is drowcraft and provides an additional +3 AC in areas of Faerzress {33%}
+the drow's [#armor] is made of adamantine components (immune to critical hits if fully metal) {33%}
+
+$drow ranged
+the drow's [#rangedweapon] is drowcraft and is +1 to attack and damage in areas of Faerzress
+the drow's [#rangedweapon] is drowcraft and is +2 to attack and damage in areas of Faerzress {66%}
+the drow's [#rangedweapon] is drowcraft and is +3 to attack and damage in areas of Faerzress {33%}
+
+$drow melee
+the drow's [#meleeweapon] is drowcraft and is +1 to attack and damage in areas of Faerzress
+the drow's [#meleeweapon] is drowcraft and is +2 to attack and damage in areas of Faerzress {66%}
+the drow's [#meleeweapon] is drowcraft and is +3 to attack and damage in areas of Faerzress {33%}
+
+$>CR ¼ Drow Incidental Treasure
+In addition to the drow's [chain shirt,#armor], [hand crossbow,#rangedweapon] and a [shortsword,#meleeweapon] they have the following gear:<br>[CR ¼ Incidental] and [drow bonus] <br><br> {33%}
+In addition to the drow's [chain shirt,#armor], [hand crossbow,#rangedweapon] and a [shortsword,#meleeweapon] they have the following gear:<br>[CR ¼ Incidental] 
+In addition to the drow's [chain shirt,#armor], [hand crossbow,#rangedweapon] and a [shortsword,#meleeweapon] they have the following gear:<br>[CR ¼ Incidental] and [trinket]<br><br>
