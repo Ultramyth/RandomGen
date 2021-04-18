@@ -1755,6 +1755,6 @@ the drow's [#drow,as meleeweapon] is drowcraft and is +2 to attack and damage in
 the drow's [#drow,as meleeweapon] is drowcraft and is +3 to attack and damage in areas of Faerzress {33%}
 
 $>CR ¼ Drow Incidental Treasure
-In addition to the [drow,#drow]'s [#drow,as armor], [#drow,as rangedweapon] and a [#drow,as meleeweapon] they have the following gear:<br>[CR ¼ Incidental] and [drow bonus] <br><br> {33%}
-In addition to the [drow,#drow]'s [#drow,as armor], [#drow,as rangedweapon] and a [#drow,as meleeweapon] they have the following gear:<br>[CR ¼ Incidental] 
+In addition to the [drow,#drow]'s [#drow,as armor], [#drow,as rangedweapon] and a [#drow,as meleeweapon] they have the following gear:<br>[CR ¼ Incidental] and [drow bonus]<br><br> {33%}
+In addition to the [drow,#drow]'s [#drow,as armor], [#drow,as rangedweapon] and a [#drow,as meleeweapon] they have the following gear:<br>[CR ¼ Incidental]<br><br>
 In addition to the [drow,#drow]'s [#drow,as armor], [#drow,as rangedweapon] and a [#drow,as meleeweapon] they have the following gear:<br>[CR ¼ Incidental] and [trinket]<br><br>
