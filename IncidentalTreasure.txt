@@ -191,7 +191,7 @@ $minor magical item
 <b>Loyal rope</b><q>Animate rope with the personality of a loyal dog. 50'. Must be taught knots the way a dog must be taught tricks</q>
 
 $exotic potion
-<b>An Exotic Potion:</b> [An] [exotic potion type,#potiontype] in [potion container], with a label showing [potion label]<br>The [#potiontype] appears to be [potion looks], smells like [potion smell], is [exotic potion texture] in consistency, and tastes like [potion taste]<small>(DC [potion dc] to identify; <b>Potency:</b> [potion strength]; <b>Effect:</b> [potion effect])</small>
+<br><b>An Exotic Potion:</b> [An] [exotic potion type,#potiontype] in [potion container], with a label showing [potion label]<br>The [#potiontype] appears to be [potion looks], smells like [potion smell], is [exotic potion texture] in consistency, and tastes like [potion taste]<small>(DC [potion dc] to identify; <b>Potency:</b> [potion strength]; <b>Effect:</b> [potion effect])</small>
 
 $potion DC
 10
@@ -239,13 +239,13 @@ $potion effect
 <b>Age.</b> Makes the user grow some years older.
 <b>Animal form.</b> Makes the user turn into a random animal.
 <b>Antidepressant.</b> Does what it says on the tin.
-<b>Arcane.</b> Increases the spell DC and spell attack modifier of the imbiber.
-<b>Artisans Skill.</b> Gives the user proficiency with [tools 2].
+<b>Arcane.</b> Increases the spell DC and spell attack modifier of the imbiber by [1-3].
+<b>Artisans Skill.</b> Gives the user proficiency with a set of tools.
 <b>Atomic Clock.</b> Lets the user know the exact time and date.
 <b>Babelfish.</b> Lets the user speak any language but not understand it.
-<b>Beautiful appearance.</b> Makes the user appear more attractive.
+<b>Beautiful Appearance.</b> Makes the user appear more attractive.
 <b>Berserker.</b> Makes the user rage with great strength.
-<b>Bless Weapon.</b> Makes the users weapons do more damage.
+<b>Bless Weapon.</b> Makes the users weapons do additional damage equal to their proficiency bonus.
 <b>Bodyguard.</b> Creates a spectral bodyguard who obeys orders.
 <b>Bowmanship.</b> Makes the user more effective with a bow or ranged weapon.
 <b>Cold Resistance.</b> It gives resistance to cold damage.
@@ -269,7 +269,7 @@ $potion effect
 <b>Flavour.</b> Makes anything and everything taste amazing!
 <b>Fleet foot.</b> Increases the drinker's speed by (5/10/15 feet).
 <b>Furnace.</b> Makes the user radiate with a damaging aura.
-<b>Gargoyle Toughness.</b> Increases the users Constitution.
+<b>Gargoyle Toughness.</b> Increases the users Constitution to 16.
 <b>Ghostly Form.</b> Makes the user intangible and able to phase through objects.
 <b>Giant Strength.</b> It gives the user much more strength.
 <b>Glimmer.</b> Makes the user and its gear instantly clean and as good looking as possible.
