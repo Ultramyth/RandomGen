@@ -191,7 +191,7 @@ $minor magical item
 <b>Loyal rope</b><q>Animate rope with the personality of a loyal dog. 50'. Must be taught knots the way a dog must be taught tricks</q>
 
 $exotic potion
-[An] [exotic potion type,#potiontype] in [potion container], with a label showing [potion label]<br>The [#potiontype] appears to be [potion looks], smells like [potion smell], is [exotic potion texture] in consistency, and tastes like [potion taste]<q>(DC [potion dc] to identify; <b>Potency:</b> [potion strength]; <b>Effect:</b> [potion effect])</q>
+<b>An Exotic Potion:</b> [An] [exotic potion type,#potiontype] in [potion container], with a label showing [potion label]<br>The [#potiontype] appears to be [potion looks], smells like [potion smell], is [exotic potion texture] in consistency, and tastes like [potion taste]<small>(DC [potion dc] to identify; <b>Potency:</b> [potion strength]; <b>Effect:</b> [potion effect])</small>
 
 $potion DC
 10
@@ -527,7 +527,7 @@ a forge
 a fresh baby
 a new car
 a storm
-acidic
+acid
 alcohol
 apples
 aromatic spices
@@ -586,8 +586,8 @@ music
 musk
 nothing at all
 nuts
-of chemicals
-of something bad flavoured to taste better
+chemicals
+something bad flavoured to taste better
 old fruit
 orc
 paint
