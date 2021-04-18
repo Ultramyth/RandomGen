@@ -1,3 +1,4 @@
+$include https://github.com/Ultramyth/RandomGen/raw/main/DrowTreasures.txt
 $name : Drow Incidental Treasure
 $author : Ben
 $description : Generates incidental treasure
@@ -38,7 +39,7 @@ comb made of [minor carved] with [goth feature] carved into its handle (worth [6
 $art object 25
 decorative scabbard with a [motif] motif (worth 2[0-9] gp)
 eye patch with silver thread and a beryl (worth 2[0-9] gp)
-dagger with a [motif] holding a [gem 10] in the pommel (worth 2[0-9] gp)
+dagger with a [motif] holding a [10 gem] in the pommel (worth 2[0-9] gp)
 silver ewer featuring [goth feature] (worth 2[0-9] gp)
 carved bone statuette of [idol] (worth 2[0-9] gp)
 small gold bracelet featuring [goth feature] (worth 3[0-9] gp)
@@ -52,6 +53,35 @@ gold locket with a painted portrait inside of [an] [portrait] (worth 2[0-9] gp)
 
 $art object 100
 silvered shortsword (worth 115 gp)
+
+$10 gem
+azurite
+banded agate
+blue quartz
+eye agate
+hematite
+lapis lazuli
+malachite
+moss agate
+obsidian
+rhodochrosite
+tiger eye
+turquoise
+beryl
+
+$50 gem
+bloodstone
+carnelian
+chalcedony
+chrysoprase
+citrine
+jasper
+moonstone
+onyx
+quartz
+sardonyx
+star rose quartz
+zircon
 
 $magic
 potion
@@ -1248,6 +1278,18 @@ bone
 antler
 horn
 
+$motif
+spider
+demon {50%}
+serpent {20%}
+scorpion {20%}
+slime {10%}
+monstrous beast
+bat
+skulls
+dans macabre
+gargoyle
+
 $goth feature
 tiny skulls
 baying wolves
@@ -1415,6 +1457,8 @@ $Incidental 3
 $>CR 3 Incidental
 [Incidental 3]
 [incidental coins 0] [pouch]
+[Incidental 4]
+[Incidental 2] and [magic item table a]
 
 $Incidental 4
 43 gp, 1 sp, 2 cp [pouch]
@@ -1426,3 +1470,4 @@ $>CR 4 Incidental
 [incidental coins 0] [pouch]
 [exotic potion,unique]
 [an] [oils]
+[Incidental 4] and [magic item table a]
