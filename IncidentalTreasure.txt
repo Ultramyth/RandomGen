@@ -29,10 +29,26 @@ $incidental coins 17
 [1-6][0-9][0-9][0-9] gp and [1-6][0-9][0-9] pp {88%}
 [1-6][0-9][0-9][0-9] gp and [2-12][0-9][0-9] pp
 
+$art object 10
+comb made of [minor carved] with [goth feature] carved into its handle (worth [6-15] gp)
+[minor metal] whistle with [goth feature] etched into it (worth [6-15] gp)
+[minor metal] tiara with [goth feature] decorating it (worth [6-15] gp)
+[leather] belt with a [minor metal] buckle featuring [goth feature] (worth [6-15] gp)
+
 $art object 25
 decorative scabbard with a [motif] motif (worth 2[0-9] gp)
-eye patch with silver thread and a beryl
+eye patch with silver thread and a beryl (worth 2[0-9] gp)
 dagger with a [motif] holding a [gem 10] in the pommel (worth 2[0-9] gp)
+silver ewer featuring [goth feature] (worth 2[0-9] gp)
+carved bone statuette of [idol] (worth 2[0-9] gp)
+small gold bracelet featuring [goth feature] (worth 3[0-9] gp)
+cloth-of-gold vestments of [idol] (worth 2[0-9] gp)
+black velvet mask stitched with silver thread (worth 2[0-9] gp)
+copper chalice with silver filigree (worth 2[0-9] gp)
+pair of engraved bone dice (worth 2[0-9] gp)
+small mirror set in a painted wooden frame (worth 2[0-9] gp)
+embroidered silk handkerchief with [goth feature] (worth 2[0-9] gp)
+gold locket with a painted portrait inside of [an] [portrait] (worth 2[0-9] gp)
 
 $art object 100
 silvered shortsword (worth 115 gp)
@@ -142,6 +158,677 @@ Eye of Zin<q>If this jewel is pressed into the forehead, the wearer's eyes turn 
 Metal Eye Mask<q>Wearing this mask obscures you normal vision, but allows you to see from above, sort of like an orbital satellite's view. At sea level, you can see an area 200' in diameter, centered on the mask</q>
 Pink Bead<q>When smashed on the ground, immediately turns into a huge mountain of fluffy bubbles, similar in consistency to a mass of fused marshmallows. Can cushion a fall or block a hallway or something. 10' in diameter, can be cut through with 6 slashing attacks, lasts 1d6 minutes
 Loyal rope<q>Animate rope with the personality of a loyal dog. 50'. Must be taught knots the way a dog must be taught tricks</q>
+
+$exotic potion
+a [exotic potion type,#potiontype] in [potion container], with a label showing [potion label] The [#potiontype] appears to be [potion looks], smells like [potion smell], is [exotic potion texture] in consistency, and tastes like [potion taste] (DC [10-23] to identify; <b>Potency:</b> [potion strength]; <b>Effect:</b> [potion effect])
+
+$exotic potion type
+brew
+concoction
+draught
+elixir
+ichor
+juice
+philter
+potion
+tonic
+vial
+
+$potion strength
+almost no positive effect, all side effect ([potion side effect])
+major with a small side effect ([potion side effect])
+major with a strong side effect ([potion side effect])
+minor with a slight side effect ([potion side effect])
+minor with a strong side effect ([potion side effect])
+regular with a slight side effect ([potion side effect])
+regular with a strong side effect ([potion side effect])
+regular with no side effect
+permanent until dispelled
+permanent (can only be removed with a wish spell)
+seemingly permanent
+temporary, but twice as strong and wears off quickly
+
+$potion effect
+Acid Resistance. Gives resistance to acid.
+Age. Makes the user grow some years older.
+Animal form. Makes the user turn into a random animal.
+Antidepressant. Does what it says on the tin.
+Arcane. Increases the spell DC and spell attack modifier of the imbiber.
+Artisans Skill. Gives the user proficiency with [tools 2].
+Atomic Clock. Lets the user know the exact time and date.
+Babelfish. Lets the user speak any language but not understand it.
+Beautiful appearance. Makes the user appear more attractive.
+Berserker. Makes the user rage with great strength.
+Bless Weapon. Makes the users weapons do more damage.
+Bodyguard. Creates a spectral bodyguard who obeys orders.
+Bowmanship. Makes the user more effective with a bow or ranged weapon.
+Cold Resistance. It gives resistance to cold damage.
+Comprehension. Lets the user understand all languages.
+Courage. Gives immunity to fear and some temporary inspiration.
+Cure-all. Cures any status effects.
+Dead Ringer. Makes the user appear completely dead to all magic.
+Demonic Leech. Heals a portion of all damage the user deals.
+Disguise. Changes the users form to a disguised form of any race and appearance.
+Dreams. Makes the user get lost in a hallucinatory dream world of their perfect dream.
+Eagle Sight. Gives the user strong vision and advantage on Wisdom (Perception) checks.
+Elemental form. Turns the user to an elemental form relevant to their personality.
+Euphoria. Makes the user feel amazing and trip out.
+Fame. Makes the user more famous.
+Fear. Makes the user terrified.
+Feast. Removes all hunger and thirst from the target.
+Fertility. Makes the user very fertile, almost certain to make a baby under its effects!
+Fey Nature. Lets the user become one with animals and nature around them.
+Flame Breath. Gives the user fire breath as a red or gold dragonborn.
+Flame Resistance. It gives resistance to fire damage.
+Flavour. Makes anything and everything taste amazing!
+Fleet foot. Increases the drinker's speed by (5/10/15 feet).
+Furnace. Makes the user radiate with a damaging aura.
+Gargoyle Toughness. Increases the users Constitution.
+Ghostly Form. Makes the user intangible and able to phase through objects.
+Giant Strength. It gives the user much more strength.
+Glimmer. Makes the user and its gear instantly clean and as good looking as possible.
+Goats Trek. Makes the user immune to the toils of long travels and bad weather.
+Goblin Climb. Gives the user advantage on Strength (Athletics) checks to climb.
+Godly form. Improves all ability scores.
+Gods Touch. Gives the user a holy connection to their god or fiendish deity.
+Gracefulness. Grants advantage on Dexterity (Acrobatics) checks.
+Growth. Makes the user double in size.
+Hawks Flight. Lets the user fly with a speed of 60 ft.
+Healing. It instantly regenerates some health when drank.
+Health. Cures all diseases and illnesses.
+Hook Horror. The users hands become sharp weaponised blades.
+Horrifying appearance. Makes the user look more ugly for a time.
+Intimidation. Gives the user a huge booming voice that terrifies those around.
+Invisibility. Makes the user invisible.
+Invulnerability. Freezes the user in stasis that makes them immune to damage but they cannot move or act.
+Iron Skin. Turns the users skin to metal giving them many resistances.
+Knowledge. Increases the users intelligence temporarily.
+Lightning Resistance. Gives resistance to lightning damage.
+Love. Makes the user and someone else fall in love.
+Luck. It gives the user a temporary boost to luck.
+Mana. Gives the user more magical power to cast with.
+Midas. Makes the user turn things to gold.
+Might. It gives a bonus to attack rolls after drinking.
+Musical Breath. Makes the user say everything in song, and fey music follows them in the air.
+Navigation. Makes the user unable to get lost and find where they need.
+Necro Resistance. Gives resistance to necrotic damage.
+Night vision. Gives the ability to see in the dark.
+Nightmares. Makes the user get lost in a hallucinatory dream world of their worst nightmares.
+Nymph Breath. Gives water breathing.
+One Leafed Clover. Gives the user worst luck.
+Oracle. Lets the user divine the future.
+Owls Wake. Makes the user need no sleep for a time.
+Peace. Makes the user very calm and unable to harm others.
+Poison. Poisons the user, weakening them.
+Possession. Lets the user gain control of a nearby creature, their body is comatose while they do.
+Preservation. Stops whatever it is poured on from rotting or degrading.
+Race Change. Changes the users race.
+Radiant Resistance. Gives resistance to radiant damage.
+Rebirth. Resurrects the user if they die soon after drinking.
+Rejuvenation. Heals a single scar or bad injury on the user such as a missing arm.
+Riddle me gone. Gives the user the cure to a single riddle.
+Schaffensfreude. Makes the enemies take damage as they deal it to the user.
+Serpent Tongue. Makes the user only able to lie.
+Sex Change. Changes the users gender.
+Shielding. Gives the user a magical shield of energy.
+Shrinking. Makes the user half in size.
+Sphinxes Truth. Makes the user tell the truth.
+Split Form. The user turns into two or three tiny versions of themselves and controls them all.
+Stamina. Gives the user more stamina and constitution.
+Stoneskin. Gives resistance to martial damage.
+Succubus Charm. Makes the drinker irresistible to nearby people.
+Swordsmanship. Makes the user more effective and versatile with a blade.
+The Bard. Increases the users charisma and charm temporarily.
+Tracelessness. Makes the user very hard to follow.
+Tracking. Lets the user track an enemy.
+Transmutation. Lets the user have the ability to change somethings properties.
+True form. Turns the user into a familiar like creature similar to their personality.
+Utter Hatred. Makes the user have bonuses against a particular type of enemy.
+Utter Understanding. Makes the user know very intimately about one exact thing. Random, or they can decide.
+Vigor. Gives temporary health when drank.
+Vitality. It slowly regenerates health over a period of some hours.
+Wild magic. Taps into wild magic making an absolutely random thing happen.
+Youth. Makes the user grow some years younger.
+
+$potion side effect
+a bad taste for some time
+a bloated feeling
+a cold
+a fever
+a sudden horrific accent
+addiction
+allergic reaction to your favourite food
+appreciation of colours and sound
+attracts bears
+bad luck
+baldness
+becoming strangely light
+bleeding from the eyes
+blindness
+blurred vision
+burping
+coughing
+curses
+damage
+deafness
+diarrhoea
+dizziness
+drunkenness
+everything tasting like dirt for some time
+excessive drooling
+fear of something
+feelings of anxiety
+feelings of guilt
+feelings of shame
+fidgeting
+flashbacks of your own eventual demise
+genuine happiness
+giddiness
+grumpiness
+health loss via rapid bleeding
+horrifying stench
+hunger
+immobilisation
+increased confidence
+increased libido
+insomnia
+itchiness
+kleptomania
+laughter
+light headedness
+loss of a random item
+loss of balance
+loss of charisma
+loss of intelligence
+loss of smell
+loss of speed
+loss of strength
+magically covers in dirt
+mood swings
+muscle spasms
+mutism
+nausea
+need for booze
+need to sing heroic music
+nothing bad at all!
+pain
+painful lust
+paranoia
+petrification
+poisoning
+puts the user to sleep
+rage
+rapid hair growth all over the body
+rashes
+recklessness
+relaxation
+sadness
+severe debt
+slight aches
+slight possession
+sneezing
+spots to grow on the skin
+strong believe you’re someone else
+stunning
+sudden moustache
+summons angry bees
+summons imps that want to kill you
+swelling
+temporary madness
+the hearing of demons
+the irresistible urge to dance
+the need to make friends
+the skin to crack and appear distorted
+the urge to fight
+thirst
+tripping the hell out
+trouble breathing
+uncontrollable babbling
+uncontrollable crying
+urge to hug
+vivid hallucinations
+vomiting
+weakness to a magical damage type
+weakness to physical damage
+weakness
+
+$potion container
+a bone flask
+a capped horn
+a coloured bottle
+a conical smooth glass bottle
+a geometric diamond shaped bottle
+a glass syringe
+a large bottle that can be swigged several times
+a large metal bottle
+a leather pouch
+a metal thermos
+a not quite watertight leather waterskin
+a small medical vial
+a small metal vial
+a small shot sized bottle
+a square glass bottle
+a stone flask
+a translucent beer bottle
+a translucent long wine bottle
+an inhaler like spray bottle
+an ornate very decorated glass bottle
+
+$potion looks
+[exotic potion color] with [exotic potion with]
+
+$exotic potion with
+a bright glow
+a cloudy murkiness
+a constant heat
+a face in the liquid
+a soft glow
+blood within it
+bubbles suspended in it
+chunks of metal in it
+constantly moving and shifting liquid
+dirt floating in it
+fizzing bubbles
+flecks of colour
+leaves and flowers in it
+some kind of bone floating in it
+some type of gore from a slain creature
+steam coming from it
+stripes of colour
+swirls of colour
+translucency
+two separating liquid
+
+$exotic potion texture
+airy and bubbly
+almost gaseous
+almost solid
+bitty
+chunky
+milky
+oily
+slimy
+thick and sludgy
+thin and watery
+
+$exotic potion color
+black
+blue
+bronze
+brown
+clear
+dark grey
+dark red
+gold
+green
+light blue
+light grey
+orange
+pale green
+pink
+purple
+rainbow
+red
+translucent
+white
+yellow
+
+$potion smell
+a brothel
+a colour
+a damp cave
+a forge
+a fresh baby
+a new car
+a storm
+acidic
+alcohol
+apples
+aromatic spices
+bacon
+baking cookies
+barbeque
+bark
+beef
+beer
+blood
+candy
+cheap perfume
+cheese
+chicken
+chocolate
+cinnamon
+cirtrus
+coffee
+compost
+cut grass
+death
+dirt
+egg
+festive
+fish
+flowers
+fresh cake
+fresh air
+fresh bread
+fresh water
+fruit punch
+fruit
+fumes
+garbage
+garlic
+gingerbread
+gold
+gunpowder
+holy oils
+home
+human flesh
+indescribable but horrid
+indescribable but nice
+lavender
+leather
+lilac and gooseberries
+magically the most desirable thing to you
+magically the worst thing to you
+massage oil
+mayonnaise
+medical
+metal
+minty
+mud
+music
+musk
+nothing at all
+nuts
+of chemicals
+of something bad flavoured to taste better
+old fruit
+orc
+paint
+pepper
+perfume
+polish
+rain
+roast meat
+roses
+rotten eggs
+rotting meat
+salt
+sand
+smoke
+something that stirs memories
+spicy
+stagnant water
+strange
+success
+sugar
+sulphur
+the forest
+the end of the world
+the sea
+the sewers
+vanilla
+vomit
+water
+wet dog
+wet goblin
+wine
+wood
+
+$potion taste
+a brothel.
+a colour.
+a damp cave.
+a forge.
+a fresh baby.
+a new car.
+a storm.
+acidic.
+alcohol.
+apples.
+aromatic spices.
+bacon.
+baking cookies.
+barbeque.
+bark.
+beef.
+beer.
+blood.
+candy.
+cheap perfume.
+cheese.
+chicken.
+chocolate.
+cinnamon.
+cirtrus.
+coffee.
+compost.
+cut grass.
+death.
+dirt.
+egg.
+festive.
+fish.
+flowers.
+fresh cake.
+fresh air.
+fresh bread.
+fresh water.
+fruit punch.
+fruit.
+fumes.
+garbage.
+garlic.
+gingerbread.
+gold.
+gunpowder.
+holy oils.
+home.
+human flesh.
+indescribable but horrid.
+indescribable but nice.
+lavender.
+leather.
+lilac and gooseberries.
+magically the most desirable thing to you.
+magically the worst thing to you
+massage oil.
+mayonnaise.
+medical.
+metal.
+minty.
+mud.
+music.
+musk.
+nothing at all.
+nuts.
+of chemicals.
+of something bad flavoured to taste better.
+old fruit.
+orc.
+paint.
+pepper.
+perfume.
+polish.
+rain.
+roast meat.
+roses.
+rotten eggs.
+rotting meat.
+salt.
+sand.
+smoke.
+something that stirs memories.
+spicy.
+stagnant water.
+strange.
+success.
+sugar.
+sulphur.
+the forest.
+the end of the world.
+the sea.
+the sewers.
+vanilla.
+vomit.
+water.
+wet dog.
+wet goblin.
+wine.
+wood.
+
+$potion label
+a cartoony mascot.
+a cheesy pun potion name.
+a code name.
+a coupon for a free potion.
+a few unrelated letters.
+a happy face.
+a healing symbol.
+a heartfelt hate letter for someone.
+a heartfelt love letter for someone.
+a label as if it was some kind of present.
+a label showing how many calories it is.
+a label with warnings and side effects all scribbled out.
+a list of ingredients in their chemical forms.
+a list of possible side effects as long as the bottle is.
+a living face looking around.
+a map of where the potion was made.
+a mass produced label claiming the company has no fault for any side effects.
+a mass produced label saying it’s a new flavour.
+a money back guarantee.
+a mysterious number.
+a name of a completely different potion to what it does.
+a note saying do not drink.
+a note saying its illegal contraband being confiscated.
+a note saying that it never should have been made and copius blood stains over the bottle.
+a note saying the alchemist is sorry for ever creating it.
+a note saying the alchemist thinks it is its greatest work.
+a passive aggressive note about other people drinking potions that don’t belong to them.
+a persons name. the potion wont work unless asked by its name to do so.
+a red x.
+a riddle, the lid not opening unless the riddle is solved.
+a sad face.
+a small doodle.
+a small puzzle for kids.
+a strange prophecy.
+a title describing the exact opposite.
+a warning about potion abuse and to only take in moderation.
+a warning of an ancient curse.
+all in some kind of raised symbols for the blind to read.
+all in some kind of symbols.
+an angry face.
+bloody prints all over it.
+brightly glowing letters.
+covered in glitter. it gets everywhere.
+covered in something unspeakable.
+crawling with bugs.
+doesn’t seem to have one.
+dwarven runes.
+fey symbols and sylvan writing.
+gnomish diagrams for its use.
+growing with crystals.
+growing with flowers.
+growing with rock.
+growing with vines.
+has faded beyond reading.
+holy symbols.
+is scrawled off.
+it says you’re being watched. when the person checks it instead says just kidding.
+its description and a joke.
+its description and a random fact.
+its description and a small compliment to make your day better.
+its description in celestial.
+its description in deep speech.
+its description in draconic.
+its description in druidic.
+its description in elemental languages.
+its description in elvish with a relevant mythic story.
+its description in gnomish.
+its description in goblin.
+its description in halfling.
+its description in infernal.
+its description in orcish
+its description in ornate elvish.
+its description in some ancient language.
+its description in strange arcane symbols.
+its description in undercommon.
+its description on dwarven.
+its name and description in invisible ink.
+its name and flavour.
+its name and its recommended buying price.
+its name and recipe for other alchemists.
+its name and title in bold letters.
+its name glowing with minor magic.
+its name in bold words in giant.
+its name with a warning about side effects.
+name engraved into the container.
+no words just a single colour.
+ornate and beautiful designs.
+saying its designed for babies.
+saying that it shouldn’t be drank by anyone under 18.
+several different names and descriptions plastered over each other.
+shamanistic symbols and shavings.
+that only shows the side effects.
+that plays a very quiet sing song till the bottle is empty.
+the name of one of the party members.
+the name of the bad guy.
+the words use only in emergencies scrawled on it.
+unholy symbols.
+very practical designs.
+very tiny print describing how the potion was made in great detail, around 1000 words.
+water damage but a just legible label.
+
+$potions
+[an] [flask|gourd|phial|vial|bottle] containing [thin|thick|bubbly|fizzy|gelatinous|chunky|watery|oily|slimy|crunchy|chewy|moving] [red|blue|yellow|silver|gold|purple|orange|green|brown|black|white|teal] liquid that tastes [sweet|sour|bitter|salty|savoury|spicy|foul|delicious|sickening|tangy|familiar] and acts as a potion of [potion type]
+
+$potion type
+healing
+poison
+stamina
+climbing
+slipperiness
+love
+animal friendship
+fire breath
+greater healing
+growth
+hill giant strength	
+[resistance] resistance
+water breathing	
+health
+etherealness
+clairvoyance
+diminution	
+fire giant strength
+frost giant strength
+gaseous form
+heroism
+invulnerability
+mind reading
+stone giant strength
+superior healing
+sharpness
+cloud giant strength
+flying
+invisibility
+longevity
+speed
+supreme healing
+vitality
+storm giant strength
+
+$oils
+oil of blessing (deal radiant damage or gain necrotic resistance) (150 gp)
+oil of corruption (deal poison damage or gain acid resistance) (150 gp)
+oil of decay (deal necrotic damage or gain radiant resistance) (150 gp)
+oil of energy (deal lightning damage or gain thunder resistance) (150 gp)
+oil of flameheart (deal fire damage or gain cold resistance) (150 gp)
+oil of frost (deal cold damage or gain fire resistance) (150 gp)
+oil of nightmares (deal psychic damage or gain force resistance) (150 gp)
+oil of resilience (deal force damage or gain psychic resistance) (150 gp)
+oil of spite (deal acid damage or gain poison resistance) (150 gp)
+oil of thunderstrike (deal thunder damage or gain lightning resistance) (150 gp)
 
 $book
 poetry
@@ -437,6 +1124,181 @@ $mundane 50
 [an] vial of poison (basic) {tag:adventuring gear, poison}{base:50}{value:50 gp}
 [an] [condition glass] magnifying glass {tag:adventuring gear}{base:50}{value:50 gp}
 
+
+
+$mundane dungeon items
+a goblin drum
+a pair of rusty manacles
+a set of thieves' tools
+a gnarled quarterstaff
+a set of brass tongs
+[an] [condition rations] block of aged-cheese (3 rations)
+a piece of moldy cheese (1 ration)
+a mithril key
+a skeleton key (can be used once)
+a vial of gold dust (worth 10 gp)
+a gold tooth (1 gp)
+giant rat fur [hat|cloak|vest|boots]
+a set of a dozen silver spoons (3 gp)
+a bag of malachite powder (5 gp)
+a belt of shriveled halfling hands
+a brass peacock with ruby eyes (50 gp)
+a [quality] pair of drake-skin gloves
+a plush orcus toy
+an onyx comb (10 gp)
+a jar of dried seeds
+a vial of orc sweat
+a hollowed-out unicorn horn
+a set of war drums made of bamboo and dragon-skin
+a pair of antlers
+a stone tablet etched with the true name of a demon
+a severed finger with a jade ring (50 gp)
+a plague doctor's mask
+a soiled portrait of a naked elven maiden
+a coral ring (5 gp)
+a jagged wooden beam
+a dented tin coronet
+a tome of bawdy goblin art
+an ivory finger
+a worg fur cloak
+an ingot of pig iron
+a spidersilk bag
+a chipped glass eye
+a dried tentacle
+a leather gag
+a bottle of pure alcohol
+a spiked leather knee pad
+a roll of white linen bandages
+a [goblin|kobold] dollhouse
+a terracotta bust
+a wooden sparring sword
+a shrunken head
+a bottle of perfume
+a glass jar with a preserved animal
+a necklace pouch
+a loin-cloth
+a smokepipe
+a bronze chime
+a shiny stone
+a bag with multi-colored chalk
+a miniature copper bell
+an iron whistle
+a rusty nose ring
+a dried scalp with semi-precious stones sewn in (15 gp)
+a serrated knife (as dagger)
+a bucket of urine
+a glass eye
+a pitchfork
+a 10-foot pole with a mirror at the end
+a pot of lard
+a grinning idol of [idol]
+a baby carriage made of bones
+a wooden plank engraved with words of love in [goblin|dwarven|draconic|undercommon|gnome]
+a loaf of stale bread (ration 1)
+[condition rations] goblin rations ([1-5] rations)
+dried mushrooms (1 ration)
+a bone with strips of meat still on it
+a loaf of moldy bread (1 ration)
+a half-eaten rat on a stick ([condition rations], 1 ration)
+discarded goblin underwear
+a crudely carved bone fertility stick
+a humanoid skin coin purse
+a goblin cutter (shortsword)
+a goblin cleaver (scimitar)
+a horn of goblin [ale|wine|spirits]
+a necklace of humanoid ears
+a dried eyeball
+a pouch of goblin teeth
+a wooden cup
+a bedbug infested bedroll
+a string of half-eaten sausages ([1-4] rations)
+a horrible smelling salve (restores 1 hp)
+a fermented giant centipede in a gourd
+a roasted giant fire beetle ([condition rations], [2-4] rations)
+a vial of firebeetle blood (glows for 1d6 days, flamable)
+a giant spider leg (club)
+a giant rat pelt
+
+$idol
+a great old one
+an elven deity
+a dwarven deity
+a drow deity
+a gnomish deity
+a monstrous deity
+Lolth
+a demonic bat
+an unknowable betentacled god
+a naked maiden
+a nymph
+a satyr
+a demon lord
+an arch devil
+a long-dead god
+
+$minor metal
+pewter
+tin
+copper
+lead
+
+$minor carved
+bone
+[wood]
+antler
+horn
+
+$goth feature
+tiny skulls
+baying wolves
+tentacles
+bats
+skeletal figures writhing in agony
+demons torturing lost souls
+spiders
+a many tentacled beast
+a mythical beast
+a weeping woman
+a skeletal motif
+tiny bones
+delicate leaves
+winter scenery
+a gothic castle
+spirits
+ghostly figures
+swirls of mist
+a gargoyle
+gargoyles
+serpents
+a serpent
+a serpentine motif
+a scene of ritual sacrifice to [idol]
+
+$portrait
+nobleman
+noblewoman
+maiden
+woman
+man
+child
+boy
+girl
+demon
+bawdy scene
+
+$leather
+leather
+suede
+cordovan leather
+giant snake leather
+alligator leather
+crocodile leather
+ostrich leather
+wolf leather
+giant bat leather
+[gold|silver|red|blue|green|black|copper|bronze] dragon leather
+stingray leather
+
 $pouch material
 leather
 hessian
@@ -446,6 +1308,9 @@ velvet
 silk
 pigskin
 fur-lined
+spidersilk
+humanoid skin
+[leather]
 []
 
 $pouch
@@ -453,16 +1318,17 @@ in a small [pouch material] pouch
 in [an] [pouch material] pouch
 in an oversized [pouch material] pouch
 in a modest [pouch material] pouch
+in [an] [pouch material] necklace pouch
 
 $>CR 0 Incidental
 [1-12] sp [pouch]
 [1-3] gp [pouch]
-[1-12] sp in [pouch] and [mundane 1]
-[1-3] gp in [pouch] and [mundane 1]
-[1-12] sp in [pouch] and [mundane 1 mult,x1-2] and [mundane 1]
-[1-3] gp in [pouch] and [mundane 1 mult,x1-2] and [mundane 1]
-[1-12] sp in [pouch] and [mundane 5]
-[1-3] gp in [pouch] and [mundane 5]
+[1-12] sp [pouch] and [mundane 1]
+[1-3] gp [pouch] and [mundane 1]
+[1-12] sp [pouch] and [mundane 1 mult,x1-2] and [mundane 1]
+[1-3] gp [pouch] and [mundane 1 mult,x1-2] and [mundane 1]
+[1-12] sp [pouch] and [mundane 5]
+[1-3] gp [pouch] and [mundane 5]
 [incidental coins 0] [pouch]
 
 $>CR ⅛ Incidental
@@ -471,7 +1337,7 @@ $>CR ⅛ Incidental
 8 gp, 6 sp, 2 cp [pouch]
 3 gp, 2 sp, 5 cp [pouch] and [mundane 1]
 5 gp, 3 sp, 7 cp [pouch] and [mundane 1]
-8 gp, 6 sp, 2 cp [pouch] [mundane 1]
+8 gp, 6 sp, 2 cp [pouch] and [mundane 1]
 3 gp, 2 sp, 5 cp [pouch] and [mundane 1 mult,x1-2] and [mundane 1]
 5 gp, 3 sp, 7 cp [pouch] and [mundane 1 mult,x1-2] and [mundane 1]
 8 gp, 6 sp, 2 cp [pouch] and [mundane 1 mult,x1-2] and [mundane 1]
@@ -482,29 +1348,81 @@ $>CR ⅛ Incidental
 5 gp, 3 sp, 7 cp [pouch] and [mundane 5 mult,x1-2] and [mundane 5]
 8 gp, 6 sp, 2 cp [pouch] and [mundane 5 mult,x1-2] and [mundane 5]
 [incidental coins 0] [pouch]
+[art object 10]
 
-$>CR ¼ Incidental
+$incidental ¼
 5 gp, 3 sp, 7 cp [pouch]
 8 gp, 6 sp, 2 cp [pouch]
 17 gp, 2 sp, 5 cp [pouch]
-[incidental coins 0] [pouch]
 
-$>CR ½ Incidental
+$>CR ¼ Incidental
+[incidental ¼]
+[incidental ¼] and [mundane 5]
+[incidental ¼] and [mundane 5] and [mundane 5]
+[incidental ¼] and [mundane 5,1-2x] and [mundane 5]
+[incidental ¼] and [mundane 5] and [an] [art object 10]
+[incidental ¼] and [mundane 10] and [mundane 5]
+[incidental ¼] and [mundane 10]
+[mundane 10,x1-2] and [mundane 5]
+[incidental coins 0] [pouch]
+[an] [art object 10]
+[incidental ¼] and [an] [art object 10]
+a minor magical item:<br>[minor magical item]
+
+$Incidental ½
 8 gp, 6 sp, 2 cp [pouch]
 17 gp, 2 sp, 5 cp [pouch]
 25 gp, 8 sp, 7 cp [pouch]
-[incidental coins 0] [pouch]
 
-$>CR 1 Incidental
+$>CR ½ Incidental
+[Incidental ½]
+[Incidental ½] and [an] [art object 10]
+[incidental coins 0] [pouch]
+[an] [art object 25]
+a minor magical item:<br>[minor magical item]
+an unusual poition:<br>
+
+$Incidental 1
 17 gp, 2 sp and 5 cp [pouch]
 25 gp, 8 sp and 7 cp [pouch]
 34 gp and 5 sp [pouch]
-8 sp, 7 cp [pouch] and [an] [art object 25]
-9 gp, 5 sp [pouch] and [an] [art object 25]
-[incidental coins 0] [pouch]
 
-$>CR 2 Incidental
+$>CR 1 Incidental
+[Incidental 1]
+[Incidental 1] and [mundane 25]
+[incidental ¼] and [mundane 10], [mundane 25] and [mundane 5]
+[incidental ¼] and [an] [art object 25]
+[incidental ½] and [an] [art object 25]
+[incidental coins 0] [pouch]
+a minor magical item:<br>[minor magical item]
+
+$Incidental 2
 25 gp, 8 sp, 7 cp [pouch]
 34 gp, 5 sp [pouch]
 43 gp, 1 sp, 2 cp [pouch]
+
+$>CR 2 Incidental
+[Incidental 2]
+[Incidental 2] and [exotic potion,unique]
+[exotic potion,unique]
 [incidental coins 0] [pouch]
+
+$Incidental 3
+34 gp, 5 sp [pouch]
+43 gp, 1 sp, 2 cp [pouch]
+51 gp, 7 sp, 5 cp [pouch]
+
+$>CR 3 Incidental
+[Incidental 3]
+[incidental coins 0] [pouch]
+
+$Incidental 4
+43 gp, 1 sp, 2 cp [pouch]
+51 gp, 7 sp, 5 cp [pouch]
+57 gp, 1 sp, 2 cp [pouch]
+
+$>CR 4 Incidental
+[Incidental 4]
+[incidental coins 0] [pouch]
+[exotic potion,unique]
+[an] [oils]
