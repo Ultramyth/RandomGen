@@ -1,4 +1,4 @@
-$include https://github.com/Ultramyth/RandomGen/raw/main/DrowTreasures.txt
+$include https://github.com/Ultramyth/RandomGen/raw/main/MagicItem.txt
 $name : Drow Incidental Treasure
 $author : Ben
 $description : Generates incidental treasure
