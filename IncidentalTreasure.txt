@@ -1,0 +1,372 @@
+$name : Drow Incidental Treasure
+$author : Ben
+$description : Generates incidental treasure
+$amount : 10
+$button : Loot!
+
+$incidental coins 0
+[5-30] cp
+[4-24] sp
+[3-18] ep {66%}
+[3-18] gp {50%}
+[1-6] pp {17%}
+
+$incidental coins 5
+[4-24][0-9][0-9][0-9] cp
+[6-36][0-9] sp and [2-12][0-9] gp
+[3-18][0-9] ep and [2-12][0-9] gp {66%}
+[4-24][0-9] gp {50%}
+[2-12][0-9] pp {17%}
+
+$incidental coins 11
+[4-24][0-9][0-9][0-9] sp and [1-6][0-9][0-9] gp {50%}
+[1-6][0-9][0-9] ep and [1-6][0-9][0-9] gp {38%}
+[2-12][0-9][0-9] gp and [1-6][0-9] pp
+[2-12][0-9] gp and [2-12][0-9] pp {63%}
+
+$incidental coins 17
+[2-12][0-9][0-9][0-9] ep and [8-52][0-9][0-9] gp {33%}
+[1-6][0-9][0-9][0-9] gp and [1-6][0-9][0-9] pp {88%}
+[1-6][0-9][0-9][0-9] gp and [2-12][0-9][0-9] pp
+
+$art object 25
+decorative scabbard with a [motif] motif (worth 2[0-9] gp)
+eye patch with silver thread and a beryl
+dagger with a [motif] holding a [gem 10] in the pommel (worth 2[0-9] gp)
+
+$art object 100
+silvered shortsword (worth 115 gp)
+
+$magic
+potion
+[minor magical item]
+
+$minor magical item
+Wooden Spoon<q>Carved with rune for "food". When tapped on an inert organic or semi-organic material (wood, dirt) it turns that stuff into edible foodstuffs, although it will be mushy and unpalatable.</q>
+Amulet of Hope<q>Shines as bright as a candle, but only when there are no other light sources. Light points back towards dungeon entrance, vaguely. Hums reassuringly when clutched, and warms your hand</q>
+Orphan's Top<q>Cannot be spun if there are any invisible undead nearby</q>
+Ring of the Adventurous Limb<q>If worn on a hand, the entire arm will vanish. It will return after 24 hours have elapsed. Roll a d10: 1 - tattoo on arm, 2 - arm injured, 3 - gained a ring, probably a wedding ring, 4 - ring missing, 5-10 - nothing special. It will have a similar effect on legs</q>
+Dust of De-Appearance<q>Can make things invisible, but wears off if the object moves, is moved, or even wiggles a bit. Best used on inanimate objects or people who can hold really, really, still</q>
+Paired Scrolls<q>Whatever is written on one appears on the other. Give players a 3"x5" card to write on, to limit how much they can write</q>
+Statuette of Baal<q>Can be "fed" gold to grow larger, adding to its size. Starts out the size of a gold coin. Becomes more complex as it grows larger, adds features and companions. If grown to the size of 100,000 gp, golden tablet reveals a great secret. (Does not create or destroy gold, just absorbs it). If grown to 1,000,000 gp, it will come alive and try to take over the world</q>
+Book of Epic Boredom<q>When reading, save vs sleep</q>
+Black Cigarette<q>When smoked, it creates a huge cloud of smoke and allows the smoker to see through smoke and fog. Can be smoked for 5 minutes (or 5 one-minute segments)</q>
+Colorthief's Brush<q>This paintbrush has a needle on the back. If you prick something, you steal all the color from it, but can later paint with those same brilliant colors (stored in the brush, controlled by imagination). If a book is pricked, it will steal the words. The book can then be reconstructed, but it takes a few days of writing for it to be recovered</q>
+Sleeping Draught<q>Sleep TWICE AS HARD for four hours. You get a full night's rest, but cannot be woken up. Unwilling targets get a save</q>
+Love Potion
+Exploserous Carnelian<q>When activated, begins to glow hotter and hotter. Explodes like a stick of dynamite after 1d2+2 rounds</q>
+Mighty Acorn<q>When thrown on the ground, immediately grows into a 20' oak</q>
+Mechanical Torchbearer<q>Follows the associated amulet, or whoever is wearing it. Can hold 6 torches, and relight a new one as the old one burns out. Looks like a mechanical spider, 5' in diameter</q>
+Penguin tokens ([1-6])<q>Summons an 80 lb emperor penguin. On land, cannot do anything except waddle to where you direct. In water, can attack as a 1 HD creature. Is destroyed/killed if it takes any damage. Reverts to a small (1") wooden token after 1 minute</q>
+Saint's Bones<q>About the size of a cigar box. Contains mandible + some carpals. Will rattle ominously when a lie is uttered nearby</q>
+Amber Comb<q>Any lightning attack within 10' is diverted to the comb instead. If the comb takes 6 or more damage (it is not immune to lightning), it shatters</q>
+Chewed Bone<q>When chewed, it fills the air with the smell of delicious fresh meat. This is strong enough to mask other odors</q>
+Bottle of Light<q>When swung overhead (a small chain is attached for this purpose) the bottle absorbs ambient light. Later, the bottle can be unstoppered to allow the light back out again. Can hold up to 5 rounds of light. Special properties of light are preserved: moonlight can induce lycanthropy, for example</q>
+Silver silk handkerchief<q>3' on a side. On the command word, it becomes as hard as thick steel. A second command word reverts</q>
+Silver silk rope<q>A silk rope 25' in length that on the command word, becomes as hard as thick steel. A second command word reverts</q>
+Goggles of the Clown<q>When worn, everything looks like a clown, and speaks in a mocking, clowning voice. It is very difficult to tell people apart. You can barely tell a knight apart from his horse (which appears as a four-legged clown). In combat, you must make a Wisdom check every round or lose track of which clown is which. On the upside, you are immune to the beauty of nymphs and the ugliness of catoblepas</q>
+Vial of Nightshade<q>When drunk, it puts the body into a deep coma and ejects the spirit. You can now roam around, incorporeal, until you return to your body. There is a 1-in-6 chance each hour that some mishap befalls you (body possessed by outsider, soul lost forever, etc). Coma lasts for 1d3 days</q>
+Grinning Amulet<q>Anyone who laughs--even a snicker--near this amulet must make a save or laugh uncontrollably for the next minute. Careful, it's contagious--if a player laughs during this, so does their character</q>
+Trollwax<q>Tacky and unpalatable. Anything that tastes it must succeed on a check, or be so disgusted that it cannot taste it again. (Takes a week to fully leave the tongue)</q>
+Cheater's Coin<q>When flipped, it will give whatever result the owner wishes. This is not limited to heads/tails--it can also give results of king, dragon, treasury, pilgrims, etc</q>
+Boots of Independence<q>When you remove these boots and fail to restrain them (put them in a pack, etc) they will walk back the way they came, all the way back to where you first put them on, with more-or-less the same cadence and sounds. If you walked in a loop somewhere along the line, the boots will get stuck in the loop and repeat</q>
+Tiny tree<q>Produces three fat apples every day (enough to feed 1 person). Must be watered with 1 cup of blood each day, or it will die. If dead, can be revived with water. Probably found dead/in a chest</q>
+Skeleton gourd<q>This gourd has a peephole. Anyone holding the gourd up to their face and looking into the peephole will be paralyzed while their brain is filled with visions of dancing skeletons</q>
+Ring of Petrification<q>Putting this ring on will turn a person to stone, except for the ring. Someone else can remove the ring, and thereby return them to flesh</q>
+Party Book<q>This book creates audible illusions imitating a party. The state of the party depends on the page the book is opened to. If the book is turned to page 1, you'll hear a couple people setting up silverware. Middle of the book, raucous carousing. Near the end, mostly snores and a few people taking shots</q>
+Quiet Bell<q>This 2" tall silver bell prevents all sound within 1'</q>
+Palette of All Colors<q>Contains 7 mundane palettes (ROYGBIV) and 1 color that is invisible to humans. If the invisible color is painted on a wall, it allows people to see through it. Can paint up to a 3' diameter spot, or 10 3" peepholes. Penetrates no more than 6". Getting it on someone's face blinds them</q>
+Slimming Cone<q>When touched to a creature, it instantly and harmless sucks out all the excess fat from them, ejecting it onto the floor in a big mass</q>
+Grass Whistle<q>When blown, roll for a random encounter. If the location has no encounter table (some cities, maybe), the PCs will meet someone interesting who wants something</q>
+Naiad-hair Ring<q>50% cursed. When worn, PC treats all water as if it had the consistency of a gas. (Don't fall off a boat). Water is still unbreathable</q>
+Ring of Swimming<q>Wearer treats air as if it had the consistency of water. You can "fly" by swimming through the air, but the air is too thick to breath. Other water penalties also apply</q>
+Belt of Cat Imprisonment<q>When laid on the ground, felines are compelled to sit in the center of it. As charm</q>
+Endless Boots<q>Cannot stop walking. Will never tire from walking. Cannot run. Walk walk walk</q>
+Spike of Woodland Suicides<q>Sort of like a hunter's trap. When left in the woods, wild animals will come and impale themselves on it. A verdant forest yields 1d10 rations worth per day, but must be moved daily. Fey will fucking hate you, though</q>
+Salt Block<q>Any food you carry will never spoil. Doesn't have to be on your person. Applies to a captain and his ship's cargo, for example</q>
+Log of Alarum<q>This 300 lb log protects those who sleep with their heads against it. If they would be attacked in their sleep, the log has a 90% chance of waking them up (by making bird song)</q>
+Demonic Muffin<q>When eaten, reverses your gravity for 1d6 minutes</q>
+Everice<q>Never melts</q>
+Chest of the Mundane<q>Anything placed inside it is covered with an illusion that makes it look worthless and boring. Currently holding 3 peridots worth 10gp each</q>
+Boots of Devouring<q>Cursed. As soon as you put one on your foot it starts fucking eating you like a garbage disposal. Feeding it lots of booze causes it to vomit out everything in its stomach (which may include some treasure)</q>. 
+Fox-in-a-Bag<q>Sleeps all the time. As soon as it touches the ground, it will run around like crazy. Dex 18, AC as plate because of high Dexterity + foxy nature. If you pick it up (good luck) it will fall back asleep</q>
+Feather of Bravado<q>When placed in a hat, it points in the direction of the nearest deadly foe capable of killing the PCs. When placed in the bottom of one's shoe, allows them to run slightly faster</q>
+Gossip Cookies<q>Each one contains either a random rumor from the most relevant rumor table or "You will be killed by [random monster from most relevant random encounter table]". 50% chance of each</q>
+A small silver figurine<q>When given away, will return to your pocket after 1d6 minutes. The only way to permanently get rid of it is for the recipient to similarly give it away before the 1d6 minutes expire.  (Alternatively, the original owner could die). Yes, this is great for scamming people. Apparent value: 1d100 silver</q>
+uneering rock<q>A rock that, when thrown, always hits its target. Always. Cannot do anything that you couldn't conceivably do with a really lucky throw</q>
+saddle of the horse<q>A saddle that turns any animal into a horse when it is strapped on. The horse cannot remove the saddle on its own. Currently owned by a bounty hunter who is fond of riding his bounties back to town</q>
+skeleton key<q>A key that can unlock any door, but cannot be removed from the mechanism until the door is relocked
+mug of homing<q>A mug that points the way to the nearest tavern when it is balanced on its edge
+egg cup of hatching<q>An egg cup that can hatch any egg that is placed atop it
+ring of the hipster<q>A ring that gives the wearer a magnificent mustache/beard, depending on which finger it is worn on. The left ring finger, for example, always yields a Van Dyke
+ring of discorporate seeing<q>A ring that makes your eyeball pop out. This is not a problem, and you can continue to see through the eye just fine, like a spy-eye. Reversible if the ring is removed
+ring of flawed invisibility<q>A ring that makes you invisible, but not your equipment or clothing
+umbrella of falling<q>An umbrella that allows you float downwards at 60'/round when open, negating fall damage
+Chicken Arrows ([1-6])<q>On a hit, target must save vs fear (first arrow only). If sat upon like an egg, quickly turns into an adult chicken. Fletched with white feathers</q>
+Bag of Infinite Manure<q>Useful for campfires</q>
+Wand of Necromantic Cooking<q>Can enchant a corpse or cut of meat to cut, prepare, marinate, and cook itself. A slaughtered pig will seek out gravy to roll around in. Sausages will jump into the saucepan, and then seek out your plate when cooked</q>
+Omnidress<q>Can turn into any type of dress (can even imitate leather armor, but not metal)</q>
+Indelible Pen<q>Can write on anything. Writing is permanent. Works 1d6 times</q>
+ring of the corpse<q>Ring that makes the wearer appear to be dead and rotten
+magic scones (1d6)<q>When broken in half, it erupts into 1d100 scones (10 scones = food for a day). Alternatively, it can be eaten to restore 1d6 HP</q>
+Wooden hand<q>1/day, can turn into a living-but-disembodied hand for 1 hour. Will obey your commands for the duration. Str 1, can climb most walls. Int 6, can see normally, but cannot speak</q>
+Locket<q>Woman's face inside the amulet always looks towards Meltheria</q>
+Box of paired snails<q>When one snail dies, so does its mate. Normally used to send very crude, binary messages. There are 1d6 pairs of snails. Feed them leaves</q>
+Hungry coin<q>Cursed. Will attempt to eat other coins that it comes into contact with. Eats 100 coins an hour</q>
+Armor of Glamour<q>Looks like a fancy dinner suit. Is actually a suit of plate mail</q>
+Ring of Good Omen<q>The first time you fail a save against a curse or other magic, the ring breaks and you instead make your save</q>
+Prayer of the Seal<q>When this sheet of paper is attached to a door or portal, it become locked (until the paper is removed or destroyed)</q>
+Boots of the Aristocrat<q>When you click them together, your clothes become clean, your skin becomes perfumed, and your hair is styled</q>
+Cursed matches ([1-6])<q>When lit, the match does not ignite. Instead, whatever the PC is looking at catches fire. (Tiny match-sized fire. Does no damage unless allowed to progress)</q>
+Preservative jar<q>Anything placed in this jar enters stasis. Cannot hold anything bigger than a toad. Currently holds a toad</q>
+Library Box<q>When a non-magical book is placed inside it, another of the same type will be found there the next day</q>
+Monocle of Entropy<q>If you stare at something long enough, it will fall over. 1 round for a candlestick, 1 minute for a sleeping cow, 1 hour for a small tree, 1 day for a cottage or large tree, 1 week for a castle. Must be within 100'</q>
+Girdle of Masculinity/Femininity<q>Non-cursed because that's way more fun</q>
+Stick of the Titan<q>Hits for 2d8, then breaks</q>
+Singing frog<q>Knows 1d6 songs. Good for a free round of drinks in pretty much any bar you walk in to, with only a 20% chance that someone will try to steal it from you at the end of the night</q>
+Perpetual motion machine<q>Utterly unremarkable in a world filled with magic, but still cool</q>
+Seed of Moon Ice<q>If dropped in a body of water, will "freeze" an area up to 20' diameter. If swallowed, you die. If touched, save or die. Leaves awesomely frozen corpses that are not cold to the touch and never thaw</q>
+Small broom<q>When activated, will attempt to clean the dirtiest thing nearby</q>
+Black cat, winged<q>When you tap it on the nose, it enters stasis. (This is why you found it in a treasure chest)</q>
+Blindfold of the Spirits<q>When worn, you can attack incorporeal things as if they weren't. Also, you're blind</q>
+Night's Black Windchimes<q>25% chance of alerting you when you would be attacked during the night. If one of the 1d6+1 chimes is broken in half, a refreshing (but also quite cold) breeze blows through the area</q>
+Dust of Vermicide<q>When thrown, does 1 damage to everything in a 5' diameter area. Alternatively, does 2d6 damage against a swarm</q>
+sovereign glue
+universal solvent
+Goblin cloak<q>Invisible while in shadowy areas, but stinks like a mound of goblin shit</q>
+Miser's Flute<q>When played, all unsecured coins in 20' will leap up and roll after you. They will follow you as long as you play, and as fast as normal running speed. Uphill is fine, stairs are not</q>
+Donkey Legs<q>These wooden donkey legs can be attached to anything (but are not strong enough to carry literally anything). Once attached, the thing will follow you around like a loyal donkey. For example, you can attach them to a heavy statue and then have it walk itself out of the dungeon. Donkey legs are as strong as two donkeys!</q>
+Giant's Ochre<q>Anything painted with this pigment will double in size. Washes off easily with water or sweat. (If you paint yourself, it'll wash off after 1d6 rounds of sweaty combat)</q>
+Mask of the Jester<q>Anyone seeing it for the first time must save vs charm or be compelled to attack the wearer</q>
+Eye of Zin<q>If this jewel is pressed into the forehead, the wearer's eyes turn jet black, they gain darkvision, and they are blinded by even small amounts of light (a nearby torch will blind them, for example)</q>
+Metal Eye Mask<q>Wearing this mask obscures you normal vision, but allows you to see from above, sort of like an orbital satellite's view. At sea level, you can see an area 200' in diameter, centered on the mask</q>
+Pink Bead<q>When smashed on the ground, immediately turns into a huge mountain of fluffy bubbles, similar in consistency to a mass of fused marshmallows. Can cushion a fall or block a hallway or something. 10' in diameter, can be cut through with 6 slashing attacks, lasts 1d6 minutes
+Loyal rope<q>Animate rope with the personality of a loyal dog. 50'. Must be taught knots the way a dog must be taught tricks</q>
+
+$book
+poetry
+historical accounts
+lore
+medicine
+nature
+arcana
+magic
+religion
+cults
+beasts
+diagrams
+history
+notes on gnomish contraption
+
+$mundane 1 mult
+[an] [mundane 1],[ ]
+
+$mundane 5 mult
+[an] [mundane 5],[ ]
+
+$mundane 10 mult
+[an] [mundane 10],[ ]
+
+$mundane 25 mult
+[an] [mundane 25],[ ]
+
+$mundane 50 mult
+[an] [mundane 50],[ ]
+
+$mundane 1
+portable ram (worth 2 gp)
+horn (worth 1 gp, 5 sp)
+abacus (worth 1 gp)
+backpack (worth 1 gp)
+barrel (worth 1 gp)
+crowbar (worth 1 gp)
+flute (worth 1 gp)
+glass bottle (worth 1 gp)
+grappling hook (worth 1 gp)
+iron pot (worth 1 gp)
+manacles (worth 1 gp)
+miner's pick (worth 1 gp)
+shawm (worth 1 gp)
+shovel (worth 1 gp)
+sledgehammer (worth 1 gp)
+traveler's clothes (worth 1 gp)
+two-person tent (worth 1 gp)
+arrows (20) (worth 5 sp)
+ball bearings (bag of 1,000) (worth 5 sp)
+bedroll (worth 5 sp)
+bell (worth 5 sp)
+block and tackle (worth 5 sp)
+blowgun needles (50) (worth 5 sp)
+caltrops (bag of 20) (worth 5 sp)
+cook's utensils (worth 5 sp)
+crossbow bolt case (worth 5 sp)
+crossbow bolts (20) (worth 5 sp)
+fishing tackle (worth 5 sp)
+hammer (worth 5 sp)
+hempen rope (50 feet) (worth 5 sp)
+iron spikes (10) (worth 5 sp)
+map or scroll case (worth 5 sp)
+quiver (worth 5 sp)
+robes (worth 5 sp)
+vial (worth 5 sp)
+weaver's tools (worth 5 sp)
+woodcarver's tools (worth 5 sp)
+blanket (worth 2 sp, 5 cp)
+common clothes (worth 2 sp, 5 cp)
+lamp (worth 2 sp, 5 cp)
+pouch (worth 2 sp, 5 cp)
+rations (1 day) (worth 2 sp, 5 cp)
+sealing wax (worth 2 sp, 5 cp)
+tinderbox (worth 2 sp, 5 cp)
+basket (worth 2 sp)
+mess kit (worth 1 sp)
+paper (one sheet) (worth 1 sp)
+waterskin (worth 1 sp)
+iron spike (worth 5 cp)
+ladder (10-foot) (worth 5 cp)
+oil (flask) (worth 5 cp)
+parchment (one sheet) (worth 5 cp)
+arrow (worth 3 cp)
+bucket (worth 3 cp)
+caltrop (worth 3 cp)
+crossbow bolt (worth 3 cp)
+piton (worth 3 cp)
+pole (10-foot) (worth 3 cp)
+signal whistle (worth 3 cp)
+sling bullets (20) (worth 2 cp)
+blowgun needle (worth 1 cp)
+flask (worth 1 cp)
+ink pen (worth 1 cp)
+jug (worth 1 cp)
+pitcher (worth 1 cp)
+soap (worth 1 cp)
+tankard (worth 1 cp)
+candle (worth 1 cp)
+chalk (1 piece) (worth 1 cp)
+sack (worth 1 cp)
+torch (worth 1 cp)
+whetstone (worth 1 cp)
+
+$mundane 5
+cartographer's tools (worth 7.5 gp)
+fine clothes (worth 7 gp, 5 sp)
+forgery kit (worth 7 gp, 5 sp)
+dungeoneer's pack (worth 6 gp)
+pan flute (worth 6 gp)
+bullseye lantern (worth 5 gp)
+calligrapher's supplies (worth 5 gp)
+explorer's pack (worth 5 gp)
+ink (1-ounce bottle) (worth 5 gp)
+lock (worth 5 gp)
+mason's tools (worth 5 gp)
+painter's supplies (worth 5 gp)
+potter's tools (worth 5 gp)
+silk rope (50 feet) (worth 5 gp)
+carpenter's tools (worth 4 gp)
+drum (worth 3 gp)
+chain (10 feet) (worth 2 gp, 5 sp)
+chest (worth 2 gp, 5 sp)
+cobbler's tools (worth 2 gp, 5 sp)
+costume clothes (worth 2 gp, 5 sp)
+healer's kit (worth 2 gp, 5 sp)
+herbalism kit (worth 2 gp, 5 sp)
+hooded lantern (worth 2 gp, 5 sp)
+hunting trap (worth 2 gp, 5 sp)
+leatherworker's tools (worth 2 gp, 5 sp)
+merchant's scale (worth 2 gp, 5 sp)
+perfume (vial) (worth 5 gp)
+half empty vial of perfume (worth 2 gp, 5 sp)
+signet ring (worth 5 gp)
+steel mirror (worth 2 gp, 5 sp)
+
+$mundane 10
+bagpipes (worth 15 gp)
+glassblower's tools (worth 15 gp)
+lyre (worth 15 gp)
+viol (worth 15 gp)
+acid (vial) (worth 12 gp, 5 sp)
+book of [book] (worth 12 gp, 5 sp)
+bestiary (worth 12 gp, 5 sp)
+climber's kit (worth 12 gp, 5 sp)
+component pouch (worth 12 gp, 5 sp)
+disguise kit (worth 12 gp, 5 sp)
+dulcimer (worth 12 gp, 5 sp)
+holy water (flask) (worth 12 gp, 5 sp)
+hourglass (worth 12 gp, 5 sp)
+jeweler's tools (worth 12 gp, 5 sp)
+navigator's tools (worth 12 gp, 5 sp)
+thieves' tools (worth 12 gp, 5 sp)
+brewer's supplies (worth 10 gp)
+smith's tools (worth 10 gp)
+priest's pack (worth 9 gp, 5 sp)
+
+$mundane 25
+alchemist's fire (flask) (worth 25 gp)
+alchemist's supplies (worth 25 gp)
+antitoxin (vial) (worth 25 gp)
+poisoner's kit (worth 25 gp)
+spellbook (worth 25 gp)
+tinker's tools (worth 25 gp)
+entertainer's pack (worth 20 gp)
+scholar's pack (worth 20 gp)
+diplomat's pack (worth 19 gp, 5 sp)
+lute (worth 17 gp, 5 sp)
+
+$mundane 50
+basic poison (vial) (worth 50 gp)
+magnifying glass (worth 50 gp)
+
+$>CR 0 Incidental
+[1-12] sp
+[1-3] gp
+[1-12] sp and [an] [mundane 1]
+[1-3] gp and [an] [mundane 1]
+[1-12] sp and [mundane 1 mult,x2-3]
+[1-3] gp and [mundane 1 mult,x2-3]
+[1-12] sp and [an] [mundane 5]
+[1-3] gp and [an] [mundane 5]
+[incidental coins 0]
+
+$>CR ⅛ Incidental
+3 gp, 2 sp, 5 cp
+5 gp, 3 sp, 7 cp
+8 gp, 6 sp, 2 cp
+3 gp, 2 sp, 5 cp and [an] [mundane 1]
+5 gp, 3 sp, 7 cp and [an] [mundane 1]
+8 gp, 6 sp, 2 cp and [an] [mundane 1]
+3 gp, 2 sp, 5 cp and [mundane 1 mult,x2-3]
+5 gp, 3 sp, 7 cp and [mundane 1 mult,x2-3]
+8 gp, 6 sp, 2 cp and [mundane 1 mult,x2-3]
+3 gp, 2 sp, 5 cp and [an] [mundane 5]
+5 gp, 3 sp, 7 cp and [an] [mundane 5]
+8 gp, 6 sp, 2 cp and [an] [mundane 5]
+3 gp, 2 sp, 5 cp and [mundane 5 mult,x2-3]
+5 gp, 3 sp, 7 cp and [mundane 5 mult,x2-3]
+8 gp, 6 sp, 2 cp and [mundane 5 mult,x2-3]
+[incidental coins 0]
+
+$>CR ¼ Incidental
+5 gp, 3 sp, 7 cp
+8 gp, 6 sp, 2 cp
+17 gp, 2 sp, 5 cp
+[incidental coins 0]
+
+$>CR ½ Incidental
+8 gp, 6 sp, 2 cp
+17 gp, 2 sp, 5 cp
+25 gp, 8 sp, 7 cp
+[incidental coins 0]
+
+$>CR 1 Incidental
+17 gp, 2 sp and 5 cp
+25 gp, 8 sp and 7 cp
+34 gp and 5 sp
+8 sp, 7 cp, and [an] [art object 25]
+9 gp, 5 sp, and [an] [art object 25]
+[incidental coins 0]
+
+$>CR 2 Incidental
+25 gp, 8 sp, 7 cp
+34 gp, 5 sp
+43 gp, 1 sp, 2 cp
+[incidental coins 0]
