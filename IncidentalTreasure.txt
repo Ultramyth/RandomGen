@@ -191,7 +191,23 @@ $minor magical item
 <b>Loyal rope</b><q>Animate rope with the personality of a loyal dog. 50'. Must be taught knots the way a dog must be taught tricks</q>
 
 $exotic potion
-a [exotic potion type,#potiontype] in [potion container], with a label showing [potion label] The [#potiontype] appears to be [potion looks], smells like [potion smell], is [exotic potion texture] in consistency, and tastes like [potion taste] (DC [10-23] to identify; <b>Potency:</b> [potion strength]; <b>Effect:</b> [potion effect])
+[An] [exotic potion type,#potiontype] in [potion container], with a label showing [potion label]<br>The [#potiontype] appears to be [potion looks], smells like [potion smell], is [exotic potion texture] in consistency, and tastes like [potion taste]<q>(DC [potion dc] to identify; <b>Potency:</b> [potion strength]; <b>Effect:</b> [potion effect])</q>
+
+$potion DC
+10
+11
+12
+13
+14
+15 {90%}
+16 {80%}
+17 {70%}
+18 {60%}
+19 {50%}
+20 {40%}
+21 {30%}
+22 {20%}
+23 {10%}
 
 $exotic potion type
 brew
