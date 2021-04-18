@@ -255,6 +255,20 @@ leaky
 sealed
 []
 
+$condition rations
+spoiled
+fresh
+well-preserved
+tough but edible
+inedible
+unpalatable
+palatable
+delicious
+bland
+flavorless
+flavorful
+putrid
+
 $quality
 poor quality
 poorly made
@@ -324,16 +338,17 @@ fifty feet of hempen rope {tag:adventuring gear}{base:0.5}{value:5 sp}
 [an] [condition fabric] set of common clothes {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [an] [condition noble metal] lamp {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [an] [condition fabric] pouch {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-[condition ration] rations (1 day) {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-sealing wax {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
+a day's worth of [condition ration] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
+two days worth of [condition ration] rations {tag:adventuring gear}{base:1}{value:10 sp}
+[3-5] days worth of [condition ration] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
+a block of sealing wax {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [an] tinderbox {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-basket {tag:adventuring gear}{base:0.2}{value:2 sp}
 [an] [condition tool] mess kit {tag:adventuring gear}{base:0.1}{value:1 sp}
-paper (one sheet) {tag:adventuring gear}{base:0.1}{value:1 sp}
+a sheet of paper {tag:adventuring gear}{base:0.1}{value:1 sp}
 [an] [condition container] waterskin {tag:adventuring gear}{base:0.1}{value:1 sp}
 [an] [condition base metal] iron spike {tag:adventuring gear}{base:0.05}{value:5 cp}
 [an] [condition glass] oil (flask) {tag:adventuring gear}{base:0.05}{value:5 cp}
-parchment (one sheet) {tag:adventuring gear}{base:0.05}{value:5 cp}
+a sheet of parchment {tag:adventuring gear}{base:0.05}{value:5 cp}
 [an] arrow {tag:ammunition}{base:0.03}{value:3 cp}
 [an] [condition wood] bucket {tag:adventuring gear}{base:0.03}{value:3 cp}
 [an] [condition base metal] caltrop {tag:adventuring gear}{base:0.03}{value:3 cp}
@@ -347,7 +362,7 @@ a blowgun needle {tag:ammunition}{base:0.01}{value:1 cp}
 [an] ink pen {tag:adventuring gear}{base:0.01}{value:1 cp}
 [an] jug {tag:adventuring gear}{base:0.01}{value:1 cp}
 [an] pitcher {tag:adventuring gear}{base:0.01}{value:1 cp}
-soap {tag:adventuring gear}{base:0.01}{value:1 cp}
+a block of soap {tag:adventuring gear}{base:0.01}{value:1 cp}
 [an] tankard {tag:adventuring gear}{base:0.01}{value:1 cp}
 a candle {tag:adventuring gear}{base:0.01}{value:1 cp}
 a piece of chalk {tag:adventuring gear}{base:0.01}{value:1 cp}
@@ -422,57 +437,74 @@ $mundane 50
 [an] vial of poison (basic) {tag:adventuring gear, poison}{base:50}{value:50 gp}
 [an] [condition glass] magnifying glass {tag:adventuring gear}{base:50}{value:50 gp}
 
+$pouch material
+leather
+hessian
+cloth
+linen
+velvet
+silk
+pigskin
+fur-lined
+[]
+
+$pouch
+in a small [pouch material] pouch
+in [an] [pouch material] pouch
+in an oversized [pouch material] pouch
+in a modest [pouch material] pouch
+
 $>CR 0 Incidental
-[1-12] sp
-[1-3] gp
-[1-12] sp and [mundane 1]
-[1-3] gp and [mundane 1]
-[1-12] sp and [mundane 1 mult,x1-2] and [mundane 1]
-[1-3] gp and [mundane 1 mult,x1-2] and [mundane 1]
-[1-12] sp and [mundane 5]
-[1-3] gp and [mundane 5]
-[incidental coins 0]
+[1-12] sp [pouch]
+[1-3] gp [pouch]
+[1-12] sp in [pouch] and [mundane 1]
+[1-3] gp in [pouch] and [mundane 1]
+[1-12] sp in [pouch] and [mundane 1 mult,x1-2] and [mundane 1]
+[1-3] gp in [pouch] and [mundane 1 mult,x1-2] and [mundane 1]
+[1-12] sp in [pouch] and [mundane 5]
+[1-3] gp in [pouch] and [mundane 5]
+[incidental coins 0] [pouch]
 
 $>CR ⅛ Incidental
-3 gp, 2 sp, 5 cp
-5 gp, 3 sp, 7 cp
-8 gp, 6 sp, 2 cp
-3 gp, 2 sp, 5 cp and [mundane 1]
-5 gp, 3 sp, 7 cp and [mundane 1]
-8 gp, 6 sp, 2 cp and [mundane 1]
-3 gp, 2 sp, 5 cp and [mundane 1 mult,x1-2] and [mundane 1]
-5 gp, 3 sp, 7 cp and [mundane 1 mult,x1-2] and [mundane 1]
-8 gp, 6 sp, 2 cp and [mundane 1 mult,x1-2] and [mundane 1]
-3 gp, 2 sp, 5 cp and [mundane 5]
-5 gp, 3 sp, 7 cp and [mundane 5]
-8 gp, 6 sp, 2 cp and [mundane 5]
-3 gp, 2 sp, 5 cp and [mundane 5 mult,x1-2] and [mundane 5]
-5 gp, 3 sp, 7 cp and [mundane 5 mult,x1-2] and [mundane 5]
-8 gp, 6 sp, 2 cp and [mundane 5 mult,x1-2] and [mundane 5]
-[incidental coins 0]
+3 gp, 2 sp, 5 cp [pouch]
+5 gp, 3 sp, 7 cp [pouch]
+8 gp, 6 sp, 2 cp [pouch]
+3 gp, 2 sp, 5 cp [pouch] and [mundane 1]
+5 gp, 3 sp, 7 cp [pouch] and [mundane 1]
+8 gp, 6 sp, 2 cp [pouch] [mundane 1]
+3 gp, 2 sp, 5 cp [pouch] and [mundane 1 mult,x1-2] and [mundane 1]
+5 gp, 3 sp, 7 cp [pouch] and [mundane 1 mult,x1-2] and [mundane 1]
+8 gp, 6 sp, 2 cp [pouch] and [mundane 1 mult,x1-2] and [mundane 1]
+3 gp, 2 sp, 5 cp [pouch] and [mundane 5]
+5 gp, 3 sp, 7 cp [pouch] and [mundane 5]
+8 gp, 6 sp, 2 cp [pouch] and [mundane 5]
+3 gp, 2 sp, 5 cp [pouch] and [mundane 5 mult,x1-2] and [mundane 5]
+5 gp, 3 sp, 7 cp [pouch] and [mundane 5 mult,x1-2] and [mundane 5]
+8 gp, 6 sp, 2 cp [pouch] and [mundane 5 mult,x1-2] and [mundane 5]
+[incidental coins 0] [pouch]
 
 $>CR ¼ Incidental
-5 gp, 3 sp, 7 cp
-8 gp, 6 sp, 2 cp
-17 gp, 2 sp, 5 cp
-[incidental coins 0]
+5 gp, 3 sp, 7 cp [pouch]
+8 gp, 6 sp, 2 cp [pouch]
+17 gp, 2 sp, 5 cp [pouch]
+[incidental coins 0] [pouch]
 
 $>CR ½ Incidental
-8 gp, 6 sp, 2 cp
-17 gp, 2 sp, 5 cp
-25 gp, 8 sp, 7 cp
-[incidental coins 0]
+8 gp, 6 sp, 2 cp [pouch]
+17 gp, 2 sp, 5 cp [pouch]
+25 gp, 8 sp, 7 cp [pouch]
+[incidental coins 0] [pouch]
 
 $>CR 1 Incidental
-17 gp, 2 sp and 5 cp
-25 gp, 8 sp and 7 cp
-34 gp and 5 sp
-8 sp, 7 cp, and [an] [art object 25]
-9 gp, 5 sp, and [an] [art object 25]
-[incidental coins 0]
+17 gp, 2 sp and 5 cp [pouch]
+25 gp, 8 sp and 7 cp [pouch]
+34 gp and 5 sp [pouch]
+8 sp, 7 cp [pouch] and [an] [art object 25]
+9 gp, 5 sp [pouch] and [an] [art object 25]
+[incidental coins 0] [pouch]
 
 $>CR 2 Incidental
-25 gp, 8 sp, 7 cp
-34 gp, 5 sp
-43 gp, 1 sp, 2 cp
-[incidental coins 0]
+25 gp, 8 sp, 7 cp [pouch]
+34 gp, 5 sp [pouch]
+43 gp, 1 sp, 2 cp [pouch]
+[incidental coins 0] [pouch]
