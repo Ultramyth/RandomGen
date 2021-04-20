@@ -8,59 +8,80 @@ $magicitemtablex
 - [an] [magic item table x]<br>
 
 $magic item table x
-[metal armor] of Gleaming
-Bead of Nourishment
-Bead of Refreshment
-Boots of False Tracks
-Candle of the Deep
-Cast-Off [armor]
-Charlatan's Die
-Cloak of Billowing
-Cloak of Many Fashions
-Clockwork Amulet
-Clothes of Mending
-Dark Shard Amulet
-Dread Helm
-Ear Horn of Hearing
-Enduring Spellbook
-Ersatz Eye
-Hat of Vermin
-Hat of Wizardry
-Heward's Handy Spice Pouch
-Horn of Silent Alarm
-Instrument of Illusions
-Instrument of Scribing
-Lock of Trickery
-Moon-Touched Sword
-Mystery Key
-Orb of Direction
-Orb of Time
-Perfume of Bewitching
-Pipe of Smoke Monsters
-Pole of Angling
-Pole of Collapsing
-Pot of Awakening
-Potion of Climbing
-Rope of Mending
-Ruby of the War Mage
-Shield of Expression
-Smoldering [armor]
-Staff of Adornment
-Staff of Birdcalls
-Staff of Flowers
-Talking Doll
-Tankard of Sobriety
-Unbreakable Arrow
-Veteran's Cane
-Walloping Ammunition
-Wand of Conducting
-Wand of Pyrotechnics
-Wand of Scowls
-Wand of Smiles
+[metal armor] of gleaming
+bead of nourishment
+bead of refreshment
+boots of false tracks
+candle of the deep
+cast-off [armor]
+charlatan's die
+cloak of billowing
+cloak of many fashions
+clockwork amulet
+clothes of mending
+dark shard amulet
+dread helm
+ear horn of hearing
+enduring spellbook
+ersatz eye
+hat of vermin
+hat of wizardry
+heward's handy spice pouch
+horn of silent alarm
+instrument of illusions
+instrument of scribing
+lock of trickery
+moon-touched sword
+mystery key
+orb of direction
+orb of time
+perfume of bewitching
+pipe of smoke monsters
+pole of angling
+pole of collapsing
+pot of awakening
+potion of climbing
+rope of mending
+ruby of the war mage
+shield of expression
+smoldering [armor]
+staff of adornment
+staff of birdcalls
+staff of flowers
+talking doll
+tankard of sobriety
+unbreakable arrow
+veteran's cane
+walloping ammunition
+wand of conducting
+wand of pyrotechnics
+wand of scowls
+wand of smiles
+tankard of plenty (HotDQ)
+chest of preserving (WDMM)
+illuminator's tattoo (TCE)
+lantern of tracking (IDRotF)
+masquerade tattoo (TCE)
+orb of gonging (WDMM)
+pipe of remembrance (GoS)
+pressure capsule (GoS)
+prosthetic limb (TCE)
+sekolahian worshiping statuette (GoS)
+spellwrought tattoo (1st level) (TCE)
+spellwrought tattoo (cantrip) (TCE)
+thermal cube (IDRotF)
+Wyllow's staff of flowers (WDMM)
+arcanaloth's music box (ToA)
+candle mace (BGDIA)
+clockwork dog (SKT)
+dagger of guitar solos (WDMM)
+draconic longsword (ToA)
+
 
 $magicitemtablea
 - [an] [magic item table a]<br>
 
+//common consumables
 $magic item table a
 potion of healing
 potion of healing
@@ -78,10 +99,14 @@ bag of holding
 driftglobe
 silvered [weapon metal]
 [2-10] silvered [bolts|arrows|bullets]
+[magic item table x]
+potion of comprehension (WDMM)
+potion of watchful rest (WDMM)
 
 $magicitemtableb
 - [an] [magic item table b]<br>
 
+//uncommon consumables and exotics
 $magic item table b
 potion of greater healing
 potion of fire breath
@@ -119,6 +144,9 @@ saddle of the cavalier
 wand of magic detection
 wand of secrets
 drow slave collar {raity:common}
+[magic item table x]
+pixie dust (SKT)
+
 
 $magicitemtablec
 - [an] [magic item table c]<br>
@@ -189,6 +217,7 @@ sovereign glue
 $magicitemtablef
 - [an] [magic item table f]<br>
 
+//uncommon items
 $magic item table f
 +1 [weapon][special feature]
 +1 [weapon][special feature]
@@ -258,10 +287,66 @@ drow house insignia ([house insignia])
 piwafwi
 spell gem (lapis lazuli)
 spell gem (obsidian)
+insignia of claws (HotDQ)
++1 all-purpose tool (TCE)
++1 amulet of the devout (TCE)
++1 arcane grimoire (TCE)
++1 bloodwell vial (TCE)
++1 moon sickle (TCE)
++1 rhythm-maker's drum (TCE)
+alchemy jug (blue) (CM)
+alchemy jug (orange) (CM)
+balance of harmony (TftYP)
+balloon pack (PotA)
+barrier tattoo (small) (TCE)
+bottled breath (PotA)
+charred wand of magic missiles (WDH)
+circlet of human perfection (WDMM)
+coiling grasp tattoo (TCE)
+cracked driftglobe (CM)
+cursed luckstone (GoS)
+eldritch claw tattoo (TCE)
+feywild shard (TCE)
+guardian emblem (TCE)
+hellfire [weapon] (BGDIA)
+helm of underwater action (GoS)
+infernal puzzle box (BGDIA)
+lightbringer (LMoP)
+mask of the beast (ToA)
+nature's mantle (TCE)
+night caller (TftYP)
+orc stone (IDRotF)
+paper bird (WDH)
+propeller helm (WDMM)
+psi crystal (IDRotF)
+reszur (PotA)
+ring of truth telling (WDH)
+robe of serpents (SKT)
+seeker dart (PotA)
+serpent scale armor (CM)
+shatterspike (TftYP)
+smokepowder (WDH)
+soul coin (BGDIA)
+spellwrought tattoo (2nd level) (TCE)
+spellwrought tattoo (3rd level) (TCE)
+stone of ill luck (TftYP)
+storm boomerang (PotA)
+vanrak's mithral shirt (WDMM)
+wand of entangle (TftYP)
+wingwear (PotA)
+winter's dark bite (HftT)
+dragon sensing longsword (PotA)
+jade serpent staff (WDMM)
+macuahuitl (TftYP)
+mind flayer skull (WDMM)
+pathfinder's greataxe (PotA)
+pearl of undead detection (WDMM)
+petrified grung egg (ToA)
 
 $magicitemtableg
 - [an] [magic item table g]<br>
 
+//rare items
 $magic item table g
 +2 [weapon][special feature]
 +2 [weapon][special feature]
@@ -374,10 +459,91 @@ spidersilk cloak
 spider mask
 web choker
 spell gem (bloodstone)
+dragontooth dagger (RoT)
+wand of winter (HotDQ)
+flame tongue shortsword of greed (TftYP)
+orcus figurine (CM)
+radiance (CM)
+white dragon cape (TftYP)
++2 all-purpose tool (TCE)
++2 amulet of the devout (TCE)
++2 arcane grimoire (TCE)
++2 bloodwell vial (TCE)
++2 moon sickle (TCE)
++2 rhythm-maker's drum (TCE)
+alchemical compendium (TCE)
+amulet of protection from turning (TftYP)
+astral shard (TCE)
+astromancy archive (TCE)
+atlas of endless horizons (TCE)
+badge of the watch (WDH)
+banner of the krig rune (SKT)
+barrier tattoo (medium) (TCE)
+bell branch (TCE)
+blod stone (SKT)
+bonecounter (SDW)
+bracer of flying daggers (WDH)
+cauldron of plenty (IDRotF)
+charm of plant command (GoS)
+claw of the wyrm rune (SKT)
+claws of the umber hulk (PotA)
+dagger of blindsight (WDMM)
+devotee's censer (TCE)
+dodecahedron of doom (WDMM)
+dragonguard (LMoP)
+duplicitous manuscript (TCE)
+eagle whistle (TftYP)
+elemental essence shard (TCE)
+elemental essence shard (air) (TCE)
+elemental essence shard (earth) (TCE)
+elemental essence shard (fire) (TCE)
+elemental essence shard (water) (TCE)
+far realm shard (TCE)
+feather of diatryma summoning (WDH)
+fulminating treatise (TCE)
+gauntlets of flaming fury (BGDIA)
+gavel of the venn rune (SKT)
+ghost lantern (ToA)
+heart weaver's primer (TCE)
+hell hound cloak (TftYP)
+hook of fisher's delight (IDRotF)
+horn of the endless maze (WDMM)
+knave's eye patch (WDH)
+libram of souls and flesh (TCE)
+loadstone (TftYP)
+lyre of building (TCE)
+mirror of the past (TftYP)
+opal of the ild rune (SKT)
+orb of the stein rune (SKT)
+outer essence shard (TCE)
+outer essence shard (chaotic) (TCE)
+outer essence shard (evil) (TCE)
+outer essence shard (good) (TCE)
+outer essence shard (lawful) (TCE)
+planecaller's codex (TCE)
+potion of mind control (beast) (TftYP)
+potion of mind control (humanoid) (TftYP)
+professor orb (WDMM)
+professor skant (IDRotF)
+protective verses (TCE)
+reveler's concertina (TCE)
+robe of summer (TftYP)
+rod of the vonindod (SKT)
+scorpion armor (ToA)
+serpent's fang (CM)
+shadowfell brand tattoo (TCE)
+shadowfell shard (TCE)
+shield guardian amulet (IDRotF)
+spellwrought tattoo (4th level) (TCE)
+spellwrought tattoo (5th level) (TCE)
+spider staff (LMoP)
+staff of defense (LMoP)
+weird tank (PotA)
 
 $magicitemtableh
 - [an] [magic item table h]<br>
 
+//very rare
 $magic item table h
 +3 [weapon][special feature]
 +3 [weapon][special feature]
@@ -472,10 +638,59 @@ the Victor
 tome of books
 spell gem (jade)
 spell gem (amber)
++3 all-purpose tool (TCE)
++3 amulet of the devout (TCE)
++3 arcane grimoire (TCE)
++3 bloodwell vial (TCE)
++3 moon sickle (TCE)
++3 rhythm-maker's drum (TCE)
+abracadabrus (IDRotF)
+absorbing tattoo (TCE)
+acid absorbing tattoo (TCE)
+amulet of the black skull (ToA)
+barrier tattoo (large) (TCE)
+battle standard of infernal power (BGDIA)
+blast scepter (WDMM)
+bracelet of rock magic (TftYP)
+cauldron of rebirth (TCE)
+cold absorbing tattoo (TCE)
+conch of teleportation (SKT)
+crystalline chronicle (TCE)
+devastation orb of air (PotA)
+devastation orb of earth (PotA)
+devastation orb of fire (PotA)
+devastation orb of water (PotA)
+devlin's staff of striking (ToA)
+fire absorbing tattoo (TCE)
+force absorbing tattoo (TCE)
+ghost step tattoo (TCE)
+helm of devil command (BGDIA)
+horned ring (WDMM)
+ingot of the skold rune (SKT)
+javelin of backbiting (TftYP)
+lifewell tattoo (TCE)
+lightning absorbing tattoo (TCE)
+lord's ensemble (WDH)
+maddgoth's helm (WDMM)
+navigation orb (SKT)
+necrotic absorbing tattoo (TCE)
+pennant of the vind rune (SKT)
+poison absorbing tattoo (TCE)
+potion of mind control (monster) (TftYP)
+psychic absorbing tattoo (TCE)
+radiant absorbing tattoo (TCE)
+shard of the ise rune (SKT)
+shield of the uven rune (WDMM)
+spear of backbiting (TftYP)
+staff of fate (CM)
+tearulai (WDMM)
+thunder absorbing tattoo (TCE)
+watchful helm (CM)
 
 $magicitemtablei
 - [an] [magic item table i]<br>
 
+//legendary
 $magic item table i
 Defender
 hammer of thunderbolts
@@ -540,6 +755,13 @@ eyes of the spider {raity:legendary}
 gorgon plate
 dawnbringer
 spell gem (Diamond)
+Baba Yaga's mortar and pestle (TCE)
+Baba Yaga's pestle (TCE)
+crook of Rao (TCE)
+demonomicon of Iggwilv (Tce)
+Luba's Tarokka if souls (Tce)
+mighty servant of Leuk-o (Tce)
+teeth Of Dahlver-Nar (TCE)
 
 $origin
 <b>Aberration.</b> The item was created by aberrations in ancient times, possibly for the use of favored humanoid thralls. When seen from the corner of the eye, the item seems to be moving.
@@ -1511,6 +1733,7 @@ light hammer
 [mace|holy water sprinkler]
 sickle
 spear
+hooked shortspear
 war pick
 [bastard sword|broadsword]
 battleaxe
@@ -1533,6 +1756,7 @@ war pick
 warhammer
 hand crossbow
 light crossbow
+light repeating crossbow
 [heavy crossbow|arbalest]
 whip-dagger
 
