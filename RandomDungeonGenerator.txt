@@ -1477,7 +1477,6 @@ a pitcher in the shape of a cat that pours cream no matter what liquid is inside
 a stone carved in the shape of a squat frog. whatever surface it is placed on becomes damp.
 a miniature carved stone wizards tower, no longer than your hand. at night, the window at the top glows with a pleasant light.
 
-
 $idol
 a great old one
 an elven deity
@@ -1804,15 +1803,7 @@ $additional
 <p>Also, the creature may have one of the following according to its type or environment:<br>[bonus by type]
 
 $bonus by type
-Aquatic: [aquatic misc]<br>
-Demonic: <br>
-Drow: [drow bonus]<br>
-Goblinoid: [mundane dungeon items]<br>
-Primitive: [primitive misc]<br>
-Civilised: [civilised misc]<br>
-Spooky: <br>
-Undead: <br>
-Underdark: <br>
+Aquatic: [aquatic misc]<br>Demonic: <br>Drow: [drow misc]<br>Goblinoid: [mundane dungeon items]<br>Primitive: [primitive misc]<br>Civilised: [civilised misc]<br>Undead: <br>Underdark: <br>
 
 $aquatic misc
 a conch shell horn
@@ -1822,7 +1813,6 @@ a weighted fishing net
 a dagger made from coral
 a ration of kelp
 a fine abalone shell (5 sp)
-a ration of oysters, still in their shells
 
 $primitive misc
 a blanket of poorly stitched hides
