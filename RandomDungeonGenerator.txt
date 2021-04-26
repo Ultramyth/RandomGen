@@ -1071,9 +1071,9 @@ fifty feet of hempen rope {tag:adventuring gear}{base:0.5}{value:5 sp}
 [an] [condition fabric] set of common clothes {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [an] [condition noble metal] lamp {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [an] [condition fabric] pouch {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-a day's worth of [condition ration] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
-two days worth of [condition ration] rations {tag:adventuring gear}{base:1}{value:10 sp}
-[3-5] days worth of [condition ration] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
+a day's worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
+two days worth of [condition rations] rations {tag:adventuring gear}{base:1}{value:10 sp}
+[3-5] days worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
 a block of sealing wax {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [an] tinderbox {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [an] [condition tool] mess kit {tag:adventuring gear}{base:0.1}{value:1 sp}
@@ -1132,6 +1132,9 @@ a dungeoneer's pack {tag:adventuring gear}{base:6}{value:6 gp}
 [an] [condition glass] vial of perfume {tag:adventuring gear}{base:5}{value:5 gp}
 [an] [condition noble metal] signet ring {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
 [an] [condition base metal] steel mirror {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
+a day's worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
+two days worth of [condition rations] rations {tag:adventuring gear}{base:1}{value:10 sp}
+[3-5] days worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
 
 $mundane 10
 [an] [condition instrument] set of bagpipes {tag:instrument}{base:15}{value:15 gp}
@@ -1153,6 +1156,9 @@ $mundane 10
 [an] [condition tool] set of smith's tools {tag:artisan's tools}{base:10}{value:10 gp}
 [an] priest's pack {tag:adventuring gear}{base:9.5}{value:9 gp, 5 sp}
 [an] burglar's pack {tag:adventuring gear}{base:8}{value:8 gp}
+a day's worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
+two days worth of [condition rations] rations {tag:adventuring gear}{base:1}{value:10 sp}
+[3-5] days worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
 
 $mundane 25
 [an] flask of alchemist's fire {tag:adventuring gear}{base:25}{value:25 gp}
