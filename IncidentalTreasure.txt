@@ -1,7 +1,7 @@
 $include https://github.com/Ultramyth/RandomGen/raw/main/MagicItem.txt
-$name : Drow Incidental Treasure
+$name : Incidental Treasure
 $author : Ben
-$description : Generates incidental treasure
+$description : Generates incidental treasure for creatures encountered in random encounters by CR level. Ideally, you should roll for each individual before you initiate combat, in case the creature has an item that is useful in combat. The tables assume an intelligent creature that values treasure, such as humanoids.
 $amount : 10
 $button : Loot!
 
@@ -191,7 +191,7 @@ $minor magical item
 <b>Loyal rope</b><q>Animate rope with the personality of a loyal dog. 50'. Must be taught knots the way a dog must be taught tricks</q>
 
 $exotic potion
-<br><b>An Exotic Potion:</b> [An] [exotic potion type,#potiontype] in [potion container], with a label showing [potion label]<br>The [#potiontype] appears to be [potion looks], smells like [potion smell], is [exotic potion texture] in consistency, and tastes like [potion taste]<small>(DC [potion dc] to identify; <b>Potency:</b> [potion strength]; <b>Effect:</b> [potion effect])</small>
+<br><b>An Exotic Potion:</b> [An] [exotic potion type,#potiontype] in [potion container], with a label showing [potion label]<br>The [#potiontype] appears to be [potion looks], smells [potion smell], is [exotic potion texture] in consistency, and tastes like [potion taste]<br><small>(DC [potion dc] to identify; <b>Potency/Duration:</b> [potion strength]; <b>Potion Effect:</b> [potion effect])</small>
 
 $potion DC
 10
@@ -239,27 +239,27 @@ $potion effect
 <b>Age.</b> Makes the user grow some years older.
 <b>Animal form.</b> Makes the user turn into a random animal.
 <b>Antidepressant.</b> Does what it says on the tin.
-<b>Arcane.</b> Increases the spell DC and spell attack modifier of the imbiber by [1-3].
-<b>Artisans Skill.</b> Gives the user proficiency with a set of tools.
+<b>Arcane.</b> Increases the spell DC and spell attack modifier of the imbiber by [1-3] for the duration.
+<b>Artisans Skill.</b> Gives the user proficiency with a set of tools. If they have it already, it grants expertise.
 <b>Atomic Clock.</b> Lets the user know the exact time and date.
 <b>Babelfish.</b> Lets the user speak any language but not understand it.
-<b>Beautiful Appearance.</b> Makes the user appear more attractive.
-<b>Berserker.</b> Makes the user rage with great strength.
+<b>Beautiful Appearance.</b> Makes the user appear physically more attractive.
+<b>Berserker.</b> Makes the user rage with great strength. The character can enter a rage as a barbarian. If you are already a barbarian, you can rage once for free.
 <b>Bless Weapon.</b> Makes the users weapons do additional damage equal to their proficiency bonus.
-<b>Bodyguard.</b> Creates a spectral bodyguard who obeys orders.
-<b>Bowmanship.</b> Makes the user more effective with a bow or ranged weapon.
+<b>Bodyguard.</b> Creates a spectral bodyguard who obeys orders. The creature has the statistics of a guard, except it is incorporeal, resistant to acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks, immune to cold, necrotic, poison, and is immune to the charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained. Its weapons deal force damage.
+<b>Bowmanship.</b> Makes the user more effective with a bow or ranged weapon. You gain +2 to attack rolls with ranged weapons.
 <b>Cold Resistance.</b> It gives resistance to cold damage.
 <b>Comprehension.</b> Lets the user understand all languages.
 <b>Courage.</b> Gives immunity to fear and some temporary inspiration.
-<b>Cure-all.</b> Cures any status effects.
+<b>Cure-all.</b> Cures any status effects, including exhaustion.
 <b>Dead Ringer.</b> Makes the user appear completely dead to all magic.
-<b>Demonic Leech.</b> Heals a portion of all damage the user deals.
+<b>Demonic Leech.</b> For the duration, you heal half of any damage you deal to your enemies using any attack or spell that targets a single creature. If a spell or effect targets multiple creatures, you only gain this benefit once.
 <b>Disguise.</b> Changes the users form to a disguised form of any race and appearance.
-<b>Dreams.</b> Makes the user get lost in a hallucinatory dream world of their perfect dream.
+<b>Dreams.</b> Makes the imbiber fall to sleep or into a trance and get lost in a hallucinatory dream world of their perfect dream.
 <b>Eagle Sight.</b> Gives the user strong vision and advantage on Wisdom (Perception) checks.
-<b>Elemental form.</b> Turns the user to an elemental form relevant to their personality.
+<b>Elemental form.</b> Turns the user to an elemental form relevant to their personality. Transform as a druid into elemental.
 <b>Euphoria.</b> Makes the user feel amazing and trip out.
-<b>Fame.</b> Makes the user more famous.
+<b>Fame.</b> Makes everyone around the imbiber treat them as if they were famous.
 <b>Fear.</b> Makes the user terrified.
 <b>Feast.</b> Removes all hunger and thirst from the target.
 <b>Fertility.</b> Makes the user very fertile, almost certain to make a baby under its effects!
@@ -267,74 +267,74 @@ $potion effect
 <b>Flame Breath.</b> Gives the user fire breath as a red or gold dragonborn.
 <b>Flame Resistance.</b> It gives resistance to fire damage.
 <b>Flavour.</b> Makes anything and everything taste amazing!
-<b>Fleet foot.</b> Increases the drinker's speed by (5/10/15 feet).
-<b>Furnace.</b> Makes the user radiate with a damaging aura.
-<b>Gargoyle Toughness.</b> Increases the users Constitution to 16.
-<b>Ghostly Form.</b> Makes the user intangible and able to phase through objects.
-<b>Giant Strength.</b> It gives the user much more strength.
-<b>Glimmer.</b> Makes the user and its gear instantly clean and as good looking as possible.
-<b>Goats Trek.</b> Makes the user immune to the toils of long travels and bad weather.
+<b>Fleet foot.</b> Increases the drinker's speed by ([5|10|15] feet).
+<b>Furnace.</b> Makes the user radiate with a damaging aura that deals 1d4 fire damage to any creature starting its turn in 5 ft.
+<b>Gargoyle Toughness.</b> The imbiber gains resistance to bludgeoning, piercing and slashing damage that is not magical or adamantine.
+<b>Ghostly Form.</b> Makes the user intangible and able to phase through objects as a ghost.<br> <b>Incorporeal Movement.</b> The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+<b>Giant Strength.</b> Increases Strength to [19|21|23|25|27].
+<b>Glimmer.</b> Makes the imbiber and thier gear instantly clean and as good looking as possible.
+<b>Goats Trek.</b> Makes the user immune to the toils of long travels and bad weather. Automaticall succeed checks that would bestow exhaustion.
 <b>Goblin Climb.</b> Gives the user advantage on Strength (Athletics) checks to climb.
 <b>Godly form.</b> Improves all ability scores.
-<b>Gods Touch.</b> Gives the user a holy connection to their god or fiendish deity.
+<b>Gods Touch.</b> Gives the user a holy connection to their god or fiendish deity, acts as a commune spell.
 <b>Gracefulness.</b> Grants advantage on Dexterity (Acrobatics) checks.
-<b>Growth.</b> Makes the user double in size.
+<b>Growth.</b> Makes the user double in size, as per the enlarge person spell.
 <b>Hawks Flight.</b> Lets the user fly with a speed of 60 ft.
-<b>Healing.</b> It instantly regenerates some health when drank.
+<b>Healing.</b> It instantly regenerates some health when drunk ([2d4+2|4d4+4|6d4+6|8d4+8]).
 <b>Health.</b> Cures all diseases and illnesses.
-<b>Hook Horror.</b> The users hands become sharp weaponised blades.
-<b>Horrifying appearance.</b> Makes the user look more ugly for a time.
-<b>Intimidation.</b> Gives the user a huge booming voice that terrifies those around.
+<b>Hook Horror.</b> The users hands become sharp weaponised blades that they are proficient with and deal damage as a hook horror (2d6 piercing).
+<b>Horrifying appearance.</b> Makes the user look more ugly for a time.<br> Horrific Appearance.<br>Any humanoid that starts its turn within 30 feet of the imbiber must make a Wisdom saving throw (DC = 8 + proficiency bonus + Charisma mod. On a failed save, the creature is frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the imbiber is within line of sight, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Horrific Appearance for the next 24 hours.<br>Unless the target is surprised or the revelation of the imbiber's true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has disadvantage on attack rolls against the hag.
+<b>Intimidation.</b> Gives the user a huge booming voice that terrifies those around, granting advantage on Charisma (Intimidation) checks.
 <b>Invisibility.</b> Makes the user invisible.
 <b>Invulnerability.</b> Freezes the user in stasis that makes them immune to damage but they cannot move or act.
-<b>Iron Skin.</b> Turns the users skin to metal giving them many resistances.
+<b>Iron Skin.</b> Turns the users skin to metal giving them resistance to psychic and bludgeoning, piercing and slashing damage from weapons not made of adamantine.
 <b>Knowledge.</b> Increases the users intelligence temporarily.
 <b>Lightning Resistance.</b> Gives resistance to lightning damage.
 <b>Love.</b> Makes the user and someone else fall in love.
-<b>Luck.</b> It gives the user a temporary boost to luck.
+<b>Luck.</b> It gives the user a temporary boost to luck, as per the luck feat.
 <b>Mana.</b> Gives the user more magical power to cast with.
 <b>Midas.</b> Makes the user turn things to gold.
-<b>Might.</b> It gives a bonus to attack rolls after drinking.
+<b>Might.</b> It gives a 1d4 bonus to attack rolls after drinking.
 <b>Musical Breath.</b> Makes the user say everything in song, and fey music follows them in the air.
-<b>Navigation.</b> Makes the user unable to get lost and find where they need.
+<b>Navigation.</b> Makes the user unable to get lost and find where they need to go.
 <b>Necro Resistance.</b> Gives resistance to necrotic damage.
-<b>Night vision.</b> Gives the ability to see in the dark.
+<b>Night vision.</b> Gives the imbiber darkvision 60 ft. or increases the range of their darkvision by 30 ft.
 <b>Nightmares.</b> Makes the user get lost in a hallucinatory dream world of their worst nightmares.
 <b>Nymph Breath.</b> Gives water breathing.
 <b>One Leafed Clover.</b> Gives the user worst luck.
 <b>Oracle.</b> Lets the user divine the future.
 <b>Owls Wake.</b> Makes the user need no sleep for a time.
 <b>Peace.</b> Makes the user very calm and unable to harm others.
-<b>Poison.</b> Poisons the user, weakening them.
+<b>Poison.</b> Poisons the user, weakening them. They gain the poisoned condition.
 <b>Possession.</b> Lets the user gain control of a nearby creature, their body is comatose while they do.
 <b>Preservation.</b> Stops whatever it is poured on from rotting or degrading.
 <b>Race Change.</b> Changes the users race.
 <b>Radiant Resistance.</b> Gives resistance to radiant damage.
 <b>Rebirth.</b> Resurrects the user if they die soon after drinking.
 <b>Rejuvenation.</b> Heals a single scar or bad injury on the user such as a missing arm.
-<b>Riddle me gone.</b> Gives the user the cure to a single riddle.
+<b>Riddle me gone.</b> Gives the user the solution to a single riddle.
 <b>Schaffensfreude.</b> Makes the enemies take damage as they deal it to the user.
 <b>Serpent Tongue.</b> Makes the user only able to lie.
 <b>Sex Change.</b> Changes the users gender.
-<b>Shielding.</b> Gives the user a magical shield of energy.
-<b>Shrinking.</b> Makes the user half in size.
+<b>Shielding.</b> Gives the user a magical shield of energy. Acts as a shield (+2 AC) except it makes the user immune to being targeted by magic missile spells.
+<b>Shrinking.</b> Makes the user half in size as per the reduce person spell.
 <b>Sphinxes Truth.</b> Makes the user tell the truth.
-<b>Split Form.</b> The user turns into two or three tiny versions of themselves and controls them all.
-<b>Stamina.</b> Gives the user more stamina and constitution.
-<b>Stoneskin.</b> Gives resistance to martial damage.
-<b>Succubus Charm.</b> Makes the drinker irresistible to nearby people.
-<b>Swordsmanship.</b> Makes the user more effective and versatile with a blade.
-<b>The Bard.</b> Increases the users charisma and charm temporarily.
+<b>Split Form.</b> The user turns into [two|three] tiny versions of themselves and controls them all.
+<b>Stamina.</b> Gives the user more stamina and constitution. Advantage on Constitution checks, and sets Constitution to 19 if it is not higher.
+<b>Stoneskin.</b> Gives resistance as per the stoneskin spell.
+<b>Succubus Charm.</b> Makes the drinker irresistible to nearby all people.
+<b>Swordsmanship.</b> Makes the user more effective and versatile with a blade. Grants a +2 bonus to attack rolls with blade weapons.
+<b>The Bard.</b> Increases the users charisma and charm temporarily, granting advantage on Charisma checks.
 <b>Tracelessness.</b> Makes the user very hard to follow.
 <b>Tracking.</b> Lets the user track an enemy.
-<b>Transmutation.</b> Lets the user have the ability to change somethings properties.
-<b>True form.</b> Turns the user into a familiar like creature similar to their personality.
-<b>Utter Hatred.</b> Makes the user have bonuses against a particular type of enemy.
+<b>Transmutation.</b> Lets the user have the ability to change something's properties.
+<b>True form.</b> Turns the user into a familiar-like creature similar to their personality.
+<b>Utter Hatred.</b> Makes the user have a bonus to damage against a particular type of enemy equal to their proficiency bonus.
 <b>Utter Understanding.</b> Makes the user know very intimately about one exact thing. Random, or they can decide.
-<b>Vigor.</b> Gives temporary health when drank.
+<b>Vigor.</b> Gives temporary 2d10 temporary hit points when drank.
 <b>Vitality.</b> It slowly regenerates health over a period of some hours.
 <b>Wild magic.</b> Taps into wild magic making an absolutely random thing happen.
-<b>Youth.</b> Makes the user grow some years younger.
+<b>Youth.</b> Makes the user de-age some years younger.
 
 $potion side effect
 a bad taste for some time
@@ -1071,9 +1071,9 @@ fifty feet of hempen rope {tag:adventuring gear}{base:0.5}{value:5 sp}
 [an] [condition fabric] set of common clothes {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [an] [condition noble metal] lamp {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [an] [condition fabric] pouch {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-a day's worth of [condition ration] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
-two days worth of [condition ration] rations {tag:adventuring gear}{base:1}{value:10 sp}
-[3-5] days worth of [condition ration] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
+a day's worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
+two days worth of [condition rations] rations {tag:adventuring gear}{base:1}{value:10 sp}
+[3-5] days worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
 a block of sealing wax {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [an] tinderbox {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
 [an] [condition tool] mess kit {tag:adventuring gear}{base:0.1}{value:1 sp}
@@ -1132,6 +1132,9 @@ a dungeoneer's pack {tag:adventuring gear}{base:6}{value:6 gp}
 [an] [condition glass] vial of perfume {tag:adventuring gear}{base:5}{value:5 gp}
 [an] [condition noble metal] signet ring {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
 [an] [condition base metal] steel mirror {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
+a day's worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
+two days worth of [condition rations] rations {tag:adventuring gear}{base:1}{value:10 sp}
+[3-5] days worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
 
 $mundane 10
 [an] [condition instrument] set of bagpipes {tag:instrument}{base:15}{value:15 gp}
@@ -1153,6 +1156,9 @@ $mundane 10
 [an] [condition tool] set of smith's tools {tag:artisan's tools}{base:10}{value:10 gp}
 [an] priest's pack {tag:adventuring gear}{base:9.5}{value:9 gp, 5 sp}
 [an] burglar's pack {tag:adventuring gear}{base:8}{value:8 gp}
+a day's worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
+two days worth of [condition rations] rations {tag:adventuring gear}{base:1}{value:10 sp}
+[3-5] days worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
 
 $mundane 25
 [an] flask of alchemist's fire {tag:adventuring gear}{base:25}{value:25 gp}
@@ -1416,7 +1422,60 @@ a tiny spool of black thread that never runs out
 a tiny clockwork figuring of a dancer that's missing a gear and doesn't work
 a black wooden pipe that creates puffs of smoke that look like skulls
 a vial of perfume, the scene of which only certain creatures can detect.
-
+a shining pendant of white stone, engraved with a symbol that you vaguely recognize.
+an ivory chess piece that once belonged to an elven king. an adventuring ancestor of yours stole it and it has been passed down for many generations.
+a quill pen crafted from the feather of a griffon. the feather can change the color of the ink being used on command.
+a faded flag that belonged to a mysterious sea vessel. the ship was never found and you came across the flag washed ashore on the beach.
+a troll's fang hanging from a leather cord. the troll was slain by a local folk hero and given to you as a gift.
+the signet ring of a vanished monarchy.
+skull of a creature that nobody can recognize. it resembles a large bird with a hollow bone tube protruding from its forehead.
+a large and curious-looking bulb (botanical). nobody knows what will grow if it's planted.
+a jar of unrecognizable spicy sauce that is from a foreign land.
+a set of four bone dice, so worn that you can barely make out the symbols.
+a silver ring with a small hidden compartment.
+a fist sized glass eye.
+an old music box that plays a vaguely recognizable song nobody can place.
+a pocket-size photo that can blink.
+a worn-out book of jokes your grandpa use to win your grandma. it's dedicated to you even if you didn't meet him.
+a tiny dragon preserved in amber.
+a river stone that crumbles when you hold it, but never gets smaller.
+a mouse skull that floats when placed over a fire
+a small tooth with a romantic scene carved into it in the finest detail.
+a gem that projects an illusion of a girl in white, she seems to be asking for something.
+a stamp for a wax seal of a design you’ve never seen before.
+a matchstick with a statue carved out of the head.
+a bottle of wine with a label dated from before the spellplague.
+a medal known to be awarded to heroes of a long forgotten kingdom.
+an unsigned contract with an otherworldly entity that grants the undersigned a favor at the cost of one returned, any time any where any how.
+a flower of unknown species that grows in an empty vase in a darkened room - no soil no water no light.
+an engraved dagger that supposedly belonged to an adventuring family member.
+a dark amulet found in a relative's desk/dresser drawer.
+a piece of paper with the names of your present or future party members on it.
+a mummified finger that crawls like an inch worm.
+a small mirror that reflects how you might look in ten years time.
+a tiny bell that sprinkles fine glitter when rung.
+a intricately chased pommel that must have come from a very special sword.
+a coin that always lands on its edge when tossed/dropped.
+a trio of interlinked rings, which rotate slowly when put on a flat surface.
+a vial with a liquid inside that never comes full to rest.
+a rectangle of brass with cutouts and notches at regular intervals.
+a tin box with a small, eternally lit ember inside.
+a ring of dozens of keys, with no two matching.
+an ancient animal femur, smooth and brown, with a silvered head.
+a pearl earring that occasionally produces a mild electric shock.
+a silvered horseshoe that points towards strong sources of magic.
+an onyx astrolabe, also usable as a spell focus for the astrologically-inclined.
+the skull of a doppelganger carved into a mask. sometimes it still shifts and takes new shapes.
+a silver pin in the shape of a lily with a blue gem set at its heart.
+an ornately carved wooden ink pen that improves your handwriting.
+a twisted stone ring with seemingly only one edge if you trace it with your finger. grants the wearer pleasant dreams.
+an old weathered stone that glitters in the firelight.
+a small leather coin pouch that looks as if it can only carry one coin - a lucky coin.
+a well worn copper coin with a hole in it, threaded on a cord. you always feel warm wearing it.
+a small wooden lock box. the interior has a spot carved for an object, but the object is missing.
+a pitcher in the shape of a cat that pours cream no matter what liquid is inside.
+a stone carved in the shape of a squat frog. whatever surface it is placed on becomes damp.
+a miniature carved stone wizards tower, no longer than your hand. at night, the window at the top glows with a pleasant light.
 
 $idol
 a great old one
@@ -1542,6 +1601,7 @@ the creature's melee weapon is actually magical: [special feature]
 the creature's ranged weapon is actually magical: [special feature]
 the creature's worn armor is actually magical: [special feature]
 the creature's shield is actually magical: [special feature]
+one of the creatures weapons is a magical (or if they only use natural weapons, they carry an insigia of claws (HotDQ) instead):<br> [special feature]
 
 $Incidental 0
 [1-12] sp [pouch]
@@ -1689,41 +1749,137 @@ $CR 5 Incidental
 [incidental coins 5] [pouch]
 [magical item] {20%}
 
+$incidental 6
+57 gp, 1 sp, 2 cp [pouch]
+107 gp, 4 sp [pouch]
+214 gp, 8 sp [pouch]
+
+$CR 6 Incidental
+[Incidental 6]
+[Incidental 4] and [an] [magic item table x]
+[incidental coins 5] [pouch]
+[magical item] {30%}
+
 $>CR 0 Incidental Treasure
-The creature carries:<br>[CR 0 Incidental]<br><br>
-The creature carries:<br>[CR 0 Incidental] and [trinket]<br><br>
+The creature carries:<br>[CR 0 Incidental][additional]<br><br>
+The creature carries:<br>[CR 0 Incidental] and [trinket][additional]<br><br>
 
 $>CR ⅛ Incidental Treasure
 The creature carries:<br>[CR ⅛ Incidental]<br><br>
-The creature carries:<br>[CR ⅛ Incidental] and [trinket]<br><br>
+The creature carries:<br>[CR ⅛ Incidental] and [trinket][additional]<br><br>
 
 $>CR ¼ Incidental Treasure
-The creature carries:<br>[CR ¼ Incidental]<br><br>
-The creature carries:<br>[CR ¼ Incidental] and [trinket]<br><br>
+The creature carries:<br>[CR ¼ Incidental][additional]<br><br>
+The creature carries:<br>[CR ¼ Incidental] and [trinket][additional]<br><br>
 
 $>CR ½ Incidental Treasure
-The creature carries:<br>[CR ½ Incidental]<br><br>
-The creature carries:<br>[CR ½ Incidental] and [trinket]<br><br>
+The creature carries:<br>[CR ½ Incidental][additional]<br><br>
+The creature carries:<br>[CR ½ Incidental] and [trinket][additional]<br><br>
 
 $>CR 1 Incidental Treasure
-The creature carries:<br>[CR 1 Incidental]<br><br>
-The creature carries:<br>[CR 1 Incidental] and [trinket]<br><br>
+The creature carries:<br>[CR 1 Incidental][additional]<br><br>
+The creature carries:<br>[CR 1 Incidental] and [trinket][additional]<br><br>
 
 $>CR 2 Incidental Treasure
-The creature carries:<br>[CR 2 Incidental]<br><br>
-The creature carries:<br>[CR 2 Incidental] and [trinket]<br><br>
+The creature carries:<br>[CR 2 Incidental][additional]<br><br>
+The creature carries:<br>[CR 2 Incidental] and [trinket][additional]<br><br>
 
 $>CR 3 Incidental Treasure
-The creature carries:<br>[CR 3 Incidental]<br><br>
-The creature carries:<br>[CR 3 Incidental] and [trinket]<br><br>
+The creature carries:<br>[CR 3 Incidental][additional]<br><br>
+The creature carries:<br>[CR 3 Incidental] and [trinket][additional]<br><br>
 
 $>CR 4 Incidental Treasure
-The creature carries:<br>[CR 4 Incidental]<br><br>
-The creature carries:<br>[CR 4 Incidental] and [trinket]<br><br>
+The creature carries:<br>[CR 4 Incidental][additional]<br><br>
+The creature carries:<br>[CR 4 Incidental] and [trinket][additional]<br><br>
 
 $>CR 5 Incidental Treasure
-The creature carries:<br>[CR 5 Incidental]<br><br>
-The creature carries:<br>[CR 5 Incidental] and [trinket]<br><br>
+The creature carries:<br>[CR 5 Incidental][additional]<br><br>
+The creature carries:<br>[CR 5 Incidental] and [trinket][additional]<br><br>
+
+$>CR 6 Incidental Treasure
+The creature carries:<br>[CR 6 Incidental][additional]<br><br>
+
+$additional
+<p>Also, the creature may have one of the following according to its type or environment:<br>[bonus by type]
+
+$bonus by type
+<small><b>Aquatic:</b> [aquatic misc]<br><b>Demonic:</b> <br><b>Drow: [drow misc]<br><b>Goblinoid:</b> [mundane dungeon items]<br><b>Primitive:</b> [primitive misc]<br><b>Civilised:</b> [civilised misc]<br><b>Undead:</b> <br><b>Underdark:</b> <br></small>
+
+$aquatic misc
+a conch shell horn
+a harpoon
+a trident
+a weighted fishing net
+a dagger made from coral
+a ration of kelp
+a fine abalone shell (5 sp)
+
+$primitive misc
+a blanket of poorly stitched hides
+a bedroll made of poorly stitched hides 
+a bear skin used as a sleeping mat
+a waterskin made from the stomach of an animal
+a cord necklace of canines taken from canivorous creatures as a trophy (worth 5 gp)
+a necklace of dried humanoid ears
+a necklace of dessicated humanoid fingers
+a dagger made of bone
+a greatclub made from a hill giant's thighbone (or a humanoid, if small)
+a half-full wineskin containing a vile concoction of fermented viscera
+a string instrument made of fused bones
+a pauldron made from the skull of a horned creature
+a carved drinking horn (5 sp)
+bracers of splinted bone
+a war horn
+a broken spear tip that has been repurposed into a dagger
+a harness for strapping a greataxe to one's back
+a flint dagger
+a bolas
+a 10-foot pole
+rations of cured meat ([2-4 days])
+a whetstone
+a [condition tool] primitive healer's kit with [2-10] uses remaining
+a gourd with a potion of healing that tastes vile
+a partially used torch
+a shield made from cured hide
+[an] [condition wood] wooden staff
+a fur-lined loincloth that reeks to high heaven
+a skin of goblin thudrud
+a skin of orcish kragg
+
+$civilised misc
+a bedroll
+a waterskin
+a [condition fabric] backpack
+a wineskin
+[an] [condition tool] mess kit
+[an] [condition base metal] 
+[an] [condition base metal] crowbar
+a 10-foot pole
+a whetstone
+a boot dagger
+a pair of good walking boots
+a tonic in a small vile whose label proports heightened performance in the bedroom
+a component pouch
+
+$drow misc
+a meditation mat
+a waterskin
+[an] [condition fabric] set of drow traveller's clothes
+enough rothe jerky for [2-4] rations
+a bladder of mushroom wine
+a torchstalk
+a small tin flask of fire lichen liquor
+an amulet of Lolth (5 gp)
+a black spidersilk bodysuit
+a dose of drow poison (200 gp)
+an adamantine crossbow bolt
+a drowcraft adamantine dagger (disintegrates if exposed to 1 hour of sunlight)
+a wineskin of spiderblood wine
+
+$underdark misc
+a skin of mushroom wine
+a bottle of spiderblood wine
+
 
 $drow bonus
 [drow armor]
