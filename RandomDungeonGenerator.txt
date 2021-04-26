@@ -1762,45 +1762,45 @@ $CR 6 Incidental
 [magical item] {30%}
 
 $>CR 0 Incidental Treasure
-The creature carries:<br>[CR 0 Incidental][bonus]<br><br>
-The creature carries:<br>[CR 0 Incidental] and [trinket][bonus]<br><br>
+The creature carries:<br>[CR 0 Incidental][additional]<br><br>
+The creature carries:<br>[CR 0 Incidental] and [trinket][additional]<br><br>
 
 $>CR ⅛ Incidental Treasure
 The creature carries:<br>[CR ⅛ Incidental]<br><br>
-The creature carries:<br>[CR ⅛ Incidental] and [trinket][bonus]<br><br>
+The creature carries:<br>[CR ⅛ Incidental] and [trinket][additional]<br><br>
 
 $>CR ¼ Incidental Treasure
-The creature carries:<br>[CR ¼ Incidental][bonus]<br><br>
-The creature carries:<br>[CR ¼ Incidental] and [trinket][bonus]<br><br>
+The creature carries:<br>[CR ¼ Incidental][additional]<br><br>
+The creature carries:<br>[CR ¼ Incidental] and [trinket][additional]<br><br>
 
 $>CR ½ Incidental Treasure
-The creature carries:<br>[CR ½ Incidental][bonus]<br><br>
-The creature carries:<br>[CR ½ Incidental] and [trinket][bonus]<br><br>
+The creature carries:<br>[CR ½ Incidental][additional]<br><br>
+The creature carries:<br>[CR ½ Incidental] and [trinket][additional]<br><br>
 
 $>CR 1 Incidental Treasure
-The creature carries:<br>[CR 1 Incidental][bonus]<br><br>
-The creature carries:<br>[CR 1 Incidental] and [trinket][bonus]<br><br>
+The creature carries:<br>[CR 1 Incidental][additional]<br><br>
+The creature carries:<br>[CR 1 Incidental] and [trinket][additional]<br><br>
 
 $>CR 2 Incidental Treasure
-The creature carries:<br>[CR 2 Incidental][bonus]<br><br>
-The creature carries:<br>[CR 2 Incidental] and [trinket][bonus]<br><br>
+The creature carries:<br>[CR 2 Incidental][additional]<br><br>
+The creature carries:<br>[CR 2 Incidental] and [trinket][additional]<br><br>
 
 $>CR 3 Incidental Treasure
-The creature carries:<br>[CR 3 Incidental][bonus]<br><br>
-The creature carries:<br>[CR 3 Incidental] and [trinket][bonus]<br><br>
+The creature carries:<br>[CR 3 Incidental][additional]<br><br>
+The creature carries:<br>[CR 3 Incidental] and [trinket][additional]<br><br>
 
 $>CR 4 Incidental Treasure
-The creature carries:<br>[CR 4 Incidental][bonus]<br><br>
-The creature carries:<br>[CR 4 Incidental] and [trinket][bonus]<br><br>
+The creature carries:<br>[CR 4 Incidental][additional]<br><br>
+The creature carries:<br>[CR 4 Incidental] and [trinket][additional]<br><br>
 
 $>CR 5 Incidental Treasure
-The creature carries:<br>[CR 5 Incidental][bonus]<br><br>
-The creature carries:<br>[CR 5 Incidental] and [trinket][bonus]<br><br>
+The creature carries:<br>[CR 5 Incidental][additional]<br><br>
+The creature carries:<br>[CR 5 Incidental] and [trinket][additional]<br><br>
 
 $>CR 6 Incidental Treasure
-The creature carries:<br>[CR 6 Incidental][bonus]<br><br>
+The creature carries:<br>[CR 6 Incidental][additional]<br><br>
 
-$bonus
+$additional
 <p>Also, the creature may have one of the following according to its type or environment:<br>[bonus by type]
 
 $bonus by type
