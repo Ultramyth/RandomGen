@@ -1803,7 +1803,7 @@ $additional
 <p>Also, the creature may have one of the following according to its type or environment:<br>[bonus by type]
 
 $bonus by type
-Aquatic: [aquatic misc]<br>Demonic: <br>Drow: [drow misc]<br>Goblinoid: [mundane dungeon items]<br>Primitive: [primitive misc]<br>Civilised: [civilised misc]<br>Undead: <br>Underdark: <br>
+<small><b>Aquatic:</b> [aquatic misc]<p><b>Demonic:</b> <p><b>Drow:</b> [drow misc]<p><b>Goblinoid:</b> [mundane dungeon items]<p><b>Primitive:</b> [primitive misc]<p><b>Civilised:</b> [civilised misc]<p><b>Undead:</b> <p><b>Underdark:</b> [underdark misc]<p></small>
 
 $aquatic misc
 a conch shell horn
@@ -1843,6 +1843,8 @@ a partially used torch
 a shield made from cured hide
 [an] [condition wood] wooden staff
 a fur-lined loincloth that reeks to high heaven
+a skin of goblin thudrud
+a skin of orcish kragg
 
 $civilised misc
 a bedroll
@@ -1873,6 +1875,11 @@ a dose of drow poison (200 gp)
 an adamantine crossbow bolt
 a drowcraft adamantine dagger (disintegrates if exposed to 1 hour of sunlight)
 a wineskin of spiderblood wine
+
+$underdark misc
+a skin of mushroom wine
+a bottle of spiderblood wine
+
 
 $drow bonus
 [drow armor]
