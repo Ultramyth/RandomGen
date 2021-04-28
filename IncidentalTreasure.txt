@@ -191,7 +191,7 @@ $minor magical item
 <b>Loyal rope</b><q>Animate rope with the personality of a loyal dog. 50'. Must be taught knots the way a dog must be taught tricks</q>
 
 $exotic potion
-<br><b>An Exotic Potion:</b> [An] [exotic potion type,#potiontype] in [potion container], with a label showing [potion label]<br>The [#potiontype] appears to be [potion looks], smells [potion smell], is [exotic potion texture] in consistency, and tastes like [potion taste]<br><small>(DC [potion dc] to identify; <b>Potency/Duration:</b> [potion strength]; <b>Potion Effect:</b> [potion effect])</small>
+<br><b>An Exotic Potion:</b> [An] [exotic potion type,#potiontype] in [potion container], with a label showing [potion label]. The [#potiontype] appears to be [potion looks], smells [potion smell], is [exotic potion texture] in consistency, and tastes like [potion taste]<br><small>(DC [potion dc] to identify; <b>Potency/Duration:</b> [potion strength]; <b>Potion Effect:</b> [potion effect])</small>
 
 $potion DC
 10
@@ -1820,6 +1820,8 @@ an axe made from an anchor
 algae in a bladder
 a handful of shark teeth
 a dagger made from a megaladon tooth
+a starfish necklace
+
 
 
 $demonic
@@ -1902,6 +1904,7 @@ a horrible smelling salve (restores 1 hp)
 a fermented giant centipede in a gourd
 a roasted giant fire beetle ([condition rations], [2-4] rations)
 a vial of firebeetle blood (glows for 1d6 days, flamable)
+
 
 $civilised misc
 a bedroll
