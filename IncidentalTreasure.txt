@@ -1803,7 +1803,7 @@ $additional
 <p>Also, the creature may have one of the following according to its type or environment:<br>[bonus by type]
 
 $bonus by type
-<small><b>Aquatic:</b> [aquatic misc]<br><b>Demonic:</b> <br><b>Drow: [drow misc]<br><b>Goblinoid:</b> [mundane dungeon items]<br><b>Primitive:</b> [primitive misc]<br><b>Civilised:</b> [civilised misc]<br><b>Undead:</b> <br><b>Underdark:</b> <br></small>
+<small><b>Aquatic:</b> [aquatic misc]<p><b>Demonic:</b> <p><b>Drow:</b> [drow misc]<p><b>Goblinoid:</b> [mundane dungeon items]<p><b>Primitive:</b> [primitive misc]<p><b>Civilised:</b> [civilised misc]<p><b>Spellcaster:</b> [spellcaster misc]<p><b><b>Undead:</b> <p><b>Underdark:</b> [underdark misc]<p></small>
 
 $aquatic misc
 a conch shell horn
@@ -1813,6 +1813,21 @@ a weighted fishing net
 a dagger made from coral
 a ration of kelp
 a fine abalone shell (5 sp)
+a maritime flag
+a rusty cutlass
+a bottle of rumor
+an axe made from an anchor
+algae in a bladder
+a handful of shark teeth
+a dagger made from a megaladon tooth
+
+
+$demonic
+an amulet made of baatorian green steel
+an empty soul gem
+a list of names of mortals
+a tiefling skull
+
 
 $primitive misc
 a blanket of poorly stitched hides
@@ -1835,7 +1850,7 @@ a harness for strapping a greataxe to one's back
 a flint dagger
 a bolas
 a 10-foot pole
-rations of cured meat ([2-4 days])
+rations of cured meat ([2-4] days)
 a whetstone
 a [condition tool] primitive healer's kit with [2-10] uses remaining
 a gourd with a potion of healing that tastes vile
@@ -1845,11 +1860,53 @@ a shield made from cured hide
 a fur-lined loincloth that reeks to high heaven
 a skin of goblin thudrud
 a skin of orcish kragg
+a bone handaxe made from the beak of a juvenile axebeak
+a war drum
+a pair of rusty manacles
+a set of bone carver' tools (as woodcarver's tools)
+a gold tusk (5 gp)
+wolf fur [hat|cloak|vest|boots]
+a belt of shriveled halfling hands
+a brass peacock with ruby eyes (50 gp)
+a [quality] pair of drake-skin gloves
+a plush orcus toy
+a [condition noble metal] gold nose ring (5-10 gp)
+a vial of orc sweat
+a pair of antlers
+a stone tablet etched with the true name of a demon
+a worg fur cloak
+a dire wolf pelt suit of hide armor with wolf head
+an ingot of pig iron
+a spiked leather knee pad
+a necklace pouch
+a loin-cloth
+a shiny stone
+a bone flute made from a humanoid thighbone
+a rusty nose ring
+a dried scalp with semi-precious stones sewn in (15 gp)
+a serrated knife (as dagger)
+a pot of lard
+a grinning idol of [idol]
+a loaf of stale bread (ration 1)
+[condition rations] rations ([1-5] rations)
+dried mushrooms (1 ration)
+a bone with strips of meat still on it
+a loaf of moldy bread (1 ration)
+a half-eaten rat on a stick ([condition rations], 1 ration)
+a crudely carved bone fertility stick
+a horn of goblin [ale|wine|spirits]
+a necklace of humanoid ears
+a dried eyeball
+a wooden cup
+a horrible smelling salve (restores 1 hp)
+a fermented giant centipede in a gourd
+a roasted giant fire beetle ([condition rations], [2-4] rations)
+a vial of firebeetle blood (glows for 1d6 days, flamable)
 
 $civilised misc
 a bedroll
 a waterskin
-a [condition fabric] backpack
+[an] [condition fabric] backpack
 a wineskin
 [an] [condition tool] mess kit
 [an] [condition base metal] 
@@ -1860,6 +1917,23 @@ a boot dagger
 a pair of good walking boots
 a tonic in a small vile whose label proports heightened performance in the bedroom
 a component pouch
+a small cork-needle compass sealed in a glass container
+an abacus
+a vial of antitoxin
+a vial containing a dose of assassin's blood (150 gp)
+a block and tackle
+a book of [book] written in [language]
+a candle
+[an] [condition base metal] bullseye lantern
+[an] [condition base metal] grapling hook attached to [5-10]0 feet of [silk|common] rope
+a silver earing (1 sp)
+a flask of holy water (25 gp)
+[an] [condition base metal] hunting trap
+[an] [condition noble metal] lamp
+a map case with a faded map
+a mess kit
+a flask of oil
+a vial of perfume
 
 $drow misc
 a meditation mat
@@ -1875,10 +1949,113 @@ a dose of drow poison (200 gp)
 an adamantine crossbow bolt
 a drowcraft adamantine dagger (disintegrates if exposed to 1 hour of sunlight)
 a wineskin of spiderblood wine
+a jar of spider eggs
+small zurkhwood chest with edible fungi (2 days of rations)
+grappling hook with a 100-foot coil of silk rope
+silver choker (10 gp) with a classic spider design
+[2-8] vials of extremely exotic perfumes (worth 100 gp each)
+silken cloak stitched with a spiderweb patterns
+spider pendant that is cursed (spider creatures have advantage on attacks against non-drow wearer)
+spell scroll of spider climb written on trillimac
+a flask of basic poison (can be used to treat 10 crossbow bolts)
+a vial of antitoxin
+a potion bladder (25 gp)
+a pair of stoneburner boots (5 gp) loaded with stoneburner acid (10 gp)
+a vial of darkvision powder (10 gp)
+a breathing hood (70 gp)
+a pair of sundark goggles (10 gp)
+a belt of the reinforced form<br><q>This wide belt is made of orange scaly leather. Despite its appearance, it is soft and pliable. The adamantine buckle is set with a strange teardrop gemstone that changes color in the light.<br>While you wear a belt of the reinforced form, whenever you are the target of a transmutation spell or spell-like effect, or some other transformative effect such as an aboleth's slime or a basilisk's petrifying gaze, you gain advantage on your saving throw.</q>
+
+$spellcaster misc
+an amulet of a deity (5 gp) or a yew wand
+a wooden staff or an orb
+a component pouch
+a reliquary or crystal
+a yew wand or a totem
+a pearl (worth 100 gp) and an owl feather
+a small diamond worth 50 gp (chromatic orb)
+a vial of powdered silver (25 gp)
+a small brass brazier, and 10 gp worth of charcoal, incense and herbs
+a lead-based ink worth 10 gp
+a small vial of gold dust worth 25 gp
+specially marked [sticks|tokens|bones] worth 25 gp
+a vial of ruby dust worth 50 gp
+a white pearl worth 100 gp
+a small bit of honeycomb and a vial of jade dust worth 10 gp
+a gilded acorn worth 200 gp with a feather, tuft of fur and fish tail inside of it
+a pair of platinum rings worth 50 gp each
+a [crystal ball|scrying bowl] worth 100 gp, a jewelled horn and a glass eye
+incense and a vial of powdered diamond dust worth 200 gp
+a gem worth 50 gp
+a [a flask of holy water|vial of powdered silver and iron] worth 100 gp
+a vial of diamond dust worth 25 gp
+a small bag of diamonds, the contents of which are collectively worth 300 gp
+a gilded flower worth 300 gp
+a strange gem with tears inside worth 300 gp
+a gilded skull worth 300 gp
+incense and a sacrificial offering, together worth 25 gp
+a tiny replica of an exquisite chest constructed of rare materials (worth 50 gp)
+an eyeball encased in a gem worth 150 gp
+a vial of diamond dust worth 100 gp
+a pickled tentacle and an eyeball in a platinum-inlaid vial worth 400 gp
+an ornate stone and metal lockbox worth 400 gp
+air, a pebble, ash and water inside a gold-inlaid vial worth 400 gp
+an very large agate worth 1000 gp
+a sunburst pendant worth 100 gp
+a vial of dimond dust worth 100 gp
+a small box containing herbs, oils and incense worth 1000 gp
+a ruby worth 999 gp
+a bag of incense worth 250 gp, and four ivory strips worth 50 gp each
+a jewel worth 1000 gp
+a small diamond worth 500 gp
+a collection of rare oils and unguents worth 1000 gp
+a [crystal ball|silver mirror|holy water font] worth 1000 gp
+a golden reliquary worth 500 gp
+rare chalks and inks infused with precious gems worth 50 gp
+a vial with a powder of crushed black pearl worth 500 gp
+a statuette carved from ivory and decorated with gems worth 1500 gp
+a gem-encrusted dagger worth 1000 gp, and clay, ash and mandrake
+a clay pot filled with grave dirt, a clay pot filled with brackish water, and [a black onyx worth 150 gp|[2-3] black onyxes worth 150 gp each]
+a sapphire worth 1000 gp
+a set of [bones|ivory sticks|cards|teeth|carved runes] worth 100 gp
+a sprinkling of holy water, rare incense and powdered ruby worth 1000 gp
+burning incense, a small measure of brimstone and oil, a knotted string, a small amount of umberhulk blood, and a small silver rod worth 10 gp
+a gem-encrusted bowl
+a [gem|crystal|reliquary|ornimental container] worth 500 gp
+a bit of fleece and a vial of jade dust worth 25 gp
+a tiny silver cage worth 100 gp
+humanoid blood inside a ruby vial worth at least 600 gp
+an object engraved with a symbol of the outer planes worth 500 gp
+an ointment for the eyes made of mushroom powder, saffron and fat worth 25 gp
+a vial of quicksilver worth 500 gp, an intricate crystal rod worth 1500 gp
+ruby dust worth 1500 gp
+a miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each worth 5 gp
+a miniature platinum sword with a grip and pommel of copper and zinc worth 250 gp
+a forked metal rod attuned to a particular plane of existence worth 250 gp
+a small replica of the individual worth 5 gp
+a diamond worth 1000 gp
+a vial filled with a powder composed of diamond, emerald, ruby and sapphire dust worth 5000 gp
+powdered ruby worth 1500 gp|
+mercury, phospherous and powerdered diamond and opal worth 1000 gp
+a holy symbol (5 gp)
+a spool of platinum cord worth 250 gp
+a diamond worth 1000 gp
+a tiny reliquary worth 1000 gp containing [a scrap of cloth from a saint's robe|a piece of parchment from a religious text]
+a small diamond worth 500 gp
+[2-9] jacinths worth 1000 gp each and an ornately carved bar of silver worth 100 gp
+a diamond worth 5000 gp
+a carved statue and [a small mithral orb|fine chain of precious metal|a small jade representation of a hedge maze|a large, transparent [diamond|corundum|ruby]|rare soporific herbs|] worth [500|1000|2000|5000|7500|1000] gp
+a small piece of adamantine worth 500 gp
+a jade circlet worth 1500 gp
+an hourglass filled with diamond dust worth 5000 gp
+a sprinkle of holy wate and diamonds worth 25,000 gp
 
 $underdark misc
 a skin of mushroom wine
 a bottle of spiderblood wine
+a cloak made from the skin of a [darkmantle|cloaker]
+[an] [leather] bandoleer
+a map case containing a rough map of an area of the underdark
 
 
 $drow bonus
