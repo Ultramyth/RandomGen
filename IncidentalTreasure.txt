@@ -1557,17 +1557,18 @@ demon
 bawdy scene
 
 $leather
-leather
-suede
-cordovan leather
-giant snake leather
-alligator leather
-crocodile leather
-ostrich leather
-wolf leather
-giant bat leather
-[gold|silver|red|blue|green|black|copper|bronze] dragon leather
-stingray leather
+leather {50%}
+cordovan leather {20%}
+rothé leather {100%}
+alligator leather {5%}
+crocodile leather {5%}
+ostrich leather {5%}
+beholder leather {5%}
+aboleth leather {5%}
+giant bat leather {40%}
+darkmantle leather {30%}
+[dragon color] dragon leather {5%}
+stingray leather {5%}
 
 $pouch material
 leather
@@ -1821,8 +1822,6 @@ algae in a bladder
 a handful of shark teeth
 a dagger made from a megaladon tooth
 a starfish necklace
-
-
 
 $demonic
 an amulet made of baatorian green steel
