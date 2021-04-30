@@ -1760,6 +1760,12 @@ $CR 6 Incidental
 [Incidental 4] and [an] [magic item table x]
 [incidental coins 5] [pouch]
 [magical item] {30%}
+[Incidental 5] and [an] [magic item table a], and [exotic potion,unique]
+[Incidental 3] and a minor magical item:<br>[minor magical item]
+a minor magical item:<br>[minor magical item]
+[incidental 4] and [mundane 50]
+[Incidental 5] and [an] [magic item table x]
+[Incidental 6] and [exotic potion,unique]
 
 $>CR 0 Incidental Treasure
 The creature carries:<br>[CR 0 Incidental][additional]<br><br>
@@ -1799,6 +1805,7 @@ The creature carries:<br>[CR 5 Incidental] and [trinket][additional]<br><br>
 
 $>CR 6 Incidental Treasure
 The creature carries:<br>[CR 6 Incidental][additional]<br><br>
+The creature carries:<br>[CR 6 Incidental] and [trinket][additional]<br><br>
 
 $additional
 <p>Also, the creature may have one of the following according to its type or environment:<br>[bonus by type]
