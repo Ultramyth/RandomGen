@@ -1,1916 +1,678 @@
-$include https://github.com/Ultramyth/RandomGen/raw/main/MagicItem.txt
-$name : Incidental Treasure
+$name : Dungeon Room Contents
 $author : Ben
-$description : Generates incidental treasure for creatures encountered in random encounters by CR level. Ideally, you should roll for each individual before you initiate combat, in case the creature has an item that is useful in combat. The tables assume an intelligent creature that values treasure, such as humanoids.
-$amount : 10
-$button : Loot!
+$description : Generates a dungeon contents
+$amount : 3
+$button : Generate!
 
-$incidental coins 0
-[5-30] cp
-[4-24] sp
-[3-18] ep {66%}
-[3-18] gp {50%}
-[1-6] pp {17%}
+$antechamber
+it well-appointed resting area for visitors to relax on divans and armchairs.
 
-$incidental coins 5
-[4-24][0-9][0-9] cp
-[6-36][0-9] sp and [2-12][0-9] gp
-[3-18][0-9] ep and [2-12][0-9] gp {66%}
-[4-24][0-9] gp {50%}
-[2-12][0-9] pp {17%}
+$armory
+racks of arms line the room, including [rack type,x2-5], as well as [armor stand,x1-3].
 
-$incidental coins 11
-[4-24][0-9][0-9] sp and [1-6][0-9][0-9] gp {50%}
-[1-6][0-9][0-9] ep and [1-6][0-9][0-9] gp {38%}
-[2-12][0-9][0-9] gp and [1-6][0-9] pp
-[2-12][0-9] gp and [2-12][0-9] pp {63%}
+$audience chamber
+this room is open but for a raised dias where a number of decorative chairs sit.
 
-$incidental coins 17
-[2-12][0-9][0-9][0-9] ep and [8-52][0-9][0-9] gp {33%}
-[1-6][0-9][0-9][0-9] gp and [1-6][0-9][0-9] pp {88%}
-[1-6][0-9][0-9][0-9] gp and [2-12][0-9][0-9] pp
+$banquet room
+large long tables and benches line the room, and vast open hearth
 
-$art object 10
-comb made of [minor carved] with [goth feature] carved into its handle (worth [6-15] gp)
-[minor metal] whistle with [goth feature] etched into it (worth [6-15] gp)
-[minor metal] tiara with [goth feature] decorating it (worth [6-15] gp)
-[leather] belt with a [minor metal] buckle featuring [goth feature] (worth [6-15] gp)
+$cells
+the room is segmented into [four|six|eight|ten|a dozen] simple cells with humble appointments.
 
-$art object 25
-decorative scabbard with a [motif] motif (worth 2[0-9] gp)
-eye patch with silver thread and a beryl (worth 2[0-9] gp)
-dagger with a [motif] holding a [10 gem] in the pommel (worth 2[0-9] gp)
-silver ewer featuring [goth feature] (worth 2[0-9] gp)
-carved bone statuette of [idol] (worth 2[0-9] gp)
-small gold bracelet featuring [goth feature] (worth 3[0-9] gp)
-cloth-of-gold vestments of [idol] (worth 2[0-9] gp)
-black velvet mask stitched with silver thread (worth 2[0-9] gp)
-copper chalice with silver filigree (worth 2[0-9] gp)
-pair of engraved bone dice (worth 2[0-9] gp)
-small mirror set in a painted wooden frame (worth 2[0-9] gp)
-embroidered silk handkerchief with [goth feature] (worth 2[0-9] gp)
-gold locket with a painted portrait inside of [an] [portrait] (worth 2[0-9] gp)
+$temple
+statuary and religious art are found throughout the chamber, which is dominated by an altar.
 
-$art object 100
-silvered shortsword (worth 115 gp)
-silvered dagger (worth 102 gp)
-silvered dagger with a [motif] holding a [10 gem] in the pommel (worth 12[0-9] gp)
+$chapel
+A small shrine sits beneath a statue, and a few pews separate a short walkway to the shrine.
 
-$10 gem
-azurite
-banded agate
-blue quartz
-eye agate
-hematite
-lapis lazuli
-malachite
-moss agate
-obsidian
-rhodochrosite
-tiger eye
-turquoise
-beryl
+$cistern
+a large cistern dominates the chamber, providing a source of water to the complex.
 
-$50 gem
-bloodstone
-carnelian
-chalcedony
-chrysoprase
-citrine
-jasper
-moonstone
-onyx
-quartz
-sardonyx
-star rose quartz
-zircon
+$classroom
+rows of simple desks and chairs face a larger table and chair, and on the wall behind is a large board and chalk. Several bookshelves line one wall.
 
-$magic
-[exotic potion]
-[minor magical item]
-[magic item table a]
+$conjuring room
+Arcane symbols mark the floor, especially around a raised dias.
 
-$minor magical item
-<b>Wooden Spoon</b><q>Carved with rune for "food". When tapped on an inert organic or semi-organic material (wood, dirt) it turns that stuff into edible foodstuffs, although it will be mushy and unpalatable.</q>
-<b>Amulet of Hope</b><q>Shines as bright as a candle, but only when there are no other light sources. Light points back towards dungeon entrance, vaguely. Hums reassuringly when clutched, and warms your hand</q>
-<b>Orphan's Top</b><q>Cannot be spun if there are any invisible undead nearby</q>
-<b>Ring of the Adventurous Limb</b><q>If worn on a hand, the entire arm will vanish. It will return after 24 hours have elapsed. Roll a d10: 1 - tattoo on arm, 2 - arm injured, 3 - gained a ring, probably a wedding ring, 4 - ring missing, 5-10 - nothing special. It will have a similar effect on legs</q>
-<b>Dust of De-Appearance</b><q>Can make things invisible, but wears off if the object moves, is moved, or even wiggles a bit. Best used on inanimate objects or people who can hold really, really, still</q>
-<b>Paired Scrolls</b><q>Whatever is written on one appears on the other. Give players a 3"x5" card to write on, to limit how much they can write</q>
-<b>Statuette of Baal</b><q>Can be "fed" gold to grow larger, adding to its size. Starts out the size of a gold coin. Becomes more complex as it grows larger, adds features and companions. If grown to the size of 100,000 gp, golden tablet reveals a great secret. (Does not create or destroy gold, just absorbs it). If grown to 1,000,000 gp, it will come alive and try to take over the world</q>
-<b>Book of Epic Boredom</b><q>When reading, save vs sleep</q>
-<b>Black Cigarette</b><q>When smoked, it creates a huge cloud of smoke and allows the smoker to see through smoke and fog. Can be smoked for 5 minutes (or 5 one-minute segments)</q>
-<b>Colorthief's Brush</b><q>This paintbrush has a needle on the back. If you prick something, you steal all the color from it, but can later paint with those same brilliant colors (stored in the brush, controlled by imagination). If a book is pricked, it will steal the words. The book can then be reconstructed, but it takes a few days of writing for it to be recovered</q>
-<b>Sleeping Draught</b><q>Sleep TWICE AS HARD for four hours. You get a full night's rest, but cannot be woken up. Unwilling targets get a save</q>
-<b>Love Potion</b>
-<b>Exploserous Carnelian</b><q>When activated, begins to glow hotter and hotter. Explodes like a stick of dynamite after 1d2+2 rounds</q>
-<b>Mighty Acorn</b><q>When thrown on the ground, immediately grows into a 20' oak</q>
-<b>Mechanical Torchbearer</b><q>Follows the associated amulet, or whoever is wearing it. Can hold 6 torches, and relight a new one as the old one burns out. Looks like a mechanical spider, 5' in diameter</q>
-<b>Penguin tokens ([1-6])</b><q>Summons an 80 lb emperor penguin. On land, cannot do anything except waddle to where you direct. In water, can attack as a 1 HD creature. Is destroyed/killed if it takes any damage. Reverts to a small (1") wooden token after 1 minute</q>
-<b>Saint's Bones</b><q>About the size of a cigar box. Contains mandible + some carpals. Will rattle ominously when a lie is uttered nearby</q>
-<b>Amber Comb</b><q>Any lightning attack within 10' is diverted to the comb instead. If the comb takes 6 or more damage (it is not immune to lightning), it shatters</q>
-<b>Chewed Bone</b><q>When chewed, it fills the air with the smell of delicious fresh meat. This is strong enough to mask other odors</q>
-<b>Bottle of Light</b><q>When swung overhead (a small chain is attached for this purpose) the bottle absorbs ambient light. Later, the bottle can be unstoppered to allow the light back out again. Can hold up to 5 rounds of light. Special properties of light are preserved: moonlight can induce lycanthropy, for example</q>
-<b>Silver silk handkerchief</b><q>3' on a side. On the command word, it becomes as hard as thick steel. A second command word reverts</q>
-<b>Silver silk rope</b><q>A silk rope 25' in length that on the command word, becomes as hard as thick steel. A second command word reverts</q>
-<b>Goggles of the Clown</b><q>When worn, everything looks like a clown, and speaks in a mocking, clowning voice. It is very difficult to tell people apart. You can barely tell a knight apart from his horse (which appears as a four-legged clown). In combat, you must make a Wisdom check every round or lose track of which clown is which. On the upside, you are immune to the beauty of nymphs and the ugliness of catoblepas</q>
-<b>Vial of Nightshade</b><q>When drunk, it puts the body into a deep coma and ejects the spirit. You can now roam around, incorporeal, until you return to your body. There is a 1-in-6 chance each hour that some mishap befalls you (body possessed by outsider, soul lost forever, etc). Coma lasts for 1d3 days</q>
-<b>Grinning Amulet</b><q>Anyone who laughs--even a snicker--near this amulet must make a save or laugh uncontrollably for the next minute. Careful, it's contagious--if a player laughs during this, so does their character</q>
-<b>Trollwax</b><q>Tacky and unpalatable. Anything that tastes it must succeed on a check, or be so disgusted that it cannot taste it again. (Takes a week to fully leave the tongue)</q>
-<b>Cheater's Coin</b><q>When flipped, it will give whatever result the owner wishes. This is not limited to heads/tails--it can also give results of king, dragon, treasury, pilgrims, etc</q>
-<b>Boots of Independence</b><q>When you remove these boots and fail to restrain them (put them in a pack, etc) they will walk back the way they came, all the way back to where you first put them on, with more-or-less the same cadence and sounds. If you walked in a loop somewhere along the line, the boots will get stuck in the loop and repeat</q>
-<b>Tiny tree</b><q>Produces three fat apples every day (enough to feed 1 person). Must be watered with 1 cup of blood each day, or it will die. If dead, can be revived with water. Probably found dead/in a chest</q>
-<b>Skeleton gourd</b><q>This gourd has a peephole. Anyone holding the gourd up to their face and looking into the peephole will be paralyzed while their brain is filled with visions of dancing skeletons</q>
-<b>Ring of Petrification</b><q>Putting this ring on will turn a person to stone, except for the ring. Someone else can remove the ring, and thereby return them to flesh</q>
-<b>Party Book</b><q>This book creates audible illusions imitating a party. The state of the party depends on the page the book is opened to. If the book is turned to page 1, you'll hear a couple people setting up silverware. Middle of the book, raucous carousing. Near the end, mostly snores and a few people taking shots</q>
-<b>Quiet Bell</b><q>This 2" tall silver bell prevents all sound within 1'</q>
-<b>Palette of All Colors</b><q>Contains 7 mundane palettes (ROYGBIV) and 1 color that is invisible to humans. If the invisible color is painted on a wall, it allows people to see through it. Can paint up to a 3' diameter spot, or 10 3" peepholes. Penetrates no more than 6". Getting it on someone's face blinds them</q>
-<b>Slimming Cone</b><q>When touched to a creature, it instantly and harmless sucks out all the excess fat from them, ejecting it onto the floor in a big mass</q>
-<b>Grass Whistle</b><q>When blown, roll for a random encounter. If the location has no encounter table (some cities, maybe), the PCs will meet someone interesting who wants something</q>
-<b>Naiad-hair Ring</b><q>50% cursed. When worn, PC treats all water as if it had the consistency of a gas. (Don't fall off a boat). Water is still unbreathable</q>
-<b>Ring of Swimming</b><q>Wearer treats air as if it had the consistency of water. You can "fly" by swimming through the air, but the air is too thick to breath. Other water penalties also apply</q>
-<b>Belt of Cat Imprisonment</b><q>When laid on the ground, felines are compelled to sit in the center of it. As charm</q>
-<b>Endless Boots</b><q>Cannot stop walking. Will never tire from walking. Cannot run. Walk walk walk</q>
-<b>Spike of Woodland Suicides</b><q>Sort of like a hunter's trap. When left in the woods, wild animals will come and impale themselves on it. A verdant forest yields 1d10 rations worth per day, but must be moved daily. Fey will fucking hate you, though</q>
-<b>Salt Block</b><q>Any food you carry will never spoil. Doesn't have to be on your person. Applies to a captain and his ship's cargo, for example</q>
-<b>Log of Alarum</b><q>This 300 lb log protects those who sleep with their heads against it. If they would be attacked in their sleep, the log has a 90% chance of waking them up (by making bird song)</q>
-<b>Demonic Muffin</b><q>When eaten, reverses your gravity for 1d6 minutes</q>
-<b>Everice</b><q>Never melts</q>
-<b>Chest of the Mundane</b><q>Anything placed inside it is covered with an illusion that makes it look worthless and boring. Currently holding 3 peridots worth 10gp each</q>
-<b>Boots of Devouring</b><q>Cursed. As soon as you put one on your foot it starts fucking eating you like a garbage disposal. Feeding it lots of booze causes it to vomit out everything in its stomach (which may include some treasure)</q>. 
-<b>Fox-in-a-Bag</b><q>Sleeps all the time. As soon as it touches the ground, it will run around like crazy. Dex 18, AC as plate because of high Dexterity + foxy nature. If you pick it up (good luck) it will fall back asleep</q>
-<b>Feather of Bravado</b><q>When placed in a hat, it points in the direction of the nearest deadly foe capable of killing the PCs. When placed in the bottom of one's shoe, allows them to run slightly faster</q>
-<b>Gossip Cookies</b><q>Each one contains either a random rumor from the most relevant rumor table or "You will be killed by [random monster from most relevant random encounter table]". 50% chance of each</q>
-<b>A small silver figurine</b><q>When given away, will return to your pocket after 1d6 minutes. The only way to permanently get rid of it is for the recipient to similarly give it away before the 1d6 minutes expire.  (Alternatively, the original owner could die). Yes, this is great for scamming people. Apparent value: 1d100 silver</q>
-<b>uneering rock</b><q>A rock that, when thrown, always hits its target. Always. Cannot do anything that you couldn't conceivably do with a really lucky throw</q>
-<b>saddle of the horse</b><q>A saddle that turns any animal into a horse when it is strapped on. The horse cannot remove the saddle on its own. Currently owned by a bounty hunter who is fond of riding his bounties back to town</q>
-<b>skeleton key</b><q>A key that can unlock any door, but cannot be removed from the mechanism until the door is relocked
-<b>mug of homing</b><q>A mug that points the way to the nearest tavern when it is balanced on its edge
-<b>egg cup of hatching</b><q>An egg cup that can hatch any egg that is placed atop it
-<b>ring of the hipster</b><q>A ring that gives the wearer a magnificent mustache/beard, depending on which finger it is worn on. The left ring finger, for example, always yields a Van Dyke
-<b>ring of discorporate seeing</b><q>A ring that makes your eyeball pop out. This is not a problem, and you can continue to see through the eye just fine, like a spy-eye. Reversible if the ring is removed
-<b>ring of flawed invisibility</b><q>A ring that makes you invisible, but not your equipment or clothing
-<b>umbrella of falling</b><q>An umbrella that allows you float downwards at 60'/round when open, negating fall damage
-<b>Chicken Arrows ([1-6])</b><q>On a hit, target must save vs fear (first arrow only). If sat upon like an egg, quickly turns into an adult chicken. Fletched with white feathers</q>
-<b>Bag of Infinite Manure</b><q>Useful for campfires</q>
-<b>Wand of Necromantic Cooking</b><q>Can enchant a corpse or cut of meat to cut, prepare, marinate, and cook itself. A slaughtered pig will seek out gravy to roll around in. Sausages will jump into the saucepan, and then seek out your plate when cooked</q>
-<b>Omnidress</b><q>Can turn into any type of dress (can even imitate leather armor, but not metal)</q>
-<b>Indelible Pen</b><q>Can write on anything. Writing is permanent. Works 1d6 times</q>
-<b>ring of the corpse</b><q>Ring that makes the wearer appear to be dead and rotten
-<b>magic scones (1d6)</b><q>When broken in half, it erupts into 1d100 scones (10 scones = food for a day). Alternatively, it can be eaten to restore 1d6 HP</q>
-<b>Wooden hand</b><q>1/day, can turn into a living-but-disembodied hand for 1 hour. Will obey your commands for the duration. Str 1, can climb most walls. Int 6, can see normally, but cannot speak</q>
-<b>Locket</b><q>Woman's face inside the amulet always looks towards Meltheria</q>
-<b>Box of paired snails</b><q>When one snail dies, so does its mate. Normally used to send very crude, binary messages. There are 1d6 pairs of snails. Feed them leaves</q>
-<b>Hungry coin</b><q>Cursed. Will attempt to eat other coins that it comes into contact with. Eats 100 coins an hour</q>
-<b>Armor of Glamour</b><q>Looks like a fancy dinner suit. Is actually a suit of plate mail</q>
-<b>Ring of Good Omen</b><q>The first time you fail a save against a curse or other magic, the ring breaks and you instead make your save</q>
-<b>Prayer of the Seal</b><q>When this sheet of paper is attached to a door or portal, it become locked (until the paper is removed or destroyed)</q>
-<b>Boots of the Aristocrat</b><q>When you click them together, your clothes become clean, your skin becomes perfumed, and your hair is styled</q>
-<b>Cursed matches ([1-6])</b><q>When lit, the match does not ignite. Instead, whatever the PC is looking at catches fire. (Tiny match-sized fire. Does no damage unless allowed to progress)</q>
-<b>Preservative jar</b><q>Anything placed in this jar enters stasis. Cannot hold anything bigger than a toad. Currently holds a toad</q>
-<b>Library Box</b><q>When a non-magical book is placed inside it, another of the same type will be found there the next day</q>
-<b>Monocle of Entropy</b><q>If you stare at something long enough, it will fall over. 1 round for a candlestick, 1 minute for a sleeping cow, 1 hour for a small tree, 1 day for a cottage or large tree, 1 week for a castle. Must be within 100'</q>
-<b>Girdle of Masculinity/Femininity</b><q>Non-cursed because that's way more fun</q>
-<b>Stick of the Titan</b><q>Hits for 2d8, then breaks</q>
-<b>Singing frog</b><q>Knows 1d6 songs. Good for a free round of drinks in pretty much any bar you walk in to, with only a 20% chance that someone will try to steal it from you at the end of the night</q>
-<b>Perpetual motion machine</b><q>Utterly unremarkable in a world filled with magic, but still cool</q>
-<b>Seed of Moon Ice</b><q>If dropped in a body of water, will "freeze" an area up to 20' diameter. If swallowed, you die. If touched, save or die. Leaves awesomely frozen corpses that are not cold to the touch and never thaw</q>
-<b>Small broom</b><q>When activated, will attempt to clean the dirtiest thing nearby</q>
-<b>Black cat, winged</b><q>When you tap it on the nose, it enters stasis. (This is why you found it in a treasure chest)</q>
-<b>Blindfold of the Spirits</b><q>When worn, you can attack incorporeal things as if they weren't. Also, you're blind</q>
-<b>Night's Black Windchimes</b><q>25% chance of alerting you when you would be attacked during the night. If one of the 1d6+1 chimes is broken in half, a refreshing (but also quite cold) breeze blows through the area</q>
-<b>Dust of Vermicide</b><q>When thrown, does 1 damage to everything in a 5' diameter area. Alternatively, does 2d6 damage against a swarm</q>
-<b>Goblin cloak</b><q>Invisible while in shadowy areas, but stinks like a mound of goblin shit</q>
-<b>Miser's Flute</b><q>When played, all unsecured coins in 20' will leap up and roll after you. They will follow you as long as you play, and as fast as normal running speed. Uphill is fine, stairs are not</q>
-<b>Donkey Legs</b><q>These wooden donkey legs can be attached to anything (but are not strong enough to carry literally anything). Once attached, the thing will follow you around like a loyal donkey. For example, you can attach them to a heavy statue and then have it walk itself out of the dungeon. Donkey legs are as strong as two donkeys!</q>
-<b>Giant's Ochre</b><q>Anything painted with this pigment will double in size. Washes off easily with water or sweat. (If you paint yourself, it'll wash off after 1d6 rounds of sweaty combat)</q>
-<b>Mask of the Jester</b><q>Anyone seeing it for the first time must save vs charm or be compelled to attack the wearer</q>
-<b>Eye of Zin</b><q>If this jewel is pressed into the forehead, the wearer's eyes turn jet black, they gain darkvision, and they are blinded by even small amounts of light (a nearby torch will blind them, for example)</q>
-<b>Metal Eye Mask</b><q>Wearing this mask obscures you normal vision, but allows you to see from above, sort of like an orbital satellite's view. At sea level, you can see an area 200' in diameter, centered on the mask</q>
-<b>Pink Bead</b><q>When smashed on the ground, immediately turns into a huge mountain of fluffy bubbles, similar in consistency to a mass of fused marshmallows. Can cushion a fall or block a hallway or something. 10' in diameter, can be cut through with 6 slashing attacks, lasts 1d6 minutes
-<b>Loyal rope</b><q>Animate rope with the personality of a loyal dog. 50'. Must be taught knots the way a dog must be taught tricks</q>
+$crypt
+several alcoves line this chamber, each marking the final resting place of its occupant.
 
-$exotic potion
-<br><b>An Exotic Potion:</b> [An] [exotic potion type,#potiontype] in [potion container], with a label showing [potion label]<br>The [#potiontype] appears to be [potion looks], smells [potion smell], is [exotic potion texture] in consistency, and tastes like [potion taste]<br><small>(DC [potion dc] to identify; <b>Potency/Duration:</b> [potion strength]; <b>Potion Effect:</b> [potion effect])</small>
+$dining room
+this room has rows of tables and chairs and a counter behind which sits shelves, pots and pans.
 
-$potion DC
-10
-11
+$divination room
+a small pool draws the eye in this room.
+
+$dormitory
+the chamber is filled with rows of beds, each with a small chest at the foot.
+$barracks
+[4-16] [beds|pallets|bunks] line the walls with [personal storage][s] at the base of each. In one corner, a [long table|large table|small table|round table] surrounded by plain [chairs|stools|benches] sits, adorned with well worn drinking implements, the remains of several meals, and in the centre, a half-finished low-stakes gambling game.
+
+$cistern
+a large cistern dominates the chamber, providing a source of water to the complex.
+
+$guardroom
+a small table sits in the corner with [2-4] simple chairs.
+
+$kennel
+old straw and dung litter the floor, and a series of cages fill the room.
+
+$kitchen
+a large hearth dominates this room, and several hefty tables and cubboards.
+
+$library
+heavy wooden bookshelves line the walls of this chamber and create a maze filled with scrolls and tomes.
+
+$prison
+this chamber is lined with reinforced wooden cells, each with an iron lock.
+this chamber is lined with stone cells with reinforced wooden doors with small windows in them and heavy deadbolts.
+this chamber is lined with a series of cells segregated by iron bars. The iron gates each have a heavy iron lock to them. Each cell has a simple bench and pale of straw.
+
+$robing room
+this glorified closet is lined with pegs and shelves and a large wardrobe.
+
+$stable
+several stalls flank a long corridor strewn with old straw.
+
+$storage room
+The room contains a number of stores; [storage,x3-8]
+
+$strong room
+despite all the security, the strong room is empty
+a treasure hoard is within
+
+$torture chamber
+grusome implements of torture fill this room, along with stains that will never wash out.
+
+$trap room
+this room harbours an elaborate trap.
+
+$trophy room
+the busts and bodies of stuffed creatures line the walls of this room
+art is displayed here celebrating the key figures and events of the dungeon's mythology.
+
+$vault
+despite all the security, the strong room is empty
+a treasure hoard is within
+
+$latrine
+this room has been serviced many times to bring relief to the dwellers herein.
+
+$bath
+stone steps descend into a pool of water that deepens to [3-30] feet.
+stone steps descend into a pool of warm water that deepens to [3-30] feet.
+
+$well
+a well, [2-12]0 feet deep is the central feature of the room.
+
+$watch room
+this room provides a commanding view over a strategic chokepoint in the dungeon. A simple table and chairs sit in the corner. A weapons rack is used to rest arms and armor against.
+
+$workshop
+An array of tools, including a workbench, forge and anvil occupy this room.
+
+$rack type
+ [an] [rack full] rack that holds up to [rack size] [weapon rack], 
+
+$weapon rack
+[ranged weapon][s]
+[melee weapon][s]
+[ammunition]
+
+$rack size
+6
+8
 12
-13
-14
-15 {90%}
-16 {80%}
-17 {70%}
-18 {60%}
-19 {50%}
-20 {40%}
-21 {30%}
-22 {20%}
-23 {10%}
+16
+24
 
-$exotic potion type
-brew
-concoction
-draught
-elixir
-ichor
-juice
-philter
-potion
-tonic
-vial
+$rack full
+empty
+full
+partially full
+mostly empty
 
-$potion strength
-almost no positive effect, all side effect ([potion side effect])
-major with a small side effect ([potion side effect])
-major with a strong side effect ([potion side effect])
-minor with a slight side effect ([potion side effect])
-minor with a strong side effect ([potion side effect])
-regular with a slight side effect ([potion side effect])
-regular with a strong side effect ([potion side effect])
-regular with no side effect
-permanent until dispelled
-permanent (can only be removed with a wish spell)
-seemingly permanent
-temporary, but twice as strong and wears off quickly
+$ammunition
+bundles of 20 arrows
+stacks of 20 bolts
 
-$potion effect
-<b>Age.</b> Makes the user grow some years older.
-<b>Animal form.</b> Makes the user turn into a random animal.
-<b>Antidepressant.</b> Does what it says on the tin.
-<b>Arcane.</b> Increases the spell DC and spell attack modifier of the imbiber by [1-3] for the duration.
-<b>Artisans Skill.</b> Gives the user proficiency with a set of tools. If they have it already, it grants expertise.
-<b>Atomic Clock.</b> Lets the user know the exact time and date.
-<b>Babelfish.</b> Lets the user speak any language but not understand it.
-<b>Beautiful Appearance.</b> Makes the user appear physically more attractive.
-<b>Berserker.</b> Makes the user rage with great strength. The character can enter a rage as a barbarian. If you are already a barbarian, you can rage once for free.
-<b>Bless Weapon.</b> Makes the users weapons do additional damage equal to their proficiency bonus.
-<b>Bodyguard.</b> Creates a spectral bodyguard who obeys orders. The creature has the statistics of a guard, except it is incorporeal, resistant to acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks, immune to cold, necrotic, poison, and is immune to the charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained. Its weapons deal force damage.
-<b>Bowmanship.</b> Makes the user more effective with a bow or ranged weapon. You gain +2 to attack rolls with ranged weapons.
-<b>Cold Resistance.</b> It gives resistance to cold damage.
-<b>Comprehension.</b> Lets the user understand all languages.
-<b>Courage.</b> Gives immunity to fear and some temporary inspiration.
-<b>Cure-all.</b> Cures any status effects, including exhaustion.
-<b>Dead Ringer.</b> Makes the user appear completely dead to all magic.
-<b>Demonic Leech.</b> For the duration, you heal half of any damage you deal to your enemies using any attack or spell that targets a single creature. If a spell or effect targets multiple creatures, you only gain this benefit once.
-<b>Disguise.</b> Changes the users form to a disguised form of any race and appearance.
-<b>Dreams.</b> Makes the imbiber fall to sleep or into a trance and get lost in a hallucinatory dream world of their perfect dream.
-<b>Eagle Sight.</b> Gives the user strong vision and advantage on Wisdom (Perception) checks.
-<b>Elemental form.</b> Turns the user to an elemental form relevant to their personality. Transform as a druid into elemental.
-<b>Euphoria.</b> Makes the user feel amazing and trip out.
-<b>Fame.</b> Makes everyone around the imbiber treat them as if they were famous.
-<b>Fear.</b> Makes the user terrified.
-<b>Feast.</b> Removes all hunger and thirst from the target.
-<b>Fertility.</b> Makes the user very fertile, almost certain to make a baby under its effects!
-<b>Fey Nature.</b> Lets the user become one with animals and nature around them.
-<b>Flame Breath.</b> Gives the user fire breath as a red or gold dragonborn.
-<b>Flame Resistance.</b> It gives resistance to fire damage.
-<b>Flavour.</b> Makes anything and everything taste amazing!
-<b>Fleet foot.</b> Increases the drinker's speed by ([5|10|15] feet).
-<b>Furnace.</b> Makes the user radiate with a damaging aura that deals 1d4 fire damage to any creature starting its turn in 5 ft.
-<b>Gargoyle Toughness.</b> The imbiber gains resistance to bludgeoning, piercing and slashing damage that is not magical or adamantine.
-<b>Ghostly Form.</b> Makes the user intangible and able to phase through objects as a ghost.<br> <b>Incorporeal Movement.</b> The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
-<b>Giant Strength.</b> Increases Strength to [19|21|23|25|27].
-<b>Glimmer.</b> Makes the imbiber and thier gear instantly clean and as good looking as possible.
-<b>Goats Trek.</b> Makes the user immune to the toils of long travels and bad weather. Automaticall succeed checks that would bestow exhaustion.
-<b>Goblin Climb.</b> Gives the user advantage on Strength (Athletics) checks to climb.
-<b>Godly form.</b> Improves all ability scores.
-<b>Gods Touch.</b> Gives the user a holy connection to their god or fiendish deity, acts as a commune spell.
-<b>Gracefulness.</b> Grants advantage on Dexterity (Acrobatics) checks.
-<b>Growth.</b> Makes the user double in size, as per the enlarge person spell.
-<b>Hawks Flight.</b> Lets the user fly with a speed of 60 ft.
-<b>Healing.</b> It instantly regenerates some health when drunk ([2d4+2|4d4+4|6d4+6|8d4+8]).
-<b>Health.</b> Cures all diseases and illnesses.
-<b>Hook Horror.</b> The users hands become sharp weaponised blades that they are proficient with and deal damage as a hook horror (2d6 piercing).
-<b>Horrifying appearance.</b> Makes the user look more ugly for a time.<br> Horrific Appearance.<br>Any humanoid that starts its turn within 30 feet of the imbiber must make a Wisdom saving throw (DC = 8 + proficiency bonus + Charisma mod. On a failed save, the creature is frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the imbiber is within line of sight, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Horrific Appearance for the next 24 hours.<br>Unless the target is surprised or the revelation of the imbiber's true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has disadvantage on attack rolls against the hag.
-<b>Intimidation.</b> Gives the user a huge booming voice that terrifies those around, granting advantage on Charisma (Intimidation) checks.
-<b>Invisibility.</b> Makes the user invisible.
-<b>Invulnerability.</b> Freezes the user in stasis that makes them immune to damage but they cannot move or act.
-<b>Iron Skin.</b> Turns the users skin to metal giving them resistance to psychic and bludgeoning, piercing and slashing damage from weapons not made of adamantine.
-<b>Knowledge.</b> Increases the users intelligence temporarily.
-<b>Lightning Resistance.</b> Gives resistance to lightning damage.
-<b>Love.</b> Makes the user and someone else fall in love.
-<b>Luck.</b> It gives the user a temporary boost to luck, as per the luck feat.
-<b>Mana.</b> Gives the user more magical power to cast with.
-<b>Midas.</b> Makes the user turn things to gold.
-<b>Might.</b> It gives a 1d4 bonus to attack rolls after drinking.
-<b>Musical Breath.</b> Makes the user say everything in song, and fey music follows them in the air.
-<b>Navigation.</b> Makes the user unable to get lost and find where they need to go.
-<b>Necro Resistance.</b> Gives resistance to necrotic damage.
-<b>Night vision.</b> Gives the imbiber darkvision 60 ft. or increases the range of their darkvision by 30 ft.
-<b>Nightmares.</b> Makes the user get lost in a hallucinatory dream world of their worst nightmares.
-<b>Nymph Breath.</b> Gives water breathing.
-<b>One Leafed Clover.</b> Gives the user worst luck.
-<b>Oracle.</b> Lets the user divine the future.
-<b>Owls Wake.</b> Makes the user need no sleep for a time.
-<b>Peace.</b> Makes the user very calm and unable to harm others.
-<b>Poison.</b> Poisons the user, weakening them. They gain the poisoned condition.
-<b>Possession.</b> Lets the user gain control of a nearby creature, their body is comatose while they do.
-<b>Preservation.</b> Stops whatever it is poured on from rotting or degrading.
-<b>Race Change.</b> Changes the users race.
-<b>Radiant Resistance.</b> Gives resistance to radiant damage.
-<b>Rebirth.</b> Resurrects the user if they die soon after drinking.
-<b>Rejuvenation.</b> Heals a single scar or bad injury on the user such as a missing arm.
-<b>Riddle me gone.</b> Gives the user the solution to a single riddle.
-<b>Schaffensfreude.</b> Makes the enemies take damage as they deal it to the user.
-<b>Serpent Tongue.</b> Makes the user only able to lie.
-<b>Sex Change.</b> Changes the users gender.
-<b>Shielding.</b> Gives the user a magical shield of energy. Acts as a shield (+2 AC) except it makes the user immune to being targeted by magic missile spells.
-<b>Shrinking.</b> Makes the user half in size as per the reduce person spell.
-<b>Sphinxes Truth.</b> Makes the user tell the truth.
-<b>Split Form.</b> The user turns into [two|three] tiny versions of themselves and controls them all.
-<b>Stamina.</b> Gives the user more stamina and constitution. Advantage on Constitution checks, and sets Constitution to 19 if it is not higher.
-<b>Stoneskin.</b> Gives resistance as per the stoneskin spell.
-<b>Succubus Charm.</b> Makes the drinker irresistible to nearby all people.
-<b>Swordsmanship.</b> Makes the user more effective and versatile with a blade. Grants a +2 bonus to attack rolls with blade weapons.
-<b>The Bard.</b> Increases the users charisma and charm temporarily, granting advantage on Charisma checks.
-<b>Tracelessness.</b> Makes the user very hard to follow.
-<b>Tracking.</b> Lets the user track an enemy.
-<b>Transmutation.</b> Lets the user have the ability to change something's properties.
-<b>True form.</b> Turns the user into a familiar-like creature similar to their personality.
-<b>Utter Hatred.</b> Makes the user have a bonus to damage against a particular type of enemy equal to their proficiency bonus.
-<b>Utter Understanding.</b> Makes the user know very intimately about one exact thing. Random, or they can decide.
-<b>Vigor.</b> Gives temporary 2d10 temporary hit points when drank.
-<b>Vitality.</b> It slowly regenerates health over a period of some hours.
-<b>Wild magic.</b> Taps into wild magic making an absolutely random thing happen.
-<b>Youth.</b> Makes the user de-age some years younger.
+$ranged weapon
+[crossbow]
+[bow]
+[thrown]
 
-$potion side effect
-a bad taste for some time
-a bloated feeling
-a cold
-a fever
-a sudden horrific accent
-addiction
-allergic reaction to your favourite food
-appreciation of colours and sound
-attracts bears
-bad luck
-baldness
-becoming strangely light
-bleeding from the eyes
-blindness
-blurred vision
-burping
-coughing
-curses
-damage
-deafness
-diarrhoea
-dizziness
-drunkenness
-everything tasting like dirt for some time
-excessive drooling
-fear of something
-feelings of anxiety
-feelings of guilt
-feelings of shame
-fidgeting
-flashbacks of your own eventual demise
-genuine happiness
-giddiness
-grumpiness
-health loss via rapid bleeding
-horrifying stench
-hunger
-immobilisation
-increased confidence
-increased libido
-insomnia
-itchiness
-kleptomania
-laughter
-light headedness
-loss of a random item
-loss of balance
-loss of charisma
-loss of intelligence
-loss of smell
-loss of speed
-loss of strength
-magically covers in dirt
-mood swings
-muscle spasms
-mutism
-nausea
-need for booze
-need to sing heroic music
-nothing bad at all!
-pain
-painful lust
-paranoia
-petrification
-poisoning
-puts the user to sleep
-rage
-rapid hair growth all over the body
-rashes
-recklessness
-relaxation
-sadness
-severe debt
-slight aches
-slight possession
-sneezing
-spots to grow on the skin
-strong believe you’re someone else
-stunning
-sudden moustache
-summons angry bees
-summons imps that want to kill you
-swelling
-temporary madness
-the hearing of demons
-the irresistible urge to dance
-the need to make friends
-the skin to crack and appear distorted
-the urge to fight
-thirst
-tripping the hell out
-trouble breathing
-uncontrollable babbling
-uncontrollable crying
-urge to hug
-vivid hallucinations
-vomiting
-weakness to a magical damage type
-weakness to physical damage
-weakness
+$crossbow
+light crossbow
+hand crossbow {25%}
+heavy crossbow
 
-$potion container
-a bone flask
-a capped horn
-a coloured bottle
-a conical smooth glass bottle
-a geometric diamond shaped bottle
-a glass syringe
-a large bottle that can be swigged several times
-a large metal bottle
-a leather pouch
-a metal thermos
-a not quite watertight leather waterskin
-a small medical vial
-a small metal vial
-a small shot sized bottle
-a square glass bottle
-a stone flask
-a translucent beer bottle
-a translucent long wine bottle
-an inhaler like spray bottle
-an ornate very decorated glass bottle
+$bow
+shortbow
+longbow
 
-$potion looks
-[exotic potion color] with [exotic potion with]
+$thrown
+sling
+spear
+javelin
+net {40%}
+dart
 
-$exotic potion with
-a bright glow
-a cloudy murkiness
-a constant heat
-a face in the liquid
-a soft glow
-blood within it
-bubbles suspended in it
-chunks of metal in it
-constantly moving and shifting liquid
-dirt floating in it
-fizzing bubbles
-flecks of colour
-leaves and flowers in it
-some kind of bone floating in it
-some type of gore from a slain creature
-steam coming from it
-stripes of colour
-swirls of colour
-translucency
-two separating liquid
+$other ranged
+blowgun
 
-$exotic potion texture
-airy and bubbly
-almost gaseous
-almost solid
-bitty
-chunky
-milky
-oily
-slimy
-thick and sludgy
-thin and watery
+$melee weapon
+[polearm]
+[side arms]
+[blades]
+[axes]
+[bludgeoning]
+[other melee]
 
-$exotic potion color
-black
-blue
-bronze
-brown
-clear
-dark grey
-dark red
-gold
-green
-light blue
-light grey
-orange
-pale green
-pink
-purple
-rainbow
-red
-translucent
-white
-yellow
+$polearm
+quarterstaff
+spear
+glaive
+halberd
+pike
 
-$potion smell
-a brothel
-a colour
-a damp cave
-a forge
-a fresh baby
-a new car
-a storm
-acid
-alcohol
-apples
-aromatic spices
-bacon
-baking cookies
-barbeque
-bark
-beef
-beer
-blood
-candy
-cheap perfume
-cheese
-chicken
-chocolate
-cinnamon
-cirtrus
-coffee
-compost
-cut grass
-death
-dirt
-egg
-festive
-fish
-flowers
-fresh cake
-fresh air
-fresh bread
-fresh water
-fruit punch
-fruit
-fumes
-garbage
-garlic
-gingerbread
-gold
-gunpowder
-holy oils
-home
-human flesh
-indescribable but horrid
-indescribable but nice
-lavender
+$side arms
+dagger
+handaxe
+shortsword
+sickle
+light hammer
+
+$blades
+greatsword
+longsword
+rapier
+scimitar
+
+$axes
+greataxe
+battleaxe
+
+$bludgeoning
+club
+greatclub
+mace
+maul
+morningstar
+warhammer
+
+$other melee
+lance
+trident
+whip
+
+$armor stand
+[an] [rack full] that holds [armor rack size] of [armor type] 
+[an] stand that holds [rack size] shields
+
+$armor type
+[light armor]
+[medium armor]
+[heavy armor]
+
+$light armor
 leather
-lilac and gooseberries
-magically the most desirable thing to you
-magically the worst thing to you
-massage oil
-mayonnaise
-medical
-metal
-minty
-mud
-music
-musk
-nothing at all
-nuts
-chemicals
-something bad flavoured to taste better
-old fruit
-orc
-paint
-pepper
-perfume
-polish
-rain
-roast meat
-roses
-rotten eggs
-rotting meat
-salt
-sand
-smoke
-something that stirs memories
-spicy
-stagnant water
-strange
-success
-sugar
-sulphur
-the forest
-the end of the world
-the sea
-the sewers
-vanilla
-vomit
-water
-wet dog
-wet goblin
-wine
-wood
+studded leather
 
-$potion taste
-a brothel.
-a colour.
-a damp cave.
-a forge.
-a fresh baby.
-a new car.
-a storm.
-acidic.
-alcohol.
-apples.
-aromatic spices.
-bacon.
-baking cookies.
-barbeque.
-bark.
-beef.
-beer.
-blood.
-candy.
-cheap perfume.
-cheese.
-chicken.
-chocolate.
-cinnamon.
-cirtrus.
-coffee.
-compost.
-cut grass.
-death.
-dirt.
-egg.
-festive.
-fish.
-flowers.
-fresh cake.
-fresh air.
-fresh bread.
-fresh water.
-fruit punch.
-fruit.
-fumes.
-garbage.
-garlic.
-gingerbread.
-gold.
-gunpowder.
-holy oils.
-home.
-human flesh.
-indescribable but horrid.
-indescribable but nice.
-lavender.
-leather.
-lilac and gooseberries.
-magically the most desirable thing to you.
-magically the worst thing to you
-massage oil.
-mayonnaise.
-medical.
-metal.
-minty.
-mud.
-music.
-musk.
-nothing at all.
-nuts.
-of chemicals.
-of something bad flavoured to taste better.
-old fruit.
-orc.
-paint.
-pepper.
-perfume.
-polish.
-rain.
-roast meat.
-roses.
-rotten eggs.
-rotting meat.
-salt.
-sand.
-smoke.
-something that stirs memories.
-spicy.
-stagnant water.
-strange.
-success.
-sugar.
-sulphur.
-the forest.
-the end of the world.
-the sea.
-the sewers.
-vanilla.
-vomit.
-water.
-wet dog.
-wet goblin.
-wine.
-wood.
+$medium armor
+hide
+chain
+scale
+breastplate
+half plate
 
-$potion label
-a cartoony mascot.
-a cheesy pun potion name.
-a code name.
-a coupon for a free potion.
-a few unrelated letters.
-a happy face.
-a healing symbol.
-a heartfelt hate letter for someone.
-a heartfelt love letter for someone.
-a label as if it was some kind of present.
-a label showing how many calories it is.
-a label with warnings and side effects all scribbled out.
-a list of ingredients in their chemical forms.
-a list of possible side effects as long as the bottle is.
-a living face looking around.
-a map of where the potion was made.
-a mass produced label claiming the company has no fault for any side effects.
-a mass produced label saying it’s a new flavour.
-a money back guarantee.
-a mysterious number.
-a name of a completely different potion to what it does.
-a note saying do not drink.
-a note saying its illegal contraband being confiscated.
-a note saying that it never should have been made and copius blood stains over the bottle.
-a note saying the alchemist is sorry for ever creating it.
-a note saying the alchemist thinks it is its greatest work.
-a passive aggressive note about other people drinking potions that don’t belong to them.
-a persons name. the potion wont work unless asked by its name to do so.
-a red x.
-a riddle, the lid not opening unless the riddle is solved.
-a sad face.
-a small doodle.
-a small puzzle for kids.
-a strange prophecy.
-a title describing the exact opposite.
-a warning about potion abuse and to only take in moderation.
-a warning of an ancient curse.
-all in some kind of raised symbols for the blind to read.
-all in some kind of symbols.
-an angry face.
-bloody prints all over it.
-brightly glowing letters.
-covered in glitter. it gets everywhere.
-covered in something unspeakable.
-crawling with bugs.
-doesn’t seem to have one.
-dwarven runes.
-fey symbols and sylvan writing.
-gnomish diagrams for its use.
-growing with crystals.
-growing with flowers.
-growing with rock.
-growing with vines.
-has faded beyond reading.
-holy symbols.
-is scrawled off.
-it says you’re being watched. when the person checks it instead says just kidding.
-its description and a joke.
-its description and a random fact.
-its description and a small compliment to make your day better.
-its description in celestial.
-its description in deep speech.
-its description in draconic.
-its description in druidic.
-its description in elemental languages.
-its description in elvish with a relevant mythic story.
-its description in gnomish.
-its description in goblin.
-its description in halfling.
-its description in infernal.
-its description in orcish
-its description in ornate elvish.
-its description in some ancient language.
-its description in strange arcane symbols.
-its description in undercommon.
-its description on dwarven.
-its name and description in invisible ink.
-its name and flavour.
-its name and its recommended buying price.
-its name and recipe for other alchemists.
-its name and title in bold letters.
-its name glowing with minor magic.
-its name in bold words in giant.
-its name with a warning about side effects.
-name engraved into the container.
-no words just a single colour.
-ornate and beautiful designs.
-saying its designed for babies.
-saying that it shouldn’t be drank by anyone under 18.
-several different names and descriptions plastered over each other.
-shamanistic symbols and shavings.
-that only shows the side effects.
-that plays a very quiet sing song till the bottle is empty.
-the name of one of the party members.
-the name of the bad guy.
-the words use only in emergencies scrawled on it.
-unholy symbols.
-very practical designs.
-very tiny print describing how the potion was made in great detail, around 1000 words.
-water damage but a just legible label.
+$heavy armor
+ring mail
+chain mail
+splint
+plate
 
-$potions
-[an] [flask|gourd|phial|vial|bottle] containing [thin|thick|bubbly|fizzy|gelatinous|chunky|watery|oily|slimy|crunchy|chewy|moving] [red|blue|yellow|silver|gold|purple|orange|green|brown|black|white|teal] liquid that tastes [sweet|sour|bitter|salty|savoury|spicy|foul|delicious|sickening|tangy|familiar] and acts as a potion of [potion type]
+$armor rack size
+a suit
+2 suits
+3 suits
+4 suits
 
-$potion type
-healing
-poison
-stamina
-climbing
-slipperiness
-love
-animal friendship
-fire breath
-greater healing
-growth
-hill giant strength	
-[resistance] resistance
-water breathing	
-health
-etherealness
-clairvoyance
-diminution	
-fire giant strength
-frost giant strength
-gaseous form
-heroism
-invulnerability
-mind reading
-stone giant strength
-superior healing
-sharpness
-cloud giant strength
-flying
-invisibility
-longevity
-speed
-supreme healing
-vitality
-storm giant strength
+$DebrisPlural
+ashes
+badly dented helmets
+blunt javelin heads
+bones
+broken arrows
+broken bottles
+broken sword blades
+burned stub of a torches
+candle stubs
+corroded 5' lengths of chain
+cracked flasks
+food scraps
+hair or fur fibres
+large puddles of water
+leather boots
+leaves and twigs
+lengths of rotting rope
+pieces of rotten wood
+piles of dung
+piles of straw
+rags
+rusted spikes
+rusty and bent iron bars
+scattered [teeth|fangs]
+shards of pottery
+small puddles of water
+small stones
+splintered clubs
+sticks
+wax drippings
 
-$oils
-oil of blessing (deal radiant damage or gain necrotic resistance) (150 gp)
-oil of corruption (deal poison damage or gain acid resistance) (150 gp)
-oil of decay (deal necrotic damage or gain radiant resistance) (150 gp)
-oil of energy (deal lightning damage or gain thunder resistance) (150 gp)
-oil of flameheart (deal fire damage or gain cold resistance) (150 gp)
-oil of frost (deal cold damage or gain fire resistance) (150 gp)
-oil of nightmares (deal psychic damage or gain force resistance) (150 gp)
-oil of resilience (deal force damage or gain psychic resistance) (150 gp)
-oil of spite (deal acid damage or gain poison resistance) (150 gp)
-oil of thunderstrike (deal thunder damage or gain lightning resistance) (150 gp)
+$DebrisSingle
+a badly dented helmet
+a blunt javelin head
+a broken arrow
+a broken bottle
+a broken pole
+a broken sword blade
+a candle stub
+a corroded 5' length of chain
+a cracked flask
+a cracked hammer head
+a large puddle of water
+a leather boot
+a pick handle
+a rag
+a rotten rope
+a rusted spike
+a rusty and bent iron bar
+a small puddle of water
+a splintered club
+a stick
+a torn sack
+a wax dripping
+ashes
+dung
+guano
+hair
+piece of rotten wood
+rotting food
+rubble and dirt
+straw
+the burned stub of a torch
 
-$book
-poetry
-historical accounts
-lore
-medicine
-nature
-arcana
-magic
-religion
-cults
-beasts
-diagrams
-history
-notes on gnomish contraption
+$roomfeature
+a large puddle of water
+a small puddle of water
+blood drips from the ceiling or walls
+common fungi grows here
+rubble and dirt cover the floor
+scratchings are etched into the walls
+slime (harmless)
+small stones litter the floor
+sploches of dry blood are on the floor
+the ceiling is damp
+the contents of the room are covered in dust
+the room is covered in cobwebs
+the walls are damp
+there are cracks in the ceiling
+there are cracks in the floor
+there are cracks in the walls
+there is mold everywhere
+trickles of water leak into the room
 
-$condition fabric
+$condition
 tattered
-servicable
-brand new
-worn
-pristine
-used
-well-kept
-torn
-mended
-[quality]
-tattered, [quality]
-servicable, [quality]
-brand new, [quality]
-worn, [quality]
-pristine, [quality]
-used, [quality]
-well-kept, [quality]
-torn, [quality]
-
-$condition base metal
-servicable {mult:1}
-battered {mult:0.6}
-brand new {mult:1.5}
-rusted {mult:0.5}
-corroded {mult:0.25}
-worn {mult:0.7}
-pristine {mult:1.2}
-used {mult:0.9}
-well-maintained {mult:1}
-servicable, [quality] {mult:1}
-battered, [quality] {mult:0.6}
-brand new, [quality] {mult:1.5}
-rusted, [quality] {mult:0.5}
-corroded, [quality] {mult:0.25}
-worn, [quality] {mult:0.7}
-pristine, [quality] {mult:1.2}
-used, [quality] {mult:0.9}
-well-maintained, [quality] {mult:1}
-
-$condition instrument
-well-played
-brand new
+fragile
+poor condition
 well-worn
-broken
-off-tune
-well-played [quality]
-brand new, [quality]
-well-worn, [quality]
-off-tune [quality]
-[quality], well-played
-
-$condition noble metal
-tarnished
-polished
-dulled
-battered
-worn
-[quality]
-tarnished, [quality]
-polished, [quality]
-dulled, [quality]
-battered, [quality]
-worn, [quality]
-
-$condition other
-servicable
+well-kempt
+well-tended
+mint
 brand new
 worn
-pristine
 used
-[quality]
-
-$condition tool
-servicable
-well-maintained
-incomplete
-barely usable
-[quality]
-
-$condition wood
-splintered {mult:0.25}
-well-oiled {mult:1}
-lacquered {mult:1.1}
-well-maintained {mult:1}
-splintering {mult:0.5}
-[quality]
-
-$condition glass
-cracked
-broken
-
-$condition container
-leaky
-sealed
-[]
-
-$condition rations
-spoiled
-fresh
-well-preserved
-tough but edible
-inedible
-unpalatable
-palatable
-delicious
-bland
-flavorless
-flavorful
-putrid
+unused
+new
+pristine
 
 $quality
+shoddy
 poor quality
-poorly made
 generic
-mass-produced
-one-of-a-kind
+simple
 well-made
-finely made
-quality
-exquisitely made
-high quality
-low quality
-common quality
+fine
+excellent quality
+exquisite
 
-$mundane 1 mult
-[mundane 1],[ ]
+$skullerymaterial
+[ceramic material]
+[metal material]
 
-$mundane 5 mult
-[mundane 5],[ ]
+$wood material
+ash
+yew
+oak
+darkwood
+zirkwood
+bronzewood
+duskwood
+lenaer wood
 
-$mundane 10 mult
-[mundane 10],[ ]
-
-$mundane 25 mult
-[mundane 25],[ ]
-
-$mundane 50 mult
-[mundane 50],[ ]
-
-$mundane 1
-[an] [condition instrument] horn {tag:instrument}{base:1.5}{value:1 gp, 5 sp}
-[an] [condition tool] abacus {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [condition fabric] backpack {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [condition base metal] crowbar {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [condition instrument] flute {tag:instrument}{base:1}{value:1 gp}
-[an] [condition glass] glass bottle {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [condition base metal] grappling hook {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [condition base metal] iron pot {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [condition base metal] manacles {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [condition base metal] miner's pick {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [condition instrument] shawm {tag:instrument}{base:1}{value:1 gp}
-[an] [condition base metal] shovel {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [condition base metal] sledgehammer {tag:adventuring gear}{base:1}{value:1 gp}
-a [condition fabric] set of traveler's clothes {tag:adventuring gear}{base:1}{value:1 gp}
-[an] [condition fabric] two-person tent {tag:adventuring gear}{base:1}{value:1 gp}
-a quiver with [15-20] arrows {tag:ammunition}{base:1}{value:10 sp}
-a bag of 1,000 [condition base metal] ball bearings {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [condition fabric] bedroll {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [condition noble metal] bell {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [condition tool] block and tackle {tag:adventuring gear}{base:0.5}{value:5 sp}
-a leather case of 50 blowgun needles {tag:ammunition}{base:0.5}{value:5 sp}
-a bag of [15-20] [condition base metal] caltrops {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [condition tool] cook's utensils {tag:artisan's tools}{base:0.5}{value:5 sp}
-[an] [condition wood] crossbow bolt case {tag:adventuring gear}{base:0.5}{value:5 sp}
-[12-20] crossbow bolts in [an] [condition wood] crossbow bolt case {tag:ammunition}{base:1}{value:10 sp}
-[an] [condition tool] fishing tackle {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [condition base metal] hammer {tag:adventuring gear}{base:0.5}{value:5 sp}
-fifty feet of hempen rope {tag:adventuring gear}{base:0.5}{value:5 sp}
-10 [condition base metal] iron spikes {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [condition wood] map or scroll case {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [condition fabric] quiver {tag:adventuring gear}{base:0.5}{value:5 sp}
-[condition fabric] robes {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [condition glass] vial {tag:adventuring gear}{base:0.5}{value:5 sp}
-[an] [condition tool] set of weaver's tools {tag:artisan's tools}{base:0.5}{value:5 sp}
-[an] [condition tool] set of woodcarver's tools {tag:artisan's tools}{base:0.5}{value:5 sp}
-[an] [condition fabric] blanket {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-[an] [condition fabric] set of common clothes {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-[an] [condition noble metal] lamp {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-[an] [condition fabric] pouch {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-a day's worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
-two days worth of [condition rations] rations {tag:adventuring gear}{base:1}{value:10 sp}
-[3-5] days worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
-a block of sealing wax {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-[an] tinderbox {tag:adventuring gear}{base:0.25}{value:2 sp, 5 cp}
-[an] [condition tool] mess kit {tag:adventuring gear}{base:0.1}{value:1 sp}
-a sheet of paper {tag:adventuring gear}{base:0.1}{value:1 sp}
-[an] [condition container] waterskin {tag:adventuring gear}{base:0.1}{value:1 sp}
-[an] [condition base metal] iron spike {tag:adventuring gear}{base:0.05}{value:5 cp}
-[an] [condition glass] oil (flask) {tag:adventuring gear}{base:0.05}{value:5 cp}
-a sheet of parchment {tag:adventuring gear}{base:0.05}{value:5 cp}
-[an] arrow {tag:ammunition}{base:0.03}{value:3 cp}
-[an] [condition wood] bucket {tag:adventuring gear}{base:0.03}{value:3 cp}
-[an] [condition base metal] caltrop {tag:adventuring gear}{base:0.03}{value:3 cp}
-a crossbow bolt {tag:ammunition}{base:0.03}{value:3 cp}
-[an] [condition base metal] piton {tag:adventuring gear}{base:0.03}{value:3 cp}
-[an] [condition wood] pole (10-foot) {tag:adventuring gear}{base:0.03}{value:3 cp}
-[an] [condition noble metal] signal whistle {tag:adventuring gear}{base:0.03}{value:3 cp}
-a bag with [12-20] sling bullets {tag:ammunition}{base:0.02}{value:2 cp}
-a blowgun needle {tag:ammunition}{base:0.01}{value:1 cp}
-[an] [condition container] flask {tag:adventuring gear}{base:0.01}{value:1 cp}
-[an] ink pen {tag:adventuring gear}{base:0.01}{value:1 cp}
-[an] jug {tag:adventuring gear}{base:0.01}{value:1 cp}
-[an] pitcher {tag:adventuring gear}{base:0.01}{value:1 cp}
-a block of soap {tag:adventuring gear}{base:0.01}{value:1 cp}
-[an] tankard {tag:adventuring gear}{base:0.01}{value:1 cp}
-a candle {tag:adventuring gear}{base:0.01}{value:1 cp}
-a piece of chalk {tag:adventuring gear}{base:0.01}{value:1 cp}
-[an] [condition fabric] sack {tag:adventuring gear}{base:0.01}{value:1 cp}
-a torch {tag:adventuring gear}{base:0.01}{value:1 cp}
-a whetstone {tag:adventuring gear}{base:0.01}{value:1 cp}
-
-$mundane 5
-[an] [condition tool] set of cartographer's tools {tag:artisan's tools}{base:7.5}{value:7 gp, 5 sp}
-[an] [condition fabric] set of fine clothes {tag:adventuring gear}{base:7.5}{value:7 gp, 5 sp}
-[an] [condition tool] forgery kit {tag:tools}{base:7.5}{value:7 gp, 5 sp}
-a dungeoneer's pack {tag:adventuring gear}{base:6}{value:6 gp}
-[an] [condition instrument] pan flute {tag:instrument}{base:6}{value:6 gp}
-[an] [condition noble metal] bullseye lantern {tag:adventuring gear}{base:5}{value:5 gp}
-[an] [condition tool] set of calligrapher's supplies {tag:artisan's tools}{base:5}{value:5 gp}
-[an] explorer's pack {tag:adventuring gear}{base:5}{value:5 gp}
-[an] 1-ounce bottle of ink {tag:adventuring gear}{base:5}{value:5 gp}
-[an] lock {tag:adventuring gear}{base:5}{value:5 gp}
-[an] [condition tool] set of mason's tools {tag:artisan's tools}{base:5}{value:5 gp}
-[an] [condition tool] set of painter's supplies {tag:artisan's tools}{base:5}{value:5 gp}
-[an] [condition tool] set of potter's tools {tag:artisan's tools}{base:5}{value:5 gp}
-50 feet of silk rope {tag:adventuring gear}{base:5}{value:5 gp}
-[an] [condition tool] set of carpenter's tools {tag:artisan's tools}{base:4}{value:4 gp}
-[an] [condition instrument] drum {tag:instrument}{base:3}{value:3 gp}
-[an] 10-foot length of [condition base metal] chain {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
-[an] [condition tool] set of cobbler's tools {tag:artisan's tools}{base:2.5}{value:2 gp, 5 sp}
-[an] [condition fabric] set of costume clothes {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
-[an] [condition tool] healer's kit {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
-[an] [condition tool] herbalism kit {tag:tools}{base:2.5}{value:2 gp, 5 sp}
-[an] [condition noble metal] hooded lantern {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
-[an] [condition base metal] hunting trap {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
-[an] [condition tool] set of leatherworker's tools {tag:artisan's tools}{base:2.5}{value:2 gp, 5 sp}
-[an] [condition noble metal] merchant's scale {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
-[an] [condition glass] vial of perfume {tag:adventuring gear}{base:5}{value:5 gp}
-[an] [condition noble metal] signet ring {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
-[an] [condition base metal] steel mirror {tag:adventuring gear}{base:2.5}{value:2 gp, 5 sp}
-a day's worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
-two days worth of [condition rations] rations {tag:adventuring gear}{base:1}{value:10 sp}
-[3-5] days worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
-
-$mundane 10
-[an] [condition instrument] set of bagpipes {tag:instrument}{base:15}{value:15 gp}
-[an] [condition tool] set of glassblower's tools {tag:artisan's tools}{base:15}{value:15 gp}
-[an] [condition instrument] lyre {tag:instrument}{base:15}{value:15 gp}
-[an] [condition instrument] viol {tag:instrument}{base:15}{value:15 gp}
-[an] vial of acid {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
-[an] book of [book] {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
-[an] [condition tool] climber's kit {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
-[an] [condition tool] component pouch {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
-[an] [condition tool] disguise kit {tag:tools}{base:12.5}{value:12 gp, 5 sp}
-[an] [condition instrument] dulcimer {tag:instrument}{base:12.5}{value:12 gp, 5 sp}
-[an] flask of holy water) {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
-[an] [condition glass] hourglass {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
-[an] [condition tool] set of jeweler's tools {tag:artisan's tools}{base:12.5}{value:12 gp, 5 sp}
-[an] [condition tool] set of navigator's tools {tag:tools}{base:12.5}{value:12 gp, 5 sp}
-[an] [condition tool] set of thieves' tools {tag:tools}{base:12.5}{value:12 gp, 5 sp}
-[an] [condition tool] set of brewer's supplies {tag:artisan's tools}{base:10}{value:10 gp}
-[an] [condition tool] set of smith's tools {tag:artisan's tools}{base:10}{value:10 gp}
-[an] priest's pack {tag:adventuring gear}{base:9.5}{value:9 gp, 5 sp}
-[an] burglar's pack {tag:adventuring gear}{base:8}{value:8 gp}
-a day's worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
-two days worth of [condition rations] rations {tag:adventuring gear}{base:1}{value:10 sp}
-[3-5] days worth of [condition rations] rations {tag:adventuring gear}{base:0.5}{value:5 sp}
-
-$mundane 25
-[an] flask of alchemist's fire {tag:adventuring gear}{base:25}{value:25 gp}
-[an] [condition tool] set of alchemist's supplies {tag:artisan's tools}{base:25}{value:25 gp}
-[an] vial of antitoxin {tag:adventuring gear}{base:25}{value:25 gp}
-[an] [condition tool] poisoner's kit {tag:tools}{base:25}{value:25 gp}
-[an] empty spellbook {tag:adventuring gear}{base:25}{value:25 gp}
-[an] [condition tool] set of tinker's tools {tag:artisan's tools}{base:25}{value:25 gp}
-[an] entertainer's pack {tag:adventuring gear}{base:20}{value:20 gp}
-[an] scholar's pack {tag:adventuring gear}{base:20}{value:20 gp}
-[an] diplomat's pack {tag:adventuring gear}{base:19.5}{value:19 gp, 5 sp}
-[an] [condition instrument] lute {tag:instrument}{base:17.5}{value:17 gp, 5 sp}
-
-$mundane 50
-[an] vial of poison (basic) {tag:adventuring gear, poison}{base:50}{value:50 gp}
-[an] [condition glass] magnifying glass {tag:adventuring gear}{base:50}{value:50 gp}
-
-
-
-$mundane dungeon items
-a goblin drum
-a pair of rusty manacles
-a set of thieves' tools
-a gnarled quarterstaff
-a set of brass tongs
-[an] [condition rations] block of aged-cheese (3 rations)
-a piece of moldy cheese (1 ration)
-a mithril key
-a skeleton key (can be used once)
-a vial of gold dust (worth 10 gp)
-a gold tooth (1 gp)
-giant rat fur [hat|cloak|vest|boots]
-a set of a dozen silver spoons (3 gp)
-a bag of malachite powder (5 gp)
-a belt of shriveled halfling hands
-a brass peacock with ruby eyes (50 gp)
-a [quality] pair of drake-skin gloves
-a plush orcus toy
-an onyx comb (10 gp)
-a jar of dried seeds
-a vial of orc sweat
-a hollowed-out unicorn horn
-a set of war drums made of bamboo and dragon-skin
-a pair of antlers
-a stone tablet etched with the true name of a demon
-a severed finger with a jade ring (50 gp)
-a plague doctor's mask
-a soiled portrait of a naked elven maiden
-a coral ring (5 gp)
-a jagged wooden beam
-a dented tin coronet
-a tome of bawdy goblin art
-an ivory finger
-a worg fur cloak
-an ingot of pig iron
-a spidersilk bag
-a chipped glass eye
-a dried tentacle
-a leather gag
-a bottle of pure alcohol
-a spiked leather knee pad
-a roll of white linen bandages
-a [goblin|kobold] dollhouse
-a terracotta bust
-a wooden sparring sword
-a shrunken head
-a bottle of perfume
-a glass jar with a preserved animal
-a necklace pouch
-a loin-cloth
-a smokepipe
-a bronze chime
-a shiny stone
-a bag with multi-colored chalk
-a miniature copper bell
-an iron whistle
-a rusty nose ring
-a dried scalp with semi-precious stones sewn in (15 gp)
-a serrated knife (as dagger)
-a bucket of urine
-a glass eye
-a pitchfork
-a 10-foot pole with a mirror at the end
-a pot of lard
-a grinning idol of [idol]
-a baby carriage made of bones
-a wooden plank engraved with words of love in [goblin|dwarven|draconic|undercommon|gnome]
-a loaf of stale bread (ration 1)
-[condition rations] goblin rations ([1-5] rations)
-dried mushrooms (1 ration)
-a bone with strips of meat still on it
-a loaf of moldy bread (1 ration)
-a half-eaten rat on a stick ([condition rations], 1 ration)
-discarded goblin underwear
-a crudely carved bone fertility stick
-a humanoid skin coin purse
-a goblin cutter (shortsword)
-a goblin cleaver (scimitar)
-a horn of goblin [ale|wine|spirits]
-a necklace of humanoid ears
-a dried eyeball
-a pouch of goblin teeth
-a wooden cup
-a bedbug infested bedroll
-a string of half-eaten sausages ([1-4] rations)
-a horrible smelling salve (restores 1 hp)
-a fermented giant centipede in a gourd
-a roasted giant fire beetle ([condition rations], [2-4] rations)
-a vial of firebeetle blood (glows for 1d6 days, flamable)
-a giant spider leg (club)
-a giant rat pelt
-
-$trinket
-a mummified goblin hand
-a piece of crystal that faintly glows in the moonlight
-a gold coin minted in an unknown land
-a diary written in a language you don't know
-a brass ring that never tarnishes
-an old chess piece made from glass
-a pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips
-a small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it
-a rope necklace from which dangles four mummified elf fingers
-the deed for a parcel of land in a realm unknown to you
-a 1-ounce block made from an unknown material
-a small cloth doll skewered with needles
-a tooth from an unknown beast
-an enormous scale, perhaps from a dragon
-a bright green feather
-an old divination card bearing your likeness
-a glass orb filled with moving smoke
-a 1-pound egg with a bright red shell
-a pipe that blows bubbles
-a glass jar containing a weird bit of flesh floating in pickling fluid
-a tiny gnome-crafted music box that plays a song you dimly remember from your childhood
-a small wooden statuette of a smug halfling
-a brass orb etched with strange runes
-a multicolored stone disk
-a tiny silver icon of a raven
-a bag containing forty-seven humanoid teeth, one of which is rotten
-a shard of obsidian that always feels warm to the touch
-a dragon's bony talon hanging from a plain leather necklace
-a pair of old socks
-a blank book whose pages refuse to hold ink, chalk, graphite, or any other substance or marking
-a silver badge in the shape of a five-pointed star
-a knife that belonged to a relative
-a glass vial filled with nail clippings
-a rectangular metal device with two tiny metal cups on one end that throws sparks when wet
-a white, sequined glove sized for a human
-a vest with one hundred tiny pockets
-a small, weightless stone block
-a tiny sketch portrait of a goblin
-an empty glass vial that smells of perfume when opened
-a gemstone that looks like a lump of coal when examined by anyone but you
-a scrap of cloth from an old banner
-a rank insignia from a lost legionnaire
-a tiny silver bell without a clapper
-a mechanical canary inside a gnomish lamp
-a tiny chest carved to look like it has numerous feet on the bottom
-a dead sprite inside a clear glass bottle
-a metal can that has no opening but sounds as if it is filled with [liquid|sand|spiders|broken glass] 
-a glass orb filled with water, in which swims a clockwork goldfish
-a silver spoon with an 'm' engraved on the handle
-a whistle made from gold-colored wood
-a dead scarab beetle the size of your hand
-two toy soldiers, one with a missing head
-a small box filled with different-sized buttons
-a candle that can't be lit
-a tiny cage with no door
-an old key
-an indecipherable treasure map
-a hilt from a broken sword
-a rabbit's foot
-a glass eye
-a cameo carved in the likeness of a hideous person
-a silver skull the size of a coin
-an alabaster mask
-a pyramid of sticky black incense that smells very bad
-a nightcap that, when worn, gives you pleasant dreams
-a single caltrop made from bone
-a gold monocle frame without the lens
-a 1-inch cube, each side painted a different color
-a crystal knob from a door
-a small packet filled with pink dust
-a fragment of a beautiful song, written as musical notes on two pieces of parchment
-a silver teardrop earring made from a real teardrop
-the shell of an egg painted with scenes of human misery in disturbing detail
-a fan that, when unfolded, shows a sleeping cat
-a set of bone pipes
-a four-leaf clover pressed inside a book discussing manners and etiquette
-a sheet of parchment upon which is drawn a complex mechanical contraption
-an ornate scabbard that fits no blade you have found so far
-an invitation to a party where a murder happened
-a bronze pentacle with an etching of a rat's head in its center
-a purple handkerchief embroidered with the name of a powerful archmage
-half of a floorplan for a temple, castle, or some other structure
-a bit of folded cloth that, when unfolded, turns into a stylish cap
-a receipt of deposit at a bank in a far-flung city
-a diary with seven missing pages
-an empty silver snuffbox bearing an inscription on the surface that says "dreams"
-an iron holy symbol devoted to an unknown god
-a book that tells the story of a legendary hero's rise and fall, with the last chapter missing
-a vial of dragon blood
-an ancient arrow of elven design
-a needle that never bends
-an ornate brooch of dwarven design
-an empty wine bottle bearing a pretty label that says, "the wizard of wines winery, red dragon crush, 331422-w"
-a mosaic tile with a multicolored, glazed surface
-a petrified mouse
-a black pirate flag adorned with a dragon's skull and crossbones
-a tiny mechanical crab or spider that moves about when it's not being observed
-a glass jar containing lard with a label that reads, "griffon grease"
-a wooden box with a ceramic bottom that holds a living worm with a head on each end of its body
-a metal urn containing the ashes of a hero
-a picture you drew as a child of your imaginary friend
-a lock that opens when blood is deripped in its keyhole
-clothes stolen from a scarecrow
-a spinning top carved with four faces: happy, sad, wrathful and dead
-the necklace of a sibling who died on the day you were born
-a ig from someone executed by beheading
-the unopened letter to you from your dying father
-a pocket watch that runs backward fro an hour every midnight
-a winter coat stolen from a dying soldier
-a bottle of invisible ink that can only be read at sunset
-a wineskin that refills when interred with a dead person for a night
-a set of silverware used by a king for his last meal
-a spyglass that always shows the world suffering a terrible storm
-a cameo with the profile's face scratched away
-a lantern with a black candle that never runs out and that burns with green flame
-a teacup from a child's tea set, stained with blood
-a little black book that records your dreams, and yours alone, when you sleep
-a necklace formed of the interlinked holy symbols of a dozen deities
-a hangman's noose that feels heavier than it should
-a birdcage into which small birds fly but once inside never eat or leave
-a lepidopterist's box filled dead moths with skull-like patterns on their wings.
-a jar of pickled ghouls's tongues
-the wooden hand of a notorious pirate
-an urn with the ashes of a dead relative
-a hand mirror backed with a bronze depiction of a medusa
-pallid leather gloves crafted with ivory fingernails
-dice made from the knuckles of a notorious charlatan
-a ring of keys for forgotten locks
-nails from the coffin of a murderer
-a key to the family crypt
-a bouquet of funerary flowers that always looks and smells fresh
-a switch used to discipline you as a child
-a music box that plays by itself whenever someone holding it dances
-a walking cane with an iron ferule that strikes sparks on stone
-a flag from a ship lost at sea
-porcelain doll's head that always seems to be looking at you
-a wolf's head wrought in silver that is also a whistle
-a small mirror that shows a much older version of the viewer
-small, worn book of children's nursery rhymes
-a mummified raven's claw
-a broken pendent of a silver dragon that's always cold to the touch
-a small locked box that quietly hums a lovely melody at night but you always forget it in the morning
-an inkwell that makes one a little nauseous when staring at it
-an old little doll made from a dark, dense wood and missing a hand and a foot
-a black executioner's hood
-a pouch made of flesh, with a sinew drawstring
-a tiny spool of black thread that never runs out
-a tiny clockwork figuring of a dancer that's missing a gear and doesn't work
-a black wooden pipe that creates puffs of smoke that look like skulls
-a vial of perfume, the scene of which only certain creatures can detect.
-a shining pendant of white stone, engraved with a symbol that you vaguely recognize.
-an ivory chess piece that once belonged to an elven king. an adventuring ancestor of yours stole it and it has been passed down for many generations.
-a quill pen crafted from the feather of a griffon. the feather can change the color of the ink being used on command.
-a faded flag that belonged to a mysterious sea vessel. the ship was never found and you came across the flag washed ashore on the beach.
-a troll's fang hanging from a leather cord. the troll was slain by a local folk hero and given to you as a gift.
-the signet ring of a vanished monarchy.
-skull of a creature that nobody can recognize. it resembles a large bird with a hollow bone tube protruding from its forehead.
-a large and curious-looking bulb (botanical). nobody knows what will grow if it's planted.
-a jar of unrecognizable spicy sauce that is from a foreign land.
-a set of four bone dice, so worn that you can barely make out the symbols.
-a silver ring with a small hidden compartment.
-a fist sized glass eye.
-an old music box that plays a vaguely recognizable song nobody can place.
-a pocket-size photo that can blink.
-a worn-out book of jokes your grandpa use to win your grandma. it's dedicated to you even if you didn't meet him.
-a tiny dragon preserved in amber.
-a river stone that crumbles when you hold it, but never gets smaller.
-a mouse skull that floats when placed over a fire
-a small tooth with a romantic scene carved into it in the finest detail.
-a gem that projects an illusion of a girl in white, she seems to be asking for something.
-a stamp for a wax seal of a design you’ve never seen before.
-a matchstick with a statue carved out of the head.
-a bottle of wine with a label dated from before the spellplague.
-a medal known to be awarded to heroes of a long forgotten kingdom.
-an unsigned contract with an otherworldly entity that grants the undersigned a favor at the cost of one returned, any time any where any how.
-a flower of unknown species that grows in an empty vase in a darkened room - no soil no water no light.
-an engraved dagger that supposedly belonged to an adventuring family member.
-a dark amulet found in a relative's desk/dresser drawer.
-a piece of paper with the names of your present or future party members on it.
-a mummified finger that crawls like an inch worm.
-a small mirror that reflects how you might look in ten years time.
-a tiny bell that sprinkles fine glitter when rung.
-a intricately chased pommel that must have come from a very special sword.
-a coin that always lands on its edge when tossed/dropped.
-a trio of interlinked rings, which rotate slowly when put on a flat surface.
-a vial with a liquid inside that never comes full to rest.
-a rectangle of brass with cutouts and notches at regular intervals.
-a tin box with a small, eternally lit ember inside.
-a ring of dozens of keys, with no two matching.
-an ancient animal femur, smooth and brown, with a silvered head.
-a pearl earring that occasionally produces a mild electric shock.
-a silvered horseshoe that points towards strong sources of magic.
-an onyx astrolabe, also usable as a spell focus for the astrologically-inclined.
-the skull of a doppelganger carved into a mask. sometimes it still shifts and takes new shapes.
-a silver pin in the shape of a lily with a blue gem set at its heart.
-an ornately carved wooden ink pen that improves your handwriting.
-a twisted stone ring with seemingly only one edge if you trace it with your finger. grants the wearer pleasant dreams.
-an old weathered stone that glitters in the firelight.
-a small leather coin pouch that looks as if it can only carry one coin - a lucky coin.
-a well worn copper coin with a hole in it, threaded on a cord. you always feel warm wearing it.
-a small wooden lock box. the interior has a spot carved for an object, but the object is missing.
-a pitcher in the shape of a cat that pours cream no matter what liquid is inside.
-a stone carved in the shape of a squat frog. whatever surface it is placed on becomes damp.
-a miniature carved stone wizards tower, no longer than your hand. at night, the window at the top glows with a pleasant light.
-
-$idol
-a great old one
-an elven deity
-a dwarven deity
-a drow deity
-a gnomish deity
-a monstrous deity
-Lolth
-a demonic bat
-an unknowable betentacled god
-a naked maiden
-a nymph
-a satyr
-a demon lord
-an arch devil
-a long-dead god
-
-$minor metal
-pewter
-tin
-copper
-lead
-
-$minor carved
-bone
-[wood]
-antler
-horn
-
-$motif
-spider
-demon {50%}
-serpent {20%}
-scorpion {20%}
-slime {10%}
-monstrous beast
-bat
-skulls
-dans macabre
-gargoyle
-
-$goth feature
-tiny skulls
-baying wolves
-tentacles
-bats
-skeletal figures writhing in agony
-demons torturing lost souls
-spiders
-a many tentacled beast
-a mythical beast
-a weeping woman
-a skeletal motif
-tiny bones
-delicate leaves
-winter scenery
-a gothic castle
-spirits
-ghostly figures
-swirls of mist
-a gargoyle
-gargoyles
-serpents
-a serpent
-a serpentine motif
-a scene of ritual sacrifice to [idol]
-
-$portrait
-nobleman
-noblewoman
-maiden
-woman
-man
-child
-boy
-girl
-demon
-bawdy scene
-
-$leather
-leather
-suede
-cordovan leather
-giant snake leather
-alligator leather
-crocodile leather
-ostrich leather
-wolf leather
-giant bat leather
-[gold|silver|red|blue|green|black|copper|bronze] dragon leather
-stingray leather
-
-$pouch material
-leather
-hessian
-cloth
-linen
-velvet
-silk
-pigskin
-fur-lined
-spidersilk
-humanoid skin
+$textile material
+wool {value:x2}
+cotton {value:x1}
+fur {value:x2}
+velvet {value:x15}
 [leather]
-[]
+silk {value:x20}
+linen {value:x10}
+sackcloth {value:x0.5}
 
-$pouch
-in a small [pouch material] pouch
-in [an] [pouch material] pouch
-in an oversized [pouch material] pouch
-in a modest [pouch material] pouch
-in [an] [pouch material] necklace pouch
+$appearance
+stylish
+practical
+gaudy
+fashionable
+antiquated
+unfashionable
+common
 
-$magical item
-[exotic potion,unique] {50%}
-[an] [oils] {10%}
-[an] [magic item table a] {50%}
-[an] [magic item table b] {25%}
-[an] [magic item table x]
-a minor magical item:<br>[minor magical item]
-the creature's melee weapon is actually magical: [special feature]
-the creature's ranged weapon is actually magical: [special feature]
-the creature's worn armor is actually magical: [special feature]
-the creature's shield is actually magical: [special feature]
-one of the creatures weapons is a magical (or if they only use natural weapons, they carry an insigia of claws (HotDQ) instead):<br> [special feature]
+$leather material
+leather {value:*2}
+cordovan leather {40%}{value:*2}
+rothé leather {20%}{value:*2}
+alligator leather {20%}{value:*2}
+crocodile leather {20%}{value:*2}
+ostrich leather {10%}{value:*2}
+beholder leather {10%}{value:*5}
+aboleth leather {10%}{value:*4}
+giant bat leather {10%}{value:*2}
+darkmantle leather {10%}{value:*2}
+[gold|silver|red|blue|green|black|copper|bronze] dragon leather {10%}{value:*50}
+stingray leather {10%}{value:*3}
 
-$Incidental 0
-[1-12] sp [pouch]
-[1-3] gp [pouch]
-[1-12] sp [pouch]
+$ceramic material
+ceramic
+earthenware
+glazed ceramic
 
-$CR 0 Incidental
-[Incidental 0]
-[Incidental 0] and [mundane 1]
-[Incidental 0] and [mundane 1 mult,x1-2] and [mundane 1]
-[Incidental 0] and [mundane 5]
-[incidental coins 0] [pouch]
-[Incidental 0] and [mundane dungeon items]
-[magical item] {20%}
+$metal material
+copper
+pewter
+alum {value:}
+electrum
+silver
+gold
+platinum
 
-$Incidental ⅛
-3 gp, 2 sp, 5 cp [pouch]
-5 gp, 3 sp, 7 cp [pouch]
-8 gp, 6 sp, 2 cp [pouch]
+$mundanefind
+a copper coin
+a dagger hilt
+a single leather boot
+a trinket
 
-$CR ⅛ Incidental
-[Incidental ⅛]
-[Incidental ⅛] and [mundane 1]
-[Incidental ⅛] and [mundane 1 mult,x1-2] and [mundane 1]
-[Incidental ⅛] and [mundane 5]
-[Incidental ⅛] and [mundane 5 mult,x1-2] and [mundane 5]
-[incidental coins 0] [pouch]
-[art object 10]
-[Incidental ⅛] and  [mundane dungeon items]
-[mundane dungeon items]
-[magical item] {20%}
+$jewellery
+copper armband {base:15}{currency:cp}{accessory:[insetjewel]}{detail:[engraving]}
+copper bracelet {base:1}{currency:sp}{accessory:[insetjewel]}
+copper brooch {base:45}{currency:cp}{accessory:[insetjewel]}
+copper earrings {base:2}{currency:sp}{accessory:[insetjewels]}
+copper fillet {base:6}{currency:sp}{accessory:[insetjewel]}
+copper headband {base:4}{currency:sp}{accessory:[insetjewel]}
+copper locket {base:25}{currency:cp}{accessory:[insetjewel]}
+copper necklace {base:5}{currency:sp}{accessory:[insetjewel]}
+copper pendant {base:45}{currency:cp}{accessory:[insetjewel]}
+copper ring {base:3}{currency:cp}{accessory:[insetjewel]}
+copper torc {base:5}{currency:sp}{accessory:[insetjewel]}
+silver broad belt {base:6}{currency:sp}{accessory:[insetjewel]}
+silver armband {base:15}{currency:sp}{accessory:[insetjewel]}
+silver bracelet {base:2}{currency:gp}{accessory:[insetjewel]}
+silver brooch {base:45}{currency:sp}{accessory:[insetjewel]}
+silver earrings {base:2}{currency:gp}{accessory:[insetjewel]}
+silver fillet {base:6}{currency:gp}{accessory:[insetjewel]}
+silver headband {base:4}{currency:gp}{accessory:[insetjewel]}
+silver locket {base:25}{currency:sp}{accessory:[insetjewel]}
+silver necklace {base:5}{currency:gp}{accessory:[insetjewel]}
+silver pendant {base:45}{currency:sp}{accessory:[insetjewel]}
+silver ring {base:3}{currency:gp}{accessory:[insetjewel]}
+silver torc {base:5}{currency:gp}{accessory:[insetjewel]}
+electrum broad belt {base:30}{currency:sp}{accessory:[insetjewel]}
+electrum armband {base:75}{currency:sp}{accessory:[insetjewel]}
+electrum bracelet {base:10}{currency:gp}{accessory:[insetjewel]}
+electrum brooch {base:225}{currency:sp}{accessory:[insetjewel]}
+electrum earrings {base:10}{currency:gp}{accessory:[insetjewel]}
+electrum fillet {base:30}{currency:gp}{accessory:[insetjewel]}
+electrum headband {base:20}{currency:gp}{accessory:[insetjewel]}
+electrum locket {base:125}{currency:sp}{accessory:[insetjewel]}
+electrum necklace {base:25}{currency:gp}{accessory:[insetjewel]}
+electrum pendant {base:225}{currency:sp}{accessory:[insetjewel]}
+electrum ring {base:15}{currency:gp}{accessory:[insetjewel]}
+electrum torc {base:25}{currency:gp}{accessory:[insetjewel]}
+gold broad belt {base:6}{currency:gp}{accessory:[insetjewel]}
+gold armband {base:15}{currency:gp}{accessory:[insetjewel]}
+gold bracelet {base:20}{currency:gp}{accessory:[insetjewel]}
+gold brooch {base:45}{currency:gp}{accessory:[insetjewel]}
+gold earrings {base:20}{currency:gp}{accessory:[insetjewel]}
+gold fillet {base:60}{currency:gp}{accessory:[insetjewel]}
+gold headband {base:40}{currency:gp}{accessory:[insetjewel]}
+gold locket {base:25}{currency:gp}{accessory:[insetjewel]}
+gold necklace {base:50}{currency:gp}{accessory:[insetjewel]}
+gold pendant {base:45}{currency:gp}{accessory:[insetjewel]}
+gold ring {base:30}{currency:gp}{accessory:[insetjewel]}
+gold torc {base:50}{currency:gp}{accessory:[insetjewel]}
+platinum broad belt {base:60}{currency:gp}{accessory:[insetjewel]}
+platinum armband {base:150}{currency:gp}{accessory:[insetjewel]}
+platinum bracelet {base:200}{currency:gp}{accessory:[insetjewel]}
+platinum brooch {base:450}{currency:gp}{accessory:[insetjewel]}
+platinum earrings {base:200}{currency:gp}{accessory:[insetjewel]}
+platinum fillet {base:600}{currency:gp}{accessory:[insetjewel]}
+platinum headband {base:400}{currency:gp}{accessory:[insetjewel]}
+platinum locket {base:250}{currency:gp}{accessory:[insetjewel]}
+platinum necklace {base:500}{currency:gp}{accessory:[insetjewel]}
+platinum pendant {base:450}{currency:gp}{accessory:[insetjewel]}
+platinum ring {base:300}{currency:gp}{accessory:[insetjewel]}
+platinum torc {base:500}{currency:gp}{accessory:[insetjewel]}
 
-$incidental ¼
-5 gp, 3 sp, 7 cp [pouch]
-8 gp, 6 sp, 2 cp [pouch]
-17 gp, 2 sp, 5 cp [pouch]
+$insetjewel
+pearl {base:100}
 
-$CR ¼ Incidental
-[incidental ¼]
-[incidental ¼] and [mundane 5]
-[incidental ¼] and [mundane 5] and [mundane 5]
-[incidental ¼] and [mundane 5,1-2x] and [mundane 5]
-[incidental ¼] and [mundane 5] and [an] [art object 10]
-[incidental ¼] and [mundane 10] and [mundane 5]
-[incidental ¼] and [mundane 10]
-[mundane 10,x1-2] and [mundane 5]
-[incidental coins 0] [pouch]
-[an] [art object 10]
-[incidental ¼] and [an] [art object 10]
-a minor magical item:<br>[minor magical item]
-[magical item] {20%}
+$insetjewels
+small pearls {base:100}
 
-$Incidental ½
-8 gp, 6 sp, 2 cp [pouch]
-17 gp, 2 sp, 5 cp [pouch]
-25 gp, 8 sp, 7 cp [pouch]
+$jewelleryitem
+[jewellery,#item] (worth [#item,as base] [#item,as currency])
+[jewellery,#item] with [an] [#item,as accessory,#accessory] (worth &#91;&#91;[#item,as base]+[#accessory,as base]&#93;&#93; [#item,as currency])
 
-$CR ½ Incidental
-[Incidental ½]
-[Incidental ½] and [an] [art object 10]
-[incidental coins 0] [pouch]
-[an] [art object 25]
-a minor magical item:<br>[minor magical item]
-[exotic potion,unique]
-[magical item] {20%}
+$generalfurnishings
+[furnishings]
+[appointments]
+[stores]
+[tools]
 
-$Incidental 1
-17 gp, 2 sp and 5 cp [pouch]
-25 gp, 8 sp and 7 cp [pouch]
-34 gp and 5 sp [pouch]
+$furnishings
+altar
+armchair
+armoire
+bed
+bench
+brazier and charcoal
+buffet cabinet
+bunks
+cabinet
+chest of drawers
+closet
+couch
+cubboard
+desk
+dias
+high stool
+large box
+large chest
+large table
+long table
+low table
+medium chest
+padded chair
+padded divan
+pegs ([peg contents])
+plain chair
+round table
+screen
+shelf ([shelf contents])
+sideboard
+small table
+sofa
+stand
+statue
+stool
+throne
+trestle
+trunk ([closet contents])
+tub
+wardrobe
+wood billets
+workbench
 
-$CR 1 Incidental
-[Incidental 1]
-[Incidental 1] and [mundane 25]
-[incidental ¼] and [mundane 10], [mundane 25] and [mundane 5]
-[incidental ¼] and [an] [art object 25]
-[incidental ½] and [an] [art object 25]
-[incidental coins 0] [pouch]
-a minor magical item:<br>[minor magical item]
-[magical item] {20%}
+$appointments
+[fabric] sheet
+arras
+candelabrum
+chandelier
+cresset
+curtains
+cushion
+fireplace and wood
+fireplace with a mantle
+fountain
+fresco of [fresco contents]
+hamper ([closet contents])
+hassock
+large carpet
+large idol
+loom
+mat
+mattress
+medium rug
+painting
+pallet
+pedestal
+pillow
+quilt
+rushes
+sconce
+shrine to [deity]
+small rug
+tapestry
+urn
+wall basin and font
 
-$Incidental 2
-25 gp, 8 sp, 7 cp [pouch]
-34 gp, 5 sp [pouch]
-43 gp, 1 sp, 2 cp [pouch]
-
-$CR 2 Incidental
-[Incidental 2]
-[Incidental 2] and [exotic potion,unique]
-[exotic potion,unique]
-[incidental ½] and [an] [art object 25]
-[incidental 1] and [an] [art object 25]
-[incidental coins 0] [pouch]
-[incidental 1] and [mundane 10], [mundane 25] and [mundane 5]
-a minor magical item:<br>[minor magical item]
-[magical item] {20%}
-
-$Incidental 3
-34 gp, 5 sp [pouch]
-43 gp, 1 sp, 2 cp [pouch]
-51 gp, 7 sp, 5 cp [pouch]
-
-$CR 3 Incidental
-[Incidental 3]
-[incidental coins 0] [pouch]
-[Incidental 4]
-[Incidental 2] and [magic item table a]
-a minor magical item:<br>[minor magical item]
-[incidental 1] and [mundane 10], [mundane 25] and [mundane 5]
-[incidental 2] and [mundane 10], [mundane 25] and [mundane 5]
-[incidental 3] and [mundane 25], [mundane 5] and [mundane 5]
-[Incidental 2] and [an] [magic item table x]
-[magical item] {20%}
-
-$Incidental 4
-43 gp, 1 sp, 2 cp [pouch]
-51 gp, 7 sp, 5 cp [pouch]
-57 gp, 1 sp, 2 cp [pouch]
-
-$CR 4 Incidental
-[Incidental 4]
-[incidental coins 0] [pouch]
-[exotic potion,unique]
-[an] [oils]
-[an] [magic item table a]
-[an] [magic item table b]
-[incidental 2] and [mundane 10,x1-2] [mundane 5,x2-3] and [mundane 5]
-[incidental 3] and [mundane 10,x1-2] and [mundane 5]
-[incidental 1] and [mundane 50]
-[Incidental 4] and [an] [magic item table x]
-[Incidental 4] and [an] [magic item table a]
-[Incidental 4] and [an] [magic item table a], and [exotic potion,unique]
-[Incidental 2] and a minor magical item:<br>[minor magical item]
-a minor magical item:<br>[minor magical item]
-[magical item] {20%}
-
-$incidental 5
-51 gp, 7 sp, 5 cp [pouch]
-57 gp, 1 sp, 2 cp [pouch]
-107 gp, 4 sp [pouch]
-
-$CR 5 Incidental
-[Incidental 5]
-[Incidental 3] and [an] [magic item table x]
-[incidental coins 5] [pouch]
-[magical item] {20%}
-
-$incidental 6
-57 gp, 1 sp, 2 cp [pouch]
-107 gp, 4 sp [pouch]
-214 gp, 8 sp [pouch]
-
-$CR 6 Incidental
-[Incidental 6]
-[Incidental 4] and [an] [magic item table x]
-[incidental coins 5] [pouch]
-[magical item] {30%}
-
-$>CR 0 Incidental Treasure
-The creature carries:<br>[CR 0 Incidental][additional]<br><br>
-The creature carries:<br>[CR 0 Incidental] and [trinket][additional]<br><br>
-
-$>CR ⅛ Incidental Treasure
-The creature carries:<br>[CR ⅛ Incidental]<br><br>
-The creature carries:<br>[CR ⅛ Incidental] and [trinket][additional]<br><br>
-
-$>CR ¼ Incidental Treasure
-The creature carries:<br>[CR ¼ Incidental][additional]<br><br>
-The creature carries:<br>[CR ¼ Incidental] and [trinket][additional]<br><br>
-
-$>CR ½ Incidental Treasure
-The creature carries:<br>[CR ½ Incidental][additional]<br><br>
-The creature carries:<br>[CR ½ Incidental] and [trinket][additional]<br><br>
-
-$>CR 1 Incidental Treasure
-The creature carries:<br>[CR 1 Incidental][additional]<br><br>
-The creature carries:<br>[CR 1 Incidental] and [trinket][additional]<br><br>
-
-$>CR 2 Incidental Treasure
-The creature carries:<br>[CR 2 Incidental][additional]<br><br>
-The creature carries:<br>[CR 2 Incidental] and [trinket][additional]<br><br>
-
-$>CR 3 Incidental Treasure
-The creature carries:<br>[CR 3 Incidental][additional]<br><br>
-The creature carries:<br>[CR 3 Incidental] and [trinket][additional]<br><br>
-
-$>CR 4 Incidental Treasure
-The creature carries:<br>[CR 4 Incidental][additional]<br><br>
-The creature carries:<br>[CR 4 Incidental] and [trinket][additional]<br><br>
-
-$>CR 5 Incidental Treasure
-The creature carries:<br>[CR 5 Incidental][additional]<br><br>
-The creature carries:<br>[CR 5 Incidental] and [trinket][additional]<br><br>
-
-$>CR 6 Incidental Treasure
-The creature carries:<br>[CR 6 Incidental][additional]<br><br>
-
-$additional
-<p>Also, the creature may have one of the following according to its type or environment:<br>[bonus by type]
-
-$bonus by type
-<small><b>Aquatic:</b> [aquatic misc]<p><b>Demonic:</b> <p><b>Drow:</b> [drow misc]<p><b>Goblinoid:</b> [mundane dungeon items]<p><b>Primitive:</b> [primitive misc]<p><b>Civilised:</b> [civilised misc]<p><b>Undead:</b> <p><b>Underdark:</b> [underdark misc]<p></small>
-
-$aquatic misc
-a conch shell horn
-a harpoon
-a trident
-a weighted fishing net
-a dagger made from coral
-a ration of kelp
-a fine abalone shell (5 sp)
-
-$primitive misc
-a blanket of poorly stitched hides
-a bedroll made of poorly stitched hides 
-a bear skin used as a sleeping mat
-a waterskin made from the stomach of an animal
-a cord necklace of canines taken from canivorous creatures as a trophy (worth 5 gp)
-a necklace of dried humanoid ears
-a necklace of dessicated humanoid fingers
-a dagger made of bone
-a greatclub made from a hill giant's thighbone (or a humanoid, if small)
-a half-full wineskin containing a vile concoction of fermented viscera
-a string instrument made of fused bones
-a pauldron made from the skull of a horned creature
-a carved drinking horn (5 sp)
-bracers of splinted bone
-a war horn
-a broken spear tip that has been repurposed into a dagger
-a harness for strapping a greataxe to one's back
-a flint dagger
-a bolas
-a 10-foot pole
-rations of cured meat ([2-4 days])
-a whetstone
-a [condition tool] primitive healer's kit with [2-10] uses remaining
-a gourd with a potion of healing that tastes vile
-a partially used torch
-a shield made from cured hide
-[an] [condition wood] wooden staff
-a fur-lined loincloth that reeks to high heaven
-a skin of goblin thudrud
-a skin of orcish kragg
-
-$civilised misc
-a bedroll
-a waterskin
-a [condition fabric] backpack
-a wineskin
-[an] [condition tool] mess kit
-[an] [condition base metal] 
-[an] [condition base metal] crowbar
-a 10-foot pole
-a whetstone
-a boot dagger
-a pair of good walking boots
-a tonic in a small vile whose label proports heightened performance in the bedroom
-a component pouch
-
-$drow misc
-a meditation mat
-a waterskin
-[an] [condition fabric] set of drow traveller's clothes
-enough rothe jerky for [2-4] rations
-a bladder of mushroom wine
-a torchstalk
-a small tin flask of fire lichen liquor
-an amulet of Lolth (5 gp)
-a black spidersilk bodysuit
-a dose of drow poison (200 gp)
-an adamantine crossbow bolt
-a drowcraft adamantine dagger (disintegrates if exposed to 1 hour of sunlight)
-a wineskin of spiderblood wine
-
-$underdark misc
-a skin of mushroom wine
-a bottle of spiderblood wine
+$tools
+grindstone
+staff
+blanket
 
 
-$drow bonus
-[drow armor]
-[drow ranged]
-[drow melee]
-the drow possesses a piwafwi
-the drow possesses a piwafwi (greater) {20%}
-the drow possesses a house insignia ([house insignia])
-[an] drowcraft [hand crossbow|scimitar|dagger|spear|shortbow|longbow|longsword|greatsword|rapier|dart|whip|mace] +1
-a spider-motifed necklace (worth 2[0-9] gp)
+$chest contents
 
-$drow
-drow {armor:chain shirt}{meleeweapon:short sword}{rangedweapon:hand crossbow}
+$closet contents
+belt
+baldric
+fine belt (25 gp)
+[leather,#leather] boots
+high boots
+wading boots
+riding boots
+smuggler's boots
+breeches
+pants
+chemise
+coat
+cloakcodpiece
+spiked collar
+corset
+doublet
+vest
+dress
+girdle
+gloves
+mittens
+broad-brimmed hat
+fur-trimmed hat
+fez
+hood
 
-$drow armor
-the drow's [#drow,as armor] is drowcraft and provides an additional +1 AC in areas of Faerzress
-the drow's [#drow,as armor] is drowcraft and provides an additional +2 AC in areas of Faerzress {66%}
-the drow's [#drow,as armor] is drowcraft and provides an additional +3 AC in areas of Faerzress {33%}
-the drow's [#drow,as armor] is made of adamantine components (immune to critical hits if fully metal) {33%}
 
-$drow ranged
-the drow's [#drow,as rangedweapon] is drowcraft and is +1 to attack and damage in areas of Faerzress
-the drow's [#drow,as rangedweapon] is drowcraft and is +2 to attack and damage in areas of Faerzress {66%}
-the drow's [#drow,as rangedweapon] is drowcraft and is +3 to attack and damage in areas of Faerzress {33%}
 
-$drow melee
-the drow's [#drow,as meleeweapon] is drowcraft and is +1 to attack and damage in areas of Faerzress
-the drow's [#drow,as meleeweapon] is drowcraft and is +2 to attack and damage in areas of Faerzress {66%}
-the drow's [#drow,as meleeweapon] is drowcraft and is +3 to attack and damage in areas of Faerzress {33%}
+$crate contents
 
-$>CR ¼ Drow Incidental Treasure
-In addition to the [drow,#drow]'s [#drow,as armor], [#drow,as rangedweapon] and a [#drow,as meleeweapon] they have the following gear:<br>[CR ¼ Incidental] and [drow bonus]<br><br> {33%}
-In addition to the [drow,#drow]'s [#drow,as armor], [#drow,as rangedweapon] and a [#drow,as meleeweapon] they have the following gear:<br>[CR ¼ Incidental]<br><br>
-In addition to the [drow,#drow]'s [#drow,as armor], [#drow,as rangedweapon] and a [#drow,as meleeweapon] they have the following gear:<br>[CR ¼ Incidental] and [trinket]<br><br>
+$peg contents
+several ceremonial robes hang from them
+a single cloak fur-lined cloak hangs from one of the pegs
+several cloaks
+an embroidered mantle
+
+$cupboard contents
+cuttlery
+
+
+$bucket contents
+empty
+quarter-filled with [bucket]
+half-filled with [bucket]
+three-quarters [bucket]
+filled with [bucket]
+dried up remains of [bucket]
+
+$bucket
+urine
+stale water
+spoiled water
+salt water
+blood
+fresh water
+
+$storage
+[an] [stores], 
+
+$stores
+[sack|pile] of charcoal
+105 gallon pipe (large cask, [cask contents])
+10-gallon firkin (small cask, [cask contents])
+125 gallon butt (huge cask) ([cask contents])
+20-gallon keg ([cask contents])
+250 gallon tun (huge cask, [cask contents])
+40-gallon barrel ([barrel contents])
+40-gallon cask ([cask contents])
+65-gallon hogshead (large cask, [cask contents])
+bucket ([bucket contents])
+crate ([crate contents])
+pail
+sack of coal
+
+
+$liquid
+fresh water {value:, suitable for drinking}
+stale water {value:, unsuitable for drinking}
+spoiled water {value:, unsuitable for drinking}
+vinegar {value:, worthless}
+wine turned to vinegar {value:, worthless}
+fine wine {value:, worth 30 gp per gallon}
+common wine {value:, worth 8 sp per gallon}
+ale {value:, worth 2 sp per gallon}
+beer {value:, worth 2 sp per gallon}
+cider {value:, worth 2 sp per gallon}
+oil {value:, worth 8 sp per gallon}
+
+$barrel contents
+empty
+quarter-filled with [liquid,#liquid][#liquid,as value]
+half-filled with [liquid,#liquid][#liquid,as value]
+three-quarters filled with [liquid,#liquid][#liquid,as value]
+filled with [liquid,#liquid][#liquid,as value]
+dried up remains of [liquid,#liquid]
+
+$jewelleryitem
+[jewellery,#item] (worth [#item,as base] [#item,as currency])
+[jewellery,#item] with [an] [#item,as accessory,#accessory] (worth &#91;&#91;[#item,as base]+[#accessory,as base]&#93;&#93; [#item,as currency])
