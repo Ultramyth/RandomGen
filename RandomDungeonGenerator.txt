@@ -1,678 +1,606 @@
-$name : Dungeon Room Contents
+$include https://raw.githubusercontent.com/Ultramyth/RandomGen/main/DungeonRoomContents.txt
+$include https://raw.githubusercontent.com/Ultramyth/RandomGen/main/RoomContents.txt
+$include https://github.com/Ultramyth/RandomGen/raw/main/TreasureHoard.txt
+$name : Treasures
 $author : Ben
-$description : Generates a dungeon contents
+$description : Generates a dungeon room, furnishings and traps
 $amount : 3
 $button : Generate!
 
-$antechamber
-it well-appointed resting area for visitors to relax on divans and armchairs.
 
-$armory
-racks of arms line the room, including [rack type,x2-5], as well as [armor stand,x1-3].
-
-$audience chamber
-this room is open but for a raised dias where a number of decorative chairs sit.
-
-$banquet room
-large long tables and benches line the room, and vast open hearth
-
-$cells
-the room is segmented into [four|six|eight|ten|a dozen] simple cells with humble appointments.
-
-$temple
-statuary and religious art are found throughout the chamber, which is dominated by an altar.
-
-$chapel
-A small shrine sits beneath a statue, and a few pews separate a short walkway to the shrine.
-
-$cistern
-a large cistern dominates the chamber, providing a source of water to the complex.
-
-$classroom
-rows of simple desks and chairs face a larger table and chair, and on the wall behind is a large board and chalk. Several bookshelves line one wall.
-
-$conjuring room
-Arcane symbols mark the floor, especially around a raised dias.
-
-$crypt
-several alcoves line this chamber, each marking the final resting place of its occupant.
-
-$dining room
-this room has rows of tables and chairs and a counter behind which sits shelves, pots and pans.
-
-$divination room
-a small pool draws the eye in this room.
-
-$dormitory
-the chamber is filled with rows of beds, each with a small chest at the foot.
-$barracks
-[4-16] [beds|pallets|bunks] line the walls with [personal storage][s] at the base of each. In one corner, a [long table|large table|small table|round table] surrounded by plain [chairs|stools|benches] sits, adorned with well worn drinking implements, the remains of several meals, and in the centre, a half-finished low-stakes gambling game.
-
-$cistern
-a large cistern dominates the chamber, providing a source of water to the complex.
-
-$guardroom
-a small table sits in the corner with [2-4] simple chairs.
-
-$kennel
-old straw and dung litter the floor, and a series of cages fill the room.
-
-$kitchen
-a large hearth dominates this room, and several hefty tables and cubboards.
-
-$library
-heavy wooden bookshelves line the walls of this chamber and create a maze filled with scrolls and tomes.
-
-$prison
-this chamber is lined with reinforced wooden cells, each with an iron lock.
-this chamber is lined with stone cells with reinforced wooden doors with small windows in them and heavy deadbolts.
-this chamber is lined with a series of cells segregated by iron bars. The iron gates each have a heavy iron lock to them. Each cell has a simple bench and pale of straw.
-
-$robing room
-this glorified closet is lined with pegs and shelves and a large wardrobe.
-
-$stable
-several stalls flank a long corridor strewn with old straw.
-
-$storage room
-The room contains a number of stores; [storage,x3-8]
-
-$strong room
-despite all the security, the strong room is empty
-a treasure hoard is within
-
-$torture chamber
-grusome implements of torture fill this room, along with stains that will never wash out.
-
-$trap room
-this room harbours an elaborate trap.
-
-$trophy room
-the busts and bodies of stuffed creatures line the walls of this room
-art is displayed here celebrating the key figures and events of the dungeon's mythology.
-
-$vault
-despite all the security, the strong room is empty
-a treasure hoard is within
-
-$latrine
-this room has been serviced many times to bring relief to the dwellers herein.
-
-$bath
-stone steps descend into a pool of water that deepens to [3-30] feet.
-stone steps descend into a pool of warm water that deepens to [3-30] feet.
-
-$well
-a well, [2-12]0 feet deep is the central feature of the room.
-
-$watch room
-this room provides a commanding view over a strategic chokepoint in the dungeon. A simple table and chairs sit in the corner. A weapons rack is used to rest arms and armor against.
-
-$workshop
-An array of tools, including a workbench, forge and anvil occupy this room.
-
-$rack type
- [an] [rack full] rack that holds up to [rack size] [weapon rack], 
-
-$weapon rack
-[ranged weapon][s]
-[melee weapon][s]
-[ammunition]
-
-$rack size
-6
-8
-12
-16
-24
-
-$rack full
-empty
-full
-partially full
-mostly empty
-
-$ammunition
-bundles of 20 arrows
-stacks of 20 bolts
-
-$ranged weapon
-[crossbow]
-[bow]
-[thrown]
-
-$crossbow
-light crossbow
-hand crossbow {25%}
-heavy crossbow
-
-$bow
-shortbow
-longbow
-
-$thrown
-sling
-spear
-javelin
-net {40%}
-dart
-
-$other ranged
-blowgun
-
-$melee weapon
-[polearm]
-[side arms]
-[blades]
-[axes]
-[bludgeoning]
-[other melee]
-
-$polearm
-quarterstaff
-spear
-glaive
-halberd
-pike
-
-$side arms
-dagger
-handaxe
-shortsword
-sickle
-light hammer
-
-$blades
-greatsword
-longsword
-rapier
-scimitar
-
-$axes
-greataxe
-battleaxe
-
-$bludgeoning
-club
-greatclub
-mace
-maul
-morningstar
-warhammer
-
-$other melee
-lance
-trident
-whip
-
-$armor stand
-[an] [rack full] that holds [armor rack size] of [armor type] 
-[an] stand that holds [rack size] shields
-
-$armor type
-[light armor]
-[medium armor]
-[heavy armor]
-
-$light armor
-leather
-studded leather
-
-$medium armor
-hide
-chain
-scale
-breastplate
-half plate
-
-$heavy armor
-ring mail
-chain mail
-splint
-plate
-
-$armor rack size
-a suit
-2 suits
-3 suits
-4 suits
-
-$DebrisPlural
-ashes
-badly dented helmets
-blunt javelin heads
-bones
-broken arrows
-broken bottles
-broken sword blades
-burned stub of a torches
-candle stubs
-corroded 5' lengths of chain
-cracked flasks
-food scraps
-hair or fur fibres
-large puddles of water
-leather boots
-leaves and twigs
-lengths of rotting rope
-pieces of rotten wood
-piles of dung
-piles of straw
-rags
-rusted spikes
-rusty and bent iron bars
-scattered [teeth|fangs]
-shards of pottery
-small puddles of water
-small stones
-splintered clubs
-sticks
-wax drippings
-
-$DebrisSingle
-a badly dented helmet
-a blunt javelin head
-a broken arrow
-a broken bottle
-a broken pole
-a broken sword blade
-a candle stub
-a corroded 5' length of chain
-a cracked flask
-a cracked hammer head
-a large puddle of water
-a leather boot
-a pick handle
-a rag
-a rotten rope
-a rusted spike
-a rusty and bent iron bar
-a small puddle of water
-a splintered club
-a stick
-a torn sack
-a wax dripping
-ashes
-dung
-guano
-hair
-piece of rotten wood
-rotting food
-rubble and dirt
-straw
-the burned stub of a torch
-
-$roomfeature
-a large puddle of water
-a small puddle of water
-blood drips from the ceiling or walls
-common fungi grows here
-rubble and dirt cover the floor
-scratchings are etched into the walls
-slime (harmless)
-small stones litter the floor
-sploches of dry blood are on the floor
-the ceiling is damp
-the contents of the room are covered in dust
-the room is covered in cobwebs
-the walls are damp
-there are cracks in the ceiling
-there are cracks in the floor
-there are cracks in the walls
-there is mold everywhere
-trickles of water leak into the room
-
-$condition
-tattered
-fragile
-poor condition
-well-worn
-well-kempt
-well-tended
-mint
-brand new
-worn
-used
-unused
-new
-pristine
-
-$quality
-shoddy
-poor quality
-generic
-simple
-well-made
-fine
-excellent quality
-exquisite
-
-$skullerymaterial
-[ceramic material]
-[metal material]
-
-$wood material
-ash
-yew
-oak
-darkwood
-zirkwood
-bronzewood
-duskwood
-lenaer wood
-
-$textile material
-wool {value:x2}
-cotton {value:x1}
-fur {value:x2}
-velvet {value:x15}
-[leather]
-silk {value:x20}
-linen {value:x10}
-sackcloth {value:x0.5}
-
-$appearance
-stylish
-practical
-gaudy
-fashionable
-antiquated
-unfashionable
-common
-
-$leather material
-leather {value:*2}
-cordovan leather {40%}{value:*2}
-rothé leather {20%}{value:*2}
-alligator leather {20%}{value:*2}
-crocodile leather {20%}{value:*2}
-ostrich leather {10%}{value:*2}
-beholder leather {10%}{value:*5}
-aboleth leather {10%}{value:*4}
-giant bat leather {10%}{value:*2}
-darkmantle leather {10%}{value:*2}
-[gold|silver|red|blue|green|black|copper|bronze] dragon leather {10%}{value:*50}
-stingray leather {10%}{value:*3}
-
-$ceramic material
-ceramic
-earthenware
-glazed ceramic
-
-$metal material
-copper
-pewter
-alum {value:}
-electrum
-silver
-gold
-platinum
-
-$mundanefind
-a copper coin
-a dagger hilt
-a single leather boot
-a trinket
-
-$jewellery
-copper armband {base:15}{currency:cp}{accessory:[insetjewel]}{detail:[engraving]}
-copper bracelet {base:1}{currency:sp}{accessory:[insetjewel]}
-copper brooch {base:45}{currency:cp}{accessory:[insetjewel]}
-copper earrings {base:2}{currency:sp}{accessory:[insetjewels]}
-copper fillet {base:6}{currency:sp}{accessory:[insetjewel]}
-copper headband {base:4}{currency:sp}{accessory:[insetjewel]}
-copper locket {base:25}{currency:cp}{accessory:[insetjewel]}
-copper necklace {base:5}{currency:sp}{accessory:[insetjewel]}
-copper pendant {base:45}{currency:cp}{accessory:[insetjewel]}
-copper ring {base:3}{currency:cp}{accessory:[insetjewel]}
-copper torc {base:5}{currency:sp}{accessory:[insetjewel]}
-silver broad belt {base:6}{currency:sp}{accessory:[insetjewel]}
-silver armband {base:15}{currency:sp}{accessory:[insetjewel]}
-silver bracelet {base:2}{currency:gp}{accessory:[insetjewel]}
-silver brooch {base:45}{currency:sp}{accessory:[insetjewel]}
-silver earrings {base:2}{currency:gp}{accessory:[insetjewel]}
-silver fillet {base:6}{currency:gp}{accessory:[insetjewel]}
-silver headband {base:4}{currency:gp}{accessory:[insetjewel]}
-silver locket {base:25}{currency:sp}{accessory:[insetjewel]}
-silver necklace {base:5}{currency:gp}{accessory:[insetjewel]}
-silver pendant {base:45}{currency:sp}{accessory:[insetjewel]}
-silver ring {base:3}{currency:gp}{accessory:[insetjewel]}
-silver torc {base:5}{currency:gp}{accessory:[insetjewel]}
-electrum broad belt {base:30}{currency:sp}{accessory:[insetjewel]}
-electrum armband {base:75}{currency:sp}{accessory:[insetjewel]}
-electrum bracelet {base:10}{currency:gp}{accessory:[insetjewel]}
-electrum brooch {base:225}{currency:sp}{accessory:[insetjewel]}
-electrum earrings {base:10}{currency:gp}{accessory:[insetjewel]}
-electrum fillet {base:30}{currency:gp}{accessory:[insetjewel]}
-electrum headband {base:20}{currency:gp}{accessory:[insetjewel]}
-electrum locket {base:125}{currency:sp}{accessory:[insetjewel]}
-electrum necklace {base:25}{currency:gp}{accessory:[insetjewel]}
-electrum pendant {base:225}{currency:sp}{accessory:[insetjewel]}
-electrum ring {base:15}{currency:gp}{accessory:[insetjewel]}
-electrum torc {base:25}{currency:gp}{accessory:[insetjewel]}
-gold broad belt {base:6}{currency:gp}{accessory:[insetjewel]}
-gold armband {base:15}{currency:gp}{accessory:[insetjewel]}
-gold bracelet {base:20}{currency:gp}{accessory:[insetjewel]}
-gold brooch {base:45}{currency:gp}{accessory:[insetjewel]}
-gold earrings {base:20}{currency:gp}{accessory:[insetjewel]}
-gold fillet {base:60}{currency:gp}{accessory:[insetjewel]}
-gold headband {base:40}{currency:gp}{accessory:[insetjewel]}
-gold locket {base:25}{currency:gp}{accessory:[insetjewel]}
-gold necklace {base:50}{currency:gp}{accessory:[insetjewel]}
-gold pendant {base:45}{currency:gp}{accessory:[insetjewel]}
-gold ring {base:30}{currency:gp}{accessory:[insetjewel]}
-gold torc {base:50}{currency:gp}{accessory:[insetjewel]}
-platinum broad belt {base:60}{currency:gp}{accessory:[insetjewel]}
-platinum armband {base:150}{currency:gp}{accessory:[insetjewel]}
-platinum bracelet {base:200}{currency:gp}{accessory:[insetjewel]}
-platinum brooch {base:450}{currency:gp}{accessory:[insetjewel]}
-platinum earrings {base:200}{currency:gp}{accessory:[insetjewel]}
-platinum fillet {base:600}{currency:gp}{accessory:[insetjewel]}
-platinum headband {base:400}{currency:gp}{accessory:[insetjewel]}
-platinum locket {base:250}{currency:gp}{accessory:[insetjewel]}
-platinum necklace {base:500}{currency:gp}{accessory:[insetjewel]}
-platinum pendant {base:450}{currency:gp}{accessory:[insetjewel]}
-platinum ring {base:300}{currency:gp}{accessory:[insetjewel]}
-platinum torc {base:500}{currency:gp}{accessory:[insetjewel]}
-
-$insetjewel
-pearl {base:100}
-
-$insetjewels
-small pearls {base:100}
-
-$jewelleryitem
-[jewellery,#item] (worth [#item,as base] [#item,as currency])
-[jewellery,#item] with [an] [#item,as accessory,#accessory] (worth &#91;&#91;[#item,as base]+[#accessory,as base]&#93;&#93; [#item,as currency])
-
-$generalfurnishings
-[furnishings]
-[appointments]
-[stores]
-[tools]
-
-$furnishings
-altar
-armchair
-armoire
-bed
-bench
-brazier and charcoal
-buffet cabinet
-bunks
-cabinet
-chest of drawers
-closet
-couch
-cubboard
-desk
-dias
-high stool
-large box
-large chest
-large table
-long table
-low table
-medium chest
-padded chair
-padded divan
-pegs ([peg contents])
-plain chair
-round table
-screen
-shelf ([shelf contents])
-sideboard
-small table
-sofa
-stand
-statue
-stool
-throne
-trestle
-trunk ([closet contents])
-tub
-wardrobe
-wood billets
-workbench
-
-$appointments
-[fabric] sheet
-arras
-candelabrum
-chandelier
-cresset
-curtains
-cushion
-fireplace and wood
-fireplace with a mantle
-fountain
-fresco of [fresco contents]
-hamper ([closet contents])
-hassock
-large carpet
-large idol
-loom
-mat
-mattress
-medium rug
+$Purpose
+Death trap
+Lair
+Maze
+Mine
+Planar gate
+Stronghold
+Temple or shrine
+Tomb
+Treasure vault
+
+
+$DeathTrapRoom
+an antechamber or waiting room for spectators {14%}
+a guardroom fortified against intruders {100%}
+a vault for holding important treasures, accessible only by locked or secret door (75 percent chance of being trapped) {43%}
+a room containing a puzzle that must be solved to bypass a trap or monster {43%}
+a trap designed to kill or capture creatures {57%}
+an observation room, allowing guards or spectators to observe creatures moving through the dungeon {14%}
+
+$LairRoom
+an armory stocked with weapons and armor {50%}
+an audience chamber, used to receive guests {50%}
+a banquet room for important celebrations {50%}
+a barracks where the lair's defenders are quartered {50%}
+a bedroom, for use by leaders {50%}
+a chapel where the lair's inhabitants worship {50%}
+a cistern or well for drinking water {50%}
+a guardroom for the defense of the lair {100%}
+a kennel for pets or guard beasts {50%}
+a kitchen for food storage and preparation {50%}
+a pen or prison where captives are held {50%}
+a storage room, mostly nonperishable goods {100%}
+a throne room where the lair's leaders hold court {50%}
+a torture chamber {50%}
+a training and exercise room {50%}
+a trophy room or museum {50%}
+a [latrine|bath] {50%}
+a workshop for the construction of weapons, armor, tools, and other goods {50%}
+
+
+$MazeRoom
+a conjuring room, used to summon creatures that guard the maze {20%}
+a guard room for sentinels that patrol the maze {80%}
+a lair for guard beasts that patrol the maze {100%}
+a pen or prison accessible only by secret door, used to hold captives condemned to the maze {20%}
+a shrine dedicated to a god or other entity {20%}
+a storage room for food, as well as tools used by the maze's guardians to keep the complex in working order {40%}
+a trap to confound or kill those sent into the maze {80%}
+a well that provides drinking water {20%}
+a workshop where doors, torch sconces, and other furnishings are repaired and maintained {20%}
+
+$MineRoom
+a barracks for miners {33%}
+a bedroom for a supervisor or manager {17%}
+a chapel dedicated to a patron deity of miners, earth, or protection {17%}
+a cistern providing drinking water for miners {17%}
+a guardroom {33%}
+a kitchen used to feed workers {17%}
+a laboratory used to conduct tests on strange minerals extracted from the mine {17%}
+a lode where metal ore is mined (75 percent chance of being depleted) {100%}
+a office used by the mine supervisor {17%}
+a smithy for repairing damaged tools {17%}
+a storage room for tools and other equipment {33%}
+a strong room or vault used to store ore for transport to the surface {17%}
+
+
+$PlanarGateRoom
+a decorated foyer or antechamber {33%}
+an armory used by the portal's guardians {56%}
+an audience chamber for receiving visitors {22%}
+a barracks used by the portal's guards {100%}
+a bedroom for use by the high-ranking members of the order that guards the portal {44%}
+a chapel dedicated to a deity or deities related to the portal and its defenders {78%}
+a cistern providing fresh water {56%}
+a classroom for use of initiates learning about the portal's secrets {33%}
+a conjuring room for summoning creatures used to investigate or defend the portal {11%}
+a crypt where the remains of those that died guarding the portal are kept {22%}
+a dining room {67%}
+a divination room used to investigate the portal and events tied to it {33%}
+a dormitory for visitors and guards {56%}
+an entry room or vestibule {22%}
+a gallery for displaying trophies and objects related to the portal and those that guard it {22%}
+a guardroom to protect or watch over the portal {89%}
+a kitchen {56%}
+a laboratory for conducting experiments relating to the portal and creatures that emerge from it {56%}
+a library holding books about the portal's history {33%}
+a pen or prison for holding captives or creatures that emerge from the portal {56%}
+a planar junction, where the gate to another plane once stood (25 percent chance of being active) {22%}
+a storage room {33%}
+a strong room or vault, for guarding valuable treasures connected to the portal or funds used to pay the planar gate's guardians {11%}
+a study {22%}
+a torture chamber, for questioning creatures that pass through the portal or that attempt to clandestinely use it {11%}
+a [latrine|bath] {44%}
+a workshop for constructing tools and gear needed to study the portal {22%}
+
+
+$StrongholdRoom
+an antechamber where visitors seeking access to the stronghold wait {11%}
+an armory holding high-quality gear, including light siege weapons such as ballistas {17%}
+an audience chamber used by the master of the stronghold to receive visitors {6%}
+an aviary or zoo for keeping exotic creatures {6%}
+a banquet room for hosting celebrations and guests {22%}
+a barracks used by elite guards {22%}
+a bath outfitted with a marble floor and other luxurious accoutrements {6%}
+a bedroom for use by the stronghold's master or important guests {6%}
+a chapel dedicated to a deity associated with the stronghold's master {6%}
+a cistern providing drinking water {17%}
+a dining room for intimate gatherings or informal meals {22%}
+a dressing room featuring a number of wardrobes {6%}
+a gallery for the display of expensive works of art and trophies {17%}
+a game room used to entertain visitors {17%}
+a guardroom {100%}
+a kennel where monsters or trained animals that protect the stronghold are kept {6%}
+a kitchen designed to prepare exotic foods for large numbers of guests {33%}
+a library with an extensive collection of rare books {22%}
+a lounge used to entertain guests {6%}
+a pantry, including cellar for wine or spirits {44%}
+a sitting room for family and intimate guests {22%}
+a stable {22%}
+a storage room for mundane goods and supplies {44%}
+a strong room or vault for protecting important treasures (75 percent chance of being hidden behind a secret door) {6%}
+a study, including a writing desk {28%}
+an elaborately decorated throne room {6%}
+a waiting room where lesser guests are held before receiving an audience {17%}
+a [latrine|bath] {11%}
+a crypt belonging to the stronghold's master or someone else of importance {11%}
+
+
+$TempleShrineRoom
+an armory filled with weapons and armor, battle banners, and pennants {room:armory}{contents:[armory]}{30%}
+an audience chamber where priests of the temple receive commoners and low-ranking visitors {room:[audience chamber]}{20%}
+a banquet room used for celebrations and holy days {room:[banquet room]}{contents:[banquet room]}{20%}
+barracks for the temple's military arm or its hired guards {room:[barracks]}{contents:[barracks]}{30%}
+contains cells where the faithful can sit in quiet contemplation {room:cells}{contents:[cells]}{40%}
+a central temple built to accommodate rituals {room:[central temple]}{contents:[temple]}
+a chapel dedicated to a lesser deity associated with the temple's major deity {room:chapel}{contents:[chapel]}{40%}
+a classroom used to train initiates and priests {room:classroom}{contents:[classroom]}{30%}
+a conjuring room, specially sanctified and used to summon extraplanar creatures {room:[conjuring room]}{contents:[conjuring room]}{30%}
+a crypt for a high priest or similar figure, hidden and heavily guarded by creatures and traps {room:crypt}{contents:[crypt]]}{60%}
+a dining room (large) for the temple's servants and lesser priests {room:[dining room]}{contents:[dining room]}{20%}
+a dining room (small) for the temple's high priests {room:[dining room]}{contents:[dining room]}{10%}
+a divination room, inscribed with runes and stocked with soothsaying implements {room:divination room}{contents:[divination room]}{30%}
+a dormitory for lesser priests or students {room:dormitory}{contents:[dormitory]}{40%}
+a guardroom {room:guardroom}{contents:[guardroom]}{60%}
+a kennel for animals or monsters associated with the temple's deity {room:kennel}{contents:[kennel]}{10%}
+a kitchen (might bear a disturbing resemblance to a torture chamber in an evil temple) {room:kitchen}{contents:[kitchen]}{30%}
+a library, well stocked with religious treatises {room:library} {treasure:books}{item:books}{contents:[library]}{50%}
+a prison for captured enemies (in good or neutral temples) or those designated as sacrifices (in evil temples) {room:prison}{contents:[prison]}{30%}
+a robing room containing ceremonial outfits and items {room:[robing room]}{contents:[robing room]}{50%}
+a stable for riding horses and mounts belonging to the temple, or for visiting messengers and caravans {room:stable}{contents:[stable]}{10%}
+a storage room holding mundane supplies {room:[storage room]}{contents:[storage room]}{50%}
+a [strong room|vault] holding important relics and ceremonial items, heavily trapped {room:vault}{contents:[vault]}{10%}
+a torture chamber, used in inquisitions (in good or neutral temples with a lawful bent) or for the sheer joy of causing pain (evil temples) {room:[torture chamber]}{contents:[torture chamber]}{20%}
+a trophy room where art celebrating key figures and events from mythology is displayed {room:[trophy room]}{70%}{treasure:art}{contents:[trophy room]}
+a latrine  {room:latrine}{contents:[latrine]}{10%}
+a bath {room:bath}{contents:[bath]}{10%}
+a well for drinking water, defendable in the case of attack or siege {room:well}{contents:[well]}{40%}
+a workshop for repairing or creating weapons, religious items, and tools {room:workshop}{contents:[workshop]}{60%}{item:tools}
+
+$TombRoom
+an antechamber for those that have come to pay respect to the dead or prepare themselves for burial rituals {20%}
+a chapel dedicated to deities that watch over the dead and protect their resting places {40%}
+a crypt for less important burials {100%}
+a divination room, used in rituals to contact the dead for guidance {20%}
+a false crypt (trapped) to kill or capture thieves {20%}
+a gallery to display the deeds of the deceased through trophies, statues, paintings and so forth {20%}
+a grand crypt for a noble, high priest, or other important individual {20%}
+a guardroom, usually guarded by undead, constructs, or other creatures that don't need to eat or sleep {40%}
+a robing room for priests to prepare for burial rituals {20%}
+a storage, stocked with tools for maintaining the tomb and preparing the dead for burial {40%}
+a tomb where the wealthiest and most important folk are interred, protected by secret doors and traps {20%}
+a workshop for embalming the dead {40%}
+
+$TreasureVaultRoom
+antechamber for visiting dignitaries {25%}{contents:[antechamber]}
+armory containing mundane and magic gear used by the treasure vault's guards {25%}{contents:[armory]}
+barracks for guards {50%}{contents:[barracks]}
+cistern providing fresh water {25%}{contents:[cistern]}
+guardroom to defend against intruders {100%}{contents:[guardroom]}
+kennel for trained beasts used to guard the treasure vault {25%}{contents:[kennel]}
+kitchen for feeding guards {25%}{contents:[kitchen]}
+watch room that allows guards to observe those who approach the dungeon {25%}{contents:[watch room]}
+prison for holding captured intruders {25%}{contents:[prison]}
+strong room for guarding the treasure hidden in the dungeon, accessible only by locked or secret door {25%}{contents:[strong room]}
+vault, for guarding the treasure hidden in the dungeon, accessible only by locked or secret door {25%}{contents:[vault]}
+torture chamber for extracting information from captured intruders {25%}{contents:[antechamber]}
+trap or other trick designed to kill or capture creatures that enter the dungeon {100%}{contents:[trap room]}
+
+$GeneralDungeonChambers
+antechamber {33%}{contents:[Antechamber]}
+armory {67%}{contents:[Armory]}
+audience chamber {33%}{contents:[Audience chamber]}
+aviary {33%}{contents:[Aviary]}
+banquet room {67%}{contents:[Banquet room]}
+barracks {100%}{contents:[Barracks]}
+bath {33%}{contents:[Bath]}
+latrine {33%}{contents:[latrine]}
+bedroom {33%}{contents:[Bedroom]}
+bestiary {33%}{contents:[Bestiary]}
+cell {100%}{contents:[Cell]}
+chantry {33%}{contents:[Chantry]}
+chapel {33%}{contents:[Chapel]}
+cistern {67%}{contents:[Cistern]}
+classroom {33%}{contents:[Classroom]}
+closet {33%}{contents:[Closet]}
+conjuring room {67%}{contents:[Conjuring room]}
+court {67%}{contents:[Court]}
+crypt {100%}{contents:[Crypt]}
+dining room {67%}{contents:[Dining room]}
+divination room {67%}{contents:[Divination room]}
+dormitory {33%}{contents:[Dormitory]}
+dressing room {33%}{contents:[Dressing room]}
+entry room {33%}{contents:[Entry room]}
+vestibule {33%}{contents:[vestibule]}
+gallery {67%}{contents:[Gallery]}
+game room {67%}{contents:[Game room]}
+guardroom {100%}{contents:[Guardroom]}
+hall {67%}{contents:[Hall]}
+hall, great {67%}{contents:[Hall, great]}
+hallway {67%}{contents:[Hallway]}
+kennel {33%}{contents:[Kennel]}
+kitchen {67%}{contents:[Kitchen]}
+laboratory {67%}{contents:[Laboratory]}
+library {100%}{contents:[Library]}
+lounge {67%}{contents:[Lounge]}
+meditation chamber {33%}{contents:[Meditation chamber]}
+observatory {33%}{contents:[Observatory]}
+office {33%}{contents:[Office]}
+pantry {67%}{contents:[Pantry]}
+pen {33%}{contents:[Pen]}
+prison {33%}{contents:[prison]}
+reception room {67%}{contents:[Reception room]}
+refectory {67%}{contents:[Refectory]}
+robing room {33%}{contents:[Robing room]}
+salon {33%}{contents:[Salon]}
+shrine {67%}{contents:[Shrine]}
+sitting room {67%}{contents:[Sitting room]}
+smithy {67%}{contents:[Smithy]}
+stable {33%}{contents:[Stable]}
+storage room {67%}{contents:[Storage room]}
+strong room {33%}{contents:[Strong room]}
+vault {33%}{contents:[vault]}
+study {67%}{contents:[Study]}
+temple {100%}{contents:[Temple]}
+throne room {67%}{contents:[Throne room]}
+torture chamber {33%}{contents:[Torture chamber]}
+training room {33%}{contents:[Training room]}
+exercise room {33%}{contents:[exercise room]}
+trophy room {33%}{contents:[Trophy room]}
+museum {33%}{contents:[museum]}
+waiting room {33%}{contents:[Waiting room]}
+nursery {16%}{contents:[Nursery]}
+schoolroom {16%}{contents:[schoolroom]}
+well {33%}{contents:[Well]}
+workshop {67%}{contents:[Workshop]}
+
+
+$ChamberState
+is filled with rubble and the ceiling is partially collapsed {state:once was}{60%}
+has a partially collapsed floor and numerous holes {state:once was}{40%}
+is filled with ashes, the contents mostly burned {state:once was}{40%}
+has been used as a campsite {state:once was}{40%}
+is occupied by a large pool of water; the chamber's original contents are water damaged {state:once was}{40%}
+is wrecked but the remains of the furniture are still present {state:once was}{100%}
+has been converted into [an] [generaldungeonchambers] {state:once was}{40%}
+has been stripped bare {state:once was}{20%}
+is pristine and in its original state {state:is}{20%}
+
+$DungeonChamberContents
+is inhabited by a monster (dominant inhabitant) {67%}
+is inhabited by a monster (dominant inhabitant) with treasure {58%}
+is inhabited by a monster (pet or allied creature) {50%}
+is inhabited by a monster (pet or allied creature) guarding treasure {75%}
+is occupied by a monster (random creature) {67%}
+is inhabited by a monster (random creature) with treasure {67%}
+contains a dungeon hazard ([dungeonhazards]) with incidental treasure {67%}
+contains an obstacle; [obstacles] {42%}
+contains a trap. [Trap] {83%}
+contains a trap protecting treasure. [Trap] {25%}
+contains a trick; [Trick] {33%}
+is empty {67%}
+is empty but for a dungeon hazard ([dungeonhazards]) {50%}
+is empty but contains treasure {50%}
+
+$TrapTrigger
+stepped on (floor, stairs)
+moved through (doorway, hallway)
+touched (doorknob, statue)
+opened (door, treasure chest)
+looked at (mural, arcane symbol)
+moved (cart, stone block)
+
+$TrapDamageSeverity
+a setback {DC:[10-11]} {attack:+[3-5]} {damage:1d10/2d10/4d10/10d10}
+dangerous {DC:[12-15]} {attack:+[6-8]} {damage:2d10/4d10/10d10/18d10}
+deadly {DC:[16-20]} {attack:+[9-12]} {damage:4d10/10d10/18d10/24d10}
+
+$TrapEffect
+magic missiles shoot from a statue or object ([#trap,as damage] force damage) {80%}
+a collapsing staircase creates a ramp that deposits characters into a pit at its lower end (DC [#trap,as DC] Dexterity save or take [#trap,as damage] bludgeoning damage) {60%}
+a ceiling block falls (DC [#trap,as DC] Dexterity save or take [#trap,as damage] bludgeoning damage) {60%}
+the entire ceiling collapses (take [#trap,as damage] bludgeoning damage) {40%}
+the room locks and the ceiling lowers slowly {40%}
+a chute opens in floor {40%}
+a clanging noise attracts nearby monsters {60%}
+touching an object triggers a disintegrate spell (DC [#trap,as DC]) {80%}
+door or other object is coated with contact poison (DC [#trap,as DC] Constitution save or take [#trap,as damage] poison damage) {80%}
+fire shoots out from wall, floor, or object ([#trap,as attack], [#trap,as damage] fire damage) {60%}
+touching an object triggers a flesh to stone spell (DC [#trap,as DC]) {60%}
+the floor collapses or is an illusion {60%}
+a vent releases gas: blinding, acidic, obscuring, paralyzing, poisonous, or sleep-inducing {60%}
+the floor tiles are electrified ([#trap,as damage] lightning damage, make a DC [#trap,as DC] Constitution save for half) {80%}
+a Glyph of warding (DC [#trap,as DC]) triggers {60%}
+a huge wheeled statue rolls down the corridor ([#trap,as attack], [#trap,as damage] bludgeoning damage) {60%}
+a lightning bolt shoots from wall or object ([#trap,as damage] lightning damage, make a DC [#trap,as DC] Dexterity save for half) {60%}
+the room locks and floods with water or acid {80%}
+darts shoot out of an opened chest ([#trap,as attack], [#trap,as damage] piercing (and poison) damage) {60%}
+a weapon, suit of armor, or rug animates and attacks when touched (see "Animated Objects" in the Monster Manual) {60%}
+a pendulum, either bladed or weighted as a maul, swings across the room or hall ([#trap,as attack], [#trap,as damage] slashing or bludgeoning damage) {100%}
+a hidden pit opens beneath characters (25 percent chance that a black pudding or gelatinous cube fills the bottom of the pit) {60%}
+a hidden pit opens beneath the characters and floods with acid or fire (DC [#trap,as DC] Dexterity save or take [#trap,as damage] acid or fire damage) {60%}
+a locking pit floods with water (DC [#trap,as DC] Dexterity save or take [#trap,as damage] bludgeoning damage) {80%}
+a scything blade emerges from wall or object ([#trap,as attack], [#trap,as damage] slashing damage) {80%}
+spears (possibly poisoned) spring out ([#trap,as attack], [#trap,as damage] piercing and poison damage) {60%}
+brittle stairs collapse over spikes ([DC [#trap,as DC] Dexterity save or fall in and take [#trap,as damage] piercing damage) {80%}
+a thunderwave ([DC [#trap,as DC]) triggers, knocking characters into a pit or spikes (DC [#trap,as DC] Dexterity save or take [#trap,as damage] bludgeoning or piercing damage) {60%}
+steel or stone jaws restrain a character ([#trap,as attack], [#trap,as damage] piercing damage, escape DC [#trap,as DC]) {60%}
+a Stone block smashes across hallway ([DC [#trap,as DC] Dexterity save if at the edge of the trap, otherwise automatic failure, taking [#trap,as damage] bludgeoning damage) {60%}
+a Symbol (DC [#trap,as DC]) triggers {60%}
+the walls slide together ([DC [#trap,as DC] Dexterity save if at the edge of the trap, otherwise automatic failure, taking [#trap,as damage] bludgeoning damage)
+
+
+$Trap
+The trap is [trapdamageseverity,#trap]; when [traptrigger], [trapeffect]
+
+$TrickObjects
+book
+brain preserved in a jar
+burning fire
+cracked gem
+door energy
+fresco
+furniture
+glass sculpture
+mushroom field
 painting
-pallet
-pedestal
-pillow
-quilt
-rushes
-sconce
-shrine to [deity]
-small rug
+plant
+tree
+pool of water
+runes engraved on the wall
+runes engraved on the floor
+skull
+sphere of magical
+statue
+stone obelisk
+suit of armor
 tapestry
-urn
-wall basin and font
+rug
+target dummy
 
-$tools
-grindstone
-staff
-blanket
-
-
-$chest contents
-
-$closet contents
-belt
-baldric
-fine belt (25 gp)
-[leather,#leather] boots
-high boots
-wading boots
-riding boots
-smuggler's boots
-breeches
-pants
-chemise
-coat
-cloakcodpiece
-spiked collar
-corset
-doublet
-vest
-dress
-girdle
-gloves
-mittens
-broad-brimmed hat
-fur-trimmed hat
-fez
-hood
-
-
-
-$crate contents
-
-$peg contents
-several ceremonial robes hang from them
-a single cloak fur-lined cloak hangs from one of the pegs
-several cloaks
-an embroidered mantle
-
-$cupboard contents
-cuttlery
-
-
-$bucket contents
-empty
-quarter-filled with [bucket]
-half-filled with [bucket]
-three-quarters [bucket]
-filled with [bucket]
-dried up remains of [bucket]
-
-$bucket
-urine
-stale water
-spoiled water
-salt water
-blood
-fresh water
-
-$storage
-[an] [stores], 
-
-$stores
-[sack|pile] of charcoal
-105 gallon pipe (large cask, [cask contents])
-10-gallon firkin (small cask, [cask contents])
-125 gallon butt (huge cask) ([cask contents])
-20-gallon keg ([cask contents])
-250 gallon tun (huge cask, [cask contents])
-40-gallon barrel ([barrel contents])
-40-gallon cask ([cask contents])
-65-gallon hogshead (large cask, [cask contents])
-bucket ([bucket contents])
-crate ([crate contents])
-pail
-sack of coal
+$TrickEffects
+ages the first person to touch the object {75%}
+the touched object animates, or it animates other objects nearby {75%}
+asks three skill-testing questions (if all three are answered correctly, a reward appears) {100%}
+bestows resistance {50%}
+bestows vulnerability {50%}
+changes a character's alignment when touched {15%}
+changes a character's personality when touched {15%}
+changes a character's size when touched {15%}
+changes a character's appearance when touched {15%}
+changes a character's sex when touched {15%}
+changes one substance to another, such as gold to lead or metal to brittle crystal {75%}
+creates a force field {75%}
+creates an illusion {100%}
+suppresses magic items for a time {75%}
+enlarges characters {40%}
+reduces characters {40%}
+magic mouth speaks a riddle {75%}
+confusion (targets all creatures within 10 ft.) {75%}
+gives directions (true or false) {75%}
+grants a wish {75%}
+flies about to avoid being touched {75%}
+casts geas on the characters {75%}
+increases gravity {20%}
+reduces gravity {20%}
+negates gravity {20%}
+reverses gravity {20%}
+induces greed {75%}
+contains an imprisoned creature {75%}
+locks exits {40%}
+unlocks exits {40%}
+offers a game of chance, with the promise of a reward or valuable information {75%}
+helps or harms certain types of creatures {75%}
+casts polymorph on the characters (lasts 1 hour) {75%}
+presents a puzzle or riddle {100%}
+prevents movement {75%}
+releases coins {12%}
+releases false coins {12%}
+releases gems {12%}
+releases false gems {12%}
+releases a magic item {12%}
+releases a map {12%}
+releases a monster {25%}
+summons a monster {25%}
+turns into a monster {25%}
+casts suggestion on the characters {75%}
+wails loudly when touched {75%}
+talks (normal speech, nonsense, poetry and rhymes, singing, spellcasting, or screaming) {75%}
+teleports characters to another place {100%}
+swaps two or more characters' minds {75%}
 
 
-$liquid
-fresh water {value:, suitable for drinking}
-stale water {value:, unsuitable for drinking}
-spoiled water {value:, unsuitable for drinking}
-vinegar {value:, worthless}
-wine turned to vinegar {value:, worthless}
-fine wine {value:, worth 30 gp per gallon}
-common wine {value:, worth 8 sp per gallon}
-ale {value:, worth 2 sp per gallon}
-beer {value:, worth 2 sp per gallon}
-cider {value:, worth 2 sp per gallon}
-oil {value:, worth 8 sp per gallon}
+$Trick
+[an] [trickobjects] [trickeffects]
 
-$barrel contents
-empty
-quarter-filled with [liquid,#liquid][#liquid,as value]
-half-filled with [liquid,#liquid][#liquid,as value]
-three-quarters filled with [liquid,#liquid][#liquid,as value]
-filled with [liquid,#liquid][#liquid,as value]
-dried up remains of [liquid,#liquid]
+$DungeonHazards
+Brown mold
+Green slime
+Shrieker
+Spiderwebs
+Violet fungus
+Yellow mold
 
-$jewelleryitem
-[jewellery,#item] (worth [#item,as base] [#item,as currency])
-[jewellery,#item] with [an] [#item,as accessory,#accessory] (worth &#91;&#91;[#item,as base]+[#accessory,as base]&#93;&#93; [#item,as currency])
+$Obstacles
+an antilife aura with a radius of [1-10]0 ft.; while in the aura, living creatures can't regain hit points
+battering winds reduce speed by half, impose disadvantage on ranged attack rolls
+blade barrier blocks passage
+cave-in
+a chasm [1-4]0 ft. wide and [2-12]0 ft. deep, possibly connected to other levels of the dungeon
+flooding leaves [2-20] ft. of water in the area; create nearby upward-sloping passages, raised floors, or rising stairs to contain the water
+lava flows through the area (50 percent chance of a stone bridge crossing it)
+overgrown mushrooms block progress and must be hacked down (25 percent chance of a mold or fungus dungeon hazard hidden among them)
+poisonous gas (deals 1d6 poison damage per minute of exposure)
+reverse gravity effect causes creatures to fall toward the ceiling
+a wall of fire blocks passage
+a wall of force blocks passage
+
+$Air
+clear and damp {100%}
+clear and drafty {17%}
+clear but cold {17%}
+foggy and cold {5%}
+misty and cold {5%}
+clear, with mist covering floor {3%}
+clear and warm {8%}
+hazy and humid {5%}
+smoky {5%}
+steamy {5%}
+clear, with smoke covering ceiling {3%}
+clear and windy {3%}
+
+
+$Odor
+acrid {9%}
+chlorine {6%}
+dank
+moldy
+earthy {29%}
+manure {24%}
+metallic {12%}
+ozone {12%}
+putrid {15%}
+rotting vegetation {15%}
+salty and wet {6%}
+smoky {15%}
+stale {21%}
+sulfurous {18%}
+urine {15%}
+
+$Noises
+[an] [noisesa]
+the sound of [noisesnoun]
+
+$NoisesA
+bang {50%}
+slam {50%}
+bellow {20%}
+buzz {20%}
+chant {60%}
+chime {20%}
+chirp {20%}
+clank {20%}
+clash {20%}
+click {20%}
+cough {20%}
+creak {40%}
+drum {20%}
+faint giggle {40%}
+gong {20%}
+grate {60%}
+groan {40%}
+grunt {20%}
+hiss {40%}
+howl {20%}
+hum {40%}
+jingle {20%}
+knock {80%}
+laugh {40%}
+moan {40%}
+murmur {60%}
+melody {40%}
+rattle {20%}
+ring {20%}
+rustle {80%}
+scratch {80%}
+scream {40%}
+scuttle {60%}
+shuffle {20%}
+slither {40%}
+snap {20%}
+sneeze {20%}
+sob {20%}
+splash {20%}
+splinter {20%}
+squeak {40%}
+squeal {20%}
+tap {40%}
+thud {40%}
+thump {40%}
+tinkle {20%}
+twang {20%}
+whine {20%}
+whisper {20%}
+whistle {40%}
+horn or trumpet sounding {20%}
+
+$NoisesNoun
+banging {50%}
+slaming {50%}
+bellowing {20%}
+buzzing {20%}
+chanting {60%}
+chiming {20%}
+chirping {20%}
+clanking {20%}
+clashing {20%}
+clicking {20%}
+coughing {20%}
+creaking {40%}
+drumming {20%}
+footsteps ahead {80%}
+footsteps approaching {60%}
+footsteps behind {60%}
+footsteps receding {40%}
+footsteps to the side {40%}
+faint giggling {40%}
+gonging {20%}
+grating {60%}
+groaning {40%}
+grunting {20%}
+hissing {40%}
+howling {20%}
+humming {40%}
+jingling {20%}
+knocking {80%}
+laughing {40%}
+moaning {40%}
+murmuring {60%}
+music {40%}
+rattling {20%}
+ringing {20%}
+rustling {80%}
+scratching {40%}
+scrabbling {40%}
+screaming {40%}
+scuttling {60%}
+shuffling {20%}
+slithering {40%}
+snapping {20%}
+sneezing {20%}
+sobbing {20%}
+splashing {20%}
+splintering {20%}
+squeaking {40%}
+squealing {20%}
+tapping {40%}
+thudding {40%}
+thumping {40%}
+tinkling {20%}
+twanging {20%}
+whining {20%}
+whispering {20%}
+whistling {40%}
+
+$>StrongholdChamber
+The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [strongholdroom,#room]. [#room,as Contents] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>
+
+$>TempleShrineChamber
+The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [templeshrineroom,#room]. [#room,as Contents] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>
+
+$>TombChamber
+The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [tombroom,#room]. [#room,as Contents] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>
+
+$>TreasureVaultChamber
+The chamber [chamberstate,#chamberstate,lower]. It [#chamberstate,as state] [treasurevaultroom,#room]. [#room,as Contents] The atmosphere is [air] with a [odor] smell in the air; [noises] can be heard from somewhere in the chamber. <p>The room [dungeonchambercontents].<br><br>[bucket]
