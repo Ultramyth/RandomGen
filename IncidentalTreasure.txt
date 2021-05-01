@@ -1685,12 +1685,12 @@ a minor magical item:<br>[minor magical item]
 [magical item] {20%}
 
 $Incidental 2
-25 gp, 8 sp, 7 cp [pouch]
+25 gp, 8 sp, 7 cp [pouch] and [mundane 5,x1-2]
 34 gp, 5 sp [pouch]
 43 gp, 1 sp, 2 cp [pouch]
 
 $CR 2 Incidental
-[Incidental 2]
+[Incidental 2] and [mundane 5,x1-2]
 [Incidental 2] and [exotic potion,unique]
 [exotic potion,unique]
 [incidental ½] and [an] [art object 25]
@@ -1701,7 +1701,7 @@ a minor magical item:<br>[minor magical item]
 [magical item] {20%}
 
 $Incidental 3
-34 gp, 5 sp [pouch]
+34 gp, 5 sp [pouch] and [mundane 10,x1-2]
 43 gp, 1 sp, 2 cp [pouch]
 51 gp, 7 sp, 5 cp [pouch]
 
@@ -1718,7 +1718,7 @@ a minor magical item:<br>[minor magical item]
 [magical item] {20%}
 
 $Incidental 4
-43 gp, 1 sp, 2 cp [pouch]
+43 gp, 1 sp, 2 cp [pouch] and [mundane 10,x1-2]
 51 gp, 7 sp, 5 cp [pouch]
 57 gp, 1 sp, 2 cp [pouch]
 
@@ -1740,7 +1740,7 @@ a minor magical item:<br>[minor magical item]
 [magical item] {20%}
 
 $incidental 5
-51 gp, 7 sp, 5 cp [pouch]
+51 gp, 7 sp, 5 cp [pouch] and [mundane 10,x1-2]
 57 gp, 1 sp, 2 cp [pouch]
 107 gp, 4 sp [pouch]
 
@@ -1751,16 +1751,16 @@ $CR 5 Incidental
 [magical item] {20%}
 
 $incidental 6
-57 gp, 1 sp, 2 cp [pouch]
+57 gp, 1 sp, 2 cp [pouch] and [mundane 50]
 107 gp, 4 sp [pouch]
 214 gp, 8 sp [pouch]
 
 $CR 6 Incidental
 [Incidental 6]
 [Incidental 4] and [an] [magic item table x]
-[incidental coins 5] [pouch]
-[magical item] {30%}
-[Incidental 5] and [an] [magic item table a], and [exotic potion,unique]
+[incidental coins 5] [pouch] and [mundane 10,x1-2] [mundane 5,x2-3] and [mundane 5]
+[magical item] {30%} and [mundane 10,x1-2] [mundane 5,x2-3] and [mundane 5]
+[Incidental 5] and [mundane 10,x1-2] [mundane 5,x2-3] and [mundane 5], and [an] [magic item table a], and [exotic potion,unique]
 [Incidental 3] and a minor magical item:<br>[minor magical item]
 a minor magical item:<br>[minor magical item]
 [incidental 4] and [mundane 50]
