@@ -4,19 +4,19 @@ $description : Generates Drow Magic Items and Art Objects!
 $amount : 10
 $button : Loot!
 
-$coins 0 to 4
+$coins 0
 [6-36][0-9][0-9] cp, [3-18][0-9][0-9] sp and [2-12][0-9] gp in coins
 
-$coins 5 to 11
+$coins 5
 [6-36][0-99] cp, [2-12][0-9][0-9][0-9] sp, [6-36][0-9][0-9] gp, and [3-18][0-9] pp in coins
 
-$coins 11 to 16
+$coins 11
 [4-24][0-9][0-9][0-9] gp and [5-30][0-9][0-9] pp in coins
 
-$coins 17 to 20
+$coins 17
 [12-72][0-9][0-9][0-9] gp and [8-48][0-9][0-9][0-9] pp in coins
 
-$treasure 0 to 4
+$treasure 0
 nothing else {60%}
 [gem 10,x2-12] {100%}
 [art 25,x2-8] {100%}
@@ -35,7 +35,7 @@ nothing else {60%}
 [art 25,x2-8] [magicitemtableg] {20%}
 [gem 50,x2-12] [magicitemtableg] {10%}
 
-$treasure 5 to 10
+$treasure 5
 nothing more {67%}
 [art 25,x2-8] {100%}
 [gem 50,x6-18] {100%}
@@ -66,7 +66,7 @@ nothing more {67%}
 [gem 100,x6-18] [magicitemtableh] {17%}
 [art 250,x2-8] [magicitemtableh] {17%}
 
-$treasure 11 to 16
+$treasure 11
 nothing more {50%}
 [art 250,x2-8] {50%}
 [art 750,x2-8] {50%}
@@ -102,7 +102,7 @@ nothing more {50%}
 [gem 1000,x6-18] [magicitemtablei] {33%}
 
 
-$treasure 17 to 20
+$treasure 17
 nothing more {25%}
 [gem 1000,x6-18] [magicitemtablec,x1-8] {38%}
 [art 2500,x1-10] [magicitemtablec,x1-8] {38%}
@@ -148,19 +148,19 @@ $gem 1000
 $gem 5000
 - [an] [5000 gem] (worth [2501-7500] gp)<br>
 
-$gems 0 to 4
+$gems 0
 - [an] [50 gem] (worth [25-75] gp)<br>
 - [an] [10 gem] (worth [5-15] gp)<br>
 
-$gems 5 to 10
+$gems 5
 - [an] [50 gem] (worth [25-75] gp)<br>
 - [an] [100 gem] (worth [51-150] gp)<br>
 
-$gems 11 to 16
+$gems 11
 - [an] [500 gem] (worth [251-750] gp)<br>
 - [an] [1000 gem] (worth [501-1500] gp)<br>
 
-$gems 17 to 20
+$gems 17
 - [an] [1000 gem] (worth [501-1500] gp)<br>
 - [an] [5000 gem] (worth [2501-7500] gp)<br>
 
@@ -231,10 +231,10 @@ jacinth
 ruby
 
 $art 25
-- [an] [10 art] (worth [5-15] gp)<br>
+- [an] [25 art] (worth [5-15] gp)<br>
 
 $art 250
-- [an] [50 art] (worth [25-75] gp)<br>
+- [an] [250 art] (worth [25-75] gp)<br>
 
 $art 750
 - [an] [750 art] (worth [501-1500] gp)<br>
@@ -305,7 +305,7 @@ jade game board with solid gold playing pieces {100%}
 bejeweled ivory drinking horn with gold filigree {100%}
 
 $magicitemtablex
-- [magic item table x]<br>
+- [an] [magic item table x]<br>
 
 $magic item table x
 [metal armor] of Gleaming
@@ -359,7 +359,7 @@ Wand of Scowls
 Wand of Smiles
 
 $magicitemtablea
-- [magic item table a]<br>
+- [an] [magic item table a]<br>
 
 $magic item table a
 potion of healing
@@ -380,7 +380,7 @@ silvered [weapon metal]
 [2-10] silvered [bolts|arrows|bullets]
 
 $magicitemtableb
-- [magic item table b]<br>
+- [an] [magic item table b]<br>
 
 $magic item table b
 potion of greater healing
@@ -421,7 +421,7 @@ wand of secrets
 drow slave collar {raity:common}
 
 $magicitemtablec
-- [magic item table c]<br>
+- [an] [magic item table c]<br>
 
 $magic item table c
 potion of superior healing
@@ -454,7 +454,7 @@ periapt of health
 sending stones
 
 $magicitemtabled
-- [magic item table d]<br>
+- [an] [magic item table d]<br>
 
 $magic item table d
 potion of supreme healing
@@ -475,7 +475,7 @@ bag of devouring
 portable hole
 
 $magicitemtablee
-- [magic item table e]<br>
+- [an] [magic item table e]<br>
 
 $magic item table e
 spell scroll of [[bard 8th]|[cleric 8th]|[druid 8th]|[wizard 8th]]
@@ -487,7 +487,7 @@ arrow of slaying ([bane])
 sovereign glue
 
 $magicitemtablef
-- [magic item table f]<br>
+- [an] [magic item table f]<br>
 
 $magic item table f
 +1 [weapon][special feature]
@@ -560,7 +560,7 @@ spell gem (lapis lazuli)
 spell gem (obsidian)
 
 $magicitemtableg
-- [magic item table g]<br>
+- [an] [magic item table g]<br>
 
 $magic item table g
 +2 [weapon][special feature]
@@ -676,7 +676,7 @@ web choker
 spell gem (bloodstone)
 
 $magicitemtableh
-- [magic item table h]<br>
+- [an] [magic item table h]<br>
 
 $magic item table h
 +3 [weapon][special feature]
@@ -774,7 +774,7 @@ spell gem (jade)
 spell gem (amber)
 
 $magicitemtablei
-- [magic item table i]<br>
+- [an] [magic item table i]<br>
 
 $magic item table i
 Defender
@@ -2265,7 +2265,7 @@ $treasure eleven
 
 $other treasure 1
 [art,x1-4]
-[gems 11 to 16,x1-4]
+[gems 11,x1-4]
 
 $other treasure 2
 - (drow) [drow weapon]<br>
@@ -2324,15 +2324,20 @@ $garments
 $female garments
 - [female garment] (worth [[5-15]|[16-74]|[75-425]|[426-999]] gp)<br>
 
-$>Treasure 11 to 16
-You found [treasure eleven]<br><br>
-You found a hoard of [coins 11 to 16]<br><br>
+$>Treasure lvl 0 to 5
+You found a hoard of [coins 0] and:<br>[treasure 0]<br><br>
+
+$>Treasure lvl 5 to 10
+You found a hoard of [coins 5] and:<br>[treasure 5]<br><br>
+
+$>Treasure lvl 11 to 16
+You found a hoard of [coins 11] and:<br>[treasure 11]<br><br>
+
+$>Treasure lvl 17 to 20
+You found a hoard of [coins 17] and:<br>[treasure 17]<br><br>
 
 $>Drow Items
 The following are random drow treasures to place amongst drow foes:<p><b>Drow Armor:</b> You found [drow armor]<p><b>Drow Weapon:</b> You found [drow weapon]<p><b>Drow Wondrous:</b> You found [drow wondrous]<p><b>Drow Clothing:</b><p>[garments,x3-6] <p><p>
 
 $>Drow Priestess Treasure
 The drow priestess is armed with [an] [drow priestess weapon] and wears [drow armor priestess]. In addition, she wears one or more of these garments (the others are in storage):<br>[garments,x3-6]<br>She also possesses [an] [drow wondrous priest] and may also possess [an] [drow wondrous priest].<br><br>
-
-$>Treasure 0
-You find a hoard of [coins 0 to 4] and...<br>[treasure 0 to 4]<br><br>
