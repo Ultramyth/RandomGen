@@ -2515,7 +2515,7 @@ nothing more {25%}
 [art 7500,x1-4] [magicitemtablei,x1-4] {63%}
 [gem 5000,x1-8] [magicitemtablei,x1-4] {63%}
 
-$treasure 0
+$treasure 0 g
 [gem 10,x2-12] [magicitemtablea,x1-6] {80%}
 [art 25,x2-8] [magicitemtablea,x1-6] {80%}
 [gem 50,x2-12] [magicitemtablea,x1-6] {80%}
@@ -2530,7 +2530,7 @@ $treasure 0
 [art 25,x2-8] [magicitemtableg] {20%}
 [gem 50,x2-12] [magicitemtableg] {10%}
 
-$treasure 5
+$treasure 5 g
 [art 25,x2-8] [magicitemtablea,x1-6] {67%}
 [gem 50,x6-18] [magicitemtablea,x1-6] {67%}
 [gem 100,x6-18] [magicitemtablea,x1-6] {67%}
@@ -2556,7 +2556,7 @@ $treasure 5
 [gem 100,x6-18] [magicitemtableh] {17%}
 [art 250,x2-8] [magicitemtableh] {17%}
 
-$treasure 11
+$treasure 11 g
 [art 250,x2-8] [magicitemtablea,x1-4] [magicitemtableb,x1-6] {67%}
 [art 750,x2-8] [magicitemtablea,x1-4] [magicitemtableb,x1-6] {67%}
 [gem 500,x6-18] [magicitemtablea,x1-4] [magicitemtableb,x1-6] {50%}
@@ -2587,7 +2587,7 @@ $treasure 11
 [gem 1000,x6-18] [magicitemtablei] {33%}
 
 
-$treasure 17
+$treasure 17 g
 [gem 1000,x6-18] [magicitemtablec,x1-8] {38%}
 [art 2500,x1-10] [magicitemtablec,x1-8] {38%}
 [art 7500,x1-4] [magicitemtablec,x1-8] {38%}
