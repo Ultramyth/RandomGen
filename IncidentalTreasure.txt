@@ -1773,7 +1773,7 @@ a minor magical item:<br>[minor magical item]
 [Incidental 5] and [an] [magic item table x]
 [Incidental 6] and [exotic potion,unique]
 [magical item] {90%}
-[incedental 3] and [magical item] {90%}
+[incidental 3] and [magical item] {90%}
 
 $>CR 0 Incidental Treasure
 The creature carries:<br>[CR 0 Incidental][additional]<br><br>
