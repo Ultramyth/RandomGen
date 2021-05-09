@@ -1819,7 +1819,7 @@ $additional
 <p>Also, the creature may have one of the following according to its type or environment:<p>[bonus by type]
 
 $bonus by type
-<b>Aquatic:</b> [aquatic misc]<p><b>Demonic:</b>[demonic misc] <p><b>Drow:</b> [drow misc]<p><b>Goblinoid:</b> [mundane dungeon items]<p><b>Primitive:</b> [primitive misc]<p><b>Civilised:</b> [civilised misc]<p><b>Spellcaster:</b> [spellcaster]<p><b>Undead:</b> [undead misc] or [undead incorporeal misc] or [high undead misc]<p><b>Underdark:</b> [underdark misc]<p></small>
+<b>Aquatic:</b> [aquatic misc]<p><b>Decadant:</b> [decadant misc]<p><b>Demonic:</b> [demonic misc] <p><b>Drow:</b> [drow misc]<p><b>Goblinoid:</b> [mundane dungeon items]<p><b>Primitive:</b> [primitive misc]<p><b>Civilised:</b> [civilised misc]<p><b>Spellcaster:</b> [spellcaster]<p><b>Undead:</b> [undead misc] or [undead incorporeal misc] or [high undead misc]<p><b>Underdark:</b> [underdark misc]<p></small>
 
 $spellcaster
 [spellcaster misc] and one of the following by highest level:<small><p>1st: [spell 1st misc]<p><p>2nd: [spell 2nd misc]<p>3rd: [spell 3rd misc]<p>4th: [spell 4th misc]<p>5th: [spell 5th misc]<p>6th: [spell 6th misc]<p>7th: [spell 7th misc]<p>8th: [spell 8th misc]<p>9th: [spell 9th misc]</small>
@@ -1862,6 +1862,10 @@ a ragged captain's hat
 a nautilus shell necklace that when worn, makes the wearer's voice sound more feminine
 a glass dome, inside of which is a bubble of air that always points north
 a jar of aboleth mucus, forces you to breathe underwater for 1d4 hours
+
+$decadant misc
+a set of [condition fabric] fine clothes
+[garment] or [female garment]
 
 $demonic misc
 an amulet made of baatorian green steel
