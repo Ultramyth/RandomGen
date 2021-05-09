@@ -1814,10 +1814,13 @@ The creature carries:<br>[CR 6 Incidental][additional]<br><br>
 The creature carries:<br>[CR 6 Incidental] and [trinket][additional]<br><br>
 
 $additional
-<p>Also, the creature may have one of the following according to its type or environment:<br>[bonus by type]
+<p>Also, the creature may have one of the following according to its type or environment:<p>[bonus by type]
 
 $bonus by type
-<small><b>Aquatic:</b> [aquatic misc]<p><b>Demonic:</b> <p><b>Drow:</b> [drow misc]<p><b>Goblinoid:</b> [mundane dungeon items]<p><b>Primitive:</b> [primitive misc]<p><b>Civilised:</b> [civilised misc]<p><b>Spellcaster:</b> [spellcaster misc]<p><b>Undead:</b> [undead misc] or [undead incorporeal misc] or [high undead misc]<p><b>Underdark:</b> [underdark misc]<p></small>
+<b>Aquatic:</b> [aquatic misc]<p><b>Demonic:</b>[demonic misc] <p><b>Drow:</b> [drow misc]<p><b>Goblinoid:</b> [mundane dungeon items]<p><b>Primitive:</b> [primitive misc]<p><b>Civilised:</b> [civilised misc]<p><b>Spellcaster:</b> [spellcaster]<p><b>Undead:</b> [undead misc] or [undead incorporeal misc] or [high undead misc]<p><b>Underdark:</b> [underdark misc]<p></small>
+
+$spellcaster
+[spellcaster misc] and one of the following by highest level:<small><p>1st: [spell 1st misc]<p><p>2nd: [spell 2nd misc]<p>3rd: [spell 3rd misc]<p>4th: [spell 4th misc]<p>5th: [spell 5th misc]<p>6th: [spell 6th misc]<p>7th: [spell 7th misc]<p>8th: [spell 8th misc]<p>9th: [spell 9th misc]
 
 $aquatic misc
 a conch shell horn
@@ -2011,11 +2014,15 @@ a wooden staff or an orb
 a component pouch
 a reliquary or crystal
 a yew wand or a totem
-a pearl (worth 100 gp) and an owl feather
-a small diamond worth 50 gp (chromatic orb)
+
+$spell 1st misc
 a vial of powdered silver (25 gp)
 a small brass brazier, and 10 gp worth of charcoal, incense and herbs
+a small diamond worth 50 gp (chromatic orb)
+a pearl (worth 100 gp) and an owl feather
 a lead-based ink worth 10 gp
+
+$spell 2nd misc
 a small vial of gold dust worth 25 gp
 specially marked [sticks|tokens|bones] worth 25 gp
 a vial of ruby dust worth 50 gp
@@ -2023,6 +2030,8 @@ a white pearl worth 100 gp
 a small bit of honeycomb and a vial of jade dust worth 10 gp
 a gilded acorn worth 200 gp with a feather, tuft of fur and fish tail inside of it
 a pair of platinum rings worth 50 gp each
+
+$spell 3rd misc
 a [crystal ball|scrying bowl] worth 100 gp, a jewelled horn and a glass eye
 incense and a vial of powdered diamond dust worth 200 gp
 a gem worth 50 gp
@@ -2032,6 +2041,8 @@ a small bag of diamonds, the contents of which are collectively worth 300 gp
 a gilded flower worth 300 gp
 a strange gem with tears inside worth 300 gp
 a gilded skull worth 300 gp
+
+$spell 4th misc
 incense and a sacrificial offering, together worth 25 gp
 a tiny replica of an exquisite chest constructed of rare materials (worth 50 gp)
 an eyeball encased in a gem worth 150 gp
@@ -2039,6 +2050,8 @@ a vial of diamond dust worth 100 gp
 a pickled tentacle and an eyeball in a platinum-inlaid vial worth 400 gp
 an ornate stone and metal lockbox worth 400 gp
 air, a pebble, ash and water inside a gold-inlaid vial worth 400 gp
+
+$spell 5th misc
 an very large agate worth 1000 gp
 a sunburst pendant worth 100 gp
 a vial of dimond dust worth 100 gp
@@ -2051,6 +2064,8 @@ a collection of rare oils and unguents worth 1000 gp
 a [crystal ball|silver mirror|holy water font] worth 1000 gp
 a golden reliquary worth 500 gp
 rare chalks and inks infused with precious gems worth 50 gp
+
+$spell 6th misc
 a vial with a powder of crushed black pearl worth 500 gp
 a statuette carved from ivory and decorated with gems worth 1500 gp
 a gem-encrusted dagger worth 1000 gp, and clay, ash and mandrake
@@ -2066,6 +2081,8 @@ a tiny silver cage worth 100 gp
 humanoid blood inside a ruby vial worth at least 600 gp
 an object engraved with a symbol of the outer planes worth 500 gp
 an ointment for the eyes made of mushroom powder, saffron and fat worth 25 gp
+
+$spell 7th misc
 a vial of quicksilver worth 500 gp, an intricate crystal rod worth 1500 gp
 ruby dust worth 1500 gp
 a miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each worth 5 gp
@@ -2078,9 +2095,13 @@ powdered ruby worth 1500 gp|
 mercury, phospherous and powerdered diamond and opal worth 1000 gp
 a holy symbol (5 gp)
 a spool of platinum cord worth 250 gp
+
+$spell 8th misc
 a diamond worth 1000 gp
 a tiny reliquary worth 1000 gp containing [a scrap of cloth from a saint's robe|a piece of parchment from a religious text]
 a small diamond worth 500 gp
+
+$spell 9th misc
 [2-9] jacinths worth 1000 gp each and an ornately carved bar of silver worth 100 gp
 a diamond worth 5000 gp
 a carved statue and [a small mithral orb|fine chain of precious metal|a small jade representation of a hedge maze|a large, transparent [diamond|corundum|ruby]|rare soporific herbs|] worth [500|1000|2000|5000|7500|1000] gp
