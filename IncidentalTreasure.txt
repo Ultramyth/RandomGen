@@ -1617,7 +1617,7 @@ $CR 0 Incidental
 [Incidental 0] and [mundane 5]
 [incidental coins 0] [pouch]
 [Incidental 0] and [mundane dungeon items]
-[magical item] {20%}
+[magical item] {10%}
 
 $Incidental ⅛
 3 gp, 2 sp, 5 cp [pouch]
@@ -1654,7 +1654,7 @@ $CR ¼ Incidental
 [an] [art object 10]
 [incidental ¼] and [an] [art object 10]
 a minor magical item:<br>[minor magical item]
-[magical item] {20%}
+[magical item] {25%}
 
 $Incidental ½
 8 gp, 6 sp, 2 cp [pouch]
@@ -1668,7 +1668,7 @@ $CR ½ Incidental
 [an] [art object 25]
 a minor magical item:<br>[minor magical item]
 [exotic potion,unique]
-[magical item] {20%}
+[magical item] {30%}
 
 $Incidental 1
 17 gp, 2 sp and 5 cp [pouch]
@@ -1683,7 +1683,7 @@ $CR 1 Incidental
 [incidental ½] and [an] [art object 25]
 [incidental coins 0] [pouch]
 a minor magical item:<br>[minor magical item]
-[magical item] {20%}
+[magical item] {40%}
 
 $Incidental 2
 25 gp, 8 sp, 7 cp [pouch] and [mundane 5 mult,x1-2]
@@ -1699,7 +1699,7 @@ $CR 2 Incidental
 [incidental coins 0] [pouch]
 [incidental 1] and [mundane 10], [mundane 25] and [mundane 5]
 a minor magical item:<br>[minor magical item]
-[magical item] {20%}
+[magical item] {50%}
 
 $Incidental 3
 34 gp, 5 sp [pouch] and [mundane 10 mult,x1-2]
@@ -1716,7 +1716,7 @@ a minor magical item:<br>[minor magical item]
 [incidental 2] and [mundane 10], [mundane 25] and [mundane 5]
 [incidental 3] and [mundane 25], [mundane 5] and [mundane 5]
 [Incidental 2] and [an] [magic item table x]
-[magical item] {20%}
+[magical item] {60%}
 
 $Incidental 4
 43 gp, 1 sp, 2 cp [pouch] and [mundane 10 mult,x1-2]
@@ -1738,7 +1738,7 @@ $CR 4 Incidental
 [Incidental 4] and [an] [magic item table a], and [exotic potion,unique]
 [Incidental 2] and a minor magical item:<br>[minor magical item]
 a minor magical item:<br>[minor magical item]
-[magical item] {20%}
+[magical item] {70%}
 
 $incidental 5
 51 gp, 7 sp, 5 cp [pouch] and [mundane 10,x1-2]
@@ -1750,7 +1750,7 @@ $CR 5 Incidental
 [Incidental 3] and [an] [magic item table x]
 [Incidental 4] and [an] [magic item table x]
 [incidental coins 5] [pouch]
-[magical item] {20%}
+[magical item] {80%}
 [Incidental 2] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5], and [an] [magic item table a], and [exotic potion,unique]
 [incidental 2] and [mundane 50]
 
@@ -1772,6 +1772,8 @@ a minor magical item:<br>[minor magical item]
 [incidental 4] and [mundane 50]
 [Incidental 5] and [an] [magic item table x]
 [Incidental 6] and [exotic potion,unique]
+[magical item] {90%}
+[incedental 3] and [magical item] {90%}
 
 $>CR 0 Incidental Treasure
 The creature carries:<br>[CR 0 Incidental][additional]<br><br>
@@ -1861,8 +1863,7 @@ a nautilus shell necklace that when worn, makes the wearer's voice sound more fe
 a glass dome, inside of which is a bubble of air that always points north
 a jar of aboleth mucus, forces you to breathe underwater for 1d4 hours
 
-
-$demonic
+$demonic misc
 an amulet made of baatorian green steel
 an empty soul gem
 a list of names of mortals
