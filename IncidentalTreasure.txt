@@ -1820,7 +1820,7 @@ $bonus by type
 <b>Aquatic:</b> [aquatic misc]<p><b>Demonic:</b>[demonic misc] <p><b>Drow:</b> [drow misc]<p><b>Goblinoid:</b> [mundane dungeon items]<p><b>Primitive:</b> [primitive misc]<p><b>Civilised:</b> [civilised misc]<p><b>Spellcaster:</b> [spellcaster]<p><b>Undead:</b> [undead misc] or [undead incorporeal misc] or [high undead misc]<p><b>Underdark:</b> [underdark misc]<p></small>
 
 $spellcaster
-[spellcaster misc] and one of the following by highest level:<small><p>1st: [spell 1st misc]<p><p>2nd: [spell 2nd misc]<p>3rd: [spell 3rd misc]<p>4th: [spell 4th misc]<p>5th: [spell 5th misc]<p>6th: [spell 6th misc]<p>7th: [spell 7th misc]<p>8th: [spell 8th misc]<p>9th: [spell 9th misc]
+[spellcaster misc] and one of the following by highest level:<small><p>1st: [spell 1st misc]<p><p>2nd: [spell 2nd misc]<p>3rd: [spell 3rd misc]<p>4th: [spell 4th misc]<p>5th: [spell 5th misc]<p>6th: [spell 6th misc]<p>7th: [spell 7th misc]<p>8th: [spell 8th misc]<p>9th: [spell 9th misc]</small>
 
 $aquatic misc
 a conch shell horn
