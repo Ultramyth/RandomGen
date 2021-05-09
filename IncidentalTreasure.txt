@@ -283,7 +283,7 @@ $potion effect
 <b>Healing.</b> It instantly regenerates some health when drunk ([2d4+2|4d4+4|6d4+6|8d4+8]).
 <b>Health.</b> Cures all diseases and illnesses.
 <b>Hook Horror.</b> The users hands become sharp weaponised blades that they are proficient with and deal damage as a hook horror (2d6 piercing).
-<b>Horrifying appearance.</b> Makes the user look more ugly for a time.<br> Horrific Appearance.<br>Any humanoid that starts its turn within 30 feet of the imbiber must make a Wisdom saving throw (DC = 8 + proficiency bonus + Charisma mod. On a failed save, the creature is frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the imbiber is within line of sight, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Horrific Appearance for the next 24 hours.<br>Unless the target is surprised or the revelation of the imbiber's true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has disadvantage on attack rolls against the hag.
+<b>Horrifying appearance.</b> Makes the user look more ugly for a time.<br> Horrific Appearance.<br>Any humanoid that starts its turn within 30 feet of the imbiber must make a Wisdom saving throw (DC = 8 + proficiency bonus + Charisma mod). On a failed save, the creature is frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the imbiber is within line of sight, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Horrific Appearance for the next 24 hours.<br>Unless the target is surprised or the revelation of the imbiber's true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has disadvantage on attack rolls against the hag.
 <b>Intimidation.</b> Gives the user a huge booming voice that terrifies those around, granting advantage on Charisma (Intimidation) checks.
 <b>Invisibility.</b> Makes the user invisible.
 <b>Invulnerability.</b> Freezes the user in stasis that makes them immune to damage but they cannot move or act.
@@ -1148,7 +1148,7 @@ $mundane 10
 [an] [condition tool] component pouch {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
 [an] [condition tool] disguise kit {tag:tools}{base:12.5}{value:12 gp, 5 sp}
 [an] [condition instrument] dulcimer {tag:instrument}{base:12.5}{value:12 gp, 5 sp}
-[an] flask of holy water) {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
+[an] flask of holy water {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
 [an] [condition glass] hourglass {tag:adventuring gear}{base:12.5}{value:12 gp, 5 sp}
 [an] [condition tool] set of jeweler's tools {tag:artisan's tools}{base:12.5}{value:12 gp, 5 sp}
 [an] [condition tool] set of navigator's tools {tag:tools}{base:12.5}{value:12 gp, 5 sp}
@@ -1748,8 +1748,11 @@ $incidental 5
 $CR 5 Incidental
 [Incidental 5]
 [Incidental 3] and [an] [magic item table x]
+[Incidental 4] and [an] [magic item table x]
 [incidental coins 5] [pouch]
 [magical item] {20%}
+[Incidental 2] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5], and [an] [magic item table a], and [exotic potion,unique]
+[incidental 2] and [mundane 50]
 
 $incidental 6
 57 gp, 1 sp, 2 cp [pouch] and [mundane 50]
@@ -1758,6 +1761,8 @@ $incidental 6
 
 $CR 6 Incidental
 [Incidental 6]
+[Incidental 4] and [an] [magic item table x]
+[Incidental 5] and [an] [magic item table x]
 [Incidental 4] and [an] [magic item table x]
 [incidental coins 5] [pouch] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5]
 [magical item] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5] {30%}
@@ -1936,7 +1941,6 @@ a horrible smelling salve (restores 1 hp)
 a fermented giant centipede in a gourd
 a roasted giant fire beetle ([condition rations], [2-4] rations)
 a vial of firebeetle blood (glows for 1d6 days, flamable)
-
 
 $civilised misc
 a bedroll
