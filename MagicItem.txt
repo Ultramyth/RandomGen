@@ -2215,3 +2215,314 @@ sickly green
 white
 black
 midnight
+
+$coins 0
+[6-36][0-9][0-9] cp, [3-18][0-9][0-9] sp and [2-12][0-9] gp in coins
+
+$coins 5
+[6-36][0-99] cp, [2-12][0-9][0-9][0-9] sp, [6-36][0-9][0-9] gp, and [3-18][0-9] pp in coins
+
+$coins 11
+[4-24][0-9][0-9][0-9] gp and [5-30][0-9][0-9] pp in coins
+
+$coins 17
+[12-72][0-9][0-9][0-9] gp and [8-48][0-9][0-9][0-9] pp in coins
+
+$gem 10
+- [an] [10 gem] (worth [5-15] gp)<br>
+
+$gem 50
+- [an] [50 gem] (worth [25-75] gp)<br>
+
+$gem 100
+- [an] [100 gem] (worth [51-150] gp)<br>
+
+$gem 500
+- [an] [500 gem] (worth [251-750] gp)<br>
+
+$gem 1000
+- [an] [1000 gem] (worth [501-1500] gp)<br>
+
+$gem 5000
+- [an] [5000 gem] (worth [2501-7500] gp)<br>
+
+$gems 0
+- [an] [50 gem] (worth [25-75] gp)<br>
+- [an] [10 gem] (worth [5-15] gp)<br>
+
+$gems 5
+- [an] [50 gem] (worth [25-75] gp)<br>
+- [an] [100 gem] (worth [51-150] gp)<br>
+
+$gems 11
+- [an] [500 gem] (worth [251-750] gp)<br>
+- [an] [1000 gem] (worth [501-1500] gp)<br>
+
+$gems 17
+- [an] [1000 gem] (worth [501-1500] gp)<br>
+- [an] [5000 gem] (worth [2501-7500] gp)<br>
+
+$10 gem
+azurite
+banded agate
+blue quartz
+eye agate
+hematite
+lapis lazuli
+malachite
+moss agate
+obsidian
+rhodochrosite
+tiger eye
+turquoise
+beryl
+
+$50 gem
+bloodstone
+carnelian
+chalcedony
+chrysoprase
+citrine
+jasper
+moonstone
+onyx
+quartz
+sardonyx
+star rose quartz
+zircon
+
+$100 gem
+amber
+amethyst
+chrysoberyl
+piece of coral
+garnet
+piece of jade
+jet
+pearl
+spinel
+tourmaline
+
+$500 gem
+alexandrite
+aquamarine
+topaz
+peridot
+blue spinel
+black pearl
+diamond
+
+$1000 gem
+black opal
+blue sapphire
+emerald
+fire opal
+opal
+star ruby
+star sapphire
+yellow sapphire
+
+$5000 gem
+black sapphire
+diamond
+jacinth
+ruby
+
+$art 25
+- [an] [25 art] (worth [5-15] gp)<br>
+
+$art 250
+- [an] [250 art] (worth [25-75] gp)<br>
+
+$art 750
+- [an] [750 art] (worth [501-1500] gp)<br>
+
+$art 2500
+- [an] [2500 art] (worth [2501-7500] gp)<br>
+
+$art 7500
+- [an] [7500 art] (worth [5001-15000] gp)<br>
+
+
+$25 art
+silver ewer {100%}
+carved bone statuette {100%}
+small gold bracelet {100%}
+cloth-of-gold vestments {100%}
+black velvet mask stitched with silver thread {100%}
+copper chalice with silver filigree {100%}
+pair of engraved bone dice {100%}
+small mirror set in a painted wooden frame {100%}
+embroidered silk handkerchief {100%}
+gold locket with a painted portrait inside {100%}
+
+$250 art
+gold ring set with bloodstones {100%}
+carved ivory statuette {100%}
+large gold bracelet {100%}
+silver necklace with a gemstone pendant {100%}
+bronze crown {100%}
+silk robe with gold embroidery {100%}
+large well-made tapestry {100%}
+brass mug with jade inlay {100%}
+box of turquoise animal figurines {100%}
+gold bird cage with electrum filigree {100%}
+
+$750 art
+silver chalice set with moonstones {100%}
+silver-plated steel longsword with jet set in hilt {100%}
+carved harp of exotic wood with ivory inlay and zircon gems {100%}
+small gold idol {100%}
+gold dragon comb set with red garnets as eyes {100%}
+bottle stopper cork embossed with gold leaf and set with amethysts {100%}
+ceremonial electrum dagger with a black pearl in the pommel {100%}
+silver and gold brooch {100%}
+obsidian statuette with gold fittings and inlay {100%}
+painted gold war mask {100%}
+
+$2500 art
+fine gold chain set with a fire opal {100%}
+old masterpiece painting {100%}
+embroidered silk and velvet mantle set with numerous moonstones {100%}
+platinum bracelet set with a sapphire {100%}
+embroidered glove set with jewel chips {100%}
+jeweled anklet {100%}
+gold music box {100%}
+gold circlet set with four aquamarines {100%}
+eye patch with a mock eye set in blue sapphire and moonstone {100%}
+a necklace string of small pink pearls {100%}
+
+$7500 art
+jeweled gold crown {100%}
+jeweled platinum ring {100%}
+small gold statuette set with rubies {100%}
+gold cup set with emeralds {100%}
+gold jewelry box with platinum filigree {100%}
+painted gold child's sarcophagus {100%}
+jade game board with solid gold playing pieces {100%}
+bejeweled ivory drinking horn with gold filigree {100%}
+
+$treasure 0
+nothing else {60%}
+[gem 10,x2-12] {100%}
+[art 25,x2-8] {100%}
+[gem 50,x2-12] {100%}
+[gem 10,x2-12] [magicitemtablea,x1-6] {80%}
+[art 25,x2-8] [magicitemtablea,x1-6] {80%}
+[gem 50,x2-12] [magicitemtablea,x1-6] {80%}
+[gem 10,x2-12] [magicitemtableb,x1-4] {50%}
+[art 25,x2-8] [magicitemtableb,x1-4] {50%}
+[gem 50,x2-12] [magicitemtableb,x1-4] {50%}
+[gem 10,x2-12] [magicitemtablec,x1-4] {30%}
+[art 25,x2-8] [magicitemtablec,x1-4] {20%}
+[gem 50,x2-12] [magicitemtablec,x1-4] {50%}
+[art 25,x2-8] [magicitemtablef,x1-4] {70%}
+[gem 50,x2-12] [magicitemtablef,x1-4] {50%}
+[art 25,x2-8] [magicitemtableg] {20%}
+[gem 50,x2-12] [magicitemtableg] {10%}
+
+$treasure 5
+nothing more {67%}
+[art 25,x2-8] {100%}
+[gem 50,x6-18] {100%}
+[gem 100,x6-18] {100%}
+[art 250,x2-8] {100%}
+[art 25,x2-8] [magicitemtablea,x1-6] {67%}
+[gem 50,x6-18] [magicitemtablea,x1-6] {67%}
+[gem 100,x6-18] [magicitemtablea,x1-6] {67%}
+[art 250,x2-8] [magicitemtablea,x1-6] {67%}
+[art 25,x2-8] [magicitemtableb,x1-4] {83%}
+[gem 50,x6-18] [magicitemtableb,x1-4] {83%}
+[gem 100,x6-18] [magicitemtableb,x1-4] {83%}
+[art 250,x2-8] [magicitemtableb,x1-4] {67%}
+[art 25,x2-8] [magicitemtablec,x1-4] {50%}
+[gem 50,x6-18] [magicitemtablec,x1-4] {50%}
+[gem 100,x6-18] [magicitemtablec,x1-4] {50%}
+[art 250,x2-8] [magicitemtablec,x1-4] {33%}
+[art 25,x2-8] [magicitemtabled] {33%}
+[gem 50,x6-18] [magicitemtabled] {33%}
+[gem 100,x6-18] [magicitemtabled] {17%}
+[art 250,x2-8] [magicitemtabled] {17%}
+[art 25,x2-8] [magicitemtablef,x1-4] {67%}
+[gem 50,x6-18] [magicitemtablef,x1-4] {67%}
+[gem 100,x6-18] [magicitemtablef,x1-4] {50%}
+[art 250,x2-8] [magicitemtablef,x1-4] {50%}
+[gem 100,x6-18] [magicitemtableg,x1-4] {33%}
+[art 250,x2-8] [magicitemtableg,x1-4] {33%}
+[gem 100,x6-18] [magicitemtableh] {17%}
+[art 250,x2-8] [magicitemtableh] {17%}
+
+$treasure 11
+nothing more {50%}
+[art 250,x2-8] {50%}
+[art 750,x2-8] {50%}
+[gem 500,x6-18] {50%}
+[gem 1000,x6-18] {50%}
+[art 250,x2-8] [magicitemtablea,x1-4] [magicitemtableb,x1-6] {67%}
+[art 750,x2-8] [magicitemtablea,x1-4] [magicitemtableb,x1-6] {67%}
+[gem 500,x6-18] [magicitemtablea,x1-4] [magicitemtableb,x1-6] {50%}
+[gem 1000,x6-18] [magicitemtablea,x1-4] [magicitemtableb,x1-6] {50%}
+[art 250,x2-8] [magicitemtablec,x1-6] {100%}
+[art 750,x2-8] [magicitemtablec,x1-6] {83%}
+[gem 500,x6-18] [magicitemtablec,x1-6] {83%}
+[gem 1000,x6-18] [magicitemtablec,x1-6] {83%}
+[art 250,x2-8] [magicitemtabled,x1-4] {67%}
+[art 750,x2-8] [magicitemtabled,x1-4] {67%}
+[gem 500,x6-18] [magicitemtabled,x1-4] {67%}
+[gem 1000,x6-18] [magicitemtabled,x1-4] {67%}
+[art 250,x2-8] [magicitemtablee] {33%}
+[art 750,x2-8] [magicitemtablee] {33%}
+[gem 500,x6-18] [magicitemtablee] {33%}
+[gem 1000,x6-18] [magicitemtablee] {33%}
+[art 250,x2-8] [magicitemtablef] [magicitemtableg,x1-4] {33%}
+[art 750,x2-8] [magicitemtablef] [magicitemtableg,x1-4] {33%}
+[gem 500,x6-18] [magicitemtablef] [magicitemtableg,x1-4] {33%}
+[gem 1000,x6-18] [magicitemtablef] [magicitemtableg,x1-4] {33%}
+[art 250,x2-8] [magicitemtableh,x1-4] {50%}
+[art 750,x2-8] [magicitemtableh,x1-4] {50%}
+[gem 500,x6-18] [magicitemtableh,x1-4] {33%}
+[gem 1000,x6-18] [magicitemtableh,x1-4] {33%}
+[art 250,x2-8] [magicitemtablei] {33%}
+[art 750,x2-8] [magicitemtablei] {33%}
+[gem 500,x6-18] [magicitemtablei] {33%}
+[gem 1000,x6-18] [magicitemtablei] {33%}
+
+
+$treasure 17
+nothing more {25%}
+[gem 1000,x6-18] [magicitemtablec,x1-8] {38%}
+[art 2500,x1-10] [magicitemtablec,x1-8] {38%}
+[art 7500,x1-4] [magicitemtablec,x1-8] {38%}
+[gem 5000,x1-8] [magicitemtablec,x1-8] {38%}
+[gem 1000,x6-18] [magicitemtabled,x1-6] {100%}
+[art 2500,x1-10] [magicitemtabled,x1-6] {100%}
+[art 7500,x1-4] [magicitemtabled,x1-6] {100%}
+[gem 5000,x1-8] [magicitemtabled,x1-6] {100%}
+[gem 1000,x6-18] [magicitemtablee,x1-6] {75%}
+[art 2500,x1-10] [magicitemtablee,x1-6] {75%}
+[art 7500,x1-4] [magicitemtablee,x1-6] {63%}
+[gem 5000,x1-8] [magicitemtablee,x1-6] {63%}
+[gem 1000,x6-18] [magicitemtableg,x1-4] {13%}
+[art 2500,x1-10] [magicitemtableg,x1-4] {13%}
+[art 7500,x1-4] [magicitemtableg,x1-4] {13%}
+[gem 5000,x1-8] [magicitemtableg,x1-4] {13%}
+[gem 1000,x6-18] [magicitemtableh,x1-4] {25%}
+[art 2500,x1-10] [magicitemtableh,x1-4] {25%}
+[art 7500,x1-4] [magicitemtableh,x1-4] {25%}
+[gem 5000,x1-8] [magicitemtableh,x1-4] {25%}
+[gem 1000,x6-18] [magicitemtablei,x1-4] {63%}
+[art 2500,x1-10] [magicitemtablei,x1-4] {63%}
+[art 7500,x1-4] [magicitemtablei,x1-4] {63%}
+[gem 5000,x1-8] [magicitemtablei,x1-4] {63%}
+
+$>Treasure lvl 0 to 5
+You found a hoard of [coins 0] and:<br>[treasure 0]<br><br>
+
+$>Treasure lvl 5 to 10
+You found a hoard of [coins 5] and:<br>[treasure 5]<br><br>
+
+$>Treasure lvl 11 to 16
+You found a hoard of [coins 11] and:<br>[treasure 11]<br><br>
+
+$>Treasure lvl 17 to 20
+You found a hoard of [coins 17] and:<br>[treasure 17]<br><br>
