@@ -134,7 +134,7 @@ goggles of night
 helm of comprehending languages
 immovable rod
 lantern of revealing
-mariner's armor
+mariner's [armor]
 mithral [metal armor]
 potion of poison
 ring of swimming
