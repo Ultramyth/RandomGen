@@ -901,6 +901,7 @@ used
 well-kept
 torn
 mended
+flea-ridden
 [quality]
 tattered, [quality]
 servicable, [quality]
@@ -1759,7 +1760,7 @@ $CR 6 Incidental
 [Incidental 6]
 [Incidental 4] and [an] [magic item table x]
 [incidental coins 5] [pouch] and [mundane 10,x1-2] [mundane 5,x2-3] and [mundane 5]
-[magical item] {30%} and [mundane 10,x1-2] [mundane 5,x2-3] and [mundane 5]
+[magical item] and [mundane 10,x1-2] [mundane 5,x2-3] and [mundane 5] {30%}
 [Incidental 5] and [mundane 10,x1-2] [mundane 5,x2-3] and [mundane 5], and [an] [magic item table a], and [exotic potion,unique]
 [Incidental 3] and a minor magical item:<br>[minor magical item]
 a minor magical item:<br>[minor magical item]
@@ -1811,7 +1812,7 @@ $additional
 <p>Also, the creature may have one of the following according to its type or environment:<br>[bonus by type]
 
 $bonus by type
-<small><b>Aquatic:</b> [aquatic misc]<p><b>Demonic:</b> <p><b>Drow:</b> [drow misc]<p><b>Goblinoid:</b> [mundane dungeon items]<p><b>Primitive:</b> [primitive misc]<p><b>Civilised:</b> [civilised misc]<p><b>Spellcaster:</b> [spellcaster misc]<p><b><b>Undead:</b> <p><b>Underdark:</b> [underdark misc]<p></small>
+<small><b>Aquatic:</b> [aquatic misc]<p><b>Demonic:</b> <p><b>Drow:</b> [drow misc]<p><b>Goblinoid:</b> [mundane dungeon items]<p><b>Primitive:</b> [primitive misc]<p><b>Civilised:</b> [civilised misc]<p><b>Spellcaster:</b> [spellcaster misc]<p><b>Undead:</b> [undead misc] or [undead incorporeal misc] or [high undead misc]<p><b>Underdark:</b> [underdark misc]<p></small>
 
 $aquatic misc
 a conch shell horn
@@ -1829,13 +1830,38 @@ algae in a bladder
 a handful of shark teeth
 a dagger made from a megaladon tooth
 a starfish necklace
+a sea anemone stuck in a bottle made of green glass
+a kelp net, currently rolled up for easier transport
+a small coral carving of a shark with red pearls for eyes (50 gp)
+a leather harness adorned with coral beads and electrum buckles
+rapture weed (poisonous rare plants that sahuagin priests often use)
+a conch hunting horn that creates a very ominous drone
+a silver mask in the shape of a menacing shark's head (25 gp)
+a barnacle-covered skull with uncut turquoise chunks wedged in the eye sockets (25 gp)
+a platinum amulet of sekolah, the shark god of the sahuagin (250 gp)
+an ornate coronet a sea elf coronet crafted out of platinum and pearl (250 gp)
+a potion of water breathing
+a wavecutter blade (this blade was crafted to be used underwater and any creature can easily wield it when they are submerged)
+a shell necklet of ornimental shells on a close-fitting rope
+decorative bronze armbands
+75 feet of waterproof rope that can easily be used underwater
+a seashell pauldron
+a belt made from woven seaweed
+a message in a bottle
+a ragged captain's hat
+a nautilus shell necklace that when worn, makes the wearer's voice sound more feminine
+a glass dome, inside of which is a bubble of air that always points north
+a jar of aboleth mucus, forces you to breathe underwater for 1d4 hours
+
 
 $demonic
 an amulet made of baatorian green steel
 an empty soul gem
 a list of names of mortals
-a tiefling skull
-
+a tiefling skull, blackened and cracked which mumbles and complains
+beard oil made from 100% tears of the damned
+a small packet filled with a pound of sulphur dust
+a leather belt crafted from the skin of an abyssal chicken
 
 $primitive misc
 a blanket of poorly stitched hides
@@ -2059,12 +2085,60 @@ a jade circlet worth 1500 gp
 an hourglass filled with diamond dust worth 5000 gp
 a sprinkle of holy wate and diamonds worth 25,000 gp
 
+$undead misc
+a flask of humanoid blood
+a chunk of rotting humanoid flesh
+a shroud
+a greened bronze pauldron
+a corroded mail circlet
+a gold ring set with a carnelian (25 gp)
+a skeleton key (uncommon; once per day casts the knock spell)
+an unbreakable arrow lodged into its knee
+
+$undead incorporeal misc
+enough ectoplasm to fill a vial
+enough ectoplasm to fill a flask
+an incorporeal [weapon] that deals half damage, but full damage to incorporeal creatures
+the head of a strange doll that looks like the first person that picks it up
+
+
+$high undead misc
+[an] [art object 25]
+a gilded chailice with thorns (worth 50 gp)
+a creepy doll
+a Tarokka deck
+a bottle of fine wine with a strange metallic taste
+a long cape of black velvet with a red lining and high collar
+an antique silver lamp enchanted with a <i>continual flame</i> spell
+a medallion of thoughts in the form of a star-shaped amulet on a red ribon, set with a large ruby
+a blood red rose that never wilts
+slightly tattered mage's robes that repel grave dust
+
+
 $underdark misc
 a skin of mushroom wine
 a bottle of spiderblood wine
 a cloak made from the skin of a [darkmantle|cloaker]
 [an] [leather] bandoleer
 a map case containing a rough map of an area of the underdark
+a zurkhwood bucket containing eddible fungi ([2-3] days of rations)
+a few decomposing spiders, centipedes, and the like
+a fish-skin parchment on which the likeness of a drow is drawn in charcoal
+a flask of Darklake Stout, a signature ale
+a black whip, used for flogging or beating
+a trade contract written in Undercommon, used for swindling foreigners
+a high quality satchel made of stitched darkmantle hide
+[2-5] finely crafted throwing darts made of obsidian
+a sack containing 100 gp worth of raw gemstones
+[1-6] doses of Assassin's Blood poison harvested from fungi
+a mithral holy symbol depicting an arrow breaking on a shield (125 gp)
+a pygmywort (a blue mushroom, causes you to shrink in size like the reduce effect of an Enlarge/Reduce spell)
+a jar of foul slime (has a soothing effect on illithids)
+a metal clipboard with schematics for strange contraptions written in an alien language (Qualith)
+a smashed lantern (needs some fixing via tinker's tools or mending cantrip)
+a glowing mushroom that is mezmerising to look at
+a 10-foot length of iron chain and manacles
+
 
 
 $drow bonus
