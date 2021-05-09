@@ -1645,7 +1645,7 @@ $CR ¼ Incidental
 [incidental ¼]
 [incidental ¼] and [mundane 5]
 [incidental ¼] and [mundane 5] and [mundane 5]
-[incidental ¼] and [mundane 5,1-2x] and [mundane 5]
+[incidental ¼] and [mundane 5 mult,1-2x] and [mundane 5]
 [incidental ¼] and [mundane 5] and [an] [art object 10]
 [incidental ¼] and [mundane 10] and [mundane 5]
 [incidental ¼] and [mundane 10]
@@ -1686,12 +1686,12 @@ a minor magical item:<br>[minor magical item]
 [magical item] {20%}
 
 $Incidental 2
-25 gp, 8 sp, 7 cp [pouch] and [mundane 5,x1-2]
+25 gp, 8 sp, 7 cp [pouch] and [mundane 5 mult,x1-2]
 34 gp, 5 sp [pouch]
 43 gp, 1 sp, 2 cp [pouch]
 
 $CR 2 Incidental
-[Incidental 2] and [mundane 5,x1-2]
+[Incidental 2] and [mundane 5 mult,x1-2]
 [Incidental 2] and [exotic potion,unique]
 [exotic potion,unique]
 [incidental ½] and [an] [art object 25]
@@ -1702,7 +1702,7 @@ a minor magical item:<br>[minor magical item]
 [magical item] {20%}
 
 $Incidental 3
-34 gp, 5 sp [pouch] and [mundane 10,x1-2]
+34 gp, 5 sp [pouch] and [mundane 10 mult,x1-2]
 43 gp, 1 sp, 2 cp [pouch]
 51 gp, 7 sp, 5 cp [pouch]
 
@@ -1719,7 +1719,7 @@ a minor magical item:<br>[minor magical item]
 [magical item] {20%}
 
 $Incidental 4
-43 gp, 1 sp, 2 cp [pouch] and [mundane 10,x1-2]
+43 gp, 1 sp, 2 cp [pouch] and [mundane 10 mult,x1-2]
 51 gp, 7 sp, 5 cp [pouch]
 57 gp, 1 sp, 2 cp [pouch]
 
@@ -1730,8 +1730,8 @@ $CR 4 Incidental
 [an] [oils]
 [an] [magic item table a]
 [an] [magic item table b]
-[incidental 2] and [mundane 10,x1-2] [mundane 5,x2-3] and [mundane 5]
-[incidental 3] and [mundane 10,x1-2] and [mundane 5]
+[incidental 2] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5]
+[incidental 3] and [mundane 10 mult,x1-2] and [mundane 5]
 [incidental 1] and [mundane 50]
 [Incidental 4] and [an] [magic item table x]
 [Incidental 4] and [an] [magic item table a]
@@ -1759,9 +1759,9 @@ $incidental 6
 $CR 6 Incidental
 [Incidental 6]
 [Incidental 4] and [an] [magic item table x]
-[incidental coins 5] [pouch] and [mundane 10,x1-2] [mundane 5,x2-3] and [mundane 5]
-[magical item] and [mundane 10,x1-2] [mundane 5,x2-3] and [mundane 5] {30%}
-[Incidental 5] and [mundane 10,x1-2] [mundane 5,x2-3] and [mundane 5], and [an] [magic item table a], and [exotic potion,unique]
+[incidental coins 5] [pouch] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5]
+[magical item] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5] {30%}
+[Incidental 5] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5], and [an] [magic item table a], and [exotic potion,unique]
 [Incidental 3] and a minor magical item:<br>[minor magical item]
 a minor magical item:<br>[minor magical item]
 [incidental 4] and [mundane 50]
