@@ -146,7 +146,7 @@ wand of secrets
 drow slave collar {raity:common}
 [magic item table x]
 pixie dust (SKT)
-
+whistle of aid (uncommon; a small crystal whistle, stamped with a protection rune. One may blow on the whistle to cast a 4th level spirit guardians spell. It has three uses before it shatters)
 
 $magicitemtablec
 - [an] [magic item table c]<br>
@@ -342,6 +342,60 @@ mind flayer skull (WDMM)
 pathfinder's greataxe (PotA)
 pearl of undead detection (WDMM)
 petrified grung egg (ToA)
+faithful shield (uncommon; a shield that adopts the insignia of the bearer's god. As a bonus action, the user may increase their AC by 1 until the start of their next turn by invoking their deity's name)
+holy halo (uncommon; this silver circlet hovers slightly off the head and sheds light as if by the light spell. Once per day, the wearer can cast bless without expending a spell slot)
+healer's reward (uncommon; a silver pendant shaped like a heart cradled by wings. Once per day, when the wearer heals a creature for half their health or more, or spares a dying creature, they regain a 1st level spell slot)
+smiter (uncommon; a dark steel mace with a white handle and religious symbols on it. When the user Channels Divinity, the mace gains a charge. The next creature it hits takes an additional 3d4 radiant damage)
+swiftstep armor (uncommon; a full suit of brown leather armor, attached to a cape with red lining. The wearer has advantage on dexterity saving throws)
+spot seer (uncommon; studded leather armor with metal studs athat fade from gold to black. Once per day, this allows the wearer to cast mirror image on themselves, causing the studs to dance and swirl)
+direwolf hide (uncommon; hide armor with a wolf's head hood. Once per day, you can increase your speed by 20 ft. for 1 hour)
+frost hammered chain shirt (uncommon; made of an icy steel that is cold to the touch. For each 15 points of cold damage the wearer takes, its AC increases by 1 (to a maximum of 5). It resets at dawn.)
+vengeful half plate (uncommon; deep bronze half plate armor, with skulls seared into it. When someone makes a critical hit against the wearer, the attacker takes 2d6 necrotic damage)
+magekiller scale mail (uncommon; deep black armor, made of gleaming scales. The wearer has advantage on checks made to resist spells)
+righteous trappings (uncommon; chain mail so bright silver it almost glows. Fiends, undead and aberrations have disadvantage on attacks against the wearer)
+Trustee (uncommon; a gold earring in the shape of an open eye. Whenever someone rolls an insight check against the wearer, the wearer is alerted by a soft ringing bell only they can hear)
+Brave's Bracer (uncommon; whenever the wearer of this steel gray arm band puts themselves in danger to protect someone else, they gain a 1d6 inspiration die)
+Infiltrator's Pin (uncommon; a seemingly plain hat pin. Once a day, for 1 hr, the user can turn into whoever was last poked by the pin. This disguise is a insight check of 18 to see through, and the pin deals 1 pt. of damage to those it pokes)
+The Seeing Skull (uncommon; a silver skull on a fine chain necklace. This glows when within 30ft. of necromantic magic)
+Brooch of the Bloodwyrm (uncommon; a black metal pin in the shape of a wyrven. When you place this pin on humanoid blood, either wet or dry, it removes the stain within an hour)
+Mood Ring (uncommon; a ring inset with a glass gem, that actually changes color depending on how one feels. Very trendy)
+True Friendship Bracelets (uncommon; a pair of braided leather bracelets. One wearer can sense the location the of the other wearer, over a range of 200 ft.)
+Moonweaver's Gift (uncommon; a piercing in the shape of a crescent moon. Your Charisma (Persuasion) checks are made with advantage if it is night time)
+Ye Ole Songbook (uncommon; a songbook that details tales of the land and its heroes. Grants advantage on relevant Intelligence (history) checks)
+Lucky Tuning Fork (uncommon; one may use this item once a day to gain advantage on their next performance check. This only works however if singing or an instrument is involved)
+Cloak of Colors (uncommon; a dazzling cloak with many patches and patterns sewn into the inside. The wearer may twirl in this garb as an action to cast Color Spray once a day)
+Mighty Megaphone (uncommon; a hammered bronze megaphone. One can activate it for 15 minutes a day. During this time any words they say into it are broadcast loudly as if by Thaumaturgy)
+Sir-Laughs-Alot (uncommon; a plush figure of a jester with a pull string. A discontinued toy with awful jokes. Once a day the user may pull this string as an action and cast Tasha's Hideous laughter at an enemy)
+Woohand's Instrument Polish (uncommon; a small can of polish, for wood or metal. Using this on an instrument means the next spell cast with it does not burn a spell slot. The jar has 5 uses)
+The Opera Singer (uncommon; a glowing blue crystal, that when thrown and broken, casts the spell Shatter in its radius. Any glass within its range is shattered)
+Temporary Tongue Tat (uncommon; a temporary tattoo of a cobra, to be applied to one's tongue. It allows one to cast suggestion at will 3 times before it dissipates)
+Diamond's Edge (uncommon; a silver longsword with a bone white handle. It has 3 charges, renewed every sunset. It can use a charge to slice through one foot of material, no matter what its made of)
+Strongman's Bracers (uncommon; a pair of copper bracers inlaid with the word 'strength' in many languages. They allow advantage on Strength (Athletics) checks to lift heavy things, but only if someone is watching)
+Razorback Shield (uncommon; a steel shield with a wicked sharp edge along the bottom. As an action this shield can be thrown as a ranged attack for 1d8+ strength modifier of slashing damage)
+Buff and Beautiful (uncommon; a book on persuasion for the beefier stock. It allows the user, for 10 minutes a day, to use their Strength modifier in place of Charisma for persuasion checks)
+Huggy Wuggy (uncommon; a teddy bear missing a button eye, holding a stuffed heart. One may hug the toy as a bonus action to regain 2d4+3 hit points. This can be done once a day)
+Bow of Blinding (uncommon; a longbow with eyes carved into the wood, and a leather grip. When one rolls a natural 20 with this weapon, the target is considered blinded as if by a Blindness spell. However on a natural 1 the user experiences the same effect)
+Fruit of the Brave (uncommon; a dried apricot like fruit, golden and sweet. After eating this you have advantage on saving throws against being charmed or frightened for the next hour)
+Pinwheel Pendant (uncommon; a pinwheel shaped charm made of multicolored glass. Whenever the wearer uses their Second Wind, they gain an additional 1d4 hit points)
+Golden Scarab (uncommon; a small, gold, mechanical beetle. When the command word is spoken the beetle activates for a minute, and seeks out the most valuable thing within sixty feet. It can do this once a day)
+Night Thief Gloves (uncommon; black leather gloves, soft to the touch. As long as they are used in dim light or darker, they give the wearer advantage on slight of hand checks)
+Silent Bell (uncommon; a small silver bell with no bearing inside. When rung it casts Silence, and can be used once a day)
+Coward's Boots (uncommon; deep black leather boots with the soles nearly worn through. They give an extra ten feet of movement when the wearer is pursued by something its size or larger)
+Picky (uncommon; a tiny clockwork gnome that when inserted into a lock performs a DC 18 Dexterity check as if with thieves' tools. It can be used three times before it runs out of gas and is inactive)
+Chem and Collateral Kit (uncommon; a briefcase that when opened every other time alternates between alchemist's supplies and a poisoner's kit. Both are fully functional)
+Liquid Smoke (uncommon; a potion in a small vial, dark gray and swirling. When consumed it makes its user transparent, mist-like, and unable to speak. They can pass through any barrier less than a foot thick, the effect lasts 20 minutes)
+Revenge (uncommon; a hand crossbow with angry swear words carved into it. The wielder has advantage to hit
+any creature who injured you the previous round)
+Big Bad Backup Bone A chicken bone carved with runes. This can be broken at any time to summon a fire elemental
+who obeys the user the ist round. After this, the elemental attacks the biggest threat to itself.
+A Pocketbook Guide to the Gods (uncommon; a small book about religion with moving pictures. It gives the user advantage on Intelligence (Religion)  checks to recognize religious symbols, and names of the gods)
+Bracelet of Flattery (uncommon; a gold bracelet inset with a color changing stone. The wearer may once a day use this to gain advantage on a Charisma (Persuasion) check of their choice)
+Parchment of Prayer (uncommon; a single leaf of fine paper. One may use this three times to cast Commune, but instead speaking to their warlock patron. After three uses, the раper dissolves away)
+Belt of Retribution (uncommon; a corded leather belt that reacts when the user is wounded. Once a day the user may use a reaction against a creature who hurt them last round. The belt whips the target for 1d6+4 points of slashing damage)
+Pagan Post Its (uncommon; two small sticky squares of paper. What is written on one appears on the other, and vice versa. The messages disappear after 10 minutes and the items will only stick to paper surfaces)
+Bloody Pact (uncommon; a black dagger. Once a day one can cut themselves with it and lose 1d4+4 hit points in return for a second level spell slot. Only the user's blood has this effect)
+The Eldritch Eye (uncommon; a necklace with a yellow eye-like gemstone set into it. It has 1d4 charges that refresh daily. One may expend a charge to gain advantage on an Eldritch Blast attack)
+
 
 $magicitemtableg
 - [an] [magic item table g]<br>
@@ -539,6 +593,7 @@ spellwrought tattoo (5th level) (TCE)
 spider staff (LMoP)
 staff of defense (LMoP)
 weird tank (PotA)
+lava forged plate (rare; black plate armor with rivulets of red and orange running through it. It gives the wearer resistance to fire damage)
 
 $magicitemtableh
 - [an] [magic item table h]<br>
