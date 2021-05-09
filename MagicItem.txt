@@ -384,10 +384,8 @@ Coward's Boots (uncommon; deep black leather boots with the soles nearly worn th
 Picky (uncommon; a tiny clockwork gnome that when inserted into a lock performs a DC 18 Dexterity check as if with thieves' tools. It can be used three times before it runs out of gas and is inactive)
 Chem and Collateral Kit (uncommon; a briefcase that when opened every other time alternates between alchemist's supplies and a poisoner's kit. Both are fully functional)
 Liquid Smoke (uncommon; a potion in a small vial, dark gray and swirling. When consumed it makes its user transparent, mist-like, and unable to speak. They can pass through any barrier less than a foot thick, the effect lasts 20 minutes)
-Revenge (uncommon; a hand crossbow with angry swear words carved into it. The wielder has advantage to hit
-any creature who injured you the previous round)
-Big Bad Backup Bone A chicken bone carved with runes. This can be broken at any time to summon a fire elemental
-who obeys the user the ist round. After this, the elemental attacks the biggest threat to itself.
+Revenge (uncommon; a hand crossbow with angry swear words carved into it. The wielder has advantage to hit any creature who injured you the previous round)
+Big Bad Backup Bone (uncommon; a chicken bone carved with runes. This can be broken at any time to summon a fire elemental who obeys the user the 1st round. After this, the elemental attacks the biggest threat to itself)
 A Pocketbook Guide to the Gods (uncommon; a small book about religion with moving pictures. It gives the user advantage on Intelligence (Religion)  checks to recognize religious symbols, and names of the gods)
 Bracelet of Flattery (uncommon; a gold bracelet inset with a color changing stone. The wearer may once a day use this to gain advantage on a Charisma (Persuasion) check of their choice)
 Parchment of Prayer (uncommon; a single leaf of fine paper. One may use this three times to cast Commune, but instead speaking to their warlock patron. After three uses, the раper dissolves away)
