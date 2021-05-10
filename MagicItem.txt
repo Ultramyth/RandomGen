@@ -1709,8 +1709,8 @@ tongues
 water breathing
 
 $special feature
-<br></i><small><b>Special Features</b><br>Origin:<br>[origin]<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small><i>
-<br></i><small><b>Special Features</b><br>Origin:<br><b>Drow.</b> The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. It might function poorly, or disintegrate, if exposed to sunlight for 1 minute or more.<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small><i>
+<br><small><b>Special Features</b><br>Origin:<br>[origin]<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small>
+<br><small><b>Special Features</b><br>Origin:<br><b>Drow.</b> The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. It might function poorly, or disintegrate, if exposed to sunlight for 1 minute or more.<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small>
 
 $resistance
 acid
