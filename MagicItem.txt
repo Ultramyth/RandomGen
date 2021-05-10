@@ -1565,9 +1565,9 @@ $drow origin
 Any metal on the item is made of adamantine.
 The item causes disadvantage on related checks if exposed to 1 minute or more of sunlight.
 The item disintegrates if exposed to 1 minute or more of sunlight.
-Any metal on the item is made of adamantine, but exposing it to 
+Any metal on the item is made of adamantine, but exposing it to 1 minute or more of sunlight causes the item to cause disadvantage on any checks until it is returned to an area of faerzress for 24 hours.
 In areas of faerzress, the item functions as a [+1|+2|+3] version of the item, but it disintegrates if exposed to sunlight for 1 minute or more.
-Any metal on the item is made of adamantine and in areas of faerzress, the item functions as a [+1|+2|+3] version of the item, but it causes disadvantage on related checks if exposed to sunlight for 1 minute or more. Only returning it to a place of faerzress can restore this ability, and any bonus takes 1 year of exposure to restore.
+Any metal on the item is made of adamantine and in areas of faerzress, the item functions as a [+1|+2|+3] version of the item, but it causes disadvantage on related checks if exposed to sunlight for 1 minute or more. Only returning it to a place of faerzress for 24 hours or more can restore this ability, and any bonus takes 1 year of exposure to restore.
 []
 
 //Special Properties of magic items
