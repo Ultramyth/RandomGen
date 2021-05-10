@@ -1748,8 +1748,8 @@ Titans {features:<b>Titan.</b> Made either by the creations of the gods themselv
 a Vestige {features:<b>Vestige.</b> Created by the fading remnants of a forgotten god, or by one of its few surviving adherents, this item feels almost insubstantial. It weighs half as much as a normal item of its type, and often seems on the verge of fading away entirely. When in the area of detect magic or similar effects, there is a 10% chance that the item fails to register as magical.}
 
 $special feature
-<br><small><b>Special Features</b><br>Origin:<br>[origin]<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small>
-<br><small><b>Special Features</b><br>Origin:<br><b>Drow.</b> The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. It might function poorly, or disintegrate, if exposed to sunlight for 1 minute or more.<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small>
+<br><br><b>Origin:</b><small><p>[origin]<p>OR<p>[origin]</small><br><br><b>History:</b><p><small>[history]<p>OR<p>[history]</small><br><br><b>Minor Property:</b><p><small>[minor property]<p>OR<p>[minor property]</small><br><br><b>Quirk:</b><p><small>[quirk]<p>OR<p>[quirk]</small><br>
+<br><br><b>Origin:</b><small><p><b>Drow.</b> The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. [drow origin]</small><br><br><b>History:</b><p><small>[history]<p>OR<p>[history]</small><br><br><b>Minor Property:</b><p><small>[minor property]<p>OR<p>[minor property]</small><br><br><b>Quirk:</b><p><small>[quirk]<p>OR<p>[quirk]</small><br>
 
 $>generate magic item special features
 <br><b><i>Special Features:</i></b><br>This item is distinctive.<br><b>Origin:</b><small><p>[origin]<p>OR<p>[origin]</small><br><br><b>History:</b><p><small>[history]<p>OR<p>[history]</small><br><br><b>Minor Property:</b><p><small>[minor property]<p>OR<p>[minor property]</small><br><br><b>Quirk:</b><p><small>[quirk]<p>OR<p>[quirk]</small>
