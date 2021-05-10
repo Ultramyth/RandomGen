@@ -1714,7 +1714,7 @@ $special feature
 <br><small><b>Special Features</b><br>Origin:<br><b>Drow.</b> The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. It might function poorly, or disintegrate, if exposed to sunlight for 1 minute or more.<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small>
 
 $>generate magic item special features
-The item is distinctive.<br><b>Origin:</b>:<p>[origin]<p>OR<p>[origin]<br><b>History:</b><p>[history]<p>OR<p>[history]<br><b>Minor Property:</b><p>[minor property]<p>OR<p>[minor property]<br><b>Quirk:</b><p>[quirk]<p>OR<p>[quirk]</small>
+The item is distinctive.<br><b>Origin:</b><p>[origin]<p>OR<p>[origin]<br><br><b>History:</b><p>[history]<p>OR<p>[history]<br><br><b>Minor Property:</b><p>[minor property]<p>OR<p>[minor property]<br><br><b>Quirk:</b><p>[quirk]<p>OR<p>[quirk]</small>
 
 
 $special material
