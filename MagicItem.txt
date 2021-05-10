@@ -1561,44 +1561,54 @@ nondetection
 tongues
 water breathing
 
+$drow origin
+Any metal on the item is made of adamantine.
+The item causes disadvantage on related checks if exposed to 1 minute or more of sunlight.
+The item disintegrates if exposed to 1 minute or more of sunlight.
+Any metal on the item is made of adamantine, but exposing it to 
+In areas of faerzress, the item functions as a [+1|+2|+3] version of the item, but it disintegrates if exposed to sunlight for 1 minute or more.
+Any metal on the item is made of adamantine and in areas of faerzress, the item functions as a [+1|+2|+3] version of the item, but it causes disadvantage on related checks if exposed to sunlight for 1 minute or more. Only returning it to a place of faerzress can restore this ability, and any bonus takes 1 year of exposure to restore.
+[]
+
 //Special Properties of magic items
 $origin
 <b>Aberration.</b> The item was created by aberrations in ancient times, possibly for the use of favored humanoid thralls. When seen from the corner of the eye, the item seems to be moving.
 <b>Human.</b> The item was created during the heyday of a fallen human kingdom, or it is tied to a human of legend. It might hold writing in a forgotten tongue or symbols whose significance is lost to the ages.
 <b>Celestial.</b> The item is half the normal weight and inscribed with feathered wings, suns, and other symbols of good. Fiends find the item's presence repulsive.
 <b>Dragon.</b> This item is made from scales and talons shed by a dragon. Perhaps it incorporates precious metals and gems from the dragon 's hoard. It grows slightly warm when within 120 feet of a dragon.
-<b>Drow.</b> The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. It might function poorly, or disintegrate, if exposed to sunlight for 1 minute or more.
+<b>Drow.</b> The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. [drow origin]
 <b>Dwarf.</b> The item is durable and has Dwarven runes worked into its design. It might be associated with a clan that would like to see it returned to their ancestral halls.
-<b>Elemental Air.</b> The item is half the normal weight and feels hollow. If it 's made of fabric, it is diaphanous.
-<b>Elemental Earth.</b> This item might be crafted from stone. Any cloth or leather elements are studded with finely polished rock.
-<b>Elemental Fire.</b> This item is warm to the touch, and any metal parts are crafted from black iron. Sigils of flames cover its surface. Shades of red orange are the prominent colors.
-<b>Elemental Water.</b> Lustrous fish scales replace leather or cloth on this item, and metal portions are instead crafted from seashells and worked coral as hard as any metal.
+<b>Elemental Air.</b> The item is half the normal weight and feels hollow. If it 's made of fabric, it is diaphanous. Weapons may deal +1 lightning damage. Armor may give advantage on saving throws against lightning.
+<b>Elemental Earth.</b> This item might be crafted from stone. Any cloth or leather elements are studded with finely polished rock. Weapons may deal +1 acid damage. Armor may give advantage on saving throws against acid.
+<b>Elemental Fire.</b> This item is warm to the touch, and any metal parts are crafted from black iron. Sigils of flames cover its surface. Shades of red orange are the prominent colors. Weapons may deal +1 fire damage. Armor may give advantage on saving throws against fire.
+<b>Elemental Water.</b> Lustrous fish scales replace leather or cloth on this item, and metal portions are instead crafted from seashells and worked coral as hard as any metal. Weapons may deal +1 cold damage. Armor may give advantage on saving throws against cold.
 <b>Elf.</b> The item is half the normal weight. It is adorned with symbols of nature: leaves, vines, stars, and the like.
-<b>Fey.</b> The item is exquisitely crafted from the finest materials and glows with a pale radiance moonlight, shedding dim light in a 5-foot radius. Any metal in the item is silver or mithral, rather than iron or steel.
+<b>Fey.</b> The item is exquisitely crafted from the finest materials and glows with a pale radiance moonlight, shedding dim light in a 5-foot radius. Any metal in the item is [silver|mithral], rather than iron or steel.
 <b>Fiend.</b> The item is made of black iron or horn inscribed with runes, and any cloth or leather components are crafted from the hide of fiends is warm to the touch and features leering faces. Vile runes engraved on its surface. Celestials find the item 's presence repulsive.
-<b>Giant.</b> The item is larger than normal and was crafted by giants for use by their smaller allies.
+<b>Giant.</b> The item is larger than normal and was crafted by giants for use by their smaller allies. Weapons may be one die size larger (max d12/2d6), but are at disadvantage to use unless you have a Powerful Build.
 <b>Gnome.</b> The item is crafted to appear ordinary it might look worn. It could also incorporate gears and mechanical components, even if these are not essential to the item's function.
-<b>Undead.</b> The item incorporates imagery of death, such as bones and skulls, and it might be crafted from parts of corpses. It feels cold to the touch.
+<b>Undead.</b> The item incorporates imagery of death, such as bones and skulls, and it might be crafted from parts of corpses. It feels cold to the touch. Weapons may [deal +1 necrotic damage|bypass the damage reduction of incorporeal creatures]. Armour may grant advantage on checks to resist necrotic damage.
 <b>Accidental.</b> This item was never deliberately enchanted, but acquired its magic by chance. Perhaps it sat for ages amidst other magics, absorbing their energy, or was used to strike a death blow against a fiend performing some great ritual. It likely appears old and used, but still in good condition.
 <b>Ancestral Bloodline.</b> Crafted for a particular family, this item gained its magic from multiple generations of their belief and veneration. It bears a family crest, though it may not be immediately obvious. Members of the bloodline want it returned if they learn of it, and others might assume the bearer is related to the original family.
 <b>Aquatic.</b> Crafted by merfolk, tritons, or similar aquatic (but non-elemental) races, this item is made of coral, sea plants, and scales. Using this item underwater does not impose disadvantage even if it normally would (such as attacking with certain weapons), nor does it count toward encumbrance for determining penalties to swimming.
 <b>Dawncraft.</b> This ancient item comes from the dawn of the humanoid age, before humans, elves, and dwarves became—culturally, physically, even mentally—what they are today. It is crude, crafted of bone, stone, or poorly tanned animal pelt, and may be adorned with feathers, small bones, or other fetishes.
 <b>Divine Gift.</b> No mortal hands crafted this item. It was placed by the gods themselves, or agents thereof, for mortals to find—perhaps intended for a great hero on a legendary quest, or maybe simply to see what they’ll do with it. The item is impossibly perfect in all respects. It doubles as a (non-magical) holy symbol.
-<b>Futurecraft.</b> This item is from the future, or from a civilization far beyond the world on which it was found. Its magics might be activated by small buttons or switches. Its lines are sleek, its metals and fabrics unidentifiable, and may even consist of substances completely unknown to the campaign setting.
+<b>Futurecraft.</b> This item is from the future, or from a civilization far beyond the world on which it was found. Its magics might be activated by small buttons or switches. Its lines are sleek, its metals and fabrics unidentifiable, and may even consist of substances completely unknown to the campaign setting. Any magical abilities will function even in areas of anti-magic.
 <b>Incarnated Magic.</b> The item sprang forth whole, its physical and mystical properties already intact, from more powerful magic, such as a Wish or a lucky draw from a Deck of Many Things. Most such item are remarkably plain, lacking any artistic flourish or individual touch.
-<b>Legendary Crafter.</b> Spoken of in history, legend, and song, a nigh-mythical smith or crafter created this item. So skilled was this artisan that items they created were innately magical, requiring no ritual or enchantment to gain their power. This item is expertly made, and bears the personal sigil of its creator.
-<b>Offering.</b> One race or culture made this item as a gift to another, perhaps to commemorate a treaty, as a sign of friendship, or under duress. Choose two appropriate origins from these tables, one as the giver and one as the receiver; the item has some traits of both.
+<b>Legendary Crafter.</b> Spoken of in history, legend, and song, a nigh-mythical smith or crafter created this item. So skilled was this artisan that items they created were innately magical, requiring no ritual or enchantment to gain their power. This item is expertly made, and bears the personal sigil of its creator. Such items may fetch higher prices than other items of their kind.
+<b>Offering.</b> [race,#race1]) made this item as a gift to [race,#race2] [to commemorate a treaty|as a sign of friendship|under duress]. The item has some traits of both:<p>[#Race1,as features]<p>[#Race2,as features]
 <b>Orc.</b> This item is crude, with ragged edges and dangling strips of material, but brutally functional. If a weapon, it grows warm whenever it delivers a critical hit. Orcs react with hostility to an non-orc displaying the item.
-<b>Planar Battlefield.</b> The afterlives of several gods or pantheons are everlasting battlefields, where souls are reborn every morning to fight again. This item is a creation of one of those planes, intended to equip its eternal warriors. It bears the symbols of that plane or its gods.
-<b>Planar Echo.</b> This is a “copy” of a mundane item from the material plane, native to the Plane of Shadow, the Plane of the Fey, or other echoes of the real world. Due to planar vagaries, this copy is magical even though the original is not. Items native to Shadow are dim, lighter than expected, and cold to the touch. Those native to the world of the Fey resemble fey-made items (see the DMG), but occasionally change shape or color.
-<b>Servant of Chaos.</b> This item is made of strange, unidentifiable materials. Its design is uneven, imbalanced, with excessive parts or flourishes that serve no obvious purpose. Extraplanar creatures of Law find its presence repulsive.
-<b>Servant of Order.</b> Minimalist and straightforward, symmetrical and technically perfect, this item strikes a precise balance between form and function. Extraplanar creatures of Chaos find its presence repulsive.
+<b>Planar Battlefield.</b> The afterlives of several gods or pantheons are everlasting battlefields, where souls are reborn every morning to fight again. This item is a creation of one of those planes, intended to equip its eternal warriors. It bears the symbols of that plane or its gods. Weapons may deal an additional +1 radiant damage. Armor may grant advantage on saves against radiant damage.
+<b>Planar Echo.</b> This is a “copy” of a mundane item from the material plane, native to [the Plane of Shadow|the Feywilds|the Astral Plane]. Due to planar vagaries, this copy is magical even though the original is not. Items native to Shadow are dim, lighter than expected, and cold to the touch. Those native to the world of the Fey resemble fey-made items (see the DMG), but occasionally change shape or color.
+<b>Servant of Chaos.</b> This item is made of strange, unidentifiable materials. Its design is uneven, imbalanced, with excessive parts or flourishes that serve no obvious purpose. Extraplanar creatures of Law find its presence repulsive. Weapons may deal an additional +1 damage against lawful outsiders. Armor may grant advantage on saves against lawful outsiders.
+<b>Servant of Order.</b> Minimalist and straightforward, symmetrical and technically perfect, this item strikes a precise balance between form and function. Extraplanar creatures of Chaos find its presence repulsive. Weapons may deal an additional +1 damage against chaotic outsiders. Armor may grant advantage on saves against chaotic outsiders.
 <b>Shapeshifter.</b> This item appears to be an average example of its type. When wielded by a shapeshifter, such as a doppelganger, it changes appearance to match whatever guise the wielder assumes, even if items are normally excluded from that change. The item’s basic nature is not affected, only the specifics of its appearance.
 <b>Titan.</b> Made either by the creations of the gods themselves, for use by their servants, or by mortals who venerate them, this item bears icons of religious significance, forgotten history, and possibly of widespread destruction. It weighs 20% more than normal items of its type. If this item deals damage, it does one additional point of damage per attack or per spell against inanimate objects.
 <b>Vestige.</b> Created by the fading remnants of a forgotten god, or by one of its few surviving adherents, this item feels almost insubstantial. It weighs half as much as a normal item of its type, and often seems on the verge of fading away entirely. When in the area of detect magic or similar effects, there is a 10% chance that the item fails to register as magical.
 
 $minor property
 <b>Artful.</b> The bearer is proficient in one tool or set of tools, of the GM’s choice, while the item is on the bearer’s person.
+<b>Dilettante.</b> The bearer is automatically proficent with the item and has advantage on Intelligence (History) checks related to the object and its like.
 <b>Beckoner.</b> If the item is separated from the bearer, the bearer instinctively knows the item’s direction and rough distance. This knowledge lasts for 24 hours or until the item is attuned to someone else, whichever comes first.
 <b>Brave.</b> When the bearer of this item contemplates or undertakes a cowardly act—or even a neutral act, when a more daring option is available—the item enhances feelings of shame and guilt.
 <b>Bulwark.</b> If the item is in the bearer’s possession for the entirety of a long rest, the item grants the bearer 5 temporary hit points at the conclusion of that rest. If not used, these hit points fade in 24 hours.
@@ -1631,19 +1641,19 @@ $minor property
 <b>Sentinel.</b> This item glows faintly when [bane] are within 120 feet of it.
 <b>Song Craft.</b> Whenever this item is struck or is used to strike a foe, its bearer hears a fragment of an ancient song.
 <b>Strange Material.</b> The item was created from a material that is bizarre given its purpose. Its durability is unaffected.
-<b>Temperate.</b> The bearer suffers no harm in temperatures as cold as -20 degrees Fahrenheit or as warm as 120 degrees Fahrenheit.
+<b>Temperate.</b> The bearer suffers no harm in temperatures as cold as -20° F (-29°C) or as warm as 120° F (49°C).
 <b>Unbreakable.</b> The item can't be broken. Special means must be used to destroy it.
 <b>War Leader.</b> The bearer can use an action to cause his or her voice to carry clearly for up to 300 feet until the end of the bearer's next turn.
 <b>Waterborne.</b> This item floats on water and other liquids. Its bearer has advantage on Strength (Athletics) checks to swim.
 <b>Wicked.</b> When the bearer is presented with an opportunity to act in a selfish or malevolent way, the item heightens the bearer's urge to do so.
 <b>Illusion.</b> The item is imbued with illusion magic, allowing its bearer to alter the item's appearance in minor ways. Such alterations don't change how the item is worn, carried, or wielded, and they have no effect on its other magical properties. For example, the wearer could make a red robe appear blue, or make a gold ring look like it's made of ivory. The item reverts to its true appearance when no one is carrying or wearing it.
-<b>Dual-Featured:</b><br>[minor proerty]<br>[minor property]
+<b><i>Dual-Featured:</i></b><p>[minor proerty]<p>AND<p>[minor property]
 
 $history
 <b>Arcane.</b> This item was created for an ancient order of spellcasters and bears the order's symbol.
-<b>Bane.</b> This item was created by the foes of [bane]. If the culture or creatures are still around, they might recognize the item and single out the bearer as an enemy.
+<b>Bane.</b> This item was created by the foes of [bane,#bane]. If the culture or creatures are still around, they might recognize the item and single out the bearer as an enemy. A weapon might give a +1 bonus to damage against [#bane]. Armor may provide advantage on saving throws against [#bane].
 <b>Heroic.</b> A great hero once wielded this item. Anyone who's familiar with the item's history expects great deeds from the new owner.
-<b>Ornament.</b> The item was created to honor a special occasion . Inset gemstones, gold or platinum inlays, and gold or silver filigree adorn its surface.
+<b>Ornament.</b> The item was created to honor a special occasion. Inset gemstones, gold or platinum inlays, and gold or silver filigree adorn its surface. It is extra valuable for obvious reasons.
 <b>Prophecy.</b> The item features in a prophecy: its bearer is destined to play a key role in future events. Someone else who wants to play that role might try to steal the item, or someone who wants to prevent the prophecy from being fulfilled might try to kill the item 's bearer.
 <b>Religious.</b> This item was used in religious ceremonies dedicated to a particular deity. It has holy symbols worked into it. The god's followers might try to persuade its owner to donate it to thier temple, steal the item for themselves, or celebrate its use by a cleric or paladin of the same deity.
 <b>Sinister.</b> This item is linked to a deed of great evil such as a massacre or an assassination. It might have a name or be closely associated with a villain who used it. Anyone familiar with the item's history is likely to treat it and its owner with suspicion.
@@ -1684,7 +1694,7 @@ $quirk
 <b>Restless.</b> The item desperately wants to be used. (Activated, if it’s an item with charges, for instance; or wielded or worn in combat if it’s a weapon or armor.) If the bearer goes 24 hours without using the item, the item bestows a level of exhaustion on the bearer that disappears the moment the item is used, and can be eliminated in no other fashion.
 
 $bane
-abominations
+aberrations
 angels
 beasts
 beholders
@@ -1709,12 +1719,40 @@ orcs
 outsiders
 undead
 
+$race
+Aberrations {features:<b>Aberration.</b> The item was created by aberrations in ancient times, possibly for the use of favored humanoid thralls. When seen from the corner of the eye, the item seems to be moving.}
+Humans {features:<b>Human.</b> The item was created during the heyday of a fallen human kingdom, or it is tied to a human of legend. It might hold writing in a forgotten tongue or symbols whose significance is lost to the ages.}
+Celestials {features:<b>Celestial.</b> The item is half the normal weight and inscribed with feathered wings, suns, and other symbols of good. Fiends find the item's presence repulsive.}
+Dragons {features:<b>Dragon.</b> This item is made from scales and talons shed by a dragon. Perhaps it incorporates precious metals and gems from the dragon 's hoard. It grows slightly warm when within 120 feet of a dragon.}
+Drow {features:<b>Drow.</b> The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. [drow origin]}
+Dwarves {features:<b>Dwarf.</b> The item is durable and has Dwarven runes worked into its design. It might be associated with a clan that would like to see it returned to their ancestral halls.}
+Air Elementals {features:<b>Elemental Air.</b> The item is half the normal weight and feels hollow. If it 's made of fabric, it is diaphanous. Weapons may deal +1 lightning damage. Armor may give advantage on saving throws against lightning.}
+Earth Elementals {features:<b>Elemental Earth.</b> This item might be crafted from stone. Any cloth or leather elements are studded with finely polished rock. Weapons may deal +1 acid damage. Armor may give advantage on saving throws against acid.}
+Fire Elementals {features:<b>Elemental Fire.</b> This item is warm to the touch, and any metal parts are crafted from black iron. Sigils of flames cover its surface. Shades of red orange are the prominent colors. Weapons may deal +1 fire damage. Armor may give advantage on saving throws against fire.}
+Water Elementals {features:<b>Elemental Water.</b> Lustrous fish scales replace leather or cloth on this item, and metal portions are instead crafted from seashells and worked coral as hard as any metal. Weapons may deal +1 cold damage. Armor may give advantage on saving throws against cold.}
+Elves {features:<b>Elf.</b> The item is half the normal weight. It is adorned with symbols of nature: leaves, vines, stars, and the like.}
+Fey {features:<b>Fey.</b> The item is exquisitely crafted from the finest materials and glows with a pale radiance moonlight, shedding dim light in a 5-foot radius. Any metal in the item is [silver|mithral], rather than iron or steel.}
+Fiends {features:<b>Fiend.</b> The item is made of black iron or horn inscribed with runes, and any cloth or leather components are crafted from the hide of fiends is warm to the touch and features leering faces. Vile runes engraved on its surface. Celestials find the item 's presence repulsive.}
+Giants {features:<b>Giant.</b> The item is larger than normal and was crafted by giants for use by their smaller allies. Weapons may be one die size larger (max d12/2d6), but are at disadvantage to use unless you have a Powerful Build.}
+Gnomes {features:<b>Gnome.</b> The item is crafted to appear ordinary it might look worn. It could also incorporate gears and mechanical components, even if these are not essential to the item's function.}
+Undead {features:<b>Undead.</b> The item incorporates imagery of death, such as bones and skulls, and it might be crafted from parts of corpses. It feels cold to the touch. Weapons may [deal +1 necrotic damage|bypass the damage reduction of incorporeal creatures]. Armour may grant advantage on checks to resist necrotic damage.}
+an Ancestral Bloodline {features:<b>Ancestral Bloodline.</b> Crafted for a particular family, this item gained its magic from multiple generations of their belief and veneration. It bears a family crest, though it may not be immediately obvious. Members of the bloodline want it returned if they learn of it, and others might assume the bearer is related to the original family.}
+Aquatic creatures {features:<b>Aquatic.</b> Crafted by merfolk, tritons, or similar aquatic (but non-elemental) races, this item is made of coral, sea plants, and scales. Using this item underwater does not impose disadvantage even if it normally would (such as attacking with certain weapons), nor does it count toward encumbrance for determining penalties to swimming.}
+a God {features:<b>Divine Gift.</b> No mortal hands crafted this item. It was placed by the gods themselves, or agents thereof, for mortals to find—perhaps intended for a great hero on a legendary quest, or maybe simply to see what they’ll do with it. The item is impossibly perfect in all respects. It doubles as a (non-magical) holy symbol.}
+a legendary crafter {features:<b>Legendary Crafter.</b> Spoken of in history, legend, and song, a nigh-mythical smith or crafter created this item. So skilled was this artisan that items they created were innately magical, requiring no ritual or enchantment to gain their power. This item is expertly made, and bears the personal sigil of its creator. Such items may fetch higher prices than other items of their kind.}
+Orcs {features:<b>Orc.</b> This item is crude, with ragged edges and dangling strips of material, but brutally functional. If a weapon, it grows warm whenever it delivers a critical hit. Orcs react with hostility to an non-orc displaying the item.}
+Chaotic Outsiders {features:<b>Servant of Chaos.</b> This item is made of strange, unidentifiable materials. Its design is uneven, imbalanced, with excessive parts or flourishes that serve no obvious purpose. Extraplanar creatures of Law find its presence repulsive. Weapons may deal an additional +1 damage against lawful outsiders. Armor may grant advantage on saves against lawful outsiders.}
+Lawful Outsiders {features:<b>Servant of Order.</b> Minimalist and straightforward, symmetrical and technically perfect, this item strikes a precise balance between form and function. Extraplanar creatures of Chaos find its presence repulsive. Weapons may deal an additional +1 damage against chaotic outsiders. Armor may grant advantage on saves against chaotic outsiders.}
+Shapeshifters {features:<b>Shapeshifter.</b> This item appears to be an average example of its type. When wielded by a shapeshifter, such as a doppelganger, it changes appearance to match whatever guise the wielder assumes, even if items are normally excluded from that change. The item’s basic nature is not affected, only the specifics of its appearance.}
+Titans {features:<b>Titan.</b> Made either by the creations of the gods themselves, for use by their servants, or by mortals who venerate them, this item bears icons of religious significance, forgotten history, and possibly of widespread destruction. It weighs 20% more than normal items of its type. If this item deals damage, it does one additional point of damage per attack or per spell against inanimate objects.}
+a Vestige {features:<b>Vestige.</b> Created by the fading remnants of a forgotten god, or by one of its few surviving adherents, this item feels almost insubstantial. It weighs half as much as a normal item of its type, and often seems on the verge of fading away entirely. When in the area of detect magic or similar effects, there is a 10% chance that the item fails to register as magical.}
+
 $special feature
 <br><small><b>Special Features</b><br>Origin:<br>[origin]<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small>
 <br><small><b>Special Features</b><br>Origin:<br><b>Drow.</b> The item is half the normal weight. It is black and inscribed with spiders and webs in honor of Lolth. It might function poorly, or disintegrate, if exposed to sunlight for 1 minute or more.<br>History:<br>[history]<br>Minor Property:<br>[minor property]<br>Quirk<br>[quirk]</small>
 
 $>generate magic item special features
-This item is distinctive.<br><b>Origin:</b><small><p>[origin]<p>OR<p>[origin]</small><br><br><b>History:</b><p><small>[history]<p>OR<p>[history]</small><br><br><b>Minor Property:</b><p><small>[minor property]<p>OR<p>[minor property]</small><br><br><b>Quirk:</b><p><small>[quirk]<p>OR<p>[quirk]</small>
+<br><b><i>Special Features:</i></b><br>This item is distinctive.<br><b>Origin:</b><small><p>[origin]<p>OR<p>[origin]</small><br><br><b>History:</b><p><small>[history]<p>OR<p>[history]</small><br><br><b>Minor Property:</b><p><small>[minor property]<p>OR<p>[minor property]</small><br><br><b>Quirk:</b><p><small>[quirk]<p>OR<p>[quirk]</small>
 
 
 $special material
