@@ -1599,11 +1599,18 @@ $magical item
 [an] [magic item table b] {25%}
 [an] [magic item table x]
 a minor magical item:<br>[minor magical item]
-the creature's melee weapon is actually magical: [special feature]
-the creature's ranged weapon is actually magical: [special feature]
-the creature's worn armor is actually magical: [special feature]
-the creature's shield is actually magical: [special feature]
+the creature's melee weapon is actually magical [actually magical]
+the creature's ranged weapon is actually magical [actually magical]
+the creature's worn armor is actually magical [actually magical]
+the creature's shield is actually magical [actually magical]
 one of the creatures weapons is a magical (or if they only use natural weapons, they carry an insigia of claws (HotDQ) instead):<br> [special feature]
+
+$actually magical
+(common item with a special feature): [special feature]
+(uncommon item with a special feature): [special feature] {75%}
+(rare item with a special feature): [special feature] {50%}
+(very rare item with a special feature): [special feature] {10%}
+(legendary item with a special feature): [special feature] {5%}
 
 $Incidental 0
 [1-12] sp [pouch]
@@ -1749,7 +1756,7 @@ $CR 5 Incidental
 [Incidental 5]
 [Incidental 3] and [an] [magic item table x]
 [Incidental 4] and [an] [magic item table x]
-[incidental coins 5] [pouch]
+[incidental 5] [pouch]
 [magical item] {80%}
 [Incidental 2] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5], and [an] [magic item table a], and [exotic potion,unique]
 [incidental 2] and [mundane 50]
@@ -1764,7 +1771,7 @@ $CR 6 Incidental
 [Incidental 4] and [an] [magic item table x]
 [Incidental 5] and [an] [magic item table x]
 [Incidental 4] and [an] [magic item table x]
-[incidental coins 5] [pouch] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5]
+[incidental 5] [pouch] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5]
 [magical item] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5] {30%}
 [Incidental 5] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5], and [an] [magic item table a], and [exotic potion,unique]
 [Incidental 3] and a minor magical item:<br>[minor magical item]
