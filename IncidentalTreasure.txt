@@ -1658,7 +1658,7 @@ $CR ¼ Incidental
 [incidental ¼] and [mundane 5] and [an] [art object 10]
 [incidental ¼] and [mundane 10] and [mundane 5]
 [incidental ¼] and [mundane 10]
-[mundane 10,x1-2] and [mundane 5]
+[mundane 10 mult,x1-2] and [mundane 5]
 [incidental coins 0] [pouch]
 [an] [art object 10]
 [incidental ¼] and [an] [art object 10]
@@ -1673,8 +1673,12 @@ $Incidental ½
 $CR ½ Incidental
 [Incidental ½]
 [Incidental ½] and [an] [art object 10]
+[Incidental ½] and [an] [art object 5] and [mundane 5]
+[incidental ¼] and [mundane 10] and [mundane 5]
+[mundane 10], [mundane 10] and [mundane 5]
 [incidental coins 0] [pouch]
 [an] [art object 25]
+[mundane 25]
 a minor magical item:<br>[minor magical item]
 [exotic potion,unique]
 [magical item] {30%}
