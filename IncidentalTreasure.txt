@@ -1788,6 +1788,27 @@ a minor magical item:<br>[minor magical item]
 [magical item] {90%}
 [incidental 3] and [magical item] {90%}
 
+$incidental 7
+107 gp, 4 sp [pouch] and [mundane 25] and [mundane 25]
+214 gp, 8 sp [pouch]
+322 gp, 2 sp [pouch]
+
+$CR 7 Incidental
+[Incidental 7]
+[Incidental 5] and [an] [magic item table x]
+[Incidental 6] and [an] [magic item table x]
+[Incidental 5] and [an] [magic item table x]
+[incidental 6] [pouch] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5]
+[magical item] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5] {30%}
+[Incidental 6] and [mundane 10 mult,x1-2] [mundane 5 mult,x2-3] and [mundane 5], and [an] [magic item table a], and [exotic potion,unique]
+[Incidental 4] and a minor magical item:<br>[minor magical item]
+a minor magical item:<br>[minor magical item]
+[incidental 5] and [mundane 50]
+[Incidental 6] and [an] [magic item table x]
+[Incidental 7] and [exotic potion,unique]
+[magical item] {90%}
+[incidental 4] and [magical item] {90%}
+
 $>CR 0 Incidental Treasure
 The creature carries:<br>[CR 0 Incidental][additional]<br><br>
 The creature carries:<br>[CR 0 Incidental] and [trinket][additional]<br><br>
@@ -1827,6 +1848,10 @@ The creature carries:<br>[CR 5 Incidental] and [trinket][additional]<br><br>
 $>CR 6 Incidental Treasure
 The creature carries:<br>[CR 6 Incidental][additional]<br><br>
 The creature carries:<br>[CR 6 Incidental] and [trinket][additional]<br><br>
+
+$>CR 7 Incidental Treasure
+The creature carries:<br>[CR 7 Incidental][additional]<br><br>
+The creature carries:<br>[CR 7 Incidental] and [trinket][additional]<br><br>
 
 $additional
 <p>Also, the creature may have one of the following according to its type or environment:<p>[bonus by type]
@@ -2109,7 +2134,7 @@ a forked metal rod attuned to a particular plane of existence worth 250 gp
 a small replica of the individual worth 5 gp
 a diamond worth 1000 gp
 a vial filled with a powder composed of diamond, emerald, ruby and sapphire dust worth 5000 gp
-powdered ruby worth 1500 gp|
+powdered ruby worth 1500 gp
 mercury, phospherous and powerdered diamond and opal worth 1000 gp
 a holy symbol (5 gp)
 a spool of platinum cord worth 250 gp
